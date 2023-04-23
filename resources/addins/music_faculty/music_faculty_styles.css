@@ -1,0 +1,497 @@
+/*  -----------------------------------------------
+
+	COPYRIGHT NOTICE:
+		this file and all of its attached files are property of 
+		North Dakota State University Division of Performing Arts
+		unless otherwise stated 
+	
+	------------------------------------------------ */
+
+
+
+/* 	------------------------------------------------
+	body styles
+
+	INFORMATION:
+
+	------------------------------------------------ */
+section#_faculty_section_01{
+	position: static;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: rgba(255,255,255,1);
+	width: 100%;
+	height: auto;
+}
+
+section#_faculty_section,
+section#_adjunct_section,
+section#_emeritus_section{
+	position: static;
+	display: block;
+	
+	margin: 0px auto;
+	padding: 0px;
+	
+	background: inherit;
+	width: 1080px;
+	height: 320px;
+}
+
+
+
+article._faculty{
+	position: static;
+	display: block;
+	
+	float: left;
+	
+	margin: 16px 0px 0px 16px;
+	padding: 0px;
+	
+	background: inherit;
+	width: 197px;
+	height: 295px;
+}
+	article._faculty a{
+		position: static;
+		display: block;
+
+		margin: 0px;
+		padding: 0px;
+		
+		width: 100%;
+		height: 100%;
+		
+		text-decoration: none;
+	}
+
+	img._faculty_image{
+		position: static;
+		display: block;
+
+		margin: 0px;
+		padding: 0px;
+		
+		width: 197px;
+		height: 295px;
+	}
+
+	article._faculty p{
+		margin: 0px;
+		padding: 0px;
+		
+		color: rgba(0,70,30,1);
+		font-size: 14px;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: none;
+		text-align: center;
+	}
+		article._faculty p strong{
+			font-weight: normal;
+		}
+
+
+
+/* 	------------------------------------------------
+	media queries
+
+	INFORMATION:
+		media queries are conditions set by the developer(s), 
+		if the conditions are true, the styles found below the media query will be set.  
+	------------------------------------------------ */
+@media screen, print
+	and (min-width: 180px) 
+	and (max-width: 319px){
+		
+	section#_faculty_section{
+		margin: 0px auto;
+		padding: 0px 0px 16px 0px;
+		
+		width: 180px;
+		height: auto;
+	}
+		article._faculty{
+			margin: 0px;
+			padding: 16px 0px 0px 0px;
+			
+			float: none;
+			
+			width: 100%;
+			height: auto;
+		}
+			img._faculty_image{
+				display: none;
+				
+				width: 0px;
+				height: 0px;
+			}
+		
+			article._faculty p{
+				margin: 0px;
+				padding: 0px 16px;
+				
+				text-align: left;
+			}
+}
+
+@media only screen
+	and (min-width: 320px) 
+	and (max-width: 359px){
+		
+	section#_faculty_section,
+	section#_adjunct_section,
+	section#_emeritus_section{
+		margin: 0px auto;
+		padding: 0px 0px 16px 0px;
+		
+		width: 320px;
+		height: auto;
+	}
+		article._faculty{
+			margin: 0px;
+			padding: 16px 0px 0px 0px;
+			
+			float: none;
+			
+			width: 100%;
+			height: auto;
+		}
+			img._faculty_image{
+				display: none;
+				
+				width: 0px;
+				height: 0px;
+			}
+		
+			article._faculty p{
+				margin: 0px;
+				padding: 0px 16px;
+				
+				text-align: left;
+			}
+}
+
+@media only screen
+	and (min-width: 360px) 
+	and (max-width: 539px){
+		
+	section#_faculty_section,
+	section#_adjunct_section,
+	section#_emeritus_section{
+		margin: 0px auto;
+		padding: 0px 0px 16px 0px;
+		
+		width: 360px;
+		height: auto;
+	}
+		article._faculty{
+			margin: 0px;
+			padding: 16px 0px 0px 0px;
+			
+			float: none;
+			
+			width: 100%;
+			height: auto;
+		}
+			img._faculty_image{
+				display: none;
+				
+				width: 0px;
+				height: 0px;
+			}
+			
+			article._faculty p{
+				margin: 0px;
+				padding: 0px 16px;
+				
+				text-align: left;
+			}
+}
+
+@media only screen
+	and (min-width: 540px) 
+	and (max-width: 719px){
+		
+	section#_faculty_section,
+	section#_adjunct_section,
+	section#_emeritus_section{
+		margin: 0px auto;
+		padding: 0px 0px 16px 0px;
+		
+		width: 540px;
+		height: auto;
+	}
+		article._faculty{
+			margin: 0px;
+			padding: 16px 0px 0px 0px;
+			
+			float: none;
+			
+			width: 100%;
+			height: auto;
+		}
+			img._faculty_image{
+				display: none;
+				
+				width: 0px;
+				height: 0px;
+			}
+		
+			article._faculty p{
+				margin: 0px;
+				padding: 0px 16px;
+				
+				text-align: left;
+			}
+}
+
+@media only screen
+	and (min-width: 720px) 
+	and (max-width: 959px){
+		
+	section#_faculty_section,
+	section#_adjunct_section,
+	section#_emeritus_section{
+		margin: 0px auto;
+		padding: 0px 0px 16px 0px;
+		
+		width: 720px;
+		height: auto;
+	}
+		article._faculty{
+			margin: 0px;
+			padding: 16px 0px 0px 0px;
+			
+			float: none;
+			
+			width: 100%;
+			height: auto;
+		}
+			img._faculty_image{
+				display: none;
+				
+				width: 0px;
+				height: 0px;
+			}
+		
+			article._faculty p{
+				margin: 0px;
+				padding: 0px 16px;
+				
+				text-align: left;
+			}
+}
+
+@media only screen
+	and (min-width: 960px) 
+	and (max-width: 1079px){
+		
+	section#_faculty_section{
+		width: 960px;
+		height: 2880px;
+	}
+		
+	section#_adjunct_section{
+		width: 960px;
+		height: 2880px;
+	}
+		
+	section#_emeritus_section{
+		width: 960px;
+		height: 624px;
+	}
+		article._faculty{
+			margin: 16px 0px 0px 16px;
+			padding: 0px;
+			
+			float: left;
+			
+			width: 299px;
+			height: 560px;
+		}
+			img._faculty_image{
+				display: block;
+				
+				width: 299px;
+				height: 450px;
+			}
+			
+			article._faculty p{
+				margin: 0px;
+				padding: 0px;
+				
+				text-align: center;
+			}
+}
+
+@media only screen
+	and (min-width: 1080px) 
+	and (max-width: 1279px){
+	
+	section#_faculty_section{
+		width: 1080px;
+		height: 1286px;
+	}
+		
+	section#_adjunct_section{
+		width: 1080px;
+		height: 1286px;
+	}
+		
+	section#_emeritus_section{
+		width: 1080px;
+		height: 471px;
+	}
+		article._faculty{
+			margin: 16px 0px 0px 16px;
+			padding: 0px;
+			
+			float: left;
+			
+			width: 197px;
+			height: 407px;
+		}
+			img._faculty_image{
+				display: block;
+				
+				width: 197px;
+				height: 295px;
+			}
+		
+			article._faculty p{
+				margin: 0px;
+				padding: 0px;
+				
+				text-align: center;
+			}
+}
+
+@media only screen
+	and (min-width: 1280px) 
+	and (max-width: 1439px){
+	
+	section#_faculty_section{
+		width: 1280px;
+		height: 1466px;
+	}
+		
+	section#_adjunct_section{
+		width: 1280px;
+		height: 1466px;
+	}
+		
+	section#_emeritus_section{
+		width: 1280px;
+		height: 531px;
+	}
+		article._faculty{
+			margin: 16px 0px 0px 16px;
+			padding: 0px;
+			
+			float: left;
+			
+			width: 237px;
+			height: 467px;
+		}
+			img._faculty_image{
+				display: block;
+				
+				width: 237px;
+				height: 355px;
+			}
+		
+			article._faculty p{
+				margin: 0px;
+				padding: 0px;
+				
+				text-align: center;
+			}
+}
+
+@media only screen
+	and (min-width: 1440px) 
+	and (max-width: 2559px){
+	
+	section#_faculty_section{
+		width: 1440px;
+		height: 1610px;
+	}
+	
+	section#_adjunct_section{
+		width: 1440px;
+		height: 1610px;
+	}
+		
+	section#_emeritus_section{
+		width: 1440px;
+		height: 579px;
+	}
+		article._faculty{
+			margin: 16px 0px 0px 16px;
+			padding: 0px;
+			
+			float: left;
+			
+			width: 269px;
+			height: 515px;
+		}
+			img._faculty_image{
+				display: block;
+				
+				width: 259px;
+				height: 403px;
+			}
+		
+			article._faculty p{
+				margin: 0px;
+				padding: 0px;
+				
+				text-align: center;
+			}
+}
+
+@media only screen
+	and (min-width: 2560px){
+
+	section#_faculty_section{
+		width: 2560px;
+		height: 2618px;
+	}
+		
+	section#_adjunct_section{
+		width: 2560px;
+		height: 2618px;
+	}
+		
+	section#_emeritus_section{
+		width: 2560px;
+		height: 915px;
+	}
+		article._faculty{
+			margin: 16px 0px 0px 16px;
+			padding: 0px;
+			
+			float: left;
+			
+			width: 493px;
+			height: 851px;
+		}
+			img._faculty_image{
+				display: block;
+				
+				width: 493px;
+				height: 739px;
+			}
+		
+			article._faculty p{
+				margin: 0px;
+				padding: 0px;
+				
+				text-align: center;
+			}
+}

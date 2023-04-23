@@ -1,0 +1,272 @@
+/*
+*	COPYRIGHT NOTICE:
+*		this file and all of its attached files are property of the
+*		Division of Performing Arts
+*		North Dakota State University
+*		unless otherwise stated  
+*/
+
+
+
+/* 	------------------------------------------------
+	mobile navigation styles
+
+	INFORMATION:
+
+	------------------------------------------------ */
+/*		alpha mobile navigation styles */
+nav#alpha_mobile_navigation{
+	position: static;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: rgba(255,200,0,1);
+	width: 100%;
+	height: 48px;
+}
+
+nav#bravo_absolute_mobile_navigation{
+	position: absolute;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: inherit;
+	width: inherit;
+	height: inherit;
+}
+
+div.mobile_navigation_menu{
+	position: static;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: rgba(255,200,0,1);
+	width: 100%;
+	height: 48px;
+	
+	overflow: hidden;
+}
+	div.menu_text{
+		position: static;
+		display: block;
+
+		margin: 0px;
+		padding: 0px;
+
+		background: rgba(255,200,0,1);
+		width: 100%;
+		height: 48px;
+		
+		cursor: hand;
+		cursor: pointer;
+	}
+		div.menu_text p{
+			margin: 0px;
+			padding: 14px 0px 0px 0px;
+
+			font-family: Arial, "sans-serif";
+			color: rgba(0,50,30,1);
+			font-size: 16px;
+			line-height: 20px;
+			font-weight: normal;
+			text-decoration: none;
+			text-align: center;
+		}
+
+div.mobile_navigation_sub_menu,
+div.mobile_navigation_subtwo_menu{
+	position: static;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: rgba(0,70,50,1);
+	width: 100%;
+	height: 48px;
+	
+	overflow: hidden;
+}	
+	div.mobile_navigation_subtwo_menu{
+		background: rgba(0,50,30,1);
+	}
+
+	div.sub_menu_text,
+	div.subtwo_menu_text,
+	div.subthree_menu_text,
+	div.subfour_menu_text{
+		position: static;
+		display: block;
+
+		margin: 0px;
+		padding: 0px;
+
+		background: inherit;
+		width: 100%;
+		height: 48px;
+		
+		cursor: hand;
+		cursor: pointer;
+	}
+		div.subtwo_menu_text{
+			background: rgba(0,50,30,1);
+		}
+
+		div.subthree_menu_text{
+			background: rgba(0,30,10,1);
+		}
+
+		div.subfour_menu_text{
+			background: rgba(0,10,0,1);
+		}
+
+		div.sub_menu_text a,
+		div.subtwo_menu_text a,
+		div.subthree_menu_text a,
+		div.subfour_menu_text a{
+			position: static;
+			display: block;
+
+			margin: 0px;
+			padding: 0px;
+			
+			width: 100%;
+			height: 100%;
+			
+			text-decoration: none;
+		}
+
+			div.sub_menu_text a p,
+			div.sub_menu_text p,
+			div.subtwo_menu_text a p,
+			div.subtwo_menu_text p,
+			div.subthree_menu_text a p,
+			div.subthree_menu_text p,
+			div.subfour_menu_text a p,
+			div.subfour_menu_text p{
+				margin: 0px;
+				padding: 14px 0px 0px 0px;
+
+				font-family: Arial, "sans-serif";
+				color: rgba(255,255,255,1);
+				font-size: 16px;
+				line-height: 20px;
+				font-weight: normal;
+				text-decoration: none;
+				text-align: center;
+			}
+
+
+/*		180px media query */
+@media all
+	and (min-width: 180px) 
+	and (max-width: 319px){
+nav#alpha_mobile_navigation{
+	display: block;
+}
+}
+
+
+
+/*		320px media query */
+@media all
+	and (min-width: 320px) 
+	and (max-width: 359px){
+nav#alpha_mobile_navigation{
+	display: block;
+}
+}
+
+
+
+/*		360px media query */
+@media all
+	and (min-width: 360px) 
+	and (max-width: 539px){
+nav#alpha_mobile_navigation{
+	display: block;
+}
+}
+
+
+
+/*		540px media query */
+@media all
+	and (min-width: 540px) 
+	and (max-width: 719px){
+nav#alpha_mobile_navigation{
+	display: block;
+}
+}
+
+
+
+/*		720px media query */
+@media all
+	and (min-width: 720px) 
+	and (max-width: 959px){
+nav#alpha_mobile_navigation{
+	display: block;
+}
+}
+
+
+
+/*		960px media query */
+@media all
+	and (min-width: 960px) 
+	and (max-width: 1079px){
+nav#alpha_mobile_navigation{
+	display: none;
+}
+}
+
+
+
+/*		1080px media query */
+@media all
+	and (min-width: 1080px) 
+	and (max-width: 1279px){
+nav#alpha_mobile_navigation{
+	display: none;
+}
+}
+
+
+
+/*		1280px media query */
+@media all
+	and (min-width: 1280px) 
+	and (max-width: 1439px){
+nav#alpha_mobile_navigation{
+	display: none;
+}
+}
+
+
+
+/*		1440px media query */
+@media all
+	and (min-width: 1440px) 
+	and (max-width: 2559px){
+nav#alpha_mobile_navigation{
+	display: none;
+}
+}
+
+
+
+/*		2560px media query */
+@media all
+	and (min-width: 2560px){
+		
+nav#alpha_mobile_navigation{
+	display: none;
+}
+}

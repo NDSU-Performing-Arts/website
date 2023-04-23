@@ -1,0 +1,753 @@
+/*
+*	COPYRIGHT NOTICE:
+*		this file and all of its attached files are property of the
+*		Division of Performing Arts
+*		North Dakota State University
+*		unless otherwise stated 
+*/
+
+
+
+/*		section styles */
+section{
+	position: static;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: rgba(255,255,255,1);
+	width: 100%;
+	height: auto;
+}
+
+section#_body_content{
+	position: static;
+	display: block;
+	
+	margin: 0px auto;
+	padding: 0px;
+	
+	background: inherit;
+	width: 720px;
+	height: auto;
+}
+
+section#_body_left{
+	position: static;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: inherit;
+	width: 720px;
+	height: auto;
+}
+
+section#_body_right{
+	position: static;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: inherit;
+	width: 360px;
+	height: auto;
+}
+
+
+
+/*		header styles */
+header{
+	position: static;
+	display: block;
+	
+	float: none;
+	clear: both;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: rgba(255,255,255,1);
+	width: 100%;
+	height: auto;
+}
+	header h1, header h2, header h3,
+	header h4, header h5, header h6,
+	article h1, article h2, article h3,
+	article h4, article h5, article h6{
+		margin: 0px;
+		padding: 16px 16px 0px 16px;
+		
+		color: rgba(0,0,0,1);
+		font-weight: normal;
+		text-decoration: none;
+		text-align: left;
+	}
+		header h1,
+		article h1{
+			font-size: 24px;
+			line-height: 28px;
+			font-weight: bold;
+		}
+
+		header h2,
+		article h2{
+			font-size: 20px;
+			line-height: 24px;
+			font-weight: bold;
+		}
+
+		header h3,
+		article h3{
+			font-size: 18px;
+			line-height: 28px;
+			font-weight: bold;
+		}
+
+		header h4,
+		article h4{
+			font-size: 16px;
+			line-height: 24px;
+			font-weight: bold;
+		}
+
+		header h5,
+		article h5{
+			font-size: 14px;
+			line-height: 20px;
+			font-weight: bold;
+		}
+
+		header h6,
+		article h6{
+			font-size: 12px;
+			line-height: 20px;
+			font-weight: bold;
+		}
+
+		header h1 a, header h2 a, header h3 a,
+		header h4 a, header h5 a, header h6 a,
+		article h1 a, article h2 a, article h3 a,
+		article h4 a, article h5 a, article h6 a{
+			/* border-bottom: 1px dashed rgba(0,90,70,1); */
+			/* color: rgba(0,110,90,1); */
+			/* text-decoration: none; */
+		}
+
+			header h1 a:hover, header h2 a:hover, header h3 a:hover,
+			header h4 a:hover, header h5 a:hover, header h6 a:hover,
+			article h1 a:hover, article h2 a:hover, article h3 a:hover,
+			article h4 a:hover, article h5 a:hover, article h6 a:hover{
+				border-bottom: 1px solid rgba(0,90,70,1);
+				color: rgba(0,110,90,1);
+				text-decoration: none;
+			}
+
+	header img._header_image{
+		position: static;
+		display: block;
+		
+		margin: 0;
+		padding: 0;
+		
+		width: 100%;
+		height: auto;
+	}
+
+
+
+/*		article styles */
+article{
+	position: static;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: rgba(255,255,255,1);
+	width: 100%;
+	height: auto;
+}
+
+
+
+	article p{
+		margin: 0px 0px 0px 0px;
+		padding: 16px 16px 0px 16px;
+		
+		color: rgba(0,0,0,1);
+		font-size: 14px;
+		line-height: 20px;
+		font-weight: normal;
+		text-decoration: none;
+		text-align: left;
+	}
+
+		article p strong,
+		article p b{
+			font-weight: bold;
+		}
+		
+		article p a{
+			/* border-bottom: 1px dashed rgba(0,90,70,1); */
+			/* color: rgba(0,110,90,1); */
+			/* text-decoration: none; */
+		}
+
+			article p a:hover{
+				/* border-bottom: 1px solid rgba(0,90,70,1); */
+				/* color: rgba(0,110,90,1); */
+				/* text-decoration: none; */
+			}
+
+
+
+	article ul,
+	article ol{
+		margin: 16px 0px 0px 0px;
+		padding: 0px 16px 0px 48px;
+		
+		color: rgba(0,0,0,1);
+		font-size: 14px;
+		line-height: 20px;
+		font-weight: normal;
+		text-decoration: none;
+		text-align: left;
+	}
+		article ol ul, article ul ol,
+		article ul ul, article ul ul ul, 
+		article ol ol, article ol ol ol{
+			margin: 0px 0px 0px 0px;
+			padding: 0px 0px 0px 32px;
+		}
+
+		article ul a, article ul ul a, article ul ul ul a,
+		article ol a, article ol ol a, article ol ol ol a{
+			/* border-bottom: 1px dashed rgba(0,90,70,1); */
+			/* color: rgba(0,110,90,1); */
+			/* text-decoration: none; */
+		}
+			article ul a:hover, article ul ul a:hover, article ul ul ul a:hover,
+			article ol a:hover, article ol ol a:hover, article ol ol ol a:hover{
+				/* border-bottom: 1px solid rgba(0,90,70,1); */
+				/* color: rgba(0,110,90,1); */
+				/* text-decoration: none; */
+			}
+
+
+
+	article table{
+		margin: 16px 0px 0px 0px;
+		padding: 0px;
+		
+		width: 100%;
+		height: auto;
+		
+		border-collapse: collapse;
+		border: none;
+	}
+		article table tr{
+			margin: 0px;
+			padding: 0px;
+		}
+
+			article table tr:nth-child(even){
+				background: rgba(255,200,0,.25);
+			}
+
+			article table tr th, 
+			article table tr td{
+				margin: 0px;
+				padding: 16px;
+				
+				color: rgba(0,70,50,1);
+				font-size: 14px;
+				line-height: 20px;
+				font-style: normal;
+				font-weight: normal;
+				text-decoration: none;
+				text-align: left;
+				vertical-align: top;
+			}
+				article table tr th{
+					background: rgba(0,70,50,1);
+					color: rgba(255,255,255,1);
+				}
+
+				article table tr th strong,
+				article table tr th b,
+				article table tr td strong,
+				article table tr td b{
+					font-weight: bold;
+				}
+
+				article table tr th a,
+				article table tr td a{
+					margin: 0;
+					padding: 0;
+					
+					/* border-bottom: 1px dashed rgba(0,90,70,1); */
+					/* color: rgba(0,110,90,1); */
+					/* text-decoration: none; */
+				}
+					article table tr th a:hover,
+					article table tr td a:hover{
+						margin: 0;
+						padding: 0;
+
+						/* border-bottom: 1px solid rgba(0,90,70,1); */
+						/* color: rgba(0,110,90,1); */
+						/* text-decoration: none; */
+					}
+
+				article table tr th img,
+				article table tr td img{
+					margin: 0;
+					padding: 0;
+					
+					width: 100%;
+					height: auto;
+				}
+
+	article.accordian{
+		position: static;
+		display: block;
+
+		margin: 16px 0px 0px 0px;
+		padding: 0px 0px 16px 0px;
+
+		background: rgba(235,235,235,.25);
+		width: 100%;
+		height: 36px;
+		
+		border: 1px solid rgba(0,0,0,.5);
+		border-radius: 2px;
+		
+		overflow: hidden;
+	}
+		div.accordian_title{
+			position: static;
+			display: block;
+
+			margin: 0px;
+			padding: 0px 0px 16px 0px;
+
+			background: rgba(255,200,0,.25);
+			width: 100%;
+			height: auto;
+			
+			border-bottom: 1px solid rgba(0,0,0,.5);
+			
+			cursor: hand;
+			cursor: pointer;
+		}
+			div.accordian_title:hover{
+				background: rgba(0,90,70,.125);
+			}
+
+			div.accordian_title p{
+				margin: 0px 0px 0px 0px;
+				padding: 16px 16px 0px 16px;
+
+				color: rgba(0,0,0,1);
+				font-size: 14px;
+				line-height: 20px;
+				font-weight: bold;
+				text-decoration: none;
+				text-align: left;
+			}
+				div.accordian_title:hover p{
+					text-decoration: underline;
+				}			
+
+
+div#fullframevideo{
+	position: static;
+	display: block;
+	
+	margin: 16px auto 0px auto;
+	padding: 0px;
+	
+	width: 1080px;
+	height: 607.5px;
+}
+
+/*		180px media query */
+@media screen, print
+	and (min-width: 180px) 
+	and (max-width: 319px){
+		
+	section#_body_content{
+		width: 180px;
+		height: auto;
+	}
+		
+	section#_body_left{
+		float: none;
+		width: 100%;	
+	}
+	
+	section#_body_left header, 
+	section#_body_left article{
+		width: 100%;
+	}
+		
+	section#_body_right{
+		float: right;
+		width: 100%;	
+	}
+		
+	section#_body_right header, 
+	section#_body_right article{
+		width: 100%;
+	}
+		
+	div#fullframevideo#div#fullframevideo{
+		width: 180px;
+		height: 101.25px;
+	}
+}
+
+
+
+/*		320px media query */
+@media only screen
+	and (min-width: 320px) 
+	and (max-width: 359px){
+		
+	section#_body_content{
+		width: 320px;
+		height: auto;
+	}
+		
+	section#_body_left{
+		float: none;
+		width: 100%;	
+	}
+	
+	section#_body_left header, 
+	section#_body_left article{
+		width: 100%;
+	}
+		
+	section#_body_right{
+		float: right;
+		width: 100%;	
+	}
+		
+	section#_body_right header, 
+	section#_body_right article{
+		width: 100%;
+	}
+		
+	div#fullframevideo{
+		width: 320px;
+		height: 180px;
+	}
+}
+
+
+
+/*		360px media query */
+@media only screen
+	and (min-width: 360px) 
+	and (max-width: 539px){
+		
+	section#_body_content{
+		width: 360px;
+		height: auto;
+	}
+		
+	section#_body_left{
+		float: none;
+		width: 100%;	
+	}
+	
+	section#_body_left header, 
+	section#_body_left article{
+		width: 100%;
+	}
+		
+	section#_body_right{
+		float: right;
+		width: 100%;	
+	}
+		
+	section#_body_right header, 
+	section#_body_right article{
+		width: 100%;
+	}
+		
+	div#fullframevideo{
+		width: 360px;
+		height: 202.5px;
+	}
+}
+
+
+
+/*		540px media query */
+@media only screen
+	and (min-width: 540px) 
+	and (max-width: 719px){
+		
+	section#_body_content{
+		width: 540px;
+		height: auto;
+	}
+		
+	section#_body_left{
+		float: none;
+		width: 100%;	
+	}
+	
+	section#_body_left header, 
+	section#_body_left article{
+		width: 100%;
+	}
+		
+	section#_body_right{
+		float: right;
+		width: 100%;	
+	}
+		
+	section#_body_right header, 
+	section#_body_right article{
+		width: 100%;
+	}
+		
+	div#fullframevideo{
+		width: 540px;
+		height: 303.75px;
+	}
+}
+
+
+
+/*		720px media query */
+@media only screen
+	and (min-width: 720px) 
+	and (max-width: 959px){
+		
+	section#_body_content{
+		width: 720px;
+		height: auto;
+	}
+		
+	section#_body_left{
+		float: none;
+		width: 100%;	
+	}
+	
+	section#_body_left header, 
+	section#_body_left article{
+		width: 100%;
+	}
+		
+	section#_body_right{
+		float: right;
+		width: 100%;	
+	}
+		
+	section#_body_right header, 
+	section#_body_right article{
+		width: 100%;
+	}
+		
+	div#fullframevideo{
+		width: 720px;
+		height: 405px;
+	}
+}
+
+
+
+/*		960px media query */
+@media only screen
+	and (min-width: 960px) 
+	and (max-width: 1079px){
+		
+	section#_body_content{
+		width: 960px;
+		height: auto;
+	}
+		
+	section#_body_left{
+		float: left;
+		width: 720px;	
+	}
+	
+	section#_body_left header, 
+	section#_body_left article{
+		width: 720px;
+	}
+		
+	section#_body_right{
+		float: right;
+		width: 240px;	
+	}
+		
+	section#_body_right header, 
+	section#_body_right article{
+		width: 240px;
+	}
+		
+	div#fullframevideo{
+		width: 960px;
+		height: 540px;
+	}
+}
+
+
+
+/*		1080px media query */
+@media only screen
+	and (min-width: 1080px) 
+	and (max-width: 1279px){
+	
+	section#_body_content{
+		width: 1080px;
+		height: auto;
+	}
+		
+	section#_body_left{
+		float: left;
+		width: 720px;	
+	}
+	
+	section#_body_left header, 
+	section#_body_left article{
+		width: 720px;
+	}
+		
+	section#_body_right{
+		float: right;
+		width: 360px;	
+	}
+		
+	section#_body_right header, 
+	section#_body_right article{
+		width: 360px;
+	}
+		
+	div#fullframevideo{
+		width: 1080px;
+		height: 607.5px;
+	}
+}
+
+
+
+/*		1280px media query */
+@media only screen
+	and (min-width: 1280px) 
+	and (max-width: 1439px){
+	
+	section#_body_content{
+		width: 1280px;
+		height: auto;
+	}
+		
+	section#_body_left{
+		float: left;
+		width: 920px;	
+	}
+	
+	section#_body_left header, 
+	section#_body_left article{
+		width: 920px;
+	}
+		
+	section#_body_right{
+		float: right;
+		width: 360px;	
+	}
+		
+	section#_body_right header, 
+	section#_body_right article{
+		width: 360px;
+	}
+		
+	div#fullframevideo{
+		width: 1280px;
+		height: 720px;
+	}
+}
+
+
+
+/*		1440px media query */
+@media only screen
+	and (min-width: 1440px) 
+	and (max-width: 2559px){
+	
+	section#_body_content{
+		width: 1440px;
+		height: auto;
+	}
+		
+	section#_body_left{
+		float: left;
+		width: 1080px;	
+	}
+	
+	section#_body_left header, 
+	section#_body_left article{
+		width: 1080px;
+	}
+		
+	section#_body_right{
+		float: right;
+		width: 360px;	
+	}
+		
+	section#_body_right header, 
+	section#_body_right article{
+		width: 360px;
+	}
+	
+	div#fullframevideo{
+		width: 1440px;
+		height: 810px;
+	}
+}
+
+
+
+/*		2560px media query */
+@media only screen
+	and (min-width: 2560px){
+	
+	section#_body_content{
+		width: 2560px;
+		height: auto;
+	}
+		
+	section#_body_left{
+		float: left;
+		width: 2200px;	
+	}
+	
+	section#_body_left header, 
+	section#_body_left article{
+		width: 2200px;
+	}
+		
+	section#_body_right{
+		float: right;
+		width: 360px;	
+	}
+		
+	section#_body_right header, 
+	section#_body_right article{
+		width: 360px;
+	}
+		
+	div#fullframevideo{
+		width: 2560px;
+		height: 1440px;
+	}
+}

@@ -1,0 +1,171 @@
+/*  -----------------------------------------------
+
+	COPYRIGHT NOTICE:
+		this file and all of its attached files are property of 
+		North Dakota State University Division of Performing Arts
+		unless otherwise stated 
+	
+	------------------------------------------------ */
+
+
+
+/* 	------------------------------------------------
+	calendar styles
+	------------------------------------------------ */
+article#_full_calendar{
+	position: static;
+	display: block;
+	
+	margin: 0px auto;
+	padding: 0px;
+	
+	background: inherit;
+	width: 100%;
+	height: auto;
+}
+
+div#rss-feeds {
+	position: static;
+	display: block;
+	
+	margin: 0px auto;
+	padding: 0px;
+	
+	background: inherit;
+	width: 100%;
+	height: auto;
+	
+	list-style: none;
+	list-style-type: none;
+} 
+
+	div#rss-feeds ul{
+		margin: 0px;
+		padding: 16px;
+		
+		color: rgba(0,50,30,1);
+		line-height: 18px;
+		font-size: 14px;
+		font-weight: normal;
+		text-decoration: none;
+		text-align: left;
+		
+		list-style: none;
+		list-style-type: none;
+	}
+		div#rss-feeds ul:nth-child(even){
+			background: rgba(0,70,50,.125);
+		}
+
+		div#rss-feeds ul strong{
+			color: rgba(0,50,30,1);
+			line-height: 18px;
+			font-size: 14px;
+			font-weight: bold;
+			text-decoration: none;
+			text-align: left;
+		}
+
+		div#rss-feeds ul a{
+			margin: 0;
+			padding: 0;
+					
+			color: rgba(0,0,255,1);
+			text-decoration: none;
+		}
+
+/* 	------------------------------------------------
+	media queries
+
+	INFORMATION:
+		media queries are conditions set by the developer(s), 
+		if the conditions are true, the styles found below the media query will be set.  
+	------------------------------------------------ */
+@media all
+	and (min-width: 180px) 
+	and (max-width: 319px){
+		
+article#_full_calendar{
+	width: 180px;	
+}
+}
+
+@media all
+	and (min-width: 320px) 
+	and (max-width: 359px){
+	
+article#_full_calendar{
+	width: 320px;	
+}
+}
+
+@media all
+	and (min-width: 360px) 
+	and (max-width: 539px){
+		
+article#_full_calendar{
+	width: 360px;	
+}
+}
+
+@media all
+	and (min-width: 540px) 
+	and (max-width: 719px){
+		
+article#_full_calendar{
+	width: 540px;	
+}
+}
+
+@media all
+	and (min-width: 720px) 
+	and (max-width: 959px){
+		
+article#_full_calendar{
+	width: 720px;	
+}
+}
+
+@media all
+	and (min-width: 960px) 
+	and (max-width: 1079px){
+	
+article#_full_calendar{
+	width: 960px;	
+}
+}
+
+@media all
+	and (min-width: 1080px) 
+	and (max-width: 1279px){
+
+article#_full_calendar{
+	width: 1080px;	
+}
+}
+
+@media all
+	and (min-width: 1280px) 
+	and (max-width: 1439px){
+	
+article#_full_calendar{
+	width: 1280px;	
+}
+}
+
+@media all
+	and (min-width: 1440px) 
+	and (max-width: 125px){
+
+article#_full_calendar{
+	width: 1440px;	
+}	
+}
+
+@media all
+	and (min-width: 2560px){
+
+article#_full_calendar{
+	width: 2560px;	
+}	
+}

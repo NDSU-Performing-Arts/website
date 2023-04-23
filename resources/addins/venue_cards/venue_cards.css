@@ -1,0 +1,247 @@
+/*
+*	COPYRIGHT NOTICE:
+*		this file and all of its attached files are property of the
+*		Division of Performing Arts
+*		North Dakota State University
+*		unless otherwise stated  
+*/
+
+
+
+/*		body styles */
+section#venue_cards{
+	position: static;
+	display: block;
+	
+	margin: 16px auto 0px auto;
+	padding: 0px;
+	
+	background: rgba(255,255,255,1);
+	width: 960px;
+	height: 360px;
+}
+	article.venue_card{
+		position: static;
+		display: block;
+
+		float: left;
+
+		margin: 0px;
+		padding: 0px;
+
+		background: rgba(0,70,40,1);
+		width: 472px;
+		height: 360px;
+	}
+		article.venue_card:nth-child(2){
+			margin: 0px 0px 0px 16px;
+		}
+
+
+
+/*		180px media query */
+@media all
+	and (min-width: 180px) 
+	and (max-width: 319px){
+
+section#venue_cards{
+	width: 148px;
+	height: auto;
+}	
+	article.venue_card{
+		float: none;
+		width: inherit;
+		height: auto;
+	}
+		article.venue_card:nth-child(2){
+			margin: 16px 0px 0px 0px;
+		}	
+}
+
+
+
+/*		320px media query */
+@media all
+	and (min-width: 320px) 
+	and (max-width: 359px){
+
+section#venue_cards{
+	width: 288px;
+	height: auto;
+}	
+	article.venue_card{
+		float: none;
+		width: inherit;
+		height: auto;
+	}
+		article.venue_card:nth-child(2){
+			margin: 16px 0px 0px 0px;
+		}		
+}
+
+
+
+/*		360px media query */
+@media all
+	and (min-width: 360px) 
+	and (max-width: 539px){
+
+section#venue_cards{
+	width: 328px;
+	height: auto;
+}	
+	article.venue_card{
+		float: none;
+		width: inherit;
+		height: auto;
+	}
+		article.venue_card:nth-child(2){
+			margin: 16px 0px 0px 0px;
+		}			
+}
+
+
+
+/*		540px media query */
+@media all
+	and (min-width: 540px) 
+	and (max-width: 719px){
+
+section#venue_cards{
+	width: 508px;
+	height: auto;
+}	
+	article.venue_card{
+		float: none;
+		width: inherit;
+		height: auto;
+	}
+		article.venue_card:nth-child(2){
+			margin: 16px 0px 0px 0px;
+		}		
+}
+
+
+
+/*		720px media query */
+@media all
+	and (min-width: 720px) 
+	and (max-width: 959px){
+
+section#venue_cards{
+	width: 688px;
+	height: auto;
+}	
+	article.venue_card{
+		float: none;
+		width: 688px;
+		height: auto;
+	}
+		article.venue_card:nth-child(2){
+			margin: 16px 0px 0px 0px;
+		}
+}
+
+
+
+/*		960px media query */
+@media all
+	and (min-width: 960px) 
+	and (max-width: 1079px){
+
+section#venue_cards{
+	width: 928px;
+	height: 256.5px;
+}	
+	article.venue_card{
+		float: left;
+		width: 456px;
+		height: 256.5px;
+	}
+		article.venue_card:nth-child(2){
+			margin: 0px 0px 0px 16px;
+		}		
+}
+
+
+
+/*		1080px media query */
+@media all
+	and (min-width: 1080px) 
+	and (max-width: 1279px){
+
+section#venue_cards{
+	width: 1048px;
+	height: 290.25px;
+}	
+	article.venue_card{
+		float: left;
+		width: 516px;
+		height: 290.25px;
+	}
+		article.venue_card:nth-child(2){
+			margin: 0px 0px 0px 16px;
+		}	
+}
+
+
+
+/*		1280px media query */
+@media all
+	and (min-width: 1280px) 
+	and (max-width: 1439px){
+
+section#venue_cards{
+	width: 1248px;
+	height: 346.5px;
+}	
+	article.venue_card{
+		float: left;
+		width: 616px;
+		height: 346.5px;
+	}
+		article.venue_card:nth-child(2){
+			margin: 0px 0px 0px 16px;
+		}	
+}
+
+
+
+/*		1440px media query */
+@media all
+	and (min-width: 1440px) 
+	and (max-width: 2559px){
+
+section#venue_cards{
+	width: 1408px;
+	height: 391.5px;
+}	
+	article.venue_card{
+		float: left;
+		width: 696px;
+		height: 391.5px;
+	}
+		article.venue_card:nth-child(2){
+			margin: 0px 0px 0px 16px;
+		}
+}
+
+
+
+/*		2560px media query */
+@media all
+	and (min-width: 2560px){
+	
+section#venue_cards{
+	width: 2528px;
+	height: 706.5px;
+}
+	article.venue_card{
+		float: left;
+		width: 1256px;
+		height: 706.5px;
+	}
+		article.venue_card:nth-child(2){
+			margin: 0px 0px 0px 16px;
+		}
+}

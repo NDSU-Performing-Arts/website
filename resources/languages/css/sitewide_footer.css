@@ -1,0 +1,616 @@
+/*
+*	COPYRIGHT NOTICE:
+*		this file and all of its attached files are property of the
+*		Division of Performing Arts
+*		North Dakota State University
+*		unless otherwise stated  
+*/
+
+
+
+/*		footer styles */
+footer#_doc_footer{
+	position: static;
+	display: block;
+	
+	float: none;
+	clear: both;
+	
+	margin: 16px 0px 0px 0px;
+	padding: 16px 0px;
+	
+	background: rgba(0,50,30,1);
+	width: 100%;
+	height: auto;
+}
+
+section#_df_menu{
+	position: static;
+	display: block;
+	
+	margin: 0px auto;
+	padding: 0px;
+	
+	background: inherit;
+	width: 1080px;
+	height: 288px;
+}
+
+section._dfm_column{
+	position: static;
+	display: block;
+	
+	float: left;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: inherit;
+	width: 25%;
+	height: 288px;
+}
+
+header._dfmc_head{
+	position: static;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: inherit;
+	width: 100%;
+	height: 48px;
+}
+
+	header._dfmc_head p{
+		margin: 0px;
+		padding: 16px 0px;
+		
+		color: rgba(255,255,255,1);
+		font-size: 14px;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: none;
+		text-align: left;
+	}	
+		section._dfm_column:nth-child(4) header._dfmc_head p{
+			padding: 16px 0px 0px 0px;
+			text-align: center;
+		}
+
+article._dfmc_item{
+	position: static;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: inherit;
+	width: 100%;
+	height: 48px;
+}
+
+	article._dfmc_item:hover{
+		background: rgba(255,200,0,1);
+	}
+
+	div._icon#_calendar{
+		background: rgba(0,0,0,0) url(../../media/images/icons/link/196px_calendar.png) no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+		article._dfmc_item:hover div._icon#_calendar{
+			background: rgba(0,0,0,0) url(../../media/images/icons/hover/196px_calendar.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+		}
+
+	div._icon#_directory{
+		background: rgba(0,0,0,0) url(../../media/images/icons/link/196px_directory.png) no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+		article._dfmc_item:hover div._icon#_directory{
+			background: rgba(0,0,0,0) url(../../media/images/icons/hover/196px_directory.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+		}
+
+	div._icon#_home{
+		background: rgba(0,0,0,0) url(../../media/images/icons/link/196px_home.png) no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+		article._dfmc_item:hover div._icon#_home{
+			background: rgba(0,0,0,0) url(../../media/images/icons/hover/196px_home.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+		}
+
+	div._icon#_location{
+		background: rgba(0,0,0,0) url(../../media/images/icons/link/196px_location.png) no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+		article._dfmc_item:hover div._icon#_location{
+			background: rgba(0,0,0,0) url(../../media/images/icons/hover/196px_location.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+		}
+
+	div._icon#_map{
+		background: rgba(0,0,0,0) url(../../media/images/icons/link/196px_map.png) no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+		article._dfmc_item:hover div._icon#_map{
+			background: rgba(0,0,0,0) url(../../media/images/icons/hover/196px_map.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+		}
+
+	div._icon#_music{
+		background: rgba(0,0,0,0) url(../../media/images/icons/link/196px_music.png) no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+		article._dfmc_item:hover div._icon#_music{
+			background: rgba(0,0,0,0) url(../../media/images/icons/hover/196px_music.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+		}
+
+	div._icon#_theatre{
+		background: rgba(0,0,0,0) url(../../media/images/icons/link/196px_theatre.png) no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+		article._dfmc_item:hover div._icon#_theatre{
+			background: rgba(0,0,0,0) url(../../media/images/icons/hover/196px_theatre.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+		}
+
+	div._icon#_venues{
+		background: rgba(0,0,0,0) url(../../media/images/icons/link/196px_venues.png) no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+		article._dfmc_item:hover div._icon#_venues{
+			background: rgba(0,0,0,0) url(../../media/images/icons/hover/196px_venues.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+		}
+
+
+	
+	div._icon#_facebook{
+		background: rgba(0,0,0,0) url(../../media/images/logos/link/196px_facebook.png) no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+		article._dfmc_item:hover div._icon#_facebook{
+			background: rgba(0,0,0,0) url(../../media/images/logos/hover/196px_facebook.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+		}
+
+	div._icon#_flickr{
+		background: rgba(0,0,0,0) url(../../media/images/logos/link/196px_flickr.png) no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+		article._dfmc_item:hover div._icon#_flickr{
+			background: rgba(0,0,0,0) url(../../media/images/logos/hover/196px_flickr.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+		}
+
+	div._icon#_pinterest{
+		background: rgba(0,0,0,0) url(../../media/images/logos/link/196px_pinterest.png) no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+		article._dfmc_item:hover div._icon#_pinterest{
+			background: rgba(0,0,0,0) url(../../media/images/logos/hover/196px_pinterest.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+		}
+
+	div._icon#_twitter{
+		background: rgba(0,0,0,0) url(../../media/images/logos/link/196px_twitter.png) no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+		article._dfmc_item:hover div._icon#_twitter{
+			background: rgba(0,0,0,0) url(../../media/images/logos/hover/196px_twitter.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+		}
+
+	div._icon#_youtube{
+		background: rgba(0,0,0,0) url(../../media/images/logos/link/196px_youtube.png) no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+		article._dfmc_item:hover div._icon#_youtube{
+			background: rgba(0,0,0,0) url(../../media/images/logos/hover/196px_youtube.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+		}
+
+
+
+	div._dfmci_title{
+		position: static;
+		display: block;
+
+		float: left;
+		
+		margin: 0px;
+		padding: 0px;
+
+		background: inherit;
+		width: 75%;
+		height: 48px;
+	}
+		div._dfmci_title p{
+			margin: 0px;
+			padding: 14px 0px 0px 0px;
+
+			color: rgba(255,255,255,1);
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 200;
+			text-decoration: none;
+			text-align: left;
+		}
+			article._dfmc_item:hover div._dfmci_title p{
+				color: rgba(0,50,30,1);
+			}
+
+article#_dfmc_info{
+	position: static;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: inherit;
+	width: 100%;
+	height: 192px;
+}
+	article#_dfmc_info p{
+		margin: 0px;
+		padding: 16px 0px 0px 0px;
+
+		color: rgba(255,255,255,1);
+		font-size: 14px;	
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: none;
+		text-align: center;
+	}
+		article#_dfmc_info p a{
+			color: rgba(255,200,0,1);
+			text-decoration: none;
+		}
+
+
+
+/*		180px media query */
+@media all
+	and (min-width: 180px) 
+	and (max-width: 319px){
+	
+	section#_df_menu{
+		width: 148px;
+		height: 1200px;
+	}
+		section._dfm_column{
+			float: left;
+			
+			width: 100%;
+			height: 288px;
+		}	
+			section._dfm_column:nth-child(3){
+				float: left;
+
+				width: 100%;
+				height: 336px;
+			}
+		
+			section._dfm_column:nth-child(4){
+				float: left;
+
+				width: 100%;
+				height: 288px;
+			}
+}
+
+
+
+/*		320px media query */
+@media all
+	and (min-width: 320px) 
+	and (max-width: 359px){
+	
+	section#_df_menu{
+		width: 288px;
+		height: 1200px;
+	}
+		section._dfm_column{
+			float: left;
+			
+			width: 100%;
+			height: 288px;
+		}	
+			section._dfm_column:nth-child(3){
+				float: left;
+
+				width: 100%;
+				height: 336px;
+			}
+		
+			section._dfm_column:nth-child(4){
+				float: left;
+
+				width: 100%;
+				height: 288px;
+			}
+}
+
+
+
+/*		360px media query */
+@media all
+	and (min-width: 360px) 
+	and (max-width: 539px){
+		
+	section#_df_menu{
+		width: 328px;
+		height: 1200px;
+	}
+		section._dfm_column{
+			float: left;
+			
+			width: 100%;
+			height: 288px;
+		}	
+			section._dfm_column:nth-child(3){
+				float: left;
+
+				width: 100%;
+				height: 336px;
+			}
+		
+			section._dfm_column:nth-child(4){
+				float: left;
+
+				width: 100%;
+				height: 288px;
+			}
+}
+
+
+
+/*		540px media query */
+@media all
+	and (min-width: 540px) 
+	and (max-width: 719px){
+		
+	section#_df_menu{
+		width: 508px;
+		height: 1200px;
+	}
+		section._dfm_column{
+			float: left;
+			
+			width: 100%;
+			height: 288px;
+		}	
+			section._dfm_column:nth-child(3){
+				float: left;
+
+				width: 100%;
+				height: 336px;
+			}
+		
+			section._dfm_column:nth-child(4){
+				float: left;
+
+				width: 100%;
+				height: 288px;
+			}
+}
+
+
+
+/*		720px media query */
+@media all
+	and (min-width: 720px) 
+	and (max-width: 959px){
+		
+	section#_df_menu{
+		width: 688px;
+		height: 624px;
+	}
+		section._dfm_column{
+			float: left;
+			
+			width: 33.3%;
+			height: 288px;
+		}	
+			section._dfm_column:nth-child(3){
+				float: left;
+
+				width: 33.3%;
+				height: 336px;
+			}
+		
+			section._dfm_column:nth-child(4){
+				float: left;
+
+				width: 100%;
+				height: 288px;
+			}
+}
+
+
+
+/*		960px media query */
+@media all
+	and (min-width: 960px) 
+	and (max-width: 1079px){
+		
+	section#_df_menu{
+		width: 928px;
+		height: 288px;
+	}
+		section._dfm_column{
+			float: left;
+			
+			width: 25%;
+			height: 288px;
+		}
+			section._dfm_column:nth-child(3){
+				float: left;
+
+				width: 25%;
+				height: 288px;
+			}
+		
+			section._dfm_column:nth-child(4){
+				float: left;
+
+				width: 25%;
+				height: 288px;
+			}
+}
+
+
+
+/*		1080px media query */
+@media all
+	and (min-width: 1080px) 
+	and (max-width: 1279px){
+	
+	section#_df_menu{
+		width: 1048px;
+		height: 288px;
+	}
+		section._dfm_column{
+			float: left;
+			
+			width: 25%;
+			height: 288px;
+		}
+			section._dfm_column:nth-child(3){
+				float: left;
+
+				width: 25%;
+				height: 288px;
+			}
+		
+			section._dfm_column:nth-child(4){
+				float: left;
+
+				width: 25%;
+				height: 288px;
+			}
+}
+
+
+
+/*		1280px media query */
+@media all
+	and (min-width: 1280px) 
+	and (max-width: 1439px){
+	
+	section#_df_menu{
+		width: 1248px;
+		height: 288px;
+	}
+		section._dfm_column{
+			float: left;
+			
+			width: 25%;
+			height: 288px;
+		}
+			section._dfm_column:nth-child(3){
+				float: left;
+
+				width: 25%;
+				height: 288px;
+			}
+		
+			section._dfm_column:nth-child(4){
+				float: left;
+
+				width: 25%;
+				height: 288px;
+			}
+}
+
+
+
+/*		1440px media query */
+@media all
+	and (min-width: 1440px) 
+	and (max-width: 2559px){
+	
+	section#_df_menu{
+		width: 1408px;
+		height: 288px;
+	}
+		section._dfm_column{
+			float: left;
+			
+			width: 25%;
+			height: 288px;
+		}
+			section._dfm_column:nth-child(3){
+				float: left;
+
+				width: 25%;
+				height: 288px;
+			}
+		
+			section._dfm_column:nth-child(4){
+				float: left;
+
+				width: 25%;
+				height: 288px;
+			}
+}
+
+
+
+/*		2560px media query */
+@media all
+	and (min-width: 2560px){
+	
+	section#_df_menu{
+		width: 2528px;
+		height: 288px;
+	}
+		section._dfm_column{
+			float: left;
+			
+			width: 25%;
+			height: 288px;
+		}
+			section._dfm_column:nth-child(3){
+				float: left;
+
+				width: 25%;
+				height: 288px;
+			}
+		
+			section._dfm_column:nth-child(4){
+				float: left;
+
+				width: 25%;
+				height: 288px;
+			}
+}

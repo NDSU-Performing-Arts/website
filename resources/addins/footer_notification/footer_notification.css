@@ -1,0 +1,198 @@
+/*
+*	COPYRIGHT NOTICE:
+*		this file and all of its attached files are property of the
+*		Division of Performing Arts
+*		North Dakota State University
+*		unless otherwise stated  
+*/
+
+
+
+/*		footer notification styles */
+div#footer_notification{
+	position: static;
+	display: block;
+	
+	float: none;
+	clear: both;
+	
+	margin: 16px 0px 0px 0px;
+	padding: 0px 0px 16px 0px;
+	
+	background: rgba(255,200,0,1);
+	width: 100%;
+	height: auto;
+}
+
+div#static_fn{
+	position: static;
+	display: block;
+	
+	float: none;
+	clear: both;
+	
+	margin: 0px auto;
+	padding: 0px;
+	
+	background: inherit;
+	width: inherit;
+	height: inherit;
+}
+
+	div#static_fn p{
+		margin: 0px 0px 0px 0px;
+		padding: 16px 16px 0px 16px;
+		
+		color: rgba(0,0,0,1);
+		font-size: 16px;
+		line-height: 20px;
+		font-weight: normal;
+		text-decoration: none;
+		text-align: left;
+	}
+
+		div#static_fn p strong,
+		div#static_fn p b{
+			font-weight: bold;
+		}
+		
+		div#static_fn p a{
+			border-bottom: 1px dashed rgba(0,90,70,1);
+			color: rgba(0,110,90,1);
+			text-decoration: none;
+		}
+
+			div#static_fn p a:hover{
+				border-bottom: 1px solid rgba(0,90,70,1);
+				color: rgba(0,110,90,1);
+				text-decoration: none;
+			}
+
+
+
+/*		180px media query */
+@media all
+	and (min-width: 180px) 
+	and (max-width: 319px){
+
+div#static_fn{
+	width: 180px;
+	height: auto;		
+}
+}
+
+
+
+/*		320px media query */
+@media all
+	and (min-width: 320px) 
+	and (max-width: 359px){
+
+div#static_fn{
+	width: 320px;
+	height: auto;		
+}
+}
+
+
+
+/*		360px media query */
+@media all
+	and (min-width: 360px) 
+	and (max-width: 539px){
+
+div#static_fn{
+	width: 320px;
+	height: auto;		
+}
+}
+
+
+
+/*		540px media query */
+@media all
+	and (min-width: 540px) 
+	and (max-width: 719px){
+
+div#static_fn{
+	width: 320px;
+	height: auto;		
+}
+}
+
+
+
+/*		720px media query */
+@media all
+	and (min-width: 720px) 
+	and (max-width: 959px){
+
+div#static_fn{
+	width: 320px;
+	height: auto;		
+}
+}
+
+
+
+/*		960px media query */
+@media all
+	and (min-width: 960px) 
+	and (max-width: 1079px){
+
+div#static_fn{
+	width: 320px;
+	height: auto;		
+}
+}
+
+
+
+/*		1080px media query */
+@media all
+	and (min-width: 1080px) 
+	and (max-width: 1279px){
+
+div#static_fn{
+	width: 960px;
+	height: auto;		
+}
+}
+
+
+
+/*		1280px media query */
+@media all
+	and (min-width: 1280px) 
+	and (max-width: 1439px){
+
+div#static_fn{
+	width: 960px;
+	height: auto;		
+}
+}
+
+
+
+/*		1440px media query */
+@media all
+	and (min-width: 1440px) 
+	and (max-width: 2559px){
+
+div#static_fn{
+	width: 960px;
+	height: auto;		
+}
+}
+
+
+
+/*		2560px media query */
+@media all
+	and (min-width: 2560px){
+
+div#static_fn{
+	width: 960px;
+	height: auto;		
+}
+}

@@ -1,0 +1,504 @@
+/*  -----------------------------------------------
+
+	COPYRIGHT NOTICE:
+		this file and all of its attached files are property of 
+		North Dakota State University Division of Performing Arts
+		unless otherwise stated 
+	
+	------------------------------------------------ */
+
+
+
+/* 	------------------------------------------------
+	division of performing arts
+	CARDS
+
+	INFORMATION:
+		
+	------------------------------------------------ */
+section#_dpa_cards{
+	position: static;
+	display: block;
+	
+	margin: 0px auto;
+	padding: 0px;
+	
+	background: rgba(0,0,0,0);
+	width: 100%;
+	height: auto;
+}
+
+section._dpa_card{
+	position: static;
+	display: block;
+	
+	margin: 16px 0px 0px 16px;
+	padding: 0px;
+	
+	background: rgba(0,0,0,0);
+	width: 339px;
+	height: 339px;
+}
+
+	article._dpa_card_images{
+		position: absolute;
+		display: block;
+
+		margin: 0px;
+		padding: 0px;
+		
+		background: rgba(255,200,0,0);
+		background-size: 100% 100%;
+		background-position: center center;
+		
+		width: inherit;
+		height: inherit;
+		
+		overflow: hidden;
+	}
+		article._dpa_card_images a{
+			position: absolute;
+			display: block;
+
+			margin: 0px;
+			padding: 0px;
+
+			width: inherit;
+			height: inherit;
+
+			text-decoration: none;
+		}
+
+		img._dpa_card_image_landscape, 
+		img._dpa_card_image_landscape_overlay_01, 
+		img._dpa_card_image_landscape_overlay_02{
+			position: absolute;
+			display: block;
+
+			margin: 0px;
+			padding: 0px;
+			
+			background-size: 100% 100%;
+			background-position: center center;
+
+			width: inherit;
+			height: inherit;
+		}
+			
+		img._dpa_card_image_portrait, 
+		img._dpa_card_image_portrait_overlay_02{
+			position: absolute;
+			display: none;
+
+			margin: 0px;
+			padding: 0px;
+			
+			background-size: 100% 100%;
+			background-position: center center;
+
+			width: inherit;
+			height: inherit;
+		}
+	
+
+
+/* 	------------------------------------------------
+	media queries
+
+	INFORMATION:
+		media queries are conditions set by the developer(s), 
+		if the conditions are true, the styles found below the media query will be set.  
+	------------------------------------------------ */
+@media screen, print
+	and (min-width: 180px) 
+	and (max-width: 319px){
+		
+	section#_dpa_cards{
+		margin: 0px auto;
+		padding: 0px 0px 16px 0px;
+		
+		width: 100%;
+		height: auto;
+	}
+		section._dpa_card{
+			float: none;
+			
+			margin: 16px auto 0px auto;
+			padding: 0px;
+			
+			width: 148px;
+			height: 42px;
+		}
+			img._dpa_card_image_landscape,
+			img._dpa_card_image_landscape_overlay_01,
+			img._dpa_card_image_landscape_overlay_02{
+				display: none;
+			}
+		
+			img._dpa_card_image_portrait,
+			img._dpa_card_image_portrait_overlay_02{
+				display: block;
+			}
+}
+
+@media only screen
+	and (min-width: 320px) 
+	and (max-width: 359px){
+		
+	section#_dpa_cards{
+		margin: 0px auto;
+		padding: 0px 0px 16px 0px;
+		
+		width: 100%;
+		height: auto;
+	}
+		section._dpa_card{
+			float: none;
+			
+			margin: 16px auto 0px auto;
+			padding: 0px;
+			
+			width: 288px;
+			height: 81px;
+		}
+			img._dpa_card_image_landscape,
+			img._dpa_card_image_landscape_overlay_01,
+			img._dpa_card_image_landscape_overlay_02{
+				display: none;
+			}
+		
+			img._dpa_card_image_portrait,
+			img._dpa_card_image_portrait_overlay_02{
+				display: block;
+			}
+}
+
+@media only screen
+	and (min-width: 360px) 
+	and (max-width: 539px){
+		
+	section#_dpa_cards{
+		margin: 0px auto;
+		padding: 0px 0px 16px 0px;
+		
+		width: 100%;
+		height: auto;
+	}
+		section._dpa_card{
+			float: none;
+			
+			margin: 16px auto 0px auto;
+			padding: 0px;
+			
+			width: 328px;
+			height: 92px;
+		}
+			img._dpa_card_image_landscape,
+			img._dpa_card_image_landscape_overlay_01,
+			img._dpa_card_image_landscape_overlay_02{
+				display: none;
+			}
+		
+			img._dpa_card_image_portrait,
+			img._dpa_card_image_portrait_overlay_02{
+				display: block;
+			}
+}
+
+@media only screen
+	and (min-width: 540px) 
+	and (max-width: 719px){
+	
+	section#_dpa_cards{
+		margin: 0px auto;
+		padding: 0px 0px 16px 0px;
+		
+		width: 100%;
+		height: auto;
+	}
+		section._dpa_card{
+			float: none;
+			
+			margin: 16px auto 0px auto;
+			padding: 0px;
+			
+			width: 508px;
+			height: 143px;
+		}
+			img._dpa_card_image_landscape,
+			img._dpa_card_image_landscape_overlay_01,
+			img._dpa_card_image_landscape_overlay_02{
+				display: none;
+			}
+		
+			img._dpa_card_image_portrait,
+			img._dpa_card_image_portrait_overlay_02{
+				display: block;
+			}
+}
+
+@media only screen
+	and (min-width: 720px) 
+	and (max-width: 959px){
+	
+	section#_dpa_cards{
+		margin: 0px auto;
+		padding: 0px 0px 16px 0px;
+		
+		width: 100%;
+		height: auto;
+	}
+		section._dpa_card{
+			float: none;
+			
+			margin: 16px auto 0px auto;
+			padding: 0px;
+			
+			width: 688px;
+			height: 194px;
+		}
+			img._dpa_card_image_landscape,
+			img._dpa_card_image_landscape_overlay_01,
+			img._dpa_card_image_landscape_overlay_02{
+				display: none;
+			}
+		
+			img._dpa_card_image_portrait,
+			img._dpa_card_image_portrait_overlay_02{
+				display: block;
+			}
+}
+
+@media only screen
+	and (min-width: 960px) 
+	and (max-width: 1079px){
+	
+	section#_dpa_cards{
+		margin: 0px auto;
+		padding: 0px;
+		
+		width: 960px;
+		height: 331px;
+	}
+		section._dpa_card{
+			float: left;
+			
+			margin: 16px 0px 0px 16px;
+			padding: 0px;
+			
+			width: 299px;
+			height: 299px;
+		}
+			img._dpa_card_image_landscape{
+				display: block;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape{
+					margin: -16px;
+					width: 331px;
+					height: 331px;
+				}
+			img._dpa_card_image_landscape_overlay_01{
+				display: block;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape_overlay_01{
+					display: none;
+				}
+			img._dpa_card_image_landscape_overlay_02{
+				display: none;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape_overlay_02{
+					display: block;
+				}
+		
+			img._dpa_card_image_portrait,
+			img._dpa_card_image_portrait_overlay_02{
+				display: none;
+			}
+}
+
+@media only screen
+	and (min-width: 1080px) 
+	and (max-width: 1279px){
+	
+	section#_dpa_cards{
+		margin: 0px auto;
+		padding: 0px;
+		
+		width: 1080px;
+		height: 371px;
+	}
+		section._dpa_card{
+			float: left;
+			
+			margin: 16px 0px 0px 16px;
+			padding: 0px;
+			
+			width: 339px;
+			height: 339px;
+		}
+			img._dpa_card_image_landscape{
+				display: block;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape{
+					margin: -16px;
+					width: 371px;
+					height: 371px;
+				}
+			img._dpa_card_image_landscape_overlay_01{
+				display: block;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape_overlay_01{
+					display: none;
+				}
+			img._dpa_card_image_landscape_overlay_02{
+				display: none;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape_overlay_02{
+					display: block;
+				}
+		
+			img._dpa_card_image_portrait,
+			img._dpa_card_image_portrait_overlay_02{
+				display: none;
+			}
+}
+
+@media only screen
+	and (min-width: 1280px) 
+	and (max-width: 1439px){
+	
+	section#_dpa_cards{
+		margin: 0px auto;
+		padding: 0px;
+		
+		width: 1280px;
+		height: 437px;
+	}
+		section._dpa_card{
+			float: left;
+			
+			margin: 16px 0px 0px 16px;
+			padding: 0px;
+			
+			width: 405px;
+			height: 405px;
+		}
+			img._dpa_card_image_landscape{
+				display: block;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape{
+					margin: -16px;
+					width: 437px;
+					height: 437px;
+				}
+			img._dpa_card_image_landscape_overlay_01{
+				display: block;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape_overlay_01{
+					display: none;
+				}
+			img._dpa_card_image_landscape_overlay_02{
+				display: none;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape_overlay_02{
+					display: block;
+				}
+		
+			img._dpa_card_image_portrait,
+			img._dpa_card_image_portrait_overlay_02{
+				display: none;
+			}
+}
+
+@media only screen
+	and (min-width: 1440px) 
+	and (max-width: 2559px){
+	
+	section#_dpa_cards{
+		margin: 0px auto;
+		padding: 0px;
+		
+		width: 1440px;
+		height: 491px;
+	}
+		section._dpa_card{
+			float: left;
+			
+			margin: 16px 0px 0px 16px;
+			padding: 0px;
+			
+			width: 459px;
+			height: 459px;
+		}
+			img._dpa_card_image_landscape{
+				display: block;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape{
+					margin: -16px;
+					width: 491px;
+					height: 491px;
+				}
+			img._dpa_card_image_landscape_overlay_01{
+				display: block;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape_overlay_01{
+					display: none;
+				}
+			img._dpa_card_image_landscape_overlay_02{
+				display: none;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape_overlay_02{
+					display: block;
+				}
+		
+			img._dpa_card_image_portrait,
+			img._dpa_card_image_portrait_overlay_02{
+				display: none;
+			}
+}
+
+@media only screen
+	and (min-width: 2560px){
+	
+	section#_dpa_cards{
+		margin: 0px auto;
+		padding: 0px;
+
+		width: 2560px;
+		height: 864px;
+	}
+		section._dpa_card{
+			float: left;
+			
+			margin: 16px 0px 0px 16px;
+			padding: 0px;
+			
+			width: 832px;
+			height: 832px;
+		}
+			img._dpa_card_image_landscape{
+				display: block;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape{
+					margin: -16px;
+					width: 864px;
+					height: 864px;
+				}
+			img._dpa_card_image_landscape_overlay_01{
+				display: block;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape_overlay_01{
+					display: none;
+				}
+			img._dpa_card_image_landscape_overlay_02{
+				display: none;
+			}
+				article._dpa_card_images:hover img._dpa_card_image_landscape_overlay_02{
+					display: block;
+				}
+		
+			img._dpa_card_image_portrait,
+			img._dpa_card_image_portrait_overlay_02{
+				display: none;
+			}
+}

@@ -1,0 +1,113 @@
+/*
+*	COPYRIGHT NOTICE:
+*		this file and all of its attached files are property of the
+*		Division of Performing Arts
+*		North Dakota State University
+*		unless otherwise stated  
+*/
+
+/*		icon styles */
+div._icon{
+	position: static;
+	display: block;
+	
+	float: left;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: rgba(0,0,0,0);
+	background-position: center center;
+	background-size: 100% 100%;
+	width: 48px;
+	height: 48px;
+}
+
+
+
+/*		180px media query */
+@media all
+	and (min-width: 180px) 
+	and (max-width: 319px){
+		
+}
+
+
+
+/*		320px media query */
+@media all
+	and (min-width: 320px) 
+	and (max-width: 359px){
+		
+}
+
+
+
+/*		360px media query */
+@media all
+	and (min-width: 360px) 
+	and (max-width: 539px){
+		
+}
+
+
+
+/*		540px media query */
+@media all
+	and (min-width: 540px) 
+	and (max-width: 719px){
+		
+}
+
+
+
+/*		720px media query */
+@media all
+	and (min-width: 720px) 
+	and (max-width: 959px){
+		
+}
+
+
+
+/*		960px media query */
+@media all
+	and (min-width: 960px) 
+	and (max-width: 1079px){
+		
+}
+
+
+
+/*		1080px media query */
+@media all
+	and (min-width: 1080px) 
+	and (max-width: 1279px){
+	
+}
+
+
+
+/*		1280px media query */
+@media all
+	and (min-width: 1280px) 
+	and (max-width: 1439px){
+	
+}
+
+
+
+/*		1440px media query */
+@media all
+	and (min-width: 1440px) 
+	and (max-width: 2559px){
+	
+}
+
+
+
+/*		2560px media query */
+@media all
+	and (min-width: 2560px){
+	
+}

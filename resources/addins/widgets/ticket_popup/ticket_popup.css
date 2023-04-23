@@ -1,0 +1,211 @@
+/*
+*	COPYRIGHT NOTICE:
+*		this file and all of its attached files are property of the
+*		Division of Performing Arts
+*		North Dakota State University
+*		unless otherwise stated  
+*/
+
+/*		body styles */
+#ticket_popup{
+	position: fixed;
+	display: block;
+	
+	bottom: 0;
+	left: 0;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: rgba(0,0,0,0);
+	width: 100%;
+	height: 48px;
+	z-index:11000;
+}
+
+#ticket_stub{
+	position: absolute;
+	display: block;
+	
+	bottom: 0;
+	right: 0;
+	
+	margin: 0px 32px 0px 0px;
+	padding: 0px;
+	
+	background: rgba(0,0,0,0);
+	width: 196px;
+	/*height: 256px;*/
+	height: 48px;
+	
+	overflow: hidden;
+}
+	#ticket_stub_image{
+		position: absolute;
+		display: block;
+		
+		margin: 0;
+		padding: 0;
+	}
+
+#ticket_buttons{
+	position: absolute;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: rgba(0,0,0,0);
+	width: 196px;
+	height: 48px;
+}
+
+#ticket_button{
+	position: absolute;
+	display: block;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: rgba(0,0,0,0);
+	width: 196px;
+	height: 48px;
+}
+
+	#ticket_button p{
+		margin: 0px;
+		padding: 22px 0px 0px 8px;
+			
+		color: rgba(0,70,50,1);
+		font-size: 16px;
+		line-height: 20px;
+		font-weight: normal;
+		text-decoration: none;
+		text-align: left;
+	}
+
+	#ticket_open_icon{
+			position: absolute;
+			display: block;
+
+			top: 0px;
+			right: 0px;
+		
+			margin: 16px 6px 0px 0px;
+			padding: 0px;
+		
+			width: 32px;
+			height: 32px;
+		
+			cursor: pointer;
+			cursor: hand;
+		
+			/* transform: rotate(45deg); */
+			transform: rotate(0deg);
+		}
+
+#ticket_showare{
+	position: absolute;
+	display: block;
+	
+	margin: 48px 0px 0px 0px;
+	padding: 0px;
+	
+	background: rgba(255,200,0,1);
+	width: 196px;
+	height: 208px;
+}
+	#ticket_showare_image{
+		position: absolute;
+		display: block;
+		
+		margin: 8px 0px 0px 8px;
+		padding: 0;
+	}
+
+/*		180px media query */
+@media all
+	and (min-width: 180px) 
+	and (max-width: 319px){
+		
+}
+
+
+
+/*		320px media query */
+@media all
+	and (min-width: 320px) 
+	and (max-width: 359px){
+		
+}
+
+
+
+/*		360px media query */
+@media all
+	and (min-width: 360px) 
+	and (max-width: 539px){
+		
+}
+
+
+
+/*		540px media query */
+@media all
+	and (min-width: 540px) 
+	and (max-width: 719px){
+		
+}
+
+
+
+/*		720px media query */
+@media all
+	and (min-width: 720px) 
+	and (max-width: 959px){
+		
+}
+
+
+
+/*		960px media query */
+@media all
+	and (min-width: 960px) 
+	and (max-width: 1079px){
+		
+}
+
+
+
+/*		1080px media query */
+@media all
+	and (min-width: 1080px) 
+	and (max-width: 1279px){
+	
+}
+
+
+
+/*		1280px media query */
+@media all
+	and (min-width: 1280px) 
+	and (max-width: 1439px){
+	
+}
+
+
+
+/*		1440px media query */
+@media all
+	and (min-width: 1440px) 
+	and (max-width: 2559px){
+	
+}
+
+
+
+/*		2560px media query */
+@media all
+	and (min-width: 2560px){
+	
+}

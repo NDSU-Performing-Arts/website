@@ -1,0 +1,2432 @@
+/*
+*	COPYRIGHT NOTICE:
+*		this file and all of its attached files are property of the
+*		Division of Performing Arts
+*		North Dakota State University
+*		unless otherwise stated 
+*/
+
+
+
+
+section#_rotating_header_white_background{
+	position: static;
+	display: block;
+	
+	z-index: 8;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: rgba(255,255,255,1);
+	width: 100%;
+	height: auto;
+}
+
+section#_rotating_header_green_background{
+	position: static;
+	display: block;
+	
+	z-index: 8;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: inherit;
+	width: 100%;
+	height: auto;
+}
+
+section#_rotating_header{
+	position: static;
+	display: block;
+	
+	z-index: 9;
+	
+	margin: 0px auto;
+	padding: 0px;
+	
+	background: inherit;
+	width: 1080px;
+	height: 380px;
+}
+
+section#_rh_01, 
+section#_rh_02, 
+section#_rh_03, 
+section#_rh_04, 
+section#_rh_05{
+	position: static;
+	display: block;
+	
+	float: left;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	width: inherit;
+	height: inherit;
+	
+	overflow: hidden;
+}
+	/* 	------------------------------------------------
+	rh_01_180
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_01_180{
+		0%, 18%{
+			width: 180px;
+		}
+
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 180px;
+		}
+	}
+
+	@-webkit-keyframes rh_01_180{
+		0%, 18%{
+			width: 180px;
+		}
+		
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 180px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_02_180
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_02_180{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 180px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_02_180{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 180px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_03_180
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_03_180{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 180px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_03_180{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 180px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_04_180
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_04_180{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 180px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_04_180{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 180px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_05_180
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_05_180{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 180px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_05_180{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 180px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+
+
+	/* 	------------------------------------------------
+	rh_01_320
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_01_320{
+		0%, 18%{
+			width: 320px;
+		}
+
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 320px;
+		}
+	}
+
+	@-webkit-keyframes rh_01_320{
+		0%, 18%{
+			width: 320px;
+		}
+		
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 320px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_02_320
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_02_320{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 320px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_02_320{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 320px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_03_320
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_03_320{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 320px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_03_320{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 320px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_04_320
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_04_320{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 320px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_04_320{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 320px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_05_320
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_05_320{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 320px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_05_320{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 320px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}	
+
+
+
+	/* 	------------------------------------------------
+	rh_01_360
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_01_360{
+		0%, 18%{
+			width: 360px;
+		}
+
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 360px;
+		}
+	}
+
+	@-webkit-keyframes rh_01_360{
+		0%, 18%{
+			width: 360px;
+		}
+		
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 360px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_02_360
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_02_360{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 360px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_02_360{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 360px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_03_360
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_03_360{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 360px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_03_360{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 360px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_04_360
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_04_360{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 360px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_04_360{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 360px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_05_360
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_05_360{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 360px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_05_360{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 360px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}	
+
+
+
+	/* 	------------------------------------------------
+	rh_01_540
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_01_540{
+		0%, 18%{
+			width: 540px;
+		}
+
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 540px;
+		}
+	}
+
+	@-webkit-keyframes rh_01_540{
+		0%, 18%{
+			width: 540px;
+		}
+		
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 540px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_02_540
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_02_540{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 540px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_02_540{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 540px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_03_540
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_03_540{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 540px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_03_540{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 540px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_04_540
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_04_540{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 540px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_04_540{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 540px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_05_540
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_05_540{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 540px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_05_540{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 540px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}	
+
+
+
+	/* 	------------------------------------------------
+	rh_01_720
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_01_720{
+		0%, 18%{
+			width: 720px;
+		}
+
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 720px;
+		}
+	}
+
+	@-webkit-keyframes rh_01_720{
+		0%, 18%{
+			width: 720px;
+		}
+		
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 720px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_02_720
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_02_720{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 720px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_02_720{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 720px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_03_720
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_03_720{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 720px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_03_720{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 720px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_04_720
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_04_720{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 720px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_04_720{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 720px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_05_720
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_05_720{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 720px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_05_720{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 720px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+
+
+	/* 	------------------------------------------------
+	rh_01_960
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_01_960{
+		0%, 18%{
+			width: 960px;
+		}
+
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 960px;
+		}
+	}
+
+	@-webkit-keyframes rh_01_960{
+		0%, 18%{
+			width: 960px;
+		}
+		
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 960px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_02_960
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_02_960{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 960px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_02_960{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 960px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_03_960
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_03_960{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 960px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_03_960{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 960px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_04_960 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_04_960{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 960px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_04_960{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 960px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_05_960 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_05_960{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 960px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_05_960{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 960px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+
+
+	/* 	------------------------------------------------
+	rh_01_1080 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_01_1080{
+		0%, 18%{
+			width: 1080px;
+		}
+
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 1080px;
+		}
+	}
+
+	@-webkit-keyframes rh_01_1080{
+		0%, 18%{
+			width: 1080px;
+		}
+		
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 1080px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_02_1080 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_02_1080{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 1080px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_02_1080{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 1080px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_03_1080 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_03_1080{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 1080px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_03_1080{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 1080px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_04_1080 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_04_1080{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 1080px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_04_1080{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 1080px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_05_1080 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_05_1080{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 1080px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_05_1080{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 1080px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+	
+
+	/* 	------------------------------------------------
+	rh_01_1280 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_01_1280{
+		0%, 18%{
+			width: 1280px;
+		}
+
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 1280px;
+		}
+	}
+
+	@-webkit-keyframes rh_01_1280{
+		0%, 18%{
+			width: 1280px;
+		}
+		
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 1280px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_02_1280 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_02_1280{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 1280px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_02_1280{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 1280px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_03_1280 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_03_1280{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 1280px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_03_1280{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 1280px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_04_1280 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_04_1280{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 1280px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_04_1280{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 1280px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_05_1280 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_05_1280{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 1280px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_05_1280{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 1280px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+
+
+	/* 	------------------------------------------------
+	rh_01_1440 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_01_1440{
+		0%, 18%{
+			width: 1440px;
+		}
+
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 1440px;
+		}
+	}
+
+	@-webkit-keyframes rh_01_1440{
+		0%, 18%{
+			width: 1440px;
+		}
+		
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 1440px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_02_1440 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_02_1440{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 1440px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_02_1440{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 1440px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_03_1440 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_03_1440{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 1440px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_03_1440{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 1440px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_04_1440 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_04_1440{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 1440px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_04_1440{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 1440px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_05_1280 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_05_1440{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 1440px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_05_1440{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 1440px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+
+
+	/* 	------------------------------------------------
+	rh_01_2560 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_01_2560{
+		0%, 18%{
+			width: 2560px;
+		}
+
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 2560px;
+		}
+	}
+
+	@-webkit-keyframes rh_01_2560{
+		0%, 18%{
+			width: 2560px;
+		}
+		
+		20%, 98%{ 
+			width: 0px;
+		}
+		
+		100%{ 
+			width: 2560px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_02_2560 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_02_2560{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 2560px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_02_2560{
+		0%, 18%{
+			width: 0px;
+		}
+
+		20%, 38%{
+			width: 2560px;
+		}
+
+		40%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_03_2560 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_03_2560{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 2560px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_03_2560{
+		0%, 38%{
+			width: 0px;
+		}
+
+		40%, 58%{
+			width: 2560px;
+		}
+
+		60%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_04_2560 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_04_2560{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 2560px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_04_2560{
+		0%, 58%{
+			width: 0px;
+		}
+
+		60%, 78%{
+			width: 2560px;
+		}
+
+		80%, 100%{
+			width: 0px;
+		}
+	}
+
+	/* 	------------------------------------------------
+	rh_05_2560 
+	animation keyframes
+	------------------------------------------------ */
+	@keyframes rh_05_2560{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 2560px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+	@-webkit-keyframes rh_05_2560{
+		0%, 78%{
+			width: 0px;
+		}
+		
+		80%, 98%{
+			width: 2560px;
+		}
+		
+		100%{
+			width: 0px;
+		}
+	}
+
+
+
+
+
+
+
+img._rh_image{
+	position: static;
+	display: block;
+	
+	z-index: 11;
+	
+	margin: 0px auto;
+	padding: 0px;
+	
+	width: 1080px;
+	height: 380px;
+}
+
+/* 	------------------------------------------------
+	media queries
+
+	INFORMATION:
+		media queries are conditions set by the developer(s), 
+		if the conditions are true, the styles found below the media query will be set.  
+	------------------------------------------------ */
+@media screen, print
+	and (min-width: 180px) 
+	and (max-width: 319px){
+	
+	section#_rotating_header{
+		width: 180px;
+		height: 63px;
+	}
+
+	section#_rh_01{
+		animation: 
+			rh_01_180 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_02{
+		animation: 
+			rh_02_180 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_03{
+		animation: 
+			rh_03_180
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_04{
+		animation: 
+			rh_04_180 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_05{
+		animation: 
+			rh_05_180
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+
+	img._rh_image{
+		width: 180px;
+		height: 63px;
+	}
+}
+
+
+
+@media only screen
+	and (min-width: 320px) 
+	and (max-width: 359px){
+	
+	section#_rotating_header{
+		width: 320px;
+		height: 113px;
+	}
+
+	section#_rh_01{
+		animation: 
+			rh_01_320 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_02{
+		animation: 
+			rh_02_320 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_03{
+		animation: 
+			rh_03_320
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_04{
+		animation: 
+			rh_04_320 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_05{
+		animation: 
+			rh_05_320
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+
+	img._rh_image{
+		width: 320px;
+		height: 113px;
+	}
+}
+
+
+
+@media only screen
+	and (min-width: 360px) 
+	and (max-width: 539px){
+	
+	section#_rotating_header{
+		width: 360px;
+		height: 127px;
+	}
+
+	section#_rh_01{
+		animation: 
+			rh_01_360 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_02{
+		animation: 
+			rh_02_360 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_03{
+		animation: 
+			rh_03_360
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_04{
+		animation: 
+			rh_04_360 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_05{
+		animation: 
+			rh_05_360
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+
+	img._rh_image{
+		width: 360px;
+		height: 127px;
+	}
+}
+
+
+
+@media only screen
+	and (min-width: 540px) 
+	and (max-width: 719px){
+	
+	section#_rotating_header{
+		width: 540px;
+		height: 190px;
+	}
+
+	section#_rh_01{
+		animation: 
+			rh_01_540 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_02{
+		animation: 
+			rh_02_540 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_03{
+		animation: 
+			rh_03_540
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_04{
+		animation: 
+			rh_04_540 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_05{
+		animation: 
+			rh_05_540
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+
+	img._rh_image{
+		width: 540px;
+		height: 190px;
+	}
+}
+
+
+
+@media only screen
+	and (min-width: 720px) 
+	and (max-width: 959px){
+	
+	section#_rotating_header{
+		width: 720px;
+		height: 254px;
+	}
+
+	section#_rh_01{
+		animation: 
+			rh_01_720 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_02{
+		animation: 
+			rh_02_720 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_03{
+		animation: 
+			rh_03_720
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_04{
+		animation: 
+			rh_04_720 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_05{
+		animation: 
+			rh_05_720
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+
+	img._rh_image{
+		width: 720px;
+		height: 254px;
+	}
+}
+
+
+
+@media only screen
+	and (min-width: 960px) 
+	and (max-width: 1079px){
+	
+	section#_rotating_header{
+		width: 960px;
+		height: 338px;
+	}
+
+	section#_rh_01{
+		animation: 
+			rh_01_960 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_02{
+		animation: 
+			rh_02_960 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_03{
+		animation: 
+			rh_03_960 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_04{
+		animation: 
+			rh_04_960 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_05{
+		animation: 
+			rh_05_960
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+
+	img._rh_image{
+		width: 960px;
+		height: 338px;
+	}
+}
+
+
+
+@media only screen
+	and (min-width: 1080px) 
+	and (max-width: 1279px){
+
+	section#_rotating_header{
+		width: 1080px;
+		height: 380px;
+	}
+
+	section#_rh_01{
+		animation: 
+			rh_01_1080 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_02{
+		animation: 
+			rh_02_1080 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_03{
+		animation: 
+			rh_03_1080 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_04{
+		animation: 
+			rh_04_1080 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_05{
+		animation: 
+			rh_05_1080 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+
+	img._rh_image{
+		width: 1080px;
+		height: 380px;
+	}
+		
+}
+
+
+
+@media only screen
+	and (min-width: 1280px) 
+	and (max-width: 1439px){
+	
+	section#_rotating_header{
+		width: 1280px;
+		height: 451px;
+	}
+
+	section#_rh_01{
+		animation: 
+			rh_01_1280 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_02{
+		animation: 
+			rh_02_1280 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_03{
+		animation: 
+			rh_03_1280 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_04{
+		animation: 
+			rh_04_1280 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_05{
+		animation: 
+			rh_05_1280 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+
+	img._rh_image{
+		width: 1280px;
+		height: 451px;
+	}
+}
+
+
+
+@media only screen
+	and (min-width: 1440px) 
+	and (max-width: 2559px){
+	
+	section#_rotating_header{
+		width: 1440px;
+		height: 507px;
+	}
+
+	section#_rh_01{
+		animation: 
+			rh_01_1440 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_02{
+		animation: 
+			rh_02_1440 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_03{
+		animation: 
+			rh_03_1440 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_04{
+		animation: 
+			rh_04_1440 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_05{
+		animation: 
+			rh_05_1440 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+
+	img._rh_image{
+		width: 1440px;
+		height: 507px;
+	}
+}
+
+
+
+@media only screen
+	and (min-width: 2560px){
+	
+	section#_rotating_header{
+		width: 2560px;
+		height: 901px;
+	}
+
+	section#_rh_01{
+		animation: 
+			rh_01_2560 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_02{
+		animation: 
+			rh_02_2560 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_03{
+		animation: 
+			rh_03_2560 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_04{
+		animation: 
+			rh_04_2560 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+		
+	section#_rh_05{
+		animation: 
+			rh_05_2560 
+			25s 
+			linear 
+			0s 
+			infinite 
+			forwards 
+			running;
+	}
+
+	img._rh_image{
+		width: 2560px;
+		height: 901px;
+	}
+}

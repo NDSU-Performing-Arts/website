@@ -1,0 +1,1 @@
+<?php header( 'Location: https://ndsu.edu/performingarts/theatre/shows/2021-22/' );?>

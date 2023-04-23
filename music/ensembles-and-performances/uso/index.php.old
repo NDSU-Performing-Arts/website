@@ -1,0 +1,59 @@
+<?php 
+//Edit the following:
+$config['page-title'] = "USO | Challey School of Music";
+$config['page-description'] = "";
+$config['page-realm'] = "CSOM"; //Choose DPA, DTA, CSOM
+
+//Leave the following alone because it's magic:
+$config['page'] = $_SERVER['REQUEST_URI'];
+$config['path'] = $_SERVER['DOCUMENT_ROOT']."/";
+include($config['path'].'resources/header.php');
+?>
+
+<section id=""><div class="container"><!-- InstanceBeginEditable name="body" -->
+
+<!--	body content -->
+<section>
+	<header>
+		<h1>University Symphony Orchestra</h1>
+	</header>
+	
+	<article>
+		<p>Auditions for the University Symphony Orchestra will be on Thursday, August 29 (all strings) and  Tuesday, September 3 (woodwinds and brass) from 6:00 to 8:00 p.m. in Beckwith Recital Hall.  Students may sign up for a time by clicking on the respective link below:</p>
+
+		<p>All Strings:<a href="http://bit.ly/USOFall19Strings">http://bit.ly/USOFall19Strings</a></p>
+
+		<p>Woodwinds and Brass: <a href="http://bit.ly/USOFall19WWBrass">http://bit.ly/USOFall19WWBrass</a></p>
+
+
+		<p>Please bring a 2-minute prepared work that shows lyrical and technical examples of your playing.  In addition, please be prepared to perform selected orchestral excerpts on your respective instrument.</p>
+		
+		<p>The first rehearsal of the University Symphony Orchestra (full orchestra) will be on Thursday, September 5 at 7:00 p.m. in Music Education Room 118.</p>
+		
+	
+		<ul>
+			<li><a href="https://drive.google.com/file/d/14oRnTGxTpZxBVpjDj6YqqC_Kx8zpZepY/view">Flute Audition</a></li>
+			
+			<li><a href="https://drive.google.com/file/d/14ub2fopup0hMyL74juhXa9uCQqW0klI8/view">Oboe Audition</a></li>
+			
+			<li><a href="https://drive.google.com/file/d/16FqHqchMW1jTnzEMYYEB1a5Cl68IhW8l/view">Clarinet Audition</a></li>
+			
+			<li><a href="https://drive.google.com/file/d/155PRd0c9tKuYe3hPLnp7n2zl8Q4NGsD7/view">Bassoon Audition</a></li>
+			
+			<li><a href="https://drive.google.com/file/d/15PcJP3lIsedzTwqCgcTpa8tEpGJqTn6y/view">Trumpet Audition</a></li>
+			
+			<li><a href="https://drive.google.com/file/d/15GAWqomDa-P6S6OYwqDNnfzMzB5eXVne/view">Horn Audition</a></li>
+			
+			<li><a href="https://drive.google.com/file/d/15J_4Ozku_JsDWte2UmFKU95GMFVUMKZR/view">Trombone Audition</a></li>
+			
+			<li><a href="https://drive.google.com/file/d/15L7Z20n8qMQEM0lOYJjH1L147osBQsFn/view">Tuba Audition</a></li>
+			<li><a href="http://bit.ly/USOStringAuditionFall18">Strings Audition</a></li>
+			
+	
+		</ul>
+		
+		<p>If you have questions, please contact Dr. Warren Olfert at 701-231-7266 or at <a href="mailto:warren.olfert@ndsu.edu">warren.olfert@ndsu.edu</a>.</p>
+		</article>
+		</section>
+<!-- InstanceEndEditable --></div></section>
+<?php include($config['path'].'resources/footer.php')?>
