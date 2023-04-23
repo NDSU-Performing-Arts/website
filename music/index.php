@@ -14,7 +14,7 @@ include($config['path'].'resources/header.php');
 <section id=""><div class="container-fluid"><!-- InstanceBeginEditable name="body" -->
 <div class="row">
 <!-- 	rotating headers -->
-  <div id="pa-carousel" class="carousel slide" data-ride="carousel">
+  <div id="pa-carousel" class="carousel slide" data-bs-ride="carousel">
     <!-- Indicators 
     <ol class="carousel-indicators">
       <li data-target="#pa-carousel" data-slide-to="0" class="active"></li>
@@ -27,14 +27,7 @@ include($config['path'].'resources/header.php');
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
 	<?php //Kyle, don't forget to make sure that "carousel-item ACTIVE" is set somewhere. ?>
-	  
-	 <!-- <div class="carousel-item active">
-        <a href="/music/ensembles-and-performances/choirs/mozart-vespers-and-part-berliner-messe.php" title="Choral Concert">
-          <img alt="Choral Concert" src="/music/ensembles-and-performances/choirs/AJ.PNG"- style="width:100%;">
-        </a>
-        <div class="carousel-caption">
-		</div>
-      </div>-->
+
 
 	  <div class="carousel-item active">
         <a href="/music/choral-anthology/" title="Choral Anthology">
@@ -43,7 +36,23 @@ include($config['path'].'resources/header.php');
         <div class="carousel-caption">
 		</div>
       </div>
-
+      
+	  <div class="carousel-item">
+        <a href="/performingarts/calendar/" title="Upcoming Events">
+          <img alt="Upcoming Events" src="images/Web Banner Performance Calendar.png"- style="width:100%;">
+        </a>
+        <div class="carousel-caption">
+		</div>
+      </div>
+	  
+	 <div class="carousel-item">
+        <a href="/music/fissinger" title="Fissinger Prize Winners">
+          <img alt="Fissinger Prize Winners" src="competitions/fissinger/images/2022FissingerBanner.jpg"- style="width:100%;">
+        </a>
+        <div class="carousel-caption">
+		</div>
+      </div>
+<!--
 	  <div class="carousel-item">
         <a href="/performingarts/music/prospective-students/scholarships/" title="Scholarship Opportunities">
           <img alt="Scholarship Opportunities" src="images/DVFA E451 Web Banners SCHOLAR.jpg"- style="width:100%;">
@@ -51,7 +60,7 @@ include($config['path'].'resources/header.php');
         <div class="carousel-caption">
 		</div>
       </div>
- 
+--> 
       <!-- 2 -->
 	 <div class="carousel-item">
         <a href="stream/" title="Livestreaming">
@@ -64,11 +73,11 @@ include($config['path'].'resources/header.php');
     </div>
 
     <!-- Controls -->
-    <a class="carousel-control-prev" href="#pa-carousel" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#pa-carousel" role="button" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#pa-carousel" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#pa-carousel" role="button" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -82,25 +91,26 @@ include($config['path'].'resources/header.php');
 <div class="col-lg-9 col-md-12">
 	<section>
 		<header><h1>Challey School of Music</h1></header>
-			<blockquote class="blockquote" style="border-left:7px solid #050;padding-left:15px;">The Challey School of Music offers bachelor's, master's, and doctoral degrees—to prepare the next generation of music professionals.  <div class="blockquote-footer">Learn More: <a href="about/mission/">Mission and Goals</a></div></blockquote>
-			
-			<!--<div class="alert alert-warning">
-			<h1>Upcoming Special Performances</h1>
-			<a href="/music/ensembles-and-performances/choirs/mozart-vespers-and-part-berliner-messe.php" class="btn btn-ndsu-green mb-2">Mozart Vespers and Pärt Berliner Messe</a><br />
-			<a href="/music/pilafian/" class="btn btn-ndsu-green mb-2">Pilafian Composition Competition Recital</a>
-			</div>-->
+			<figure style="border-left:7px solid #050;padding-left:15px;">
+			<blockquote class="blockquote">The Challey School of Music offers bachelor's, master's, and doctoral degrees—to prepare the next generation of music professionals.</blockquote>
+			<figcaption class="blockquote-footer">Learn More: <a href="about/mission/">Mission and Goals</a></figcaption></figure>
+			<br />
+			<div class="alert alert-warning">
+			<h1>Upcoming Performances and Festivals</h1>
+			<a href="/music/festivals-and-clinics/raging-red/" class="btn btn-ndsu-green mb-2">Raging Red Band Festival</a>&nbsp;
+			</div>
 				
 			<!-- BEGIN CONTENT CARD EMBED CODE--> <div></div><script id="embed-a1f6df60-7b02-4224-ac10-3c52ea6af565" type="text/javascript" src="//ndsudpa.shopwindow.io/pipeline/serve_pipeline_embed/?embeddable=a1f6df60-7b02-4224-ac10-3c52ea6af565"></script> <!-- END CONTENT CARD EMBED CODE -->
 			<br />
 				
 			<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4 d-grid">
 				<a href="https://www.ndsu.edu/performingarts/music/prospective-students/scholarships/" class="btn btn-warning btn-lg btn-block"><h3><i class="fas fa-graduation-cap"></i><br />Scholarships<br /></h3></a>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 d-grid">
 				<a href="https://www.ndsu.edu/performingarts/music/ensembles-and-performances/" class="btn btn-warning btn-lg btn-block"><h3><i class="fas fa-users"></i><br />Ensembles</h3></a>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 d-grid">
 				<a href="https://www.ndsu.edu/admission/apply" class="btn btn-warning btn-lg btn-block">
 				<h3><i class="fas fa-file-signature"></i><br />Apply</h3></a>
 				</div>
@@ -278,13 +288,14 @@ include($config['path'].'resources/header.php');
 		<div class="card-body">
 			<!--<a href="https://www.ndsu.edu/performingarts/music/day/">Attention High School Juniors and Seniors! Join us for Music Day!</a>
 			<ul>
-				<li>Thursday, October 21</li>
-				<li>Friday, October 22</li>
+				<li>Thursday, October 20</li>
+				<li>Friday, October 21</li>
 			</ul>-->
 		<!--<h4><a href="undergraduate-students/">Undergraduate Programs</a></h4>-->
-		    <a href="prospective-students/scholarships/">Scholarship Information</a>
+		    <!--<strong><a href="/music/competition/">HS Solo Competition</a></strong><br />-->
+			<a href="prospective-students/scholarships/">Scholarship Information</a>
 		    <ul>
-				<li>2022 Scholarship Dates: <strong><strike>January 28, 2022</strike></strong> and <strong><strike>February 7, 2022</strike></strong></li>
+				<li>2022 Scholarship Dates: <strong><?php echo $md['scholarships'][1]; ?></strong> and <strong><?php echo $md['scholarships'][2]; ?></strong></li>
 				<li><a href="https://docs.google.com/forms/d/e/1FAIpQLScTN4d3LxL1QyCwfiuU-bb0tRMGsvlaTYDiyGIsX7hFQRAvzw/viewform">NDSU Music Scholarship Application for First Year Students</a></li>
 				<li>Scholarship auditions may also take place by appointment.</li>
 				<li>Want us to contact you? Please complete this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdcmKFQSNFVWxTLTKl9HAUtk_zZGK-FBllKSjmUuzfI4Hm7Q/viewform?usp=sf_link">online student contact form</a>.				</li>

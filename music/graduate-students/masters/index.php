@@ -20,7 +20,7 @@ include($config['path'].'resources/header.php');
 	<article>
 		<p>The M.M. in performance and M.M. in conducting are professional degrees in music designed for those who want to augment and refine those skills. The M.M. in Music Education is designed for professional music teachers in public and private schools who wish to update and increase their musical and pedagogical knowledge.</p>
 		
-		<p>Applications may be completed online at the <a href="http://www.ndsu.edu/gradschool/">NDSU Graduate School</a>. A complete application will include three recommendations, transcripts and a scholarly writing example. Applicants should notify the graduate music coordinator, <a href="mailto:jo.miller@ndsu.edu">Dr. Jo Ann Miller</a>, of their intention to apply. For applicants in performance and conducting, an on-campus visit and audition are required. Following acceptance into the master's program, applicants will complete a diagnostic exam, which will be used by their advisors to plan appropriate coursework. As a result of this diagnostic exam, students may be required to take the 702 Music Theory and/or 704 Music History survey courses.</p>
+		<p>Applications may be completed online at the <a href="http://www.ndsu.edu/gradschool/">NDSU Graduate School</a>. A complete application will include three recommendations, transcripts and a scholarly writing example. Applicants should notify the graduate music coordinators, <a href="mailto:jo.miller@ndsu.edu">Dr. Jo Ann Miller</a> or <a href="mailto:charlette.moe@ndsu.edu">Dr. Charlette Moe</a>, of their intention to apply. For applicants in performance and conducting, an on-campus visit and audition are required. Following acceptance into the master's program, applicants will complete a diagnostic exam, which will be used by their advisors to plan appropriate coursework. As a result of this diagnostic exam, students may be required to take the 702 Music Theory and/or 704 Music History survey courses.</p>
 		
 		<p>All coursework must be passed with a minimum grade of B. Comprehensive written examinations in the student's primary area and in music academic studies must be passed near the end of or after coursework. The final oral examination (administered by the student's committee) occurs after the written comprehensive exam.</p>
 		
@@ -78,9 +78,9 @@ include($config['path'].'resources/header.php');
             <td>Theory</td>
             <td>One course to be taken from:<br />
             MUSC 611 Form and Analysis<br />
-            MUSC 630 Contemporary Harmonic Techniques<br />
-            MUSC 631 Counterpoint<br />
-            MUSC 734 Analytical Techniques</td>
+            MUSC 630 Counterpoint<br />
+            MUSC 631 Contemporary Harmonic Techniques<br />
+            MUSC 634 Analytical Techniques</td>
             <td class="text-right">3</td>
           </tr>
           <tr>
@@ -152,9 +152,9 @@ include($config['path'].'resources/header.php');
               <td>Theory</td>
               <td>One course to be taken from:<br />
               <p>MUSC 611 Form and Analysis<br />
-              MUSC 630 Contemporary Harmonic Techniques<br />
-              MUSC 631 Counterpoint<br />
-              MUSC 734 Analytical Techniques</td>
+              MUSC 630 Counterpoint<br />
+              MUSC 631 Contemporary Harmonic Techniques<br />
+              MUSC 634 Analytical Techniques</td>
               <td class="text-right">3</td>
             </tr>
             <tr>
@@ -221,9 +221,9 @@ include($config['path'].'resources/header.php');
               <td>Theory</td>
               <td>One course to be taken from:<br />
                 MUSC 611 Form and Analysis<br />
-                MUSC 630 Contemporary Harmonic Techniques<br />
-                MUSC 631 Counterpoint<br />
-				MUSC 734 Analytical Techniques</td>
+                MUSC 630 Counterpoint<br />
+                MUSC 631 Contemporary Harmonic Techniques<br />
+				MUSC 634 Analytical Techniques</td>
               <td class="text-right">3</td>
             </tr>
             <tr>
@@ -278,9 +278,9 @@ include($config['path'].'resources/header.php');
             <td>Theory</td>
             <td>One course to be taken from:<br />
                 MUSC 611 Form and Analysis<br />
-                MUSC 630 Contemporary Harmonic Techniques<br />
-                MUSC 631 Counterpoint<br />
-				MUSC 734 Analytical Techniques</td>
+                MUSC 630 Counterpoint<br />
+                MUSC 631 Contemporary Harmonic Techniques<br />
+				MUSC 634 Analytical Techniques</td>
             <td class="text-right">3</td>
           </tr>
           <tr>
@@ -337,9 +337,9 @@ include($config['path'].'resources/header.php');
             <td>Theory</td>
             <td>One course to be taken from:<br />
 				MUSC 611 Form and Analysis<br />
-                MUSC 630 Contemporary Harmonic Techniques<br />
-                MUSC 631 Counterpoint<br />
-            MUSC 734 Analytical Techniques</td>
+                MUSC 630 Counterpoint<br />
+                MUSC 631 Contemporary Harmonic Techniques<br />
+            MUSC 634 Analytical Techniques</td>
             <td class="text-right">3</td>
           </tr>
           <tr>
@@ -402,9 +402,9 @@ include($config['path'].'resources/header.php');
             <td>Theory</td>
             <td>One course to be taken from:<br />
 				MUSC 611 Form and Analysis<br />
-                MUSC 630 Contemporary Harmonic Techniques<br />
-                MUSC 631 Counterpoint<br />
-            MUSC 734 Analytical Techniques</td>
+                MUSC 630 Counterpoint<br />
+                MUSC 631 Contemporary Harmonic Techniques<br />
+            MUSC 634 Analytical Techniques</td>
             <td class="text-right">3</td>
           </tr>
           <tr>
@@ -553,7 +553,7 @@ include($config['path'].'resources/header.php');
             <td>Theory</td>
             <td>One course to be taken from:<br />
 				MUSC 611 Form and Analysis <br />
-                MUSC 734 Analytical Techniques
+                MUSC 634 Analytical Techniques
             </td>
             <td class="text-right">3</td>
           </tr>

@@ -1,0 +1,152 @@
+/* Check if content overflows the container */
+function overflowsContainer(querySelector) {
+    if (Math.ceil(querySelector[0].scrollWidth) > Math.ceil(querySelector.parent().width())) {
+        //querySelector.addClass('overflow-hyphens');
+        return true;
+    }
+}
+
+/* Force display of some kind of PDF indicator that is also accessible */
+//$('#content a[href$=".pdf"]').each( function() {
+$('#content a').each( function() {
+	// a hackish (temporary) way to not show pdfs in some cases. Ideally this will be based on some user-
+	// settable field rather than everything that's 'text with media' CEs.
+	if (!$(this).find('img').hasClass('image-embed-item')) {
+		if (/\.pdf$/.test($(this).attr('href'))) {
+			//$(this).prepend('<i class="fa fa-file-pdf-o" aria-hidden="true" style="color:darkred;"></i><span class="sr-only">PDF:</span>&nbsp;');
+			$(this).prepend('<img src="https://static.ndsu.edu/templates/images/meta/acrobat.png" alt="PDF download: " aria-role="text" style="padding-right:5px;padding-bottom:.5em;"/>');
+		}
+		if (/\.docx?$/.test($(this).attr('href'))) {
+			//$(this).prepend('<i class="fa fa-file-word-o" aria-hidden="true" style="color:navy;"></i><span class="sr-only">Microsoft Word document:</span>&nbsp;');
+			$(this).prepend('<img src="https://static.ndsu.edu/templates/images/meta/word.png" alt="Microsoft Word document download: " aria-role="text" style="padding-right:5px;padding-bottom:.5em;"/>');
+		}
+		if (/\.xlsx?$/.test($(this).attr('href'))) {
+			//$(this).prepend('<i class="fa fa-file-excel-o" aria-hidden="true" style="color:darkgreen;"></i><span class="sr-only">Microsoft Excel spreadsheet:</span>&nbsp;');
+			$(this).prepend('<img src="https://static.ndsu.edu/templates/images/meta/excel.png" alt="Microsoft Excel spreadsheet download: " aria-role="text" style="padding-right:5px;padding-bottom:.5em;"/>');
+		}
+		if (/\.pptx?$/.test($(this).attr('href'))) {
+			//$(this).prepend('<i class="fa fa-file-powerpoint-o" aria-hidden="true" style="color:darkorange;"></i><span class="sr-only">Microsoft Powerpoint presentation:</span>&nbsp;');
+			$(this).prepend('<img src="https://static.ndsu.edu/templates/images/meta/powerpoint.png" alt="Microsoft Powerpoint presentation download: " aria-role="text" style="padding-right:5px;padding-bottom:.5em;"/>');
+		}
+	}
+
+	if (overflowsContainer($(this))) {
+		$(this).addClass('overflow-hyphens');
+	}
+});
+
+/* EVENT REGISTRATION */
+/* Remove when merged into NDSU 2018 upstream template */
+function EventRegistrationEmbed(querySelector, opts){
+    this.querySelector = querySelector;
+    this.defaultGroupId = opts ? opts.groupId || 0 : 0;
+    this.defaultLimit = opts? opts.limit || null : null;
+    this.onFinish = opts ? opts.onFinish || null : null;
+
+    EventRegistrationEmbed.prototype.run.call(this, this.querySelector, this.defaultGroupId, this.defaultLimit, this.onFinish);
+}
+
+EventRegistrationEmbed.prototype.__getJsonList = function(groupId, callback) {
+    var request = new XMLHttpRequest();
+    request.open('GET', 'https://apps.ndsu.edu/event-registration/rest/groupevents/' + groupId, true);
+
+    request.onload = function() {
+        return (request.status >= 200 && request.status < 400) ? callback(JSON.parse(request.responseText)) : callback(null);
+    };
+
+    request.onerror = function() {
+        console.error('Error fetching list of events.');
+        return callback(null);
+    };
+
+    request.send();
+};
+EventRegistrationEmbed.prototype.__createTitleDOM = function(title, eventId){
+    var titleDiv = document.createElement('div');
+    titleDiv.setAttribute('class', 'event-name');
+
+    var titleAnchorEl = document.createElement('a');
+    titleAnchorEl.setAttribute('href', 'https://apps.ndsu.edu/event-registration/viewevent/Event::' + eventId || 0);
+    //titleAnchorEl.setAttribute('target', '_blank');
+    titleAnchorEl.textContent = title;
+
+    titleDiv.append(titleAnchorEl);
+    return titleDiv;
+};
+EventRegistrationEmbed.prototype.__createDateDOM = function(date){
+    var dateDiv = document.createElement('div');
+    dateDiv.setAttribute('class', 'event-date');
+    dateDiv.textContent = date;
+    return dateDiv;
+};
+EventRegistrationEmbed.prototype.__createTimeDOM = function(startTime, endTime){
+    var timeDiv = document.createElement('div');
+    timeDiv.setAttribute('class', 'event-date');
+    timeDiv.innerHTML = startTime + ' &ndash; ' + endTime;
+    return timeDiv;
+};
+EventRegistrationEmbed.prototype.__createEventDOM = function (eventData) {
+    var liEl = document.createElement('li');
+    liEl.setAttribute('class', 'event-item');
+
+    var titleDiv = EventRegistrationEmbed.prototype.__createTitleDOM.call(this, eventData.title, eventData.eventId);
+    var dateDiv = EventRegistrationEmbed.prototype.__createDateDOM.call(this, eventData.time.date);
+    var timeDiv = EventRegistrationEmbed.prototype.__createTimeDOM.call(this, eventData.time.startTime, eventData.time.endTime);
+
+    liEl.append(titleDiv);
+    liEl.append(dateDiv);
+    liEl.append(timeDiv);
+    return liEl;
+};
+EventRegistrationEmbed.prototype.__createListDOM = function (data) {
+    if (!data || !data.length) return;
+
+    var listUl = document.createElement('ul');
+    listUl.setAttribute('class', 'events-list');
+    Array.prototype.forEach.call(data, function (eventData){
+        var evElement = EventRegistrationEmbed.prototype.__createEventDOM.call(this, eventData);
+        evElement.dataset.eventId = eventData.eventId;
+        listUl.append(evElement);
+    });
+    return listUl;
+};
+EventRegistrationEmbed.prototype._getGroupIdFromDataset = function(dataset) {
+    if (!dataset) return null;
+    if (dataset.groupId > 0)  return dataset.groupId;
+    if (!dataset.groupUrl) return null;
+    var groupUrl = dataset.groupUrl;
+    var groupUrlRegex = RegExp("https:\/\/apps\.ndsu\.edu\/event-registration\/organizerevents\/SecurityGroup::([0-9]{1,}).*$", "gi");
+    var regexMatches = groupUrlRegex.exec(groupUrl);
+    return (regexMatches && regexMatches[1]) ? parseInt(regexMatches[1]) : null;
+};
+EventRegistrationEmbed.prototype.run = function(querySelector, defaultGroupId, defaultLimit, onFinish) {
+    var elements = document.querySelectorAll(querySelector);
+    Array.prototype.forEach.call(elements, function(element) {
+        var groupId = EventRegistrationEmbed.prototype._getGroupIdFromDataset.call(this, element.dataset) || defaultGroupId;
+        var limit = parseInt(element.dataset.limit) || defaultLimit;
+        if (!groupId) return;
+        EventRegistrationEmbed.prototype.__getJsonList.call(this, groupId, function (data) {
+            var filteredData = Array.prototype.slice.call(data, 0, limit || data.length);
+            var listElement = EventRegistrationEmbed.prototype.__createListDOM.call(this, filteredData);
+            if (!listElement) return;
+
+            //listElement.dataset.groupId = groupId;
+            //listElement.dataset.totalEvents = data.length;
+            //listElement.dataset.displayedEvents = filteredData.length;
+var moreLink = element.firstChild;
+if (data.length > filteredData.length) {
+	console.log('show link to all ' + groupId + ' group events');
+	moreLink.innerHTML = 'More <span class="sr-only"> group ' + groupId + ' </span>events';
+}
+else {
+	console.log('no link to all events?');
+	moreLink.classList.add('sr-only');
+}
+            element.prepend(listElement);
+            if (onFinish) onFinish(listElement);
+        });
+    });
+};
+/* Initialize event registration embeds */
+EventRegistrationEmbed('.dce-event-registration-embed');
+/* end EVENT REGISTRATION */

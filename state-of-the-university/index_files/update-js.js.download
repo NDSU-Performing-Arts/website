@@ -1,0 +1,340 @@
+$(document).ready( function() {
+	/* Some accessibility / usability cleanups */
+	$('a').each( function() {
+		// blanket no 'target' for now. Should become more intelligent later
+		// (like adding it for links within forms or adding warnings when
+		// the form has changed information and the visitor is about to
+		// navigate away)
+		$(this).removeAttr('target');
+
+		/* use localStorage to keep a listing of visited pages for this domain
+		 * to overcome limitations of :visited.
+		 * Inspired from http://joelcalifa.com/blog/revisiting-visited and
+		 * adds ignore behavior for in-page anchors.
+		 */
+		localStorage.setItem('visited-'+window.location.pathname,true);
+
+//console.log($(this).prop('pathname') + $(this).prop('hash'));
+	  	if ($(this).prop('hostname') == window.location.host
+			&& $(this).prop('hash') == ''
+		  	&& localStorage.getItem('visited-' + $(this).prop('pathname'))) {
+//console.log('visited-' + $(this).prop('pathname'));
+			$(this).attr('data-visited',true);
+		}
+		/* end A hack to change more than color for visited links */
+
+	});
+
+	/* De-UPPERCASE headings and add hyphens if necessary */
+	$("h1, h2, h3, h4, h5, h6").each( function() {
+		var headingText = $(this).text().trim();
+		// ignore headings not at least 5 characters (this is arbitrary)
+		if (headingText.length > 4) {
+			// if entire heading is uppercase, convert to title case
+			// could cause problems for headings that actually only contain acronyms
+			if (headingText == headingText.toUpperCase()) {
+				$(this).text( titleCase(headingText) ).addClass('heading-caps-title');
+			}
+		}
+
+		if (overflowsContainer($(this))) {
+			$(this).addClass('overflow-hyphens');
+		}
+	});
+	/* end De-UPPERCASE headings and add hyphens if necessary */
+
+	/* Remove user-pasted styles */
+	$('#content [style]').each( function() {
+		if (!$(this).hasClass('hero-banner') && !$(this).hasClass('threecol__item')) {
+			$(this).css('background','');
+		}
+		// images may be floated in the RTE
+		if (!$(this).is('img')) {
+			$(this).css('float','');
+		}
+		// images, table headings, and table cells may be spaced in the RTE
+		if ( !($(this).is('img') || $(this).is('th') || $(this).is('td')) ) {
+			$(this).css('margin','');
+			$(this).css('padding','');
+		}
+		$(this).css('border','');
+		$(this).css('bottom','');
+		$(this).css('box-sizing','');
+		$(this).css('color','');
+		$(this).css('cursor','');
+		//$(this).css('font','');
+		$(this).css('font-family','');
+		$(this).css('letter-spacing','');
+		$(this).css('line-height','');
+		$(this).css('font-size','');
+		$(this).css('font-stretch','');
+		$(this).css('font-style','');
+		$(this).css('font-variant','');
+		$(this).css('font-weight','');
+		$(this).css('left','');
+		$(this).css('margin','');
+		$(this).css('orphans','');
+		$(this).css('overflow-wrap','');
+		$(this).css('position','');
+		$(this).css('right','');
+		$(this).css('text-align','');
+		$(this).css('text-decoration','');
+		$(this).css('text-indent','');
+		$(this).css('text-transform','');
+		$(this).css('top','');
+		$(this).css('transform','');
+		$(this).css('transform-origin','');
+		$(this).css('vertical-align','');
+		$(this).css('white-space','');
+		$(this).css('word-spacing','');
+		$(this).css('-webkit-text-stroke-width','');
+	});
+	/* end Remove user-pasted styles */
+
+	// Title Case a Sentence FOR loop wc.js
+	// https://gist.github.com/SonyaMoisset/aa79f51d78b39639430661c03d9b1058
+	function titleCase(str) {
+		str = str.toLowerCase().split(' ');
+		for (var i = 0; i < str.length; i++) {
+			str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+		}
+		return str.join(' ');
+	}
+
+	/* Correct heading order */
+	var prevHeadLevel = 0;
+	var prevFixedHeadLevel = 0;
+	var levelAdjust = 0;
+	$("h1, h2, h3, h4, h5, h6").each( function() {
+		var curTag = $(this).prop('tagName');
+		var curHeadLevel = parseInt(curTag.replace(/\D/, '') );
+
+		var levelDifference = curHeadLevel - prevHeadLevel;
+		//console.log('current ' + curHeadLevel + ', previous ' + prevHeadLevel);
+		prevHeadLevel = curHeadLevel;
+
+		if (levelAdjust == 0 && (levelDifference == 0 || levelDifference == 1)) {
+			// nothing to do, looks good
+			return true;
+		}
+		if (levelDifference > 1) {
+			// need to go up the hierarchy to a higher heading relative to any existing adjustments
+			levelAdjust = levelAdjust + levelDifference - 1;
+		}
+		if (levelDifference < 0) {
+			// skipping levels back up the hierarchy is OK
+		}
+
+		if (levelAdjust == 0) {
+			// after other consdiderations made, there aren't any changes to apply
+			return true;
+		}
+
+		var fixedHeadLevel = curHeadLevel - levelAdjust;
+
+			var newTag = "H" + (fixedHeadLevel);
+			if (fixedHeadLevel < 1) {
+				// if fixing lands us in non-existent heading levels, fall back to a paragraph
+				newTag = "P";
+			}
+			else if (fixedHeadLevel < 3) {
+				// NDSU-specific override that disallows h1/h2 in body content
+				newTag = "H3";
+			}
+
+			console.log('H' + curHeadLevel + ' - ' + $(this).text() + ' - skipped Heading level');
+			$(this).replaceWith( $('<' + newTag + '>').addClass('heading-level-adjusted was-h' + curHeadLevel).append($(this).contents()) );
+
+	});
+	/* end Correct heading order */
+
+
+	/* PHONE NUMBERS */
+	/* Clean up formatting of phone numbers, add aria-label for accessible
+	 * reading, and make them into clickable links */
+	//var regex = /\+?1?[-.\s]?(\(([0-9]{3})\)|([0-9]{3}))?[-.\s]+([0-9]{3})[-.\s]?([0-9]{4})/g;
+	// chrome only
+	//var regex = /\+?1[-.\s]?\([0-9]{3}\)[-.\s]?[0-9]{3}[-.\s][0-9]{4}|(?<![0-9])(\([0-9]{3}\)|[0-9]{3})[-.\s\/]?[0-9]{3}[-.\s][0-9]{4}|(?<!-|\)|[0-9])[0-9]{3}[-.\s][0-9]{4}/g;
+	// Works OK in FF+Chrome
+	var regex = /\+?1[-.\s]?\([0-9]{3}\)[-.\s]?[0-9]{3}[-.\s][0-9]{4}|(\([0-9]{3}\)|[0-9]{3})[-. \/]?[0-9]{3}[-.\s][0-9]{4}|\b[0-9]{3}[-.\s][0-9]{4}|^[0-9]{3}[-.\s][0-9]{4}/gm;
+
+	var text = $("body:first").html();
+
+	var textNodes = $("body:first").find('*').contents().filter( function() {
+		if(this.nodeType == 3 && regex.test(this.nodeValue) && this.parentElement.tagName !== "A" && this.parentElement.tagName !== "SCRIPT" && this.parentElement.tagName !== "STYLE") {
+
+			var anchor = document.createElement('a');
+		
+			// this "phone number" text
+			var phone = this.nodeValue.match(regex)[0].trim();
+
+			// keep only the digits
+			var digits = phone.replace(/\D/g,'');
+		
+			var formattedPhone = '';
+			var ariaPhone = '';
+			var anchorPhone = '';
+		
+			var end = digits.length - 1;
+			var ndash = '\2013';
+		
+			// format the phone number again (consistently)
+			if (digits.length > 3) {
+				// last block
+				formattedPhone = digits.charAt(end-3) + digits.charAt(end-2) + digits.charAt(end-1) + digits.charAt(end);
+		  		ariaPhone = digits.charAt(end-3) + ' ' + digits.charAt(end-2) + ' ' + digits.charAt(end-1) + ' ' + digits.charAt(end);
+		  		anchorPhone = digits.charAt(end-3) + digits.charAt(end-2) + digits.charAt(end-1) + digits.charAt(end);
+		  
+		  		if (digits.length > 6) {
+					// first block
+			  		formattedPhone = digits.charAt(end-6) + digits.charAt(end-5) + digits.charAt(end-4) + '-' + formattedPhone;
+					ariaPhone = digits.charAt(end-6) + ' ' + digits.charAt(end-5) + ' ' + digits.charAt(end-4) + '. ' + ariaPhone;
+					anchorPhone = digits.charAt(end-6) + digits.charAt(end-5) + digits.charAt(end-4) + anchorPhone;
+			
+					if (digits.length > 9) {
+			  			// area code
+						formattedPhone = '(' + digits.charAt(end-9) + digits.charAt(end-8) + digits.charAt(end-7) + ') ' + formattedPhone;
+			  			ariaPhone = digits.charAt(end-9) + ' ' + digits.charAt(end-8) + ' ' + digits.charAt(end-7) + '. ' + ariaPhone;
+			  			anchorPhone = digits.charAt(end-9) + digits.charAt(end-8) + digits.charAt(end-7)  + anchorPhone;
+			  
+			  			if (digits.length > 10) {
+			  				// country code
+			  				formattedPhone = '+' + digits.charAt(end-10) + ' ' + formattedPhone;
+							ariaPhone = '+ ' + digits.charAt(end-10) + '. ' + ariaPhone;
+							anchorPhone = '+' + digits.charAt(end-10)  + anchorPhone;
+			  			}
+					}
+		  		}
+			}
+		
+			anchor.setAttribute('href', 'tel:' + anchorPhone);
+			anchor.setAttribute('aria-label', ariaPhone);
+			anchor.setAttribute('class', 'phone-link');
+			anchor.appendChild(document.createTextNode(formattedPhone));
+
+			var textBefore = document.createTextNode( this.nodeValue.split(phone)[0] );
+			if (textBefore.nodeValue == ' ') {
+				// a node value of " " isn't successfully inserted;
+				textBefore.nodeValue = '\u00A0';
+			}
+
+			var textAfter = document.createTextNode( this.nodeValue.split(phone)[1] );
+			if (textAfter.nodeValue == ' ') {
+				// a node value of " " isn't successfully inserted;
+				textAfter.nodeValue = '\u00A0';
+			}
+
+			this.parentElement.insertBefore(textAfter, this.nextSibling);
+			this.parentElement.insertBefore(anchor, this.nextSibling);
+			this.parentElement.insertBefore(textBefore, this.nextSibling);
+
+			// to make this work, we replace one text node with text node + element (link) + text node, so now remove this node
+			this.nodeValue = '';
+		}
+		return;
+	});
+	/* end PHONE NUMBERS */
+
+
+
+	// More to come ...
+
+
+
+	/* end Some accessibility / usability cleanups */
+
+
+	/* Scroll to top behavior */
+	var $window = $(window);
+	var $toTop = $('#back-to-top');
+	var minScrollPxBeforeShowingToTop = $('#content').position().top;
+	var animateSpeed = 'slow';
+	if (window.matchMedia('(prefers-reduced-motion)').matches == true) {
+		// make the motion so fast it's almost "none" (just enough to tell something changed) when reduced motion requested
+		animateSpeed = 50;
+	}
+
+	$toTop.click( function() {
+		//$toTop.tooltip('hide');
+		$('body,html').animate( {
+			scrollTop: 0
+		}, animateSpeed);
+		return false;
+
+		// Better, so we can remove the hash when scroll happened because of a section index
+		// (be sure to add 'e', i.e. function(e) ).
+		// e.preventDefault();
+		// history.pushState("", document.title, window.location.pathname + window.location.search);
+	});
+
+	var scroll = function() {
+		if ($(window).scrollTop() > minScrollPxBeforeShowingToTop) {
+			$toTop.fadeIn();
+		} else {
+			$toTop.fadeOut();
+		}
+	};
+
+	var raf = window.requestAnimationFrame ||
+		window.webkitRequestAnimationFrame ||
+		window.mozRequestAnimationFrame ||
+		window.msRequestAnimationFrame ||
+		window.oRequestAnimationFrame;
+
+	var lastScrollTop = $window.scrollTop();
+
+	if (raf) {
+		loop();
+	}
+
+	function loop() {
+		var scrollTop = $window.scrollTop();
+		if (lastScrollTop === scrollTop) {
+			raf(loop);
+			return;
+		}
+		else {
+			lastScrollTop = scrollTop;
+
+			// fire scroll function if scrolled vertically
+			scroll();
+			raf(loop);
+		}
+	}
+	/* end Scroll to top behavior */
+
+	/* Fix frames (Youtube) in gallery to not overflow narrow viewports */
+	scaleYoutubeEmbeds();
+	$(window).resize( function() {
+		scaleYoutubeEmbeds();
+	});
+
+	function scaleYoutubeEmbeds() {
+		$('.gallery-item figure .video-embed iframe').each( function() {
+			var viewportWidth = window.innerWidth - 55;
+			var frameWidth = $(this).attr('width');
+			var frameHeight = $(this).attr('height');
+			if ( frameWidth > viewportWidth) {
+				var maxWidth = viewportWidth;
+				var scaledHeight = maxWidth * frameHeight / frameWidth * 1.0;
+
+				$(this).css('height', scaledHeight + 'px');
+				$(this).css('width', maxWidth + 'px');
+			}
+		});
+	}
+	/* end Fix frames (Youtube) in gallery to not overflow narrow viewports */
+
+
+});
+
+
+
+
+	// this is for the case of removing the button from the generated html
+	// but need to enable the click event when the button is added this way
+	/*
+	$(document).ready( function() {
+		$('header h1').after('<button type="button" class="btn btn-yellow navbar-toggle"><span class="sr-only">Mobile menu</span></button>');
+	});
+*/

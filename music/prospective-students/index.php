@@ -27,10 +27,10 @@ include($config['path'].'resources/header.php');
 		</blockquote>
 		
 		<div class="row mb-4">
-		<div class="col-md-6">
+		<div class="col-md-6 d-grid">
 		<a href="#undergraduate" class="btn btn-ndsu-green btn-block btn-lg">Undergraduate Programs</a>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 d-grid">
 		<a href="#graduate" class="btn btn-ndsu-green btn-block btn-lg">Graduate Programs</a>
 		</div>
 		</div>
@@ -91,7 +91,8 @@ include($config['path'].'resources/header.php');
 							</li>
 							<li><a href="auditions/index.php#trumpet">Trumpet</a> | 
 							<a href="auditions/index.php#horn">Horn</a> | 
-							<a href="auditions/index.php#lowbrass">Low Brass</a></li>
+							<a href="auditions/index.php#lowbrass">Trombone &amp; Euphonium</a> |
+							<a href="auditions/index.php#tuba">Tuba</a></li>
 							<li><a href="auditions/index.php#percussion">Percussion</a> | 
 							<a href="auditions/index.php#strings">Strings</a>
 							</li>

@@ -1,103 +1,14 @@
-<!DOCTYPE html>
+<?php 
+//Edit the following:
+$config['page-title'] = "Graduate Timelines and Forms | Challey School of Music";
+$config['page-description'] = "";
+$config['page-realm'] = "CSOM"; //Choose DPA, DTA, CSOM
 
-<!--
--	COPYRIGHT NOTICE:
--		this file and all of its attached files are property of the
--		Division of Performing Arts
--		North Dakota State University
--		unless otherwise stated 
--->
-
-<!--	html document -->
-<html><!-- InstanceBegin template="/Templates/03_music_child.dwt.php" codeOutsideHTMLIsLocked="false" -->
-<?php $path = $_SERVER['DOCUMENT_ROOT']."/"; ?>
-<!-- 	Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-32118160-1"></script>
-
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-32118160-1');
-</script>
-
-
-<!--	document head -->
-<head>
-
-<!-- InstanceBeginEditable name="docmetatags" -->
-
-<!--	document metatags -->
-<meta 	charset="UTF-8">
-
-<meta 	property="og:url" 
-		name="url" 
-		content="https://www.ndsu.edu/performingarts/music/graduate/forms/">
-
-<meta 	name="author" 
-		content="Web Developer">
-
-<meta 	property="og:title" 
-		name="title" 
-		content="Timelines and Forms | Challey School of Music">
-
-<meta 	property="og:description" 
-		name="description" 
-		content="The Challey School of Music at NDSU promotes the arts through its educational programs, its creative work, and its outreach activities. The Challey School of Music offers bachelor's, master's, and doctoral degrees—to prepare the next generation of music professionals.">
-
-<meta 	name="keywords" 
-		content="North Dakota State University Challey School of Music,
-				north dakota state university challey school of music,
-				North Dakota State University School of Music,
-				north dakota state university school of music,
-				NDSU Challey School of Music, 
-				NDSU challey school of music,
-				ndsu challey school of music,
-				NDSU School of Music, 
-				NDSU school of music, 
-				ndsu school of music,
-				NDSU Music, NDSU music, ndsu music">
-
-<meta 	property="og:image" 
-		name="image" 
-		content="">
-
-<meta 	name="viewport" 
-		content="width=device-width, 
-				initial-scale=1.0, 
-				maximum-scale=1.0, 
-				user-scalable=no">
-<!-- InstanceEndEditable -->
-
-<!-- InstanceBeginEditable name="doctitle" -->
-
-<!--	document title -->
-<title>Timelines and Forms | Challey School of Music</title>
-<!-- InstanceEndEditable -->
-
-<!-- 	document favicon -->
-<link rel="icon" href="//static.ndsu.edu/favicon.ico" />
-
-<!-- 	document stylesheets -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		
-<link rel="stylesheet" href="//ndsu.edu/performingarts/resources/languages/css/sitewide_body.css?v=<?php echo time();?>">
-	
-<!-- InstanceBeginEditable name="docstylesheets" -->
-
-<!-- 	additional stylesheets -->
-
-<!-- InstanceEndEditable -->
-</head>
-
-<!--	document body -->
-<body>
-
-<!-- 	document navigation -->
-<?php 	//include('../../../resources/languages/php/beta_performingarts_navigation.php')?>
-<?php 	$_GET['s']="csom";include($path.'resources/parts/header.php')?>
-<?php 	include($path.'resources/parts/menu_csom.php')?>
+//Leave the following alone because it's magic:
+$config['page'] = $_SERVER['REQUEST_URI'];
+$config['path'] = $_SERVER['DOCUMENT_ROOT']."/";
+include($config['path'].'resources/header.php');
+?>
 
 <section id=""><div class="container"><!-- InstanceBeginEditable name="body" -->
 
@@ -112,56 +23,60 @@
 
         <div class="alert alert-secondary">
 			<p><a href="../forms/PoS Worksheet - MMME.docx">Plan of Study Worksheet - M.M.M.E.</a><br>
-			
-			  Submit to the <strong>music graduate administrative assistant</strong> with first semester of study. Submit by email (scanned copy) or drop off in the music office (hard copy). <br>
-		    Signatures: Advisor </p>
-          <p><a href="https://www.ndsu.edu/fileadmin/gradschool.ndsu.edu/Forms/Student_Forms/MM_music_education_.pdf">Plan of Study Form</a> – Masters Degree Plan of Study <br>
-            Submit to<strong> Graduate School </strong>within first semester of study <br />
-            
-          Signatures: Committee</p>
+			Not required to be submitted. Discuss with your advisor during the first year of study. </p>
+            <p><a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=b232a409-eb84-4ce2-b797-ec98254d9a4f&env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&v=2">Plan of Study Form</a> – Masters Degree Plan of Study <br>
+            Submit to <strong>Graduate School</strong> within first semester of study <br />
+            Signatures: Committee</p>
         </div>
 
         <div class="alert alert-secondary">
-		  <a href="https://www.ndsu.edu/fileadmin/gradschool.ndsu.edu/Forms/Student_Forms/MM_MED_practicum_report.pdf">Practicum Report</a><br />
+            <a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=216372b2-2568-424c-96e8-eb21b5d6c059&env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&v=2">Practicum Report</a><br />
 			Submit to <strong>Graduate School</strong> within seven (7) days of completing report.<br />
-			Signatures: Committee</div>
-
-
-		<div class="alert alert-secondary">
-			<a href="https://powerforms.docusign.net/71b00c0e-af21-4473-bb23-cdbd85983676?env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&accountId=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7">Application for Graduation</a><br />
-			Submit to<strong> Graduate School </strong><br />
-			Signatures: Advisor</div>
+			Signatures: Committee
+        </div>
+        
         <div class="alert alert-secondary">
-		  <a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=3e7ecb3e-540f-48ff-a0e4-0c098d3bd8b4&env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&v=2">Report of Final Exam</a><br />
-			Submit to<strong> Graduate School </strong>as soon as the examination is competed.<br />
-			Signatures: Committee</div>
-
+            <a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=3e7ecb3e-540f-48ff-a0e4-0c098d3bd8b4&env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&v=2">Report of Final Exam</a><br />
+			Submit to <strong>Graduate School</strong> as soon as the examination is competed.<br />
+			Signatures: Committee
+        </div>
+        
+        <div class="alert alert-secondary">
+			<a href="https://ndstate.co1.qualtrics.com/jfe/form/SV_9YPI0Ib2rdp0vEp">Intent to Graduate Survey</a><br />
+			Submit to <strong>Graduate School</strong> <br />
+			Due mid-semester. See <a href="https://www.ndsu.edu/gradschool/current_students/pathway_to_degree_completion">Graduate College Deadlines</a>
+        </div>
+		
+        <div class="alert alert-secondary">
+			<a href="https://powerforms.docusign.net/71b00c0e-af21-4473-bb23-cdbd85983676?env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&accountId=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7">Application for Graduation</a><br />
+			Submit to <strong>Graduate School</strong> <br />
+			Signatures: Advisor
+        </div>	
         
 		<h2>Timeline and Forms for M.M. Students</h2>
 
         <div class="alert alert-secondary">
-         
-          <p><strong>Plan of Study Worksheets (program-specific)</strong><br>
-             <a href="../forms/PoS Worksheet - MM Choral Conducting.docx">Choral Conducting</a><br>
-			 <a href="../forms/PoS Worksheet - MM Instrumental Conducting.docx">Instrumental Conducting</a><br>
-			 <a href="../forms/PoS Worksheet - MM Piano Performance.docx">Piano Performance </a><br>
-			 <a href="../forms/PoS Worksheet - MM Collaborative Piano.docx">Collaborative Piano Performance </a><br>
-			 <a href="../forms/PoS Worksheet - MM Vocal Performance.docx">Vocal Performance</a> <br>
-		  <a href="../forms/PoS Worksheet - MM Theory Pedagogy.docx">Music Theory Pedagogy</a><br>
+            <p><strong>Plan of Study Worksheets (program-specific)</strong><br>
+            <a href="../forms/PoS Worksheet - MM Choral Conducting.docx">Choral Conducting</a><br>
+			<a href="../forms/PoS Worksheet - MM Instrumental Conducting.docx">Instrumental Conducting</a><br>
+			<a href="../forms/PoS Worksheet - MM Piano Performance.docx">Piano Performance </a><br>
+			<a href="../forms/PoS Worksheet - MM Collaborative Piano.docx">Collaborative Piano Performance </a><br>
+			<a href="../forms/PoS Worksheet - MM Vocal Performance.docx">Vocal Performance</a> <br>
+            <a href="../forms/PoS Worksheet - MM Theory Pedagogy.docx">Music Theory Pedagogy</a><br>
 		
-			 Submit<strong> </strong>to the <strong>music graduate administrative assistant</strong> within the first year of study. <br>
+			Submit<strong> </strong>to the <strong>music graduate administrative assistant</strong> within the first year of study. <br>
 		    Signatures: Advisor
 		    <br>
 		   
-	      <p><a href="https://powerforms.docusign.net/b379b5a9-429d-4720-acc0-fdb7ca6916cd?env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&accountId=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7">Plan of Study Form</a> – Masters Degree Plan of Study<br>
-            <a href="../forms/Master's Plan of Study Sample.pdf">Sample Form</a>		  
+            <p><a href="https://powerforms.docusign.net/b379b5a9-429d-4720-acc0-fdb7ca6916cd?env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&accountId=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7">Plan of Study Form</a> – Masters Degree Plan of Study<br>
+            <a href="../forms/Master's Plan of Study Sample.pdf">Sample Form</a>
             <br>
             Submit to the Graduate School within first year of study <br />
-          Signatures: Committee of three faculty members; one must be history/theory, and Department Chair or Coordinator                             
-	      <p>   <a href="../forms/Report of Recital.docx">Report of Recital</a><br>	
+            Signatures: Committee of three faculty members; one must be history/theory, and Department Chair or Coordinator                             
+            <a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=cc231712-425b-49e2-b395-71effd7a7979&env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&v=2">Report of Recital</a><br>	
 				This form is used for any recital that is not the final recital of the student's program.<br>
 				Submit form to the music graduate administrative assistant.<br>
-				Signatures: advisor    </p> 
+				Signatures: advisor
 		</div>
 
         <div class="alert alert-secondary">
@@ -172,118 +87,121 @@
 
         <div class="alert alert-secondary">
 			<a href="MM_final_exam-2019.pdf">Report of Comprehensive Examination</a><br />
-			Submit to the <strong>music graduate administrative assistant</strong> as soon as examination is completed (submitted by your advisor)<br />
+			Submit to the <strong>graduate coordinator</strong> as soon as examination is completed (submitted by your advisor)<br />
 			Signatures: Advisor
 		</div>
 
         <div class="alert alert-secondary">
-			<a href="https://www.ndsu.edu/fileadmin/gradschool.ndsu.edu/Forms/Student_Forms/MM_Report_Final_Recital.pdf">Report of Final Recital</a> <br />
-			Submit to<strong> Graduate School </strong>right after the recital<strong> </strong>(submitted by your advisor)<br />
+			<a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=cc231712-425b-49e2-b395-71effd7a7979&env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&v=2">Report of Final Recital</a> <br />
+			Submit to <strong>Graduate School</strong> right after the recital<strong> </strong>(submitted by your advisor)<br />
 			Signatures: Committee
 		</div>
 
-        <div class="alert alert-secondary">
+		<div class="alert alert-secondary">
+			<a href="https://ndstate.co1.qualtrics.com/jfe/form/SV_9YPI0Ib2rdp0vEp">Intent to Graduate Survey</a><br />
+			Submit to <strong>Graduate School</strong> <br />
+			Due mid-semester. See <a href="https://www.ndsu.edu/gradschool/current_students/pathway_to_degree_completion">Graduate College Deadlines</a>
+		</div>
+
+		<div class="alert alert-secondary">
 			<a href="https://powerforms.docusign.net/71b00c0e-af21-4473-bb23-cdbd85983676?env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&accountId=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7">Application for Graduation</a><br />
-			Submit to<strong> Graduate School </strong><br />
+			Submit to <strong>Graduate School</strong> <br />
 			Signatures: Advisor</div>
 
-        <div class="alert alert-primary">
+		<div class="alert alert-primary">
 			<p>Details to know:</p>
 			<ul>
 				<li>Your committee members need to attend the comprehensive oral exam and the final recital.  </li>
 			</ul>
 		</div>
 
-        <h2>Timeline and Forms for D.M.A. Students</h2>
+		<h2>Timeline and Forms for D.M.A. Students</h2>
 
-        <div class="alert alert-secondary">
-		  <p> <strong>Plan of Study Worksheets (Program-Specific)</strong><br>
+		<div class="alert alert-secondary">
+			<p><strong>Plan of Study Worksheets (Program-Specific)</strong><br>
 				<a href="../forms/PoS Worksheet - DMA Choral Conducting.docx">Choral Conducting</a><br>
 				<a href="../forms/PoS Worksheet - DMA Instrumental Conducting.docx">Instrumental Conducting</a> <br>
-			    <a href="../forms/PoS Worksheet - DMA Instrumental Performance.docx">Instrumental Performance</a><br>
+				<a href="../forms/PoS Worksheet - DMA Instrumental Performance.docx">Instrumental Performance</a><br>
 				<a href="../forms/PoS Worksheet - DMA Piano Performance.docx">Piano Performance</a> <br>
 				<a href="../forms/PoS Worksheet - DMA Collaborative Piano.docx">Collaborative Piano Performance</a> <br>
 				<a href="../forms/PoS Worksheet - DMA Vocal Performance.docx">Vocal Performance</a> <br>
 			
-			  Submit to the <strong>music graduate administrative assistant</strong> within the first year of study.
-			  
-				<br>
-		  Signatures: Advisor </p>
-		  <a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=7e21cd61-31cc-4cbf-a1e1-c23b2845394c&env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&v=2">Plan of Study Form</a> – Doctoral Degree Plan of Study<br />
+			Submit to the <strong>music graduate administrative assistant</strong> within the first year of study.  
+			<br>
+			Signatures: Advisor </p>
+
+			<a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=7e21cd61-31cc-4cbf-a1e1-c23b2845394c&env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&v=2">Plan of Study Form</a> – Doctoral Degree Plan of Study<br />
 			<a href="../forms/Doctoral Plan of Study Sample.pdf">Sample Form</a>
 			<br>
-		  Submit to<strong> Graduate School </strong>within first year of study <br />
+			Submit to <strong>Graduate School</strong> within first year of study <br />
 			Signatures: Committee of four faculty members (one must be history/theory AND one faculty member from outside the music area) and Department Chair or Coordinator<br>
 			<br>
 			<p><a href="../forms/Report of Recital.docx">Report of Recital</a><br>
-				This form is used for any recital that is not the final recital of the student's program.<br>
-				Submit form to the music graduate administrative assistant.<br>
-				Signatures: advisor</p>
+			This form is used for any recital that is not the final recital of the student's program.<br>
+			Submit form to the music graduate administrative assistant.<br>
+			Signatures: Advisor</p>
 		</div>
 
-        <div class="alert alert-secondary">
+		<div class="alert alert-secondary">
 			<a href="DMA_language_exam-2019.pdf">Report of Language Exam</a><br />
 			Language requirements are program-specific. Please check with your advisor about your program's language requirements.<br>
 			Submit to music graduate administrative assistant as soon as examination is completed<br />
 			Signatures: Advisor
 		</div>
-		 <div class="alert alert-secondary">
+
+		<div class="alert alert-secondary">
 			<a href="DMA-IPA-test-result.pdf">Report of DMA Choral Conducting International Phonetic Alphabet Exam</a><br />
 			Submit to music graduate assistant as soon as examination is completed<br />
 			Signatures: Advisor
 		</div>
 
-        <div class="alert alert-secondary">
-			<a href="https://www.ndsu.edu/fileadmin/gradschool.ndsu.edu/Forms/Student_Forms/DMA_request_comp_exam.pdf">Request to Schedule Comprehensive Examination</a> <br />
+		<div class="alert alert-secondary">
+			<a href="https://powerforms.docusign.net/cd2082ab-be88-4c88-8a8d-29f9cda10113?env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&accountId=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7">Request to Schedule Comprehensive Examination</a> <br />
+			Submit to <strong>Graduate School</strong> at least two weeks before the examination <br />
+			Signatures: Advisor and Department Chair or Coordinator
+		</div>
 
-          Submit to<strong> Graduate School </strong>at least two weeks before the examination <br />
+		<div class="alert alert-secondary">
+			<a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=8aa317b3-4d7b-417b-bd76-f5845c841e81&env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&v=2">Report of Comprehensive Examination</a> for the D.M.A. (after both the written and oral exams are finished)<br />
+			Submit to <strong>Graduate School</strong> as soon as examination is completed (submitted by your advisor)<br />
+			Signatures: Committee
+			<p>1st draft of document should be given to your committee (see separate document with more details about document timeline)</p>
+		</div>
 
-          Signatures: Advisor and Department Chair or Coordinator</div>
+		<div class="alert alert-secondary">
+			<a href="https://ndstate.co1.qualtrics.com/jfe/form/SV_9YPI0Ib2rdp0vEp">Intent to Graduate Survey</a><br />
+			Submit to <strong>Graduate School</strong> <br />
+			Due mid-semester. See <a href="https://www.ndsu.edu/gradschool/current_students/pathway_to_degree_completion">Graduate College Deadlines</a>
+		</div>
 
-        <div class="alert alert-secondary"><a href="https://www.ndsu.edu/fileadmin/gradschool.ndsu.edu/Forms/Student_Forms/DMA_Report_Comp_Exam.pdf">Report of Comprehensive Examination</a> for the D.M.A. (after both the written and oral exams are finished)<br />
-
-          Submit to<strong> Graduate School </strong>as soon as examination is completed (submitted by your advisor)<br />
-
-          Signatures: Committee
-
-        <p>1st draft of document should be given to your committee (see separate document with more details about document timeline)</p></div>
-
-        <div class="alert alert-danger"><a href="https://powerforms.docusign.net/71b00c0e-af21-4473-bb23-cdbd85983676?env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&accountId=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7">
-
-Application for Graduation</a><br>
+		<div class="alert alert-danger">
+			<a href="https://powerforms.docusign.net/71b00c0e-af21-4473-bb23-cdbd85983676?env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&accountId=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7">
+			Application for Graduation</a><br>
 			Submit to Graduate School</br>
+			Signatures: Advisor
+		</div>
+		
+		<div class="alert alert-secondary">
+			<a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=63d0ad66-b08e-4e65-a44d-40a9dd7892c7&env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&v=2">Notification of Scheduled Final Recital for the D.M.A degree</a>. <br />
+			Submit to <strong>Graduate School</strong> at least two weeks before the recital<strong> </strong><br />
+			Signatures: Advisor and Department Chair or Coordinator
+		</div>
 
-        
-          Signatures: Advisor
-        </p></div>
-		<div class="alert alert-secondary"><a href="https://www.ndsu.edu/fileadmin/gradschool.ndsu.edu/Forms/Student_Forms/DMA_Request_final_recital.pdf">Request to Schedule Final Lecture Recital D.M.A</a>. <br />
-
-          Submit to<strong> Graduate School </strong>at least two weeks before the recital<strong> </strong><br />
-
-          Signatures: Advisor and Department Chair or Coordinator</div>
-
-        <div class="alert alert-secondary"><a href="https://www.ndsu.edu/fileadmin/gradschool.ndsu.edu/Forms/Student_Forms/DMA_Report_Final_Recital.pdf">Report of Final Lecture Recital D.M.A.</a> <br />
-
-          Submit to<strong> Graduate School </strong>right after the recital<strong> </strong>(submitted by your advisor)<br />
-
-          Signatures: Committee</div>
+		<div class="alert alert-secondary">
+			<a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=b48ec203-f762-484f-bf1b-f3a4990d07cb&env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&v=2">Report of Final Lecture Recital D.M.A.</a> <br />
+			Submit to <strong>Graduate School</strong> right after the recital<br />
+			Signatures: Committee
+		</div>
 
 		<div class="alert alert-primary">
-        <p>Details to know:</p>
-
-        <ul>
-
-          <li>Your outside committee member needs to attend the comprehensive oral exam and the final lecture recital.  The outside committee member should also have the opportunity to review the disquisition. Advisor and student will determine the involvement of the outside member.</li>
-
-          <li>The comprehensive exam and lecture recital cannot take place in the same semester</li>
-
-          <li>The 3 minute <a href="https://www.ndsu.edu/gradschool/current_students/3mt">dissertation video</a> must be submitted to the graduate school before submitting your paper for review</li>
-
-          <li>Your document needs <a href="https://www.ndsu.edu/gradschool/current_students/graduation/theses_dissertations_papers/disquisition_formatting">disquisition approval form</a> (signed by all committee members with the completed disquisition) The <a href="https://www.ndsu.edu/fileadmin/gradschool.ndsu.edu/Forms/Student_Forms/Disquisition_IRB_IACUC.pdf">IRB form</a> goes along with this form.</li>
-
-          <li><strong>Students have one year from the final lecture recital to finish the disquisition with graduate school approval.</strong><strong> </strong></li>
-
-        </ul>
+			<p>Details to know:</p>
+			<ul>
+			<li>Your outside committee member needs to attend the comprehensive oral exam and the final lecture recital.  The outside committee member should also have the opportunity to review the disquisition. Advisor and student will determine the involvement of the outside member.</li>
+			<li>The comprehensive exam and lecture recital cannot take place in the same semester</li>
+			<li>The 3 minute <a href="https://www.ndsu.edu/gradschool/current_students/3mt">dissertation video</a> must be submitted to the graduate school before submitting your paper for review</li>
+			<li>Your document needs <a href="https://www.ndsu.edu/gradschool/current_students/graduation/theses_dissertations_papers/disquisition_formatting">disquisition approval form</a> (signed by all committee members with the completed disquisition) The <a href="https://powerforms.docusign.net/e5a8eada-d5eb-4ba5-8195-611fc746047e?env=na3-eu1&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7%22%20%22%20&accountId=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7">IRB form</a> goes along with this form.</li>
+			<li><strong>Students have one year from the final lecture recital to finish the disquisition with graduate school approval.</strong><strong> </strong></li>
+			</ul>
 		</div>
 	</article>
 </section>
@@ -308,5 +226,5 @@ Application for Graduation</a><br>
 <!-- 	additional scripts -->
 
 <!-- InstanceEndEditable -->
-
-<!-- InstanceEnd --></html>
+<br />
+<?php include($config['path'].'resources/footer.php')?>

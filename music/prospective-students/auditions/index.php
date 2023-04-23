@@ -260,7 +260,7 @@ include($config['path'].'resources/header.php');
 <div class="card"><a name="bassoon" class="nu"></a>
 	<div class="card-header"><h2>Bassoon</2></div>
 	<div class="card-body">
-		<div class="alert alert-warning"><strong>Please contact Dr. Cody Hunter at <a href="mailto:cody.hunter@mayvillestate.edu">cody.hunter@mayvillestate.edu</a> for any questions pertaining to the audition requirements, and/or to schedule an audition.</strong></div>
+		<div class="alert alert-warning"><strong>Please contact Sebastian Tackling at <a href="mailto:tacklis@fargo.k12.nd.us">tacklis@fargo.k12.nd.us</a> for any questions pertaining to the audition requirements, and/or to schedule an audition.</strong></div>
 		
 		<h3>Undergraduate Students (Incoming Freshmen &amp; Transfer Students)</h3>
 
@@ -485,7 +485,7 @@ include($config['path'].'resources/header.php');
 	</div><!--card-body-->
 </div><!--card-->
 
-<div class="card"><a name="lowbrass" class="nu"></a>
+<div class="card"><a name="tuba" class="nu"></a>
 	<div class="card-header"><h2>Tuba</h2></div>
 	<div class="card-body">
 		<div class="alert alert-warning"><strong>Please contact Prof. Connor Challey at <a href="mailto:connor.challey@ndsu.edu">Connor.Challey@ndsu.edu</a> for any questions pertaining to the audition requirements, and/or to schedule an audition.</strong></div>
@@ -525,7 +525,7 @@ include($config['path'].'resources/header.php');
 <div class="card"><a name="strings" class="nu"></a>
 	<div class="card-header"><h2>Strings</h2></div>
 	<div class="card-body">
-		<div class="alert alert-warning"><strong>If you have any questions pertaining to the audition process, and/or to schedule an audition, please contact Tim Nelson at <a href="mailto:timothyhnelson6@gmail.com">timothyhnelson6@gmail.com</a> for upper strings and Elise Buffat Nelson at <a href="mailto:elise.buffatnelson@ndsu.edu">elise.buffatnelson@ndsu.edu</a> for lower strings.</strong></div>
+		<div class="alert alert-warning"><strong>If you have any questions pertaining to the audition process, and/or to schedule an audition, please contact Dr. Sigurd Johnson at <a href="mailto:sigurd.johnson@ndsu.edu">sigurd.johnson@ndsu.edu</a>.</strong></div>
 		
 		<h3>Undergraduate Students (Incoming Freshmen &amp; Transfer Students)</h3>
 		

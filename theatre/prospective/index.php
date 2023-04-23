@@ -34,13 +34,8 @@ include($config['path'].'resources/header.php');
  
 		<p>Tiffany Fier<br />
 		Associate Professor of Set Design<br />
-		Co-Director of Theatre NDSU Recruitment<br />
+		Director of Theatre NDSU Recruitment<br />
 		<a href="mailto:Tiffany.fier@ndsu.edu">Tiffany.Fier@ndsu.edu</a></p>
- 
-		<p>Ryan Scoble<br />
-		Assistant Professor of Musical Theatre<br />
-		Co-Director of Theatre NDSU Recruitment<br />
-		<a href="mailto:Ryan.scoble@ndsu.edu">Ryan.Scoble@ndsu.edu</a></p>
 
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/nw9oLDeURz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -51,10 +46,10 @@ include($config['path'].'resources/header.php');
 	<div id="accordion">
 		<div class="card">
 			<div class="card-header" id="interested-heading">
-				<h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#interested" aria-expanded="true" aria-controls="interested">Interested</button></h5>
+				<h5 class="mb-0"><button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#interested" aria-expanded="true" aria-controls="interested">Interested</button></h5>
 			</div>
 
-		<div id="interested" class="collapse show" aria-labelledby="interested-heading" data-parent="#accordion">
+		<div id="interested" class="collapse show" aria-labelledby="interested-heading" data-bs-parent="#accordion">
 		<div class="card-body">
 
 			<p>Explore our website! Check out our: <br />
@@ -73,10 +68,10 @@ include($config['path'].'resources/header.php');
 		
 		<div class="card">
 			<div class="card-header" id="gettingstarted-heading">
-				<h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#gettingstarted" aria-expanded="true" aria-controls="gettingstarted">Getting Started</button></h5>
+				<h5 class="mb-0"><button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#gettingstarted" aria-expanded="true" aria-controls="gettingstarted">Getting Started</button></h5>
 			</div>
 
-		<div id="gettingstarted" class="collapse" aria-labelledby="gettingstarted-heading" data-parent="#accordion">
+		<div id="gettingstarted" class="collapse" aria-labelledby="gettingstarted-heading" data-bs-parent="#accordion">
 		<div class="card-body">
 			<ol>
 				<li>Apply to the university through the <a href="http://www.ndsu.edu/admission/">Office of  Admission</a>. This will help guarantee that you have completed all of the paperwork that will allow you to eventually apply to be a Theatre major. Through Admissions, you will be connected with the Department of Theatre to meet with our Co-Director of Recruiting, Associate Professor Tiffany Fier, during a scheduled orientation day, when possible.<br /><br /></li>
@@ -96,10 +91,10 @@ include($config['path'].'resources/header.php');
 		
 		<div class="card">
 			<div class="card-header" id="audition-heading">
-				<h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#audition" aria-expanded="true" aria-controls="audition">Preparing your Scholarship Audition</button></h5>
+				<h5 class="mb-0"><button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#audition" aria-expanded="true" aria-controls="audition">Preparing your Scholarship Audition</button></h5>
 			</div>
 
-		<div id="audition" class="collapse" aria-labelledby="audition-heading" data-parent="#accordion">
+		<div id="audition" class="collapse" aria-labelledby="audition-heading" data-bs-parent="#accordion">
 		<div class="card-body">
 			<p>Students Preparing for Scholarship Auditions will need to do the following:
 			<ol>
@@ -168,10 +163,10 @@ include($config['path'].'resources/header.php');
 		
 		<div class="card">
 			<div class="card-header" id="requirements-heading">
-				<h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#requirements" aria-expanded="true" aria-controls="requirements">Requirements</button></h5>
+				<h5 class="mb-0"><button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#requirements" aria-expanded="true" aria-controls="requirements">Requirements</button></h5>
 			</div>
 
-		<div id="requirements" class="collapse" aria-labelledby="requirements-heading" data-parent="#accordion">
+		<div id="requirements" class="collapse" aria-labelledby="requirements-heading" data-bs-parent="#accordion">
 		<div class="card-body">
 			<p>First, apply to be a student through the <a href="https://www.ndsu.edu/admission">Office of Admission</a>.</p>
 			<p> To be admitted as a Theatre major at NDSU, you must meet the university requirements.<br>
@@ -200,10 +195,10 @@ include($config['path'].'resources/header.php');
 
 		<div class="card">
 			<div class="card-header" id="costs-heading">
-				<h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#costs" aria-expanded="true" aria-controls="costs">Costs</button></h5>
+				<h5 class="mb-0"><button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#costs" aria-expanded="true" aria-controls="costs">Costs</button></h5>
 			</div>
 
-		<div id="costs" class="collapse" aria-labelledby="costs-heading" data-parent="#accordion">
+		<div id="costs" class="collapse" aria-labelledby="costs-heading" data-bs-parent="#accordion">
 		<div class="card-body">
 			<p><a href="https://www.ndsu.edu/admission/financial_aid/">Financial Aid Information</a></p>
 			<p><a href="https://www.ndsu.edu/admission/financial_aid/first_year_scholarships/">University Scholarships</a></p>

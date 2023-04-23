@@ -1,0 +1,2033 @@
+/* Some copies from Drupal */
+@font-face {
+  font-family: 'Gotham';
+  src: local("Gotham Bold"),local("Gotham-Bold");
+  src: url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-Bold.woff2) format("woff2"),url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-Bold.woff) format("woff"),url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-Bold.eot) format("embedded-opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: local("Gotham Bold Italic"),local("Gotham-BoldItalic");
+  src: url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-BoldItalic.woff2) format("woff2"),url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-BoldItalic.woff) format("woff"),url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-BoldItalic.eot) format("embedded-opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: local("Gotham Book"),local("Gotham-Book");
+  src: url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-Book.woff2) format("woff2"),url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-Book.woff) format("woff"),url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-Book.eot) format("embedded-opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: local("Gotham Book Italic"),local("Gotham-BookItalic");
+  src: url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-BookItalic.woff2) format("woff2"),url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-BookItalic.woff) format("woff"),url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-BookItalic.eot) format("embedded-opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: local("Gotham Light"),local("Gotham-Light");
+  src: url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-Light.woff2) format("woff2"),url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-Light.woff) format("woff"),url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-Light.eot) format("embedded-opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: local("Gotham Light Italic"),local("Gotham-LightItalic");
+  src: url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-LightItalic.woff2) format("woff2"),url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-LightItalic.woff) format("woff"),url(https://www.ndsu.edu/themes/ndsu/assets/fonts/Gotham-LightItalic.eot) format("embedded-opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: fallback;
+}
+
+
+
+/** CMS-only overrides **/
+
+/* page-title display with bootstrap gets wacky */
+.page-title {
+	width: 100%;
+}
+
+/* Template has news headlines not bolded */
+.news-list-item div[itemprop="headline"] a {
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 1.4em;
+}
+.news-list-item div[itemprop="description"] a {
+	font-weight: normal;
+}
+/* Don't squish news without a teaser too much */
+.news-list-item div[itemprop="description"]:empty {
+	min-height: 2em;
+}
+/* Give some room to news pagination */
+ul.pagination li {
+	margin-right: 1em;
+}
+/* Match top line of left navigation */
+.main-col .news h3[itemprop="headline"] {
+	margin-top: 0;
+}
+
+/* Account for the padding present in the image itself */
+header h1 a img {
+	margin-left: -9px;
+}
+/* Blindly assumes this is the only image for now; change later */
+footer .footer-address img {
+	margin-left: -15px;
+}
+
+p.indent {
+	padding-left: 4em;
+}
+
+/* ? */
+main > .frame:first-child {
+	margin-top: 0;
+}
+
+/* Make body links more visible/visually distinct from regular text */
+body a,
+body .btn-link {
+	color: #063;
+}
+body .btn-link:active,
+body .btn-link:focus,
+body .btn-link:hover {
+	color: #000;
+}
+/* Content menus (TYPO3-specific) */
+.frame-type-menu_pages ul li a,
+.frame-type-menu_section ul li a,
+.frame-type-menu_sitemap ul li a,
+.frame-type-menu_sitemap_pages ul li a,
+.frame-type-menu_subpages ul li a {
+	text-decoration: none;
+}
+.frame-type-menu_pages ul li a:active,
+.frame-type-menu_pages ul li a:focus,
+.frame-type-menu_pages ul li a:hover,
+.frame-type-menu_section ul li a:active,
+.frame-type-menu_section ul li a:focus,
+.frame-type-menu_section ul li a:hover,
+.frame-type-menu_sitemap ul li a:active,
+.frame-type-menu_sitemap ul li a:focus,
+.frame-type-menu_sitemap ul li a:hover,
+.frame-type-menu_sitemap_pages ul li a:active,
+.frame-type-menu_sitemap_pages ul li a:focus,
+.frame-type-menu_sitemap_pages ul li a:hover,
+.frame-type-menu_subpages ul li a:active,
+.frame-type-menu_subpages ul li a:focus,
+.frame-type-menu_subpages ul li a:hover {
+	text-decoration: underline;
+}
+.frame-type-menu_abstract ul,
+.frame-type-menu_abstract ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Don't permit "styling" headings with "bold" and "italics"*/
+h3 b, h3 strong,
+h4 b, h4 strong,
+h5 b, h5 strong,
+h6 b, h6 strong {
+	font-weight: inherit;
+}
+h3 i, h3 em,
+h4 i, h4 em,
+h5 i, h5 em,
+h6 i, h6 em {
+	font-style: inherit;
+}
+
+/* Form bundle for user's full name try to display on one line. This might over-glob */
+.csc-form-element-fieldset .form-group {
+	display: inline-block;
+}
+
+/* Don't make images appear as links (on hover) when they're not links */
+.gallery .gallery-item .img-wrapper {
+	cursor: initial;
+}
+.gallery .gallery-item a .img-wrapper {
+	cursor: pointer;
+}
+
+/* ***************** */
+/* Experimental */
+
+.green-bar {
+	color: #fff;
+}
+header .green-bar h1 {
+	margin-right: 0;
+}
+header .green-bar .navbar .nav-link,
+header .green-bar .search-form input,
+header .green-bar .search-form button,
+footer {
+	/*font-size: 0.9em;*/
+}
+header .green-bar .search-form {
+        margin-left: 0;
+}
+/* Don't use fixed widths where it can be avoided (the 70px is a guess ... come back and figure out what it ought to be) */
+header .green-bar h1 {
+	display: inline-block;
+	max-width: calc(100% - 70px);
+}
+header .green-bar h1 img {
+	max-width: 100%;
+}
+@media screen and (min-width: 568px) and (max-width: 699.98px) {
+        header .green-bar h1 {
+                max-width: 50%;
+        }
+}
+@media screen and (min-width: 900px) and (max-width: 1199.98px) {
+        header .green-bar h1 {
+                max-width: 30%;
+        }
+        header .green-bar {
+                font-size: 0.85em;
+        }
+}
+/* When this overflows to a second line (e.x., ~768px), add */
+@media screen and (min-width: 768px) and (max-width: 899.98px) {
+        header .green-bar h1 {
+                margin-bottom: -1em;
+        }
+}
+
+.sflgru-block a {
+        color: #fc0;
+        font-weight: 400;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.9em;
+}
+.sflgru-block a:active,
+.sflgru-block a:focus,
+.sflgru-block a:hover {
+        color: #fff;
+        text-decoration: underline;
+        text-decoration-color: #fc0;
+}
+.sflgru-block a + a:before {
+        content: "\2022";
+        padding: 0 .5em;
+        font-weight: 900;
+        color: #fff;
+        display: inline-block;
+}
+/* 900px and up, try to align the sflgru-block to the bottom of the NDSU Logo wordmark (not the graphic file, which has padding built in)? */
+@media print {
+        .sflgru-block a {
+                color: #555;
+        }
+}
+
+
+.search-form input {
+	background: rgba(200, 155, 155, 0.3);
+	border: 1px solid transparent;
+	border-radius: 1em;
+}
+.search-form :focus {
+	outline: none;
+}
+.search-form ::placeholder {
+	font-size: 0.8em;
+	color: #fff;
+}
+.search-form ::-webkit-input-placeholder {
+	font-size: 0.8em;
+	color: #fff;
+}
+.search-form :-ms-input-placeholder {
+/* IE not Edge */
+	font-size: 0.8em;
+	color: #fff;
+}
+.search-form:focus-within ::placeholder {
+	color: #888;
+}
+.search-form:focus-within ::-webkit-input-placeholder {
+	color: #888;
+}
+.search-form :focus::-webkit-input-placeholder {
+	color: #888;
+}
+
+
+/* For if there is a secondary title here */
+header h2.page-title {
+	line-height: 0.75em;
+	padding-top: 1em;
+}
+/* Account for page titles with links */
+.page-title a {
+	font-weight: inherit;
+	color: inherit;
+	text-decoration: none;
+	letter-spacing: inherit;
+}
+.page-title a:focus,
+.page-title a:hover {
+	text-decoration: underline;
+	text-decoration-color: #fc0;
+	text-decoration-thickness: 3px;
+}
+@media screen and (max-width: 767px) {
+	.page-title a:focus,
+	.page-title a:hover {
+		color: #fff;
+	}
+}
+
+/* Try the header/footer being lighter weight */
+footer, header {
+	font-weight: 400;
+}
+
+/* This type gets hard to read as it gets bolder; try letter spacing a tad */
+footer a,
+header a,
+header .nav-link.active,
+footer strong,
+header strong {
+	letter-spacing: 0.05em;
+}
+
+/* A stab at not centering text (how to improve from here?) */
+footer .footer-address {
+	text-align: left;
+}
+
+/* Probably should have some padding above headings
+ * (not sure why they're being scoped under 'body' here ... */
+body h3, body h4, body h5, body h6 {
+	margin-top: 1em;
+}
+/* The first content element should not have margins on the first heading, but this only works if it's set via the content title.
+ * h4, h5, h6 are omitted because they should never (semantically) be the first item in the page content */
+#content > div div:first-of-type section header h3 {
+	/*margin-top: 0;*/
+}
+
+/* links to various documents should have a visual (and ideally also accessible)
+ * indication that something other than a web page is about to happen */
+a[href$="pdf"]:before,
+a[href$="PDF"]:before {
+	/*content: "(pdf) ";*/ /* Moved to JS so that it can be an accessible (including text) visual */
+}
+
+/* Don't let image be wider than their container */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+body h3 a,
+body h4 a,
+body h5 a,
+body h6 a {
+	font-weight: inherit;
+	text-decoration: none;
+	/*box-shadow: inset 0 0px 0 white, inset 0 -1px 0 #063;*/ /* Interested in a way to pull the line in closer */
+	border-bottom: 1px solid #063;
+	letter-spacing: inherit;
+}
+body h3 a:hover,
+body h3 a:focus,
+body h4 a:hover,
+body h4 a:focus,
+body h5 a:hover,
+body h5 a:focus,
+body h6 a:hover,
+body h6 a:focus {
+	text-decoration: none;
+	border-bottom-color: #000;
+}
+
+
+
+/* ***************** */
+/* Probably things that should go into the upstream template */
+
+/* Don't rely on Bootstrap availability for this one */
+body {
+	background-color: #fff;
+}
+header .nav-link.active,
+header .navbar a {
+	font-weight: 500 !important;
+}
+
+/* Don't let buttons get too squished against each other */
+#content .btn {
+	margin-bottom: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+/* Make buttons use brand colors */
+.btn.btn-primary {
+	background-color: #0a5640;
+	border-color: #0a5640;
+	color: #fff;
+}
+.btn.btn-primary:active,
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+	border-color: #fc0;
+	color: #fc0;
+}
+
+/* Accessibility */
+.btn.btn-secondary {
+	background-color: #515a62;
+}
+.btn.btn-secondary:active,
+.btn.btn-secondary:focus,
+.btn.btn-secondary:hover {
+	background-color: #0a5640;
+	border-color: #fc0;
+	color: #fc0;
+}
+
+/* This is just to cache the image, the real deal would never do this. This was previously put in the page but hidden on screen for a reason ... so it will always be available at print time */
+/*
+html { 
+	background: url(https://static.ndsu.edu/templates/images/ndsu-print.png) no-repeat;
+	background-size: 1px 1px;
+}
+*/
+@media print {
+	/* Ideal, but hides the department name */
+	/* *[role="navigation"] { */
+/*	.green-bar, .main-nav, .layout>.nav-col {
+	
+		display: none;
+	}
+*/
+	.green-bar ul, .green-bar form, .main-nav, .layout>.nav-col {
+		display: none;
+	}
+	header .green-bar {
+		background-color: white !important;
+	}
+	.green-bar img {
+		height: 0.75in;
+		width: auto;
+		filter: grayscale(1) invert(1);
+	}
+	h2 {
+		font-weight: 300 !important;
+		text-transform: uppercase;
+		font-size: 0.3in !important;
+	}
+	body {
+		border-top: 2px solid #fc0;
+		background-color: #fff;
+	}
+/*
+	html:before {
+		content: url(https://static.ndsu.edu/templates/images/ndsu-print.png);
+		transform: scale(.4);
+		zoom: 0.4;
+	}
+*/
+/* Firefox doesn't work with the above approach */
+/* but a background-image doesn't print either so it's useless
+html:before {
+	content: "";
+	transform: unset;
+	zoom: unset;
+	min-height: 50px;
+	padding-right: 495px;
+	background-position: right bottom;
+	background-size: 495px 50px;
+	background-repeat: no-repeat;
+	background-image: url(https://static.ndsu.edu/templates/images/ndsu-print.png);
+}
+*/
+	.container {
+		max-width: none;
+		width: initial;
+		margin: 0;
+		padding: 0;
+	}
+	a {
+		white-space: pre-wrap;
+		overflow-wrap: break-word;
+	}
+	#content a {
+		text-decoration: none;
+	}
+	#content a:after {
+		content: " <" attr(href) "> ";
+		font-weight: normal;
+		font-family: monospace;
+		font-size: 0.8em;
+	}
+	#content a[href^="/"]:after {
+		content: " <www.ndsu.edu" attr(href) "> ";
+	}
+	#content .breadcrumb a:after {
+		content: none;
+	}
+}
+#content a {
+/*
+	word-break: break-word;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+*/
+/* Need to mark links with text of URL/email because this
+ * basically "breaks" the visible display (if one were to 
+ * read and then type in what is seen) */
+/*
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+*/
+}
+
+.bias_report a {
+	display: block;
+	height: 45px;
+	width: 220px;
+	background: transparent url(https://static.ndsu.edu/templates/images/bias_report.gif) no-repeat center center;
+	margin: 0 auto;
+}
+.bias_report.bias_report-vertical a {
+	background-image: url(/fileadmin/templates/images/bias_report-vert.jpg);
+	height: 69px;
+	width: 216px;
+}
+
+/* Don't style a caption unless it's properly used inside a table */
+caption {
+	padding: 0;
+	color: initial;
+}
+/* And don't display an empty one at all */
+caption:empty {
+	display: none;
+}
+/* Probably should eventually provide caption top and caption bottoms; however, default to top for now */
+table.table caption {
+	caption-side: top;
+	color: #6c757d;
+color: #515a62;
+	font-weight: bold;
+	font-family: Gotham, Montserrat, sans-serif;
+	border-bottom: 2px solid #6c757d;
+}
+
+/* Should become a new component upstream */
+#content .ndsu-social-media-buttons a:not(.btn) {
+	text-decoration: none;
+	color: #555;
+}
+#content .ndsu-social-media-buttons a:not(.btn):active,
+#content .ndsu-social-media-buttons a:not(.btn):focus,
+#content .ndsu-social-media-buttons a:not(.btn):hover {
+	text-decoration: none;
+	color: #063;
+}
+.ndsu-social-media-buttons a svg {
+	font-size: 2rem;
+}
+footer .ndsu-social-media-buttons a:not(.btn) {
+	text-decoration: none;
+	color: #fff;
+}
+footer .ndsu-social-media-buttons a:not(.btn):active,
+footer .ndsu-social-media-buttons a:not(.btn):focus,
+footer .ndsu-social-media-buttons a:not(.btn):hover {
+	text-decoration: none;
+	color: #fc0;
+}
+.ndsu-social-media-buttons li {
+	margin-right: 0.5em;
+}
+.ndsu-social-media-buttons.icon-text-row li {
+	line-height: 1em;
+	text-align: center;
+	width: 3.2em;
+}
+.ndsu-social-media-buttons.icon-text-row a:not(.btn) {
+	text-align: center;
+	display: inline-block;
+	font-size: 0.75em;
+	font-weight: normal;
+	letter-spacing: 0;
+}
+.ndsu-social-media-buttons.icon-text-col {
+	display: initial;
+	flex-wrap: initial;
+}
+.ndsu-social-media-buttons.icon-text-col .nav-item {
+	display: block;
+}
+.ndsu-social-media-buttons.icon-text-col br {
+	display: none;
+}
+.ndsu-social-media-buttons.icon-text-col svg {
+	width: 1.5em;
+}
+
+
+
+
+
+
+/* May fix the oversized images for some migrating to this template. If anything
+ * suddenly looks weird for anyone, it could be because of this. Ideally applies
+ * only to left-navigation layout, but I don't have a selector for that yet.
+ */
+.layout .ce-image {
+	/* This isn't the actual number needed in all cases, but it looks OK enough */
+	max-width: 884px;
+}
+
+
+/* This is for the terrible idea of having multi-level dropdown menus */
+ul.navbar.navbar-vertical.child-navbar .child-navbar {
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+
+
+/* Prism code formatting local customizations */
+.tx-dce-pi1 div.code-toolbar > .toolbar { opacity: 1; }
+.tx-dce-pi1 div.code-toolbar > .toolbar span,
+.tx-dce-pi1 div.code-toolbar > .toolbar a { font-size: 1em; }
+.tx-dce-pi1 div.code-toolbar > .toolbar a { text-decoration: underline; }
+.tx-dce-pi1 div.code-toolbar > .toolbar span:hover, div.code-toolbar > .toolbar span:focus { color: #bbb; }
+
+
+
+/* Breadcrumb (only used on news page in this "original" version) */
+.breadcrumb {
+	background-color: inherit;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+
+
+/* Update.css (properly migrate into the upstream template!! */
+
+/* Undo from ndsu-2018.css */
+footer a, header a, header .nav-link.active, footer strong, header strong {
+	letter-spacing: initial;
+}
+
+/* new styles */
+nav {
+	font-family: Gotham, Montserrat, sans-serif;
+}
+header .page-title-bar {
+/* Dark page title */
+        /* Use if the page title goes dark */
+	border-bottom: none;
+/* End Dark page title */
+}
+
+header h2.page-title {
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 1em;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 800px) {
+	header h2.page-title {
+		font-size: calc(2vw + 15px);
+	}
+}
+@media (max-width: 767px) {
+        header h2.page-title {
+                margin-right: 2.8em;
+        }
+}
+
+@media print {
+	header h2.page-title {
+		margin-bottom: 0;
+		padding-top: 0;
+	}
+	.page-title-bar,
+	.page-title-wrapper {
+		color: #000;
+		background-color: #fff;
+	}
+	header h2.page-title,
+	header h2.page-title a {
+		color: #000;
+		background-color: transparent;
+	}
+	header .hero-banner h2.page-title,
+	header .hero-banner h2.page-title a {
+		color: #fff;
+	}
+	header .hero-banner {
+		margin-bottom: 1em !important;
+		border-bottom: solid 1em #222;
+	}
+}
+header h2.page-title br {
+	display: none;
+}
+header h2.page-title small {
+	display: block;
+	line-height: 0.75em;
+}
+
+header .green-bar, footer.footer-green {
+    background-image: none;
+    background-color: #0a5640;
+    background-color: #004833;
+}
+
+footer.footer-green .container {
+/*	margin: 0;
+	padding: 0;*/
+}
+footer .footer-address img {
+	margin-left: 0;
+}
+footer.footer-green {
+	font-size: 0.9em;
+}
+@media print {
+	footer.footer-green {
+		background: transparent;
+		border-top: 1px solid #eee;
+	}
+	footer.footer-green .container {
+		filter: grayscale(1) invert(1);
+	}
+}
+/* Firefox already inverts and the double-inverting makes unreadable */
+@-moz-document url-prefix() {
+  @supports (-moz-appearance:none) {
+    @media print {
+      footer.footer-green .container {
+        filter: grayscale(1);
+      }
+    }
+  }
+}
+
+/* Dark page title */
+.page-title-bar,
+header .page-title-wrapper {
+    background-color: #222;
+    color: #fff;
+}
+
+.page-title a {
+    color: #fff;
+}
+.page-title a:active,
+.page-title a:focus,
+.page-title a:hover {
+	color: #fff;
+}
+/* End Dark page title */
+
+#content a::not(.btn)::not(.nav-link) {
+    color: #0a5640;
+    /*text-decoration-color: #888;*/
+}
+
+#content a:visited {
+    text-decoration-color: #ddd;
+}
+
+#content a::not(.btn)::active,
+#content a::not(.btn)::focus,
+#content a::not(.btn)::hover {
+    color: #000;
+    text-decoration-color: #222;
+    //text-decoration-style: double;
+}
+
+.green-bar .nav-link.active, .green-bar .navbar a {
+    font-weight: 500;
+}
+
+/*#mainNav .nav-link.active,*/
+/* leave main level as inherited 
+#mainNav .navbar a { */
+#mainNav .navbar li li a {
+    font-weight: 400 !important;
+}
+
+.navbar-dark .child-navbar,
+.navbar-dark .child-navbar .nav-link,
+.navbar-dark .child-navbar .nav-link[aria-expanded=true],
+.navbar-dark .child-navbar .nav-link.active,
+.navbar-dark .child-navbar .nav-link:focus,
+.navbar-dark .child-navbar .nav-link:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar-dark .child-navbar a.nav-link:active,
+.navbar-dark .child-navbar a.nav-link:focus,
+.navbar-dark .child-navbar a.nav-link:hover {
+    /*color: #0a5640;*/
+    text-decoration: underline;
+    text-decoration-color: #fc0;
+}
+
+.navbar-dark .child-navbar .nav-link {
+    padding: 0.75em;
+    font-size: 0.95em;
+    font-weight: 400;
+}
+
+.navbar-dark .child-navbar {
+    border: 1px solid #ddd;
+    border-top: none;
+    min-width: -webkit-fill-available;
+    box-shadow: 1px 1px 1px 0 #ddd;
+}
+
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus,
+.navbar-dark .nav-link[aria-expanded=true] {
+	/*border-bottom: 1px solid #fc0;*/
+	/*text-decoration: underline;*/
+}
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus,
+.navbar-dark .nav-link[aria-expanded=true],
+.navbar-dark .nav-link.active {
+	background-color: transparent;
+color: #fff;
+}
+.navbar-dark a.nav-link:hover {
+	color: #fff;
+	text-decoration: underline;
+	text-decoration-color: #fc0;
+}
+.navbar-dark .nav-link.active {
+color: #fc0;
+}
+
+.navbar-dark .nav-link.active {
+	font-weight: bold !important;
+}
+
+.main-nav div > .navbar {
+    /* the same amount of padding put on the link */
+    margin-left: -1.5em;
+}
+
+.main-nav > div > .navbar > li:first-of-type {
+}
+
+/*.navbar .nav-item.nav-item-haschild:not(.extended-child-section)>.nav-link::after {
+    content: "  ∨";
+    font-size: 1.2em;
+    color: #fc0;
+}*/
+
+#mainNav .nav-link.active {
+    font-weight: 900;
+}
+
+#mainNav ul ul .nav-link.active:before {
+    content: "> ";
+    font-weight: normal;
+}
+
+/*.navbar .nav-item.nav-item-haschild:not(.extended-child-section):hover>.nav-link:after,
+.navbar .nav-item.nav-item-haschild:not(.extended-child-section):focus-within>.nav-link:after {
+    content: "  ∧";
+}*/
+
+/* bugfix */
+.navbar .nav-item.nav-item-haschild:not(.extended-child-section)>.nav-link::after {
+        display: inline-block;
+}
+
+
+#mainNav .navbar-dark {
+    border-top: 1px solid #333;
+}
+
+.sticky-bar-on {
+    position: initial;
+}
+
+.sticky-buffer {
+    display: none;
+}
+
+/* Make a fancy line after the "page title" (a.k.a. first heading) */
+/*
+#content > div > div:first-of-type > section > header h3,
+#content > div > div:first-of-type > header h3 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+@media screen and (max-width: 800px) {
+	#content > div > div:first-of-type > section > header h3,
+	#content > div > div:first-of-type > header h3 {
+		font-size: calc(2vw + 25px);
+	}
+}
+*/
+
+/* First heading in each grid for first grid in the page
+ * (but how to keep from applying to grid after non-grid item/s?)
+ */
+/*#content > .container > .row > div[class*="col"] > div:first-of-type header h3:after, */
+/* First heading in whole page (wouldn't be in a row/grid)
+ * but might over-match and get the first non-grid item after the grid */
+/*
+#content > .container > div:first-of-type:not(.row) header h3:after {
+    content: '';
+    display: block;
+    background-color: #ffc72a;
+	height: 0.07em;
+	width: 1.5em;
+	margin-top: 0.5em;
+}
+*/
+
+/* Improve the existing stylesheet on this one regardless, methinks? */
+#content > div > div:first-of-type section header h3,
+#content > div > div:first-of-type header h3 {
+	margin-top: 0;
+}
+
+/* It's not available via the RTE, but what should we do with content that gets
+ * pasted in with available Bootstrap classes?? Accept it as-is, override to set
+ * back to default, update to be accessible? */
+.text-danger,
+.text-info,
+.text-note,
+.text-warning,
+.bg-danger, .block-danger,
+.bg-info, .block-info,
+.bg-note, .block-note,
+.bg-warning, .block-warning {
+    color: black !important;
+    border: 1px solid black;
+    border-left-width: 10px;
+}
+.bg-danger, .block-danger,
+.bg-info, .block-info,
+.bg-note, .block-note,
+.bg-warning, .block-warning {
+    padding: 0.75em;
+}
+.text-danger:before,
+.text-info:before,
+.text-note:before,
+.text-warning:before,
+.bg-danger:before, .block-danger:before,
+.bg-info:before, .block-info:before,
+.bg-note:before, .block-note:before,
+.bg-warning:before, .block-warning:before {
+    font-weight: bold;
+    white-space: pre-wrap;
+}
+
+.bg-danger, .block-danger {
+    background-color: rgb(255,0,0,0.2) !important;
+    border-color: red;
+}
+.bg-info, .block-info {
+    background-color: rgb(0,0,255,0.2) !important;
+    border-color: cornflowerblue;
+}
+.bg-note, .block-note {
+    background-color: rgb(255,200,0,0.2);
+    border-color: gold;
+}
+.bg-warning, .block-warning,
+.text-warning {
+    background-color: rgb(255,128,0,0.2) !important;
+    border-color: darkorange;
+}
+
+/* Use the :before styles for the RTE and use JS to force the .-before variant into the visitor-rendered page */
+.text-danger:before,
+.text-danger-before,
+.bg-danger:before, .block-danger:before,
+.block-danger-before {
+    content: "Danger: ";
+    color: maroon;
+}
+.text-info:before,
+.text-info-before,
+.bg-info:before, .block-info:before,
+.block-info-before {
+    content: "Info: ";
+    color: midnightblue;
+}
+.text-note:before,
+.text-note-before,
+.bg-note:before, .block-note:before,
+.block-note-before {
+    content: "Note: ";
+    color: goldenrod;
+}
+.text-warning:before,
+.text-warning-before,
+.bg-warning:before, .block-warning:before,
+.block-warning-before {
+    content: "Warning: ";
+    color: #a50;
+}
+
+
+/* New search button and other improved focus behavior */
+    #globalSearchForm:focus-within input,
+    #globalSearchForm input:focus {
+        background: #fff;
+    }
+    #globalSearchForm button {
+        color: #fff;
+    }
+    #globalSearchForm:focus-within button,
+    #globalSearchForm button:active,
+    #globalSearchForm button:focus {
+        color: #000;
+        background: transparent;
+    }
+
+
+/* To top button */
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    opacity: 0.5;
+}
+.back-to-top:hover {
+    opacity: 1;
+}
+@media print {
+	.back-to-top {
+		display: none !important;
+	}
+}
+
+
+/* Big, bold, text on HERO banner? */
+/*
+#content > div > .hero-banner {
+	//min-height: initial;
+	min-height: fit-content !important;
+}
+.hero-banner {
+	background-color: #333;
+	background-blend-mode: soft-light;
+}
+#content > div > .hero-banner section {
+	position: initial !important;
+	padding-bottom: 7em;
+}
+*/
+.hero-banner section h3 {
+	background-color: initial;
+	font-size: calc(3.7rem + 1vw);
+	font-weight: 800;
+	text-shadow: 1px 1px 5px #333;
+	width: initial;
+padding-left: 0;
+margin-bottom: 1vw;
+color: #fff;
+}
+/* Cute yellow line
+#content > .frame > .hero-banner section h3:after {
+	content: '';
+	display: block;
+	background-color: #ffc72a;
+	height: .07em;
+	width: 1.5em;
+	border: none;
+	overflow: hidden;
+	margin-top: 2rem;
+}
+*/
+.hero-banner section p {
+	background-color: initial;
+	font-size: calc(1rem + 0.7vw);
+	font-weight: 600;
+	line-height: 1.2em;
+	max-width: 20em;
+	text-shadow: 1px 1px 5px #333;
+	width: initial;
+padding-left: 0;
+}
+.hero-banner section.wide p {
+	max-width: 40em;
+}
+@media screen and (max-width: 800px) {
+	.hero-banner section h3 {
+		font-size: calc(2vw + 25px);
+	}
+	.hero-banner section p {
+		font-size: calc(2vw + 10px);
+	}
+}
+
+/* When it's subsequently used in the page */
+.container .hero-banner section h3 {
+	font-size: 2.5rem;
+	/*font-weight: 400;*/
+}
+.container .hero-banner section p {
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+/* Remove the text shading */
+.hero-banner.dim-black section h2, .hero-banner.dim-black section h3, .hero-banner.dim-black section h4, .hero-banner.dim-black section p, .hero-banner.dim-green section h2, .hero-banner.dim-green section h3, .hero-banner.dim-green section h4, .hero-banner.dim-green section p {
+background-color: initial;
+}
+
+/* Add a white "dim" (useful for dark text/light images) */
+.hero-banner.dim-white::before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	content: ""
+}
+.hero-banner.dim-white::before {
+	background-color: rgba(255,255,255,0.5);
+}
+
+/* Add a dark text/light image variant */
+.hero-banner.hero-banner-light {
+	background-color: #ddd;
+	/*background-blend-mode: overlay;*/
+}
+.hero-banner.hero-banner-light section h3,
+.hero-banner.hero-banner-light section p {
+	color: #021;
+	text-shadow: 1px 1px 5px #fff;
+}
+
+
+/* Fix this nonsense "pointer" because it doesn't work anyway */
+.gallery .gallery-item .img-wrapper {
+	cursor: initial;
+}
+.gallery .gallery-item a .img-wrapper {
+	cursor: pointer;
+}
+
+
+/* Breadcrumb */
+.breadcrumb {
+	font-family: Gotham, Montserrat, sans-serif;
+	font-size: 0.9em;
+	padding: 0;
+	background-color: initial;
+	/*position: relative;
+	top: -0.5em;
+	margin-bottom: 3em;*/
+	margin-bottom: 2rem;
+	margin-top: 0.9rem;
+}
+#content .breadcrumb-item a,
+#main-container .breadcrumb-item a {
+	color: #333;
+	font-weight: 500;
+	text-decoration: none;
+}
+#content .breadcrumb-item a:active,
+#main-container .breadcrumb-item a:active,
+#content .breadcrumb-item a:focus,
+#main-container .breadcrumb-item a:focus,
+#content .breadcrumb-item a:hover,
+#main-container .breadcrumb-item a:hover {
+	text-decoration: underline;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+	content: '\203A';
+	font-size: 2em;
+	font-weight: 100;
+	font-style: normal;
+	line-height: 0;
+	position: relative;
+	top: 0.10em;
+}
+/*
+.breadcrumb-item.active span {
+	color: #0a5640;
+	font-weight: bold;
+}
+*/
+.breadcrumb-item.active {
+	font-style: italic;
+	color: #515a62;
+}
+
+@media print {
+html {
+	background-color: #fff;
+}
+html:before { display: block; text-align: right; transform: none;}
+header h2.page-title { border-bottom: 1px solid #aaa; background-color: #fff;}
+body { border-top: none; min-width: 0 !important;}
+.navbar-toggle { display: none; }
+.search-form { display: none; }
+.page-title-bar, header .page-title-wrapper { background-color: #fff; color: #000; border: none; padding: 0 2px;}
+#content { margin: 0; }
+.container { min-width: 0 !important; }
+}
+
+h1 {
+	font-size: 1rem;
+}
+.green-bar h1 {
+        margin-right: 0;
+}
+.green-bar h1 a img {
+	font-family: Gotham, Montserrat, sans-serif;
+	text-transform: uppercase;
+	white-space: pre;
+}
+@media screen and (min-width: 500px) {
+	.green-bar h1 a img {
+		letter-spacing: 0.1em;
+	}
+}
+@media screen and (max-width: 400px) {
+	.green-bar h1 a img {
+		white-space: pre-wrap;
+	}
+}
+footer .address {
+        margin-top: inherit;
+}
+address {
+        margin-top: 2em;
+}
+footer .footer-address img {
+	font-weight: bold;
+	color: #fc0;
+	white-space: pre;
+}
+@media screen and (min-width: 400px) {
+	footer .footer-address img  {
+		letter-spacing: 0.1em;
+	}
+}
+@media screen and (max-width: 400px) {
+	footer .footer-address img  {
+		white-space: initial;
+	}
+}
+
+h1, h2, h3, h4, h5, h6, nav, header, footer, .breadcrumb {
+        font-family: Gotham, Montserrat, sans-serif;
+}
+h2.page-title a {
+        font-weight: 300;
+}
+h3, h4, h5, h6 {
+	letter-spacing: -0.03em;
+}
+h3 {
+	font-size: 3.25em;
+        color: #13272e;
+        font-weight: 300;
+}
+h4 {
+	color: #13272e;
+        font-size: 2em;
+        font-weight: 700;
+}
+h5 {
+        color: #13272e;
+}
+@media screen and (max-width: 800px) {
+	h3,
+	.container .hero-banner section h3 {
+		/*font-size: calc(4vw + 10px);
+		font-weight: 500;*/
+		font-size: calc(2vw + 1.25em);
+	}
+	h4 {
+		font-size: calc(1vw + 1em);
+	}
+}
+.overflow-hyphens {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+
+h3 + hr,
+h4 + hr,
+h5 + hr,
+h6 + hr,
+header + hr {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.main-col > h3,
+.main-col > header > h3,
+.main-col > h4,
+.main-col > header > h4,
+.main-col > h5,
+.main-col > header > h5,
+.main-col > h6,
+.main-col > header > h6 {
+	margin-top: 0;
+}
+
+.navbar-mobile h3 {
+	font-size: 1em;
+	font-weight: 500;
+	border-bottom: 1px solid #333;
+}
+
+
+
+/* Some highly experimental headings to a) give more visual hint of the hierarchy and b) discourage use
+ * as "look ma, it's big text!!" */
+/*
+h4, h5, h6 { padding-left: 0.5em; padding-right: 0.5em; display: inline-block; text-transform: unset !important; }
+h4 { border-left: 1em solid #aaa; border-right: 1em solid #aaa; }
+h5 { border-left: 2em solid #ccc; border-right: 2em solid #ccc; }
+h6 { border-left: 3em solid #eee; border-right: 3em solid #eee; }
+*/
+
+body h5 {
+	text-transform: none;
+	font-size: 1.15em;
+	font-weight: 500;
+        color: #13272e;
+
+font-size: 14pt;
+font-weight: 800; /* Required for the smaller font size */
+}
+body h6 {
+	color: gray;
+	font-family: Gotham, Montserrat, sans-serif;
+}
+
+
+/* Bring forward some things from the old template (say it isn't so!) */
+a.mail-link:before,
+a[href^="mailto"]:before {
+	content: url(https://static.ndsu.edu/templates/images/meta/email.gif);
+	padding-right: 0.25em;
+}
+a.mail-link,
+a[href^="mailto"] {
+	/* Keep icon and whole name together */
+	display: inline-block;
+}
+/* Meta icons by Mark James <http://www.famfamfam.com/lab/icons/silk/> */
+/*
+a.download-link:before {
+	content: url(https://static.ndsu.edu/templates/images/meta/download.png) " ";
+}
+a.pdf-link:before,
+a[href$="pdf"]:before, a[href$="PDF"]:before {
+	content: url(https://static.ndsu.edu/templates/images/meta/acrobat.png) " ";
+}
+a.doc-link:before {
+	content: url(https://static.ndsu.edu/templates/images/meta/office.png) " ";
+}
+a[href$="doc"]:before,a[href$="DOC"]:before,
+a[href$="docx"]:before,a[href$="DOCX"]:before {
+	content: url(https://static.ndsu.edu/templates/images/meta/word.png) " ";
+}
+a[href$="xls"]:before,a[href$="XLS"]:before,
+a[href$="xlsx"]:before,a[href$="XLSX"]:before {
+	content: url(https://static.ndsu.edu/templates/images/meta/excel.png) " ";
+}
+a[href$="ppt"]:before,a[href$="PPT"]:before,
+a[href$="pptx"]:before,a[href$="PPTX"]:before,
+a[href$="pps"]:before,a[href$="PPS"]:before {
+	content: url(https://static.ndsu.edu/templates/images/meta/powerpoint.png) " ";
+}
+a.media-link:before,
+a[href$="wmv"]:before,a[href$="WMV"]:before,
+a[href$="mov"]:before,a[href$="MOV"]:before,
+a[href$="mp3"]:before,a[href$="MP3"]:before,
+a[href$="mpeg"]:before,a[href$="MPEG"]:before,
+a[href$="avi"]:before,a[href$="AVI"]:before {
+	content: url(https://static.ndsu.edu/templates/images/meta/media.png) " ";
+}
+*/
+a.navigation-link:before {
+	content: none;
+}
+
+
+/* Engineering asked to have external links marked */
+a[href^="http"]:after {
+/* Font aweseome (requires change to the way it's loaded)
+	content: "\f35d";
+	content: "\f007";
+	font-family: "Font Awesome 5 Solid";
+	font-weight: 900;
+*/
+/* Icon-based */
+	content: url(https://static.ndsu.edu/templates/images/icon.external.gif);
+	position: relative;
+	top: calc(-.25em + 4px); /* down 1/4th of the letter less half height of the icon */
+	padding-left: 0.25em;
+}
+a[href^="http"] .img-wrapper.full-size-img {
+	/* Replace this with the following selector-rule
+	max-width: calc(100% - 0.5em - 8px);
+	display: inline-block;
+	*/
+}
+.gallery .gallery-item .img-block a[href^="http"]:after {
+	content: none;
+}
+a[href^="http"].navigation-link:after,
+a[href^="http"].btn:after,
+a[href^="https://www.ndsu.edu"]:after,
+a[href^="https://workspaces.ndsu.edu"]:after,
+a[href^="https://bulletin.ndsu.edu"]:after,
+a[href^="https://www.ag.ndsu.edu"]:after,
+a[href^="https://kb.ndsu.edu"]:after,
+.green-bar a[href^="https://www.gobison.com"]:after,
+.green-bar a[href^="http://www.gobison.com"]:after,
+.social-media-buttons a[href^="http"]:after {
+	content: none;
+}
+html[lang*="mtfrom-en"] a[href^="https://translate.google.com"]:after,
+html[lang*="mtfrom-en"] a[href^="https://translate.googleusercontent.com"]:after,
+html.translated-ltr a[href^="https://translate.googleusercontent.com"]:after {
+	content: none;
+}
+/* This is for backend preview
+a[href^="http://www.ndsu.edu"]:after {
+	content: " (not secure) ";
+	font-size: 0.8em;
+	font-weight: 100;
+}
+*/
+
+/* phone links */
+a.phone-link {
+	color: inherit;
+	font-weight: inherit;
+	text-decoration: initial;
+}
+a.phone-link:active,
+a.phone-link:focus,
+a.phone-link:hover {
+	text-decoration: underline;
+}
+
+
+
+.frame-type-menu_section a {
+	font-weight: 400;
+	font-size: 0.875em;
+	font-family: Gotham, Montserrat, sans-serif;
+}
+.frame-type-menu_section ul li {
+	list-style-type: none;
+	list-style-image: url(/fileadmin/templates/images/arrow-down.gif);
+}
+.frame-type-menu_section > ul:before {
+	content: "In this page: ";
+	color: #666;
+	font-family: Gotham, Montserrat, sans-serif;
+	font-weight: 500;
+	font-size: 0.95rem;
+	margin-left: -40px;
+}
+/* 
+.frame-type-menu_pages ul,
+.frame-type-menu_pages ul li {
+	margin-left: 0;
+	padding-left: 0;
+}
+.frame-type-menu_pages ul {
+	margin-left: 1.5em;
+}
+*/
+
+/* Hide for now
+#content a[data-visited]:after {
+	content: ' \2713';
+	color: #000;
+}
+#content a[data-visited].btn:after,
+#content a[data-visited].nav-link:after,
+#content .breadcrumb li > a[data-visited]:after,
+#content .breadcrumb-item > a[data-visited]:after,
+#content a[data-visited][href="#"]:after {
+	content: none;
+}
+*/
+
+
+
+/* New feature - "steps" ordered list (emphasizes the #) */
+ol.steps-list {
+	counter-reset: steps-li;
+	margin-left: 0;
+	padding-left: 0;
+}
+ol.steps-list > li {
+	position: relative;
+	margin: 0 0 2rem 2rem;
+	padding: 2px 0 0 0;
+	list-style: none;
+}
+ol.steps-list > li::before {
+	content: counter(steps-li);
+	counter-increment: steps-li;
+	position: absolute;
+	top: 4px;
+	left: -2.5rem;
+	box-sizing: border-box;
+	width: 2.5rem;
+	/*margin-right: 8px;*/
+	padding-right: 0.5rem;
+	font-weight: bold;
+	font-size: 1.75rem;
+	color: #b5bfc4;
+	text-align: right;
+}
+ol.steps-list > li > p {
+	margin: 0 0 1em 0;
+}
+/* end New feature - "steps" ordered list (emphasizes the #) */
+
+
+
+/* Video figcaption */
+.video-embed iframe {
+	border: 0;
+}
+/*
+.video-caption {
+	background-color: #333;
+	color: #fff;
+	padding: 0.5em;
+	margin: 0;
+}
+*/
+.video-caption {
+	font-family: Gotham, Montserrat, sans-serif;
+}
+
+
+
+/* Navigation column */
+.nav-col {
+	font-family: Gotham, Montserrat, sans-serif;
+}
+.layout .nav-col .sub-nav-title a,
+.layout .nav-col .sub-nav-title span {
+	font-weight: 600;
+}
+.layout .nav-col,
+.layout .main-col,
+.layout .side-col {
+	margin-top: 1em;
+}
+
+/* Finish the .btn styles */
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus,
+.btn-primary.focus, .btn-primary:focus {
+	//box-shadow: 0 0 0 0.2rem rgba(0,102,51,.5); /* green */
+	//box-shadow: 0 0 0 0.2rem rgba(255,204,0,.5); /* yellow */
+}
+/*
+a:focus {
+	box-shadow: 0 0 0 0.2rem rgba(255,204,0,.5);
+}
+*/
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+	background-color: #333;
+	border-color: #333;
+}
+
+/* Selection color */
+::selection {
+	background: #fc0; /* WebKit/Blink Browsers */
+	color: #000;
+}
+::-moz-selection {
+	background: #fc0; /* Gecko Browsers */
+	color: #000;
+}
+
+
+
+/* Last minute "fixes" */
+.btn {
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+@media (max-width: 767px) {
+	.hero-banner section,
+	.hero-banner section.wide,
+	.hero-banner section.bottom {
+		padding: 0;
+	}
+
+	.hero-banner section.right {
+		left: initial;
+		right: initial;
+	}
+
+	.container .hero-banner section p {
+		font-size: 1.6rem;
+	}
+}
+/*
+#content > .frame > .hero-banner > .container {
+	position: relative;
+}
+*/
+@media screen and (min-width: 1067px) {
+	#content > .frame > .hero-banner section {
+		margin-left: calc((100% - 1055px) / 2);
+		margin-right: calc((100% - 1055px) / 2);
+	}
+}
+@media screen and (min-width: 1199px) {
+	#content > .frame > .hero-banner section {    
+		margin-left: calc((100% - 1199px) / 2);    
+		margin-right: calc((100% - 1199px) / 2);
+	}
+}
+@media screen and (min-width: 1220px) {
+	#content > .frame > .hero-banner section {    
+		margin-left: calc((100% - 1220px) / 2);    
+		margin-right: calc((100% - 1220px) / 2);
+	}
+}
+
+
+
+/* Vertical navigation bar needs to be able to wrap! */
+.nav-col.main-nav .navbar .nav-item,
+.nav-col.main-nav .navbar .nav-link {
+	white-space: unset;
+}
+
+/* display: flex makes the figcaption not visible */
+.gallery .gallery-collection {
+	/* breaks multi-column ones display: block; */
+}
+.gallery .gallery-item .img-wrapper {
+	height: unset;
+}
+
+
+/* Fix vertical/left navigation from taking over the page (too wide)
+ * AND content from overflowing the container */
+@media screen and (min-width: 768px) {
+    .layout .nav-col {
+        flex: 0 0 240px !important;
+    }
+}
+.layout .main-col {
+    flex: 1 1 auto !important;
+    overflow: hidden;
+}     
+.layout .nav-col .nav-link {
+    white-space: normal;
+}
+
+
+
+/* Allow header-subheader to be more closely arranged than "usual" */
+header h4 + h5 {
+	/* Look like header h4 small, instead */
+	margin-top: -1rem;
+	font-weight: normal;
+}
+header h3 + h4 {
+	margin-top: -1rem;
+}
+
+/* table headings should not be completely plain else folks just use bold */
+.table th {
+	font-family: Gotham, Montserrat, sans-serif;
+	font-weight: 500;
+}
+
+/* make accessibility texts more readable */
+.search-form button {
+	margin-bottom: 0;
+	word-break: break-word;
+	white-space: normal;
+}
+.search-form label {
+	color: #fff;
+}
+
+/* Add a "home page link" rule, so images-disabled links will still be branded */
+footer.footer-dark .home-link,
+footer.footer-green .home-link {
+	color: #fc0;
+	font-weight: bolder;
+}
+
+/* dept footer add */
+.footer-dept {
+        background-color: #222;
+        color: #fff;
+        font-size: 0.9em;
+        line-height: 1.5em;
+}
+.footer-dept a {
+        color: #fff;
+}
+.footer-dept a:active,
+.footer-dept a:focus,
+.footer-dept a:hover {
+        color: #fc0;
+}
+@media print {
+        .footer-dept {
+		background-color: #eee;
+		color: #000;
+		border-top: 2px solid #eee;
+        }
+	.footer-dept a {
+		color: #000;
+	}
+}
+
+.footer-dept + .footer-green {
+        margin-top: 0;
+}
+
+/* lists of links can look more like regular text */
+.footer-green nav a {
+        font-weight: 500;
+        text-decoration: none;
+}
+.footer-green nav a:active,
+.footer-green nav a:active,
+.footer-green nav a:hover {
+        color: #fff;
+        text-decoration: underline;
+        text-decoration-color: #fc0;
+}
+
+.footer-green nav ul.footer-links {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+}
+.footer-green nav ul.footer-links li {
+        margin-bottom: 1em;
+}
+@media (min-width: 768px) {
+        .footer-green nav ul.footer-links {
+                columns: 2;
+        }
+}
+@media print {
+        .footer-green nav {
+                display: none;
+        }
+}
+
+
+/* Limit the dimension of the footer logo */
+.footer-address .home-link img {
+	max-width: 8em;
+}
+
+
+/* improve contrast of this link */
+.sr-navigation a {
+	background-color: #000;
+}
+
+
+iframe {
+	border: none;
+}
+
+
+/* work around for IE11 (yes, I know...) bug. This targets IE10+ without Edge 12, Chrome, Firefox, etc. */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	/* "Staff photos missing" */
+	.gallery.gallery-1 .gallery-item {
+		flex-basis: auto;
+	}
+
+	/* "green bar wraps weird" */
+	.green-bar .flex-row.flex-right {
+		justify-content: flex-start
+	}
+}
+
+
+
+/* Update event lists to not use so much padding ... should evaluate if the padded is ever needed, anywhere */
+.frame-type-dce_dceuid14 .news-events-container {
+	padding: 0;
+}
+.frame-type-dce_dceuid14 a:after {
+	content: none;
+}
+.frame-type-dce_dceuid14 a {
+	color: #063;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Gotham, Montserrat, sans-serif;
+}
+.frame-type-dce_dceuid14 a:active,
+.frame-type-dce_dceuid14 a:focus,
+.frame-type-dce_dceuid14 a:hover {
+	color: #000;
+}
+
+
+/* *********** */
+/* fluid_styled_content images overrides */
+/* *********** */
+
+
+/* In text */
+.ce-textpic.ce-right.ce-intext .ce-gallery {
+	float: right;
+	margin-left: 10px;
+}
+.ce-textpic.ce-left.ce-intext .ce-gallery {
+	float: left;
+	margin-right: 10px;
+}
+.ce-textpic.ce-intext:not(.ce-nowrap):after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Beside text */
+.ce-textpic.ce-right.ce-intext.ce-nowrap {
+	display: flex;
+	flex-direction: row-reverse;
+}
+.ce-textpic.ce-left.ce-intext.ce-nowrap {
+	display: flex;
+	flex-direction: row;
+}
+.ce-textpic.ce-right.ce-intext.ce-nowrap .ce-gallery,
+.ce-textpic.ce-left.ce-intext.ce-nowrap .ce-gallery {
+	float: none;
+	flex: 1 0 auto;
+	max-width: fit-content;
+}
+
+/* Above/below text */
+.ce-textpic.ce-above,
+.ce-textpic.ce-below {
+	display: flex;
+	flex-direction: column;
+}
+.ce-textpic.ce-below.ce-center .ce-gallery,
+.ce-textpic.ce-above.ce-center .ce-gallery {
+	align-self: center;
+}
+.ce-textpic.ce-above.ce-right .ce-gallery,
+.ce-textpic.ce-below.ce-right .ce-gallery {
+	align-self: end;
+}
+
+
+
+
+/* Gallery */
+.ce-gallery .ce-row {
+	display: flex;
+}
+.ce-gallery .ce-row .ce-column {
+	margin-right: 10px;
+}
+.ce-gallery .ce-row .ce-column:last-of-type {
+	margin-right: 0;
+}
+.ce-image.ce-center .ce-gallery .ce-column {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media (max-width: 767.98px) {
+	.ce-nowrap .ce-column {
+		max-width: 50vw;
+	}
+}
+@media (max-width: 575.98px) {
+/* On very small screens, don't try to squeeze pictures next to text */
+	.ce-intext .ce-gallery,
+	.ce-nowrap .ce-gallery {
+		float: none;
+	}
+	.ce-nowrap .ce-column {
+		max-width: unset;
+	}
+	.ce-nowrap .ce-bodytext {
+		overflow: initial;
+	}
+}
+
+.ce-image .ce-gallery {
+	margin-bottom: 10px;
+}
+
+
+.ce-intext .ce-gallery figure {
+	padding-top: 0.4em;
+}
+.ce-gallery figure.figcaption > img {
+	border: 1px solid #efefef;
+	border-bottom: none;
+}
+.ce-gallery a figure.figcaption > img {
+	border: none;
+}
+.ce-gallery figcaption {
+	font-family: Gotham, Montserrat, sans-serif;
+	font-size: 0.9em;
+	letter-spacing: -0.3px;
+	padding: .5em;
+	margin-top: -1px;
+	font-weight: 500;
+
+	border: 1px solid #efefef;
+	border-top: none;
+}
+.ce-gallery a figcaption {
+	color: #fff;
+	background-color: #333;
+	border: none;
+}
+.ce-gallery a {
+	text-decoration: none;
+}
+.ce-gallery a:hover {
+	text-decoration: underline;
+}
+.ce-gallery[data-ce-columns="2"] .ce-column {
+	max-width: calc(50% - 5px);
+}
+.ce-gallery[data-ce-columns="3"] .ce-column {
+	max-width: 33.33%;
+}
+.ce-gallery[data-ce-columns="4"] .ce-column {
+	max-width: calc(25% - 8px);
+}
+@media (max-width: 1232.98px) {
+	.ce-gallery[data-ce-columns="3"] .ce-column {
+		max-width: calc(33.33% - 8px);
+	}
+}
+@media (max-width: 767.98px) {
+	/* 2 columns become 1 on small screens */
+	.ce-gallery[data-ce-columns="2"] .ce-column {
+		max-width: calc(100% - 4px);
+		float: none;
+	}
+	.ce-gallery[data-ce-columns="2"] .ce-column:nth-of-type(1) {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.ce-gallery[data-ce-columns="3"] .ce-column {
+ 		max-width: calc(100% - 4px);
+		margin-right: 0;
+		margin-bottom: 10px;
+		float: none;
+	}
+	/* 4 columns become 2 on small screens */
+	.ce-gallery[data-ce-columns="4"] .ce-column {
+		max-width: calc(50% - 8px);
+		margin-bottom: 10px;
+	}
+	.ce-gallery[data-ce-columns="4"] .ce-column:nth-of-type(2) {
+		margin-right: 0;
+	}
+}
+@media (hover: none) and (pointer: coarse) and (min-width: 768px) {
+	.ce-gallery[data-ce-columns="2"] .ce-column {
+		max-width: calc(50% - 8px);
+	}
+	.ce-gallery[data-ce-columns="3"] .ce-column {
+		max-width: calc(33.33% - 8px);
+	}
+	.ce-gallery[data-ce-columns="4"] .ce-column {
+		max-width: calc(25% - 10px);
+	}
+}
+@media (hover: none) and (pointer: coarse) {
+	/* small screens often need more help to look more tappable */
+	.ce-gallery[data-target] .ce-row,
+	.ce-gallery .ce-row {
+		margin-bottom: 0;
+		padding-bottom: 10px;
+	}
+	.ce-gallery[data-target] figure,
+	.ce-gallery a figure {
+		box-shadow: 4px 4px 2px #444;
+		display: block;
+	}
+	.ce-gallery[data-target] figcaption {
+		display: block;
+	}
+	.ce-gallery a figcaption {
+		display: block;
+		background-color: #004833;
+	}
+}
+
+.ce-gallery[data-target] figure:hover {
+	cursor: zoom-in;
+}

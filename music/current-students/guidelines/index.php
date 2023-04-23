@@ -45,7 +45,7 @@ recital at the discretion of the hearing committee. </p>
 			<li> Select recital date and dress rehearsal date. Forms and schedule for Beckwith Recital Hall are available on the School of Music Sharepoint webpage on our <a href="http://bit.ly/PerfArtsSharepoint">CSoM Sharepoint Page</a>. Students must submit all necessary forms for both the dress rehearsal and the recital date. Dates must be approved by instructor and all collaborating musicians. </li>
 			
 			<li>Dates must be approved by instructor and all collaborating musicians.</li>
-			<li>After choosing a date, complete and submit a <a href="/performingarts/v.venues/facilities/documents/reservation_request_form-ML2.pdf"><strong>Reservation Request Form</strong></a> and submit to <a href="https://www.ndsu.edu/performingarts/staff/">Concert Facilities Manager</a>.</li>
+			<li>After choosing a date, complete and submit a <a href="https://forms.gle/HTSA3yA7Tn1WACKm9"><strong>Reservation Request Form</strong></a>.</li>
 			<li>The date of the recital performance and dress rehearsal should be in the same week.</li>
 			<li><strong>The submission of a Reservation Request Form does not guarantee the booking of the requested date and time. An email confirmation will be sent once the Reservation Request Form has been approved and processed. Reservation Requests will be processed on a first come, first served basis.</strong></li>
 		</ul>
@@ -75,7 +75,7 @@ teacher.</li>
 			
 		</ul>
 		
-		<p><strong>Step Five: 1 week prior</strong></p>
+		<p><strong>Step Five: 2 weeks prior</strong></p>
 		
 		<ul>
 			<li> <a href="https://forms.gle/KGorjy1B3MZh7QCTA">Submit your programs</a> (all checked and approved by your studio teacher). Program notes and/or translations are submitted through the same form</li>

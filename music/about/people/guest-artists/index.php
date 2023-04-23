@@ -22,13 +22,31 @@ include($config['path'].'resources/header.php');
 			
 			<table class="table table-striped">
 
+			<thead><th colspan="3">2022-2023</th></thead>
+			<tbody>
+			<tr><td>Jennifer Fraley</td><td>Clarinet</td><td></td></tr>
+			</tbody>
+
+			<thead><th colspan="3">2021-2022</th></thead>
+			<tbody>
+			<tr><td>Boston Brass</td><td>Brass Quintet</td><td>Boston Brass Residency</td></tr>
+			<tr><td>Christopher Schmitz</td><td>Composer</td><td>Pilifian Composition Competition</td></tr>
+			<tr><td>William Russell</td><td>Tuba</td><td>Pilifian Composition Competition</td></tr>
+			<tr><td>Charles Lazarus</td><td>Trumpet</td><td></td></tr>
+			<tr><td>Jennifer Olson</td><td>Soprano</td><td></td></tr>
+			<tr><td>Anastasiya Nyzkodub</td><td>Clarinet</td><td></td></tr>
+			</tbody>
+			
 			<thead><th colspan="3">2020-2021</th></thead>
 			<tbody>
 			<tr><td>Clara Osowski</td><td>Mezz-Soprano</td><td>NDSU Chamber Music Festival</td></tr>
-			<tr><td>Monty Cole</td><td>Saxophone</td><td>Single Reed Day</td></tr>
-			<tr><td>Suzanne Tirk</td><td>Clarinet</td><td>Single Reed Day</td></tr>
 			<tr><td>Ashley Hall</td><td>Trumpet</td><td></td></tr>
 			<tr><td>Patrick Sheridan</td><td>Tuba</td><td></td></tr>
+			<tr><td>Wes Warnhoff</td><td>Clarinet</td><td></td></tr>
+			<tr><td>Jennifer Fraley</td><td>Clarinet</td><td></td></tr>
+			<tr><td>Zachery Pavlicek</td><td>Clarinet</td><td></td></tr>
+			<tr><td>David Cook</td><td>Clarinet</td><td></td></tr>
+			<tr><td>Jessica Lindsey</td><td>Clarinet</td><td></td></tr>
 			</tbody>
 			
 			<thead><th colspan="3">2019-2020</th></thead>
@@ -55,6 +73,8 @@ include($config['path'].'resources/header.php');
 			<tr><td>Penelope Cruz</td><td>Choral Conductor</td><td>Relevance Symposium</td></tr>
 			<tr><td>Sam Pilafian</td><td>Tuba</td><td></td></tr>
 			<tr><td>Kevin Medl</td><td>Choral Conducting</td><td></td></tr>
+			<tr><td>Daniel Becker</td><td>Clarinet</td><td></td></tr>
+			<tr><td>Jeremy Wohletz</td><td>Clarinet</td><td></td></tr>
 			</tbody>
 			
 			<thead><th colspan="3">2017-2018</th></thead>

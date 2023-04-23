@@ -16,8 +16,8 @@ include($config['path'].'resources/header.php');
 <section>
 <h1>Competitions</h1>
 <div class="row">
-<div class="col-md-6"><a href="#HS" class="btn btn-block btn-ndsu-green">Competitions for High School Students</a></div>
-<div class="col-md-6"><a href="#Comp" class="btn btn-block btn-ndsu-green">Compositions for Composers</a></div>
+<div class="col-md-6 d-grid"><a href="#HS" class="btn btn-block btn-ndsu-green">Competitions for High School Students</a></div>
+<div class="col-md-6 d-grid"><a href="#Comp" class="btn btn-block btn-ndsu-green">Compositions for Composers</a></div>
 
 </div>
 </section>
@@ -39,7 +39,7 @@ include($config['path'].'resources/header.php');
 <div class="card border-warning">
 	<div class="card-header bg-warning">
 		<h3>High School Music Performance Competition</h3>
-		October 15, 2021
+		Deadline: <?php echo $md['hs_competition']['submission']; ?>
 	</div>
 	<div class="card-body">
 		<p>The competition is for promising high-school age performers in piano, voice, and wind and percussion instruments.</p>
@@ -80,7 +80,7 @@ include($config['path'].'resources/header.php');
 <div class="card border-warning">
 	<div class="card-header bg-warning">
 		<h3>Edwin Fissinger Choral Competition</h3>
-		 2021</div>
+		 2022</div>
 	<div class="card-body">
 		<p>NDSU Challey School of Music honors the legacy and traditions of noted choral composer and long-time NDSU choral conductor Edwin Fissinger with its annual choral composition competition.</p>
 

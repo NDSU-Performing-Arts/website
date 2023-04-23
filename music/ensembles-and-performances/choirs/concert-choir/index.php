@@ -23,11 +23,11 @@ include($config['path'].'resources/header.php');
 		
 		<p>The choir has performed such masterworks as Vaughan William's <i>Sea Symphony</i>, Mendelssohn's <i>Elijah</i>, Beethoven's <i>Ninth Symphony</i>, Verdi's<i> Requiem, Carmina Burana</i> by Carl Orff, the <i>War Requiem</i> of Benjamin Britten, and <i>Belshazzar's Feast</i> by William Walton, to name but a few pieces. The repertoire of the choir is solidly traditional. Because of the touring the choir does, most of the repertoire is unaccompanied, a mix of sacred and secular and including all style periods. For their European tours, the programs showcase American composers of art music as well as the the rich folk song traditions of America.</p>
 		
-		<p>Choir members are from many majors at NDSU, though more than two-thirds are music majors. The 60+ voice choir rehearses daily and performs several concerts each year on campus and during <a href="tour/" title="Annual Spring Tours">annual spring tours.</a> The choir has produced more than 30 recordings.</p>
+		<p>Choir members are from many majors at NDSU, though more than two-thirds are music majors. The 60+ voice choir rehearses daily and performs several concerts each year on campus and during annual spring tours. The choir has produced more than 30 recordings.</p>
                   
 		<h2><a name="auditions" id="auditions"></a>Auditions </h2>
 		
-		<a href="https://www.signupgenius.com/go/5080f4faba82da7f94-choral" class="btn btn-ndsu-green">Sign up for auditions here!</a><br />
+		<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-choral" class="btn btn-ndsu-green">Sign up for auditions here!</a><br />
 		<p>Auditions are arranged by contacting Dr. Jo Ann Miller at 231-7822 or <a href="mailto:jo.miller@ndsu.edu">jo.miller@ndsu.edu</a>.&nbsp; Because Concert Choir is a full year commitment, auditions take place the Sunday and Monday prior to the school year. The auditions consist of vocalizing to determine range and voice type, pitch and melody matching, some sight reading and a prepared piece, if possible. An accompanist is provided. The audition usually takes between 15 and 30 minutes. </p>
         
 		<h2><a name="rehearsals" id="rehearsals"></a>Rehearsals </h2>

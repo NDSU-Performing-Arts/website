@@ -1,4 +1,5 @@
 <?php 
+header("Location: ../staff/");
 //Edit the following:
 $config['page-title'] = "Margaret Latterell | Division of Performing Arts";
 $config['page-description'] = "";

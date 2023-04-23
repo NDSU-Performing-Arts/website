@@ -19,31 +19,23 @@ include($config['path'].'resources/header.php');
 	</header>
 	
 	<article>
-		<img src="images/DVFA E339 Jazz Festival web_1900x670.jpg" style="max-width:100%;">
+		<img src="/music/images/DVFA 1311 Jazz Festival WEB.jpg" style="max-width:100%;">
 	
-		<p align="center"><strong> Thursday, February 3 | 6:00 PM<br>
-		  Friday, February 4, 2022 | 6:00 PM<br />
+		<p align="center"><strong> Thursday, February 2 | 5:00 PM<br>
+		  Friday, February 3, 2022 | 5:00 PM<br />
         Festival Concert Hall</strong><br />
         $5 for Adults, $2 Seniors, Free for NDSU Students with ID</p>
+
 		
-		<!--
-		<h2>2019 Jazz Festival Featured</h2>
-		
-		<p><strong><a href="https://davidtull.com">Dave Tull, drums and vocal</a></strong> - 2019</p>
-		
-		<p><strong><a href="https://rexrichardson.net">Rex Richardson, trumpet</a></strong> - 2019</p>
-		
-		!-->
-		
-		<p>The 39th Annual Jazz Festival will be held on February 3-4, 2022 at the Challey School of Music. High school and junior high groups perform at this non-competitive festival, and work receive comments and coaching from these professional jazz artists and educators. Each artist will hold jazz clinics throughout the day, and be featured with the NDSU Jazz Ensemble in concert at 6pm each day.</p>
+		<p>The 40th Annual Jazz Festival will be held on February 2-3, 2023 at the Challey School of Music. High school and junior high groups perform at this non-competitive festival, and work receive comments and coaching from these professional jazz artists and educators. Each artist will hold jazz clinics throughout the day, and be featured with the NDSU Jazz Ensemble in concert at 6pm each day.</p>
 		<!--<p><a href="images/2020-Jazz-Festival-Schedule.pdf">CLICK HERE FOR SCHEDULE</a></p>-->
 		
 				<p>The festival culminates in a high-powered concert featuring our world-class guest artists in performance with the NDSU Jazz Ensemble.</p>
 		<p><strong>CLINICIANS</strong></p>
 		<!--<img src="images/500x750_harbison.jpg" alt="Pat Harbison" float="left" padding-right="15px" style="width:100%;max-width:100px; float:left; margin-right:15px";>-->
-    			<p><strong>Sal Lozano</strong> – Los Angeles-bases saxophonist and studio recording artist with Gordon Goodwin’s Big Phat Band.  <a href="http://www.sallozano.com">http://www.sallozano.com</a></p>
-				<p><strong>Dean Sorenson</strong> – Director of Jazz Studies at the University of Minnesota-Twin Cities, and award-winning composer.  <a href="http://www.deansorensonmusic.com">http://www.deansorensonmusic.com</a></p>
-				<p><strong>Ross Pederson</strong> – New York City based drummer, Fargo native, University of North Texas One O’clock Jazz Lab Band alumnus, currently performing with the Grammy award winning vocal group Manhattan Transfer. </p>
+    			<p><strong>Scott Belck</strong> – Director of Jazz Studies at the University of Cincinnati's College-Conservatory of Music (CCM) where he directs the CCM Jazz Orchestra and teaches applied Jazz Trumpet.</p>
+				<p><strong>Ted Hogarth</strong> – Chicago-based baritone saxophonist who is the founder and leader of The Mulligan Mosaics Big Band.</p>
+				<p><strong>Devon Gillingham</strong> – A multi-instrumentalist, songwriter, writer, music label and actor originally from Winnipeg, Canada.</p>
 		
 		<p>
 		<h2>Festival Information:</h2>
@@ -57,7 +49,7 @@ include($config['path'].'resources/header.php');
 		<br /><br />
 		<!--5.  No refunds given after January 1, 2022-->
 		<!--CLINIC and BAND PERFORMANCE SCHEDULE TO BE ANNOUNCED IN January 2022-->
-		<a href="22JazzFestSchedule.pdf" class="btn btn-ndsu-green">Clinic and Band Performance Schedule</a>
+		<a href="2023 Jazz Festival Schedule.pdf" class="btn btn-ndsu-green">Clinic and Band Performance Schedule</a>
 
 		</p>
 

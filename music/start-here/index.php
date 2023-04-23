@@ -16,7 +16,7 @@ include($config['path'].'resources/header.php');
 <section>
 	<header>
 		<p align="center">
-	  <h1>Start Here (Fall 2021)</h1>
+	  <h1>Start Here (Fall 2022)</h1>
 	</header>
 	
 	<div class="alert alert-warning">
@@ -34,7 +34,7 @@ include($config['path'].'resources/header.php');
 				Some ensembles require an audition:
 			</div>
 			<div class="card-footer">
-				<a href="https://www.signupgenius.com/go/5080f4faba82da7f94-choral" class="btn btn-ndsu-green mb-2">Choral Audition Signups</a><br />
+				<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-choral" class="btn btn-ndsu-green mb-2">Choral Audition Signups</a><br />
 				<a href="/music/ensembles-and-performances/wind-symphony/" class="btn btn-ndsu-green mb-2">Wind Symphony Auditions</a><br />
 				<a href="/music/ensembles-and-performances/jazz/" class="btn btn-ndsu-green">Jazz Auditions</a>
 			</div>
@@ -53,7 +53,6 @@ include($config['path'].'resources/header.php');
 				<li>Your <u>actual lesson time</u> will be determined in consultation with your applied teacher.</li>
 				</ul>
 				Some studios may have a different studio class time&mdash;you will receive more information from your applied teacher.<br /><br />
-				<strong>The Monday 2:00 time is reserved for MUSC 189: Skills for Academic Success.</strong>
 			</div>
 		</div>	
 		
@@ -175,7 +174,7 @@ include($config['path'].'resources/header.php');
 			<div class="card-body">
 				<h5 class="card-title"><i class="fas fa-brain"></i> MUSC 189</h5>
 				<span class="badge badge-primary">Incoming</span><br />
-				Incoming students (except those who have taken a comparable class elsewhere) will be signed up for MUSC 189: Skills for Academic Success. This course meets Mondays at 2:00PM. As a once-weekly course, it's easy to forget. 
+				Incoming students (except those who have taken a comparable class elsewhere) will be signed up for MUSC 189: Skills for Academic Success. This course meets Tuesdays at 11:00AM. As a once-weekly course, it's easy to forget. 
 			</div>
 		</div>
 		

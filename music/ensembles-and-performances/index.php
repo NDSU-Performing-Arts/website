@@ -38,14 +38,14 @@ include($config['path'].'resources/header.php');
 			<div class="col-md-12">
 			<h2>Filter</h2>
 				<div id="filters" class="">
-					<button class="btn btn-ndsu-green is-checked" id="all" data-filter="*">All</button>
-					<button class="btn btn-ndsu-green" id="Band" data-filter=".Band">Band</button>
-					<button class="btn btn-ndsu-green" id="Chamber-Music" data-filter=".Chamber-Music">Chamber Music</button>
-					<button class="btn btn-ndsu-green" id="Choral" data-filter=".Choral">Choral</button>
-					<button class="btn btn-ndsu-green" id="Instrumental" data-filter=".Instrumental">Instrumental</button>
-					<button class="btn btn-ndsu-green" id="Jazz" data-filter=".Jazz">Jazz</button>
-					<button class="btn btn-ndsu-green" id="Strings" data-filter=".Strings">Strings</button>
-					<button class="btn btn-ndsu-green" id="Vocal" data-filter=".Vocal">Vocal</button>
+					<button class="btn btn-ndsu-green is-checked" id="all" data-bs-filter="*">All</button>
+					<button class="btn btn-ndsu-green" id="Band" data-bs-filter=".Band">Band</button>
+					<button class="btn btn-ndsu-green" id="Chamber-Music" data-bs-filter=".Chamber-Music">Chamber Music</button>
+					<button class="btn btn-ndsu-green" id="Choral" data-bs-filter=".Choral">Choral</button>
+					<button class="btn btn-ndsu-green" id="Instrumental" data-bs-filter=".Instrumental">Instrumental</button>
+					<button class="btn btn-ndsu-green" id="Jazz" data-bs-filter=".Jazz">Jazz</button>
+					<button class="btn btn-ndsu-green" id="Opera" data-bs-filter=".Opera">Opera</button>
+					<button class="btn btn-ndsu-green" id="Strings" data-bs-filter=".Strings">Strings</button>
 				</div>
 			</div>
 		</div>
@@ -55,7 +55,7 @@ include($config['path'].'resources/header.php');
 		<div class="row isotope">
 		<div class="col-lg-6 element-item Instrumental Chamber-Music">
 		<div class="card mb-3">
-			<!--<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<!--<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-inner">
 			<div class="carousel-item active">-->
 			<img src="images/542x236_BrassChamber.jpg" class="card-img-top d-block w-100" alt="...">
@@ -67,11 +67,11 @@ include($config['path'].'resources/header.php');
 			<img src="images/542x236_BrassChamber.jpg" class="card-img-top d-block w-100" alt="...">
 			</div>
 			</div>
-			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			<span class="sr-only">Previous</span>
 			</a>
-			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>--
 			</a>
@@ -93,7 +93,7 @@ include($config['path'].'resources/header.php');
 						<i class="fa fa-university fa-fw"></i> MUSC 314<br />
 					</div>
 					
-					<a class="btn btn-ndsu-green btn-more" data-toggle="collapse" href="#brass-collapse" role="button" aria-expanded="false" aria-controls="brass-collapse"><i class="fas fa-plus"></i> More Information
+					<a class="btn btn-ndsu-green btn-more" data-bs-toggle="collapse" href="#brass-collapse" role="button" aria-expanded="false" aria-controls="brass-collapse"><i class="fas fa-plus"></i> More Information
 					  </a> 
 					 
 				  <div class="collapse" id="brass-collapse">
@@ -108,7 +108,7 @@ include($config['path'].'resources/header.php');
 		</div><!--Panel-->
 		</div><!--Panel-->
 		
-		<div class="col-lg-6 element-item Vocal Choral">
+		<div class="col-lg-6 element-item Choral">
 		<div class="card mb-3">
 			<img src="images/542x236_Cantemus.jpg" class="card-img-top" alt="...">
 			<div class="card-header" role="tab" id="CantemusHeading"><!--id here must match aria-labeledby below-->
@@ -125,7 +125,7 @@ include($config['path'].'resources/header.php');
 						<i class="fa fa-university fa-fw"></i> MUSC 116<br />
 					</div>
 					
-					<a class="btn btn-ndsu-green" data-toggle="collapse" href="#cantemus-collapse" role="button" aria-expanded="false" aria-controls="cantemus-collapse"><i class="fas fa-plus"></i> More Information</a> 
+					<a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#cantemus-collapse" role="button" aria-expanded="false" aria-controls="cantemus-collapse"><i class="fas fa-plus"></i> More Information</a> 
 					  
 				  <div class="collapse" id="cantemus-collapse">
 					  <p>Under the direction of Dr. Charlette Moe, this soprano/alto choir of 55-65 members continually programs music which highlights female composers and music written specifically for the women’s voices. This non-auditioned choir includes students from many different majors, rehearses Tuesdays and Thursdays 4:45-6:00 pm. For the 2013 Choral Music of the Americas Symposium, they premiered a new choral work by Imant Raminsh. Cantemus hosts an Annual Women's Choral Festival and their first convention appearance was at the 2014 North Dakota American Choral Directors Conference. Registration is easy—just visit Campus Connection and register for MUSC 116. For more information, please contact charlette.moe@ndsu.edu.</p>
@@ -137,7 +137,7 @@ include($config['path'].'resources/header.php');
 		</div><!--Panel-->
 		</div><!--Panel-->
 		
-		<div class="col-lg-6 element-item Vocal Choral">
+		<div class="col-lg-6 element-item Choral">
 		<div class="card mb-3">
 			<img src="images/542x236_ConcertChoir.jpg" class="card-img-top" alt="...">
 			<div class="card-header" role="tab" id="ConcertChoirHeading"><!--id here must match aria-labeledby below-->
@@ -155,15 +155,12 @@ include($config['path'].'resources/header.php');
 						<i class="fa fa-university fa-fw"></i> MUSC 306<br />
 					</div>
 					
-					<a class="btn btn-ndsu-green" data-toggle="collapse" href="#concertchoir-collapse" role="button" aria-expanded="false" aria-controls="concertchoir-collapse"><i class="fas fa-plus"></i> More Information</a> 										
+					<a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#concertchoir-collapse" role="button" aria-expanded="false" aria-controls="concertchoir-collapse"><i class="fas fa-plus"></i> More Information</a> 										
 					
 					
 				  <div class="collapse" id="concertchoir-collapse">
 					  <p>The NDSU Concert Choir has a distinguished tradition of performing eminent choral literature at the highest level of artistry. Under Dr. Jo Ann Miller's direction, the choir has performed at state, regional and national music conferences, including seven North Central American Choral Directors Association conferences and the national ACDA conference in San Antonio, Texas. The choir performs regularly with the Fargo- Moorhead Symphony and tours overseas every three years. Most recently, the choir visited Eastern and Central Europe in 2009, toured Croatia and Italy in 2012, and Iceland and Scotland in 2015. The choir received the first place gold medal at the International Choral Competition in Zadar, Croatia, during the 2012 tour.</p>
-					<p><!--Auditions take place the Sunday and Monday prior to the school year.-->
-					Auditions will be held Sunday, August 22 & 23.  Please email <a href="mailto:Margaret.latterell@ndsu.edu">margaret.latterell@ndsu.edu</a> to schedule an audition.</p>
-					
-					<a href="choir/concert-choir/" class="btn btn-ndsu-green">Concert Choir</a>
+					<a href="choirs/concert-choir/" class="btn btn-ndsu-green">Information and Auditions</a>
 					</div>
 				</div>
 				<!--card-body-->
@@ -184,7 +181,7 @@ include($config['path'].'resources/header.php');
 				<div class="card-body">
 				
 					<div class="alert alert-success">
-						<i class="fa fa-user-circle fa-fw"></i> Dr. Sigurd Johnson, <a href="mailto:sigurd.johnson@ndsu.edu">sigurd.johnson@ndsu.edu</a>.<br />
+						<i class="fa fa-user-circle fa-fw"></i> Connor Challey, <a href="mailto:connor.challey@ndsu.edu">connor.challey@ndsu.edu</a>.<br />
 						<i class="fa fa-calendar fa-fw"></i> MWF 4:00-5:45<br />
 						<i class="fa fa-university fa-fw"></i> MUSC 111<br />
 					</div>
@@ -242,7 +239,7 @@ include($config['path'].'resources/header.php');
 						<i class="fa fa-university fa-fw"></i> Various<br />
 					</div>
 					
-					<p><a class="btn btn-ndsu-green" data-toggle="collapse" href="#jazz-collapse" role="button" aria-expanded="false" aria-controls="jazz-collapse"><i class="fas fa-plus"></i> More Information</a></p>
+					<p><a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#jazz-collapse" role="button" aria-expanded="false" aria-controls="jazz-collapse"><i class="fas fa-plus"></i> More Information</a></p>
 					<div class="collapse" id="jazz-collapse">
 					<p><a href="https://www.ndsu.edu/performingarts/music/ensembles-and-performances/jazz/">Click here for audition information</a></p>
 					</div>
@@ -251,7 +248,7 @@ include($config['path'].'resources/header.php');
 		</div><!--Panel-->
 		</div><!--Panel-->
 		
-		<div class="col-lg-6 element-item Vocal Choral">
+		<div class="col-lg-6 element-item Choral">
 		<div class="card mb-3">
 			<img src="images/542x236_Madrigals.jpg" class="card-img-top" alt="...">
 			<div class="card-header" role="tab" id="MadrigalHeading"><!--id here must match aria-labeledby below-->
@@ -269,7 +266,7 @@ include($config['path'].'resources/header.php');
 						<i class="fa fa-university fa-fw"></i> MUSC 317<br />
 					</div>
 					
-					<a class="btn btn-ndsu-green" data-toggle="collapse" href="#mads-collapse" role="button" aria-expanded="false" aria-controls="mads-collapse"><i class="fas fa-plus"></i> More Information</a> 
+					<a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#mads-collapse" role="button" aria-expanded="false" aria-controls="mads-collapse"><i class="fas fa-plus"></i> More Information</a> 
 									
 					
 					
@@ -283,7 +280,7 @@ include($config['path'].'resources/header.php');
 		</div><!--Panel-->
 		</div><!--Panel-->
 		
-		<div class="col-lg-6 element-item Vocal Opera">
+		<div class="col-lg-6 element-item Opera">
 		<div class="card mb-3">
 			<img src="images/542x236_Opera.jpg" class="card-img-top" alt="...">
 			<div class="card-header" role="tab" id="OperaHeading"><!--id here must match aria-labeledby below-->
@@ -301,7 +298,7 @@ include($config['path'].'resources/header.php');
 						<i class="fa fa-university fa-fw"></i> MUSC 319<br />
 					</div>
 					
-					<a class="btn btn-ndsu-green" data-toggle="collapse" href="#opera-collapse" role="button" aria-expanded="false" aria-controls="opera-collapse"><i class="fas fa-plus"></i> More Information</a> 
+					<a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#opera-collapse" role="button" aria-expanded="false" aria-controls="opera-collapse"><i class="fas fa-plus"></i> More Information</a> 
 					
 					
 					
@@ -331,7 +328,7 @@ include($config['path'].'resources/header.php');
 						<i class="fa fa-university fa-fw"></i> MUSC 312<br />
 					</div>
 					
-					<a class="btn btn-ndsu-green" data-toggle="collapse" href="#percussion-collapse" role="button" aria-expanded="false" aria-controls="percussion-collapse"><i class="fas fa-plus"></i> More Information</a> 
+					<a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#percussion-collapse" role="button" aria-expanded="false" aria-controls="percussion-collapse"><i class="fas fa-plus"></i> More Information</a> 
 										
 					
 					
@@ -343,7 +340,7 @@ include($config['path'].'resources/header.php');
 		</div><!--Panel-->
 		</div><!--Panel-->
 		
-		<div class="col-lg-6 element-item Choral Vocal">
+		<div class="col-lg-6 element-item Choral">
 		<div class="card mb-3">
 			<img src="images/542x236_Statesmen.jpg" class="card-img-top" alt="...">
 			<div class="card-header" role="tab" id="StatesmenHeading"><!--id here must match aria-labeledby below-->
@@ -361,12 +358,12 @@ include($config['path'].'resources/header.php');
 						<i class="fa fa-university fa-fw"></i> MUSC 117<br />
 					</div>
 					
-					<a class="btn btn-ndsu-green" data-toggle="collapse" href="#statesmen-collapse" role="button" aria-expanded="false" aria-controls="statesmen-collapse"><i class="fas fa-plus"></i> More Information</a> 
+					<a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#statesmen-collapse" role="button" aria-expanded="false" aria-controls="statesmen-collapse"><i class="fas fa-plus"></i> More Information</a> 
 															
 					
 					
 				  <div class="collapse" id="statesmen-collapse">
-					<p>The NDSU tenor/bass choir is non-auditioned, has singers from many campus majors, and rehearses each Tuesday and Thursday, 4:45-6:00 pm. For the 2013 Choral Music of the Americas Symposium, The Statesmen premiered a new choral work by Jorge Cozatl. They also represented NDSU at the 2009 and 2015 North Dakota Music Educators Association convention in Bismarck, ND.To participate, visit Campus Connection to register for MUSC 117. For more information, please contact Dr. Michael Weber, Associate Director of Choral activities at m.weber@ndsu.edu.</p>
+					<p>The NDSU tenor/bass choir is non-auditioned, has singers from many campus majors, and rehearses each Tuesday and Thursday, 3:30-4:45 pm. For the 2013 Choral Music of the Americas Symposium, The Statesmen premiered a new choral work by Jorge Cozatl. They also represented NDSU at the 2009 and 2015 North Dakota Music Educators Association convention in Bismarck, ND.To participate, visit Campus Connection to register for MUSC 117. For more information, please contact Dr. Michael Weber, Associate Director of Choral activities at m.weber@ndsu.edu.</p>
 					</div>
 					
 				</div><!--card-body-->
@@ -392,7 +389,7 @@ include($config['path'].'resources/header.php');
 						<i class="fa fa-university fa-fw"></i> MUSC 112<br />
 					</div>
 					
-					<a class="btn btn-ndsu-green" data-toggle="collapse" href="#uband-collapse" role="button" aria-expanded="false" aria-controls="uband-collapse"><i class="fas fa-plus"></i> More Information</a> 
+					<a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#uband-collapse" role="button" aria-expanded="false" aria-controls="uband-collapse"><i class="fas fa-plus"></i> More Information</a> 
 					
 					
 					
@@ -406,7 +403,7 @@ include($config['path'].'resources/header.php');
 		</div><!--Panel-->
 		</div><!--Panel-->
 		
-		<div class="col-lg-6 element-item Vocal Choral">
+		<div class="col-lg-6 element-item Choral">
 		<div class="card mb-3">
 			<img src="images/542x236_UChamberSingers.jpg" class="card-img-top" alt="...">
 			<div class="card-header" role="tab" id="UCSHeading"><!--id here must match aria-labeledby below-->
@@ -424,7 +421,7 @@ include($config['path'].'resources/header.php');
 						<i class="fa fa-university fa-fw"></i> MUSC 215<br />
 					</div>
 					
-					<a class="btn btn-ndsu-green" data-toggle="collapse" href="#ucs-collapse" role="button" aria-expanded="false" aria-controls="ucs-collapse"><i class="fas fa-plus"></i> More Information</a> 
+					<a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#ucs-collapse" role="button" aria-expanded="false" aria-controls="ucs-collapse"><i class="fas fa-plus"></i> More Information</a> 
 										
 					
 					
@@ -454,11 +451,11 @@ include($config['path'].'resources/header.php');
 				
 					<div class="alert alert-success">
 						<i class="fa fa-user-circle fa-fw"></i> Dr. Sigurd Johnson, <a href="mailto:sigurd.johnson@ndsu.edu">sigurd.johnson@ndsu.edu</a>.<br />
-						<i class="fa fa-calendar fa-fw"></i> T 7:00-9:00<br />
+						<i class="fa fa-calendar fa-fw"></i> TTh 7:00-9:00<br />
 						<i class="fa fa-university fa-fw"></i> MUSC 316-02<br />
 					</div>
 					
-					<a class="btn btn-ndsu-green" data-toggle="collapse" href="#uso-collapse" role="button" aria-expanded="false" aria-controls="uso-collapse"><i class="fas fa-plus"></i> More Information</a> 
+					<a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#uso-collapse" role="button" aria-expanded="false" aria-controls="uso-collapse"><i class="fas fa-plus"></i> More Information</a> 
 						
 					
 					
@@ -506,7 +503,7 @@ include($config['path'].'resources/header.php');
 						<i class="fa fa-university fa-fw"></i> MUSC 303<br />
 					</div>
 					
-					<a class="btn btn-ndsu-green" data-toggle="collapse" href="#ws-collapse" role="button" aria-expanded="false" aria-controls="ws-collapse"><i class="fas fa-plus"></i> More Information</a> 
+					<a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#ws-collapse" role="button" aria-expanded="false" aria-controls="ws-collapse"><i class="fas fa-plus"></i> More Information</a> 
 					
 					
 					
@@ -542,7 +539,7 @@ include($config['path'].'resources/header.php');
 						<i class="fa fa-university fa-fw"></i> MUSC 315<br />
 					</div>
 					
-					<a class="btn btn-ndsu-green" data-toggle="collapse" href="#ww-collapse" role="button" aria-expanded="false" aria-controls="ww-collapse"><i class="fas fa-plus"></i> More Information</a> 
+					<a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#ww-collapse" role="button" aria-expanded="false" aria-controls="ww-collapse"><i class="fas fa-plus"></i> More Information</a> 
 					
 					
 					
@@ -561,13 +558,7 @@ include($config['path'].'resources/header.php');
 	</div><!--Panel-group-->
 <br />	
 	<article>
-		<p>Auditions for Concert Choir, Madrigal Singers and University Chamber Singers require one prepared solo.  An accompanist will be provided. If a prepared vocal solo is unavailable, America (My Country Tis of Thee) could be performed. Auditions for these choirs are held throughout the summer. To schedule an audition this summer, contact <a href="mailto:jo.miller@ndsu.edu">Dr. Jo Ann Miller</a>. If you plan to audition in August, also contact <a href="mailto:jo.miller@ndsu.edu">Dr. Jo Ann Miller</a> or sign up for an audition time on her office door, located in the Reineke Performing Arts Center 2nd Floor, room 217.</p>
-		
-		<p>A number of smaller ensembles are also available for participation. Please call the music office at 701.231.7932 for additional information.</p>
-		
-		<p>The Concert Choir, Wind Symphony, and Jazz Ensemble each take an extended concert tour in the spring. Past trips have included concert tours to Europe and have spanned the United States.</p>
-		
-		<p>For a complete listing of upcoming concerts, productions, and exhibitions, please visit the <a href="https://www.ndsu.edu/performingarts/calendar/">Performing Arts Calendar of Events</a>.</p>
+		<div class="alert alert-warning">For a complete listing of upcoming concerts, productions, and exhibitions, please visit the <a href="https://www.ndsu.edu/performingarts/calendar/">Performing Arts Calendar of Events</a>.</div>
 	</article>
 </section>
 
@@ -576,7 +567,7 @@ include($config['path'].'resources/header.php');
 <?php include($config['path'].'resources/footer.php');?>
 <!--	document javascript -->
 
-<script src="//nf.azureedge.net/vendor/isotope/3.0.6/isotope.pkgd.min.js"></script>
+<script src="//cdn.ntfg.net/vendor/isotope/3.0.6/isotope.pkgd.min.js"></script>
 
 <!-- JS for Isotope-->
 <script>
@@ -590,13 +581,13 @@ $( function() {
 				transitionDuration: '0.7s',
 				getSortData: {
 					name: '.name',
-					category: '[data-category]',
+					category: '[data-bs-category]',
 				}
 			});
 
 			// bind filter button click
 			$('#filters').on( 'click', 'button', function() {
-				var filterValue = $( this ).attr('data-filter');
+				var filterValue = $( this ).attr('data-bs-filter');
 				// use filterFn if matches value
 				// filterValue = filterFns[ filterValue ] || filterValue;
 				$container.isotope({ filter: filterValue });
@@ -604,7 +595,7 @@ $( function() {
 
 			// bind sort button click
 			$('#sorts').on( 'click', 'button', function() {
-				var sortByValue = $(this).attr('data-sort-by');
+				var sortByValue = $(this).attr('data-bs-sort-by');
 				$container.isotope({ sortBy: sortByValue });
 			});
 

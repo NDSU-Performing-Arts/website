@@ -51,7 +51,7 @@ include($config['path'].'resources/header.php');
 			<div class="card-header" role="tab" id="ChoralConductingHeading"><!--id here must match aria-labeledby below-->
 				<h4 class="mb-0">
 				<!--href here must match aria-controls, aria-labeledby, and div id below-->
-				<button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" href="#ChoralConducting" aria-expanded="true" aria-controls="ChoralConducting">
+				<button class="btn btn-link" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#ChoralConducting" aria-expanded="true" aria-controls="ChoralConducting">
 				Conducting-Choral
 				</button>
 				</h4>
@@ -105,7 +105,7 @@ include($config['path'].'resources/header.php');
 			<div class="card-header" role="tab" id="InstrumentalConductingHeading"><!--id here must match aria-labeledby below-->
 				<h4 class="mb-0">
 				<!--href here must match aria-controls, aria-labeledby, and div id below-->
-				<button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" href="#InstrumentalConducting" aria-expanded="true" aria-controls="InstrumentalConducting">
+				<button class="btn btn-link" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#InstrumentalConducting" aria-expanded="true" aria-controls="InstrumentalConducting">
 				Conducting-Instrumental
 				</button>
 				</h4>
@@ -128,7 +128,7 @@ include($config['path'].'resources/header.php');
 			<div class="card-header" role="tab" id="MusicEducationHeading"><!--id here must match aria-labeledby below-->
 				<h4 class="mb-0">
 				<!--href here must match aria-controls, aria-labeledby, and div id below-->
-				<button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" href="#MusicEducation" aria-expanded="true" aria-controls="MusicEducation">
+				<button class="btn btn-link" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#MusicEducation" aria-expanded="true" aria-controls="MusicEducation">
 				Music Education
 				</button>
 				</h4>
@@ -154,12 +154,12 @@ include($config['path'].'resources/header.php');
 			<div class="card-header" role="tab" id="MusicEducationHeading"><!--id here must match aria-labeledby below-->
 				<h4 class="mb-0">
 				<!--href here must match aria-controls, aria-labeledby, and div id below-->
-				<button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" href="#Theory Pedagogy" aria-expanded="true" aria-controls="Theory Pedagogy">
+				<button class="btn btn-link" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#TheoryPedagogy" aria-expanded="true" aria-controls="TheoryPedagogy">
 				Music Theory Pedagogy
 				</button>
 				</h4>
 			</div><!--card-header-->
-			<div id="Theory Pedagogy" class="collapse" role="tabpanel" aria-labelledby="Theory Pedagogy">
+			<div id="TheoryPedagogy" class="collapse" role="tabpanel" aria-labelledby="TheoryPedagogy">
 				<div class="card-body">
 				  <p>The Theory Pedagogy degree program is designed for students interested in developing their skills as teachers and scholars in Music Theory. Students may pursue the Theory Pedagogy MM jointly with another MM option, or as a second MM enrolled concurrently with a DMA in Performance or Conducting, though it has enough unique required courses to be granted as a single degree.</p>
 				<ul>
@@ -184,7 +184,7 @@ include($config['path'].'resources/header.php');
 			<div class="card-header" role="tab" id="InstrumentalPerformanceHeading"><!--id here must match aria-labeledby below-->
 				<h4 class="mb-0">
 				<!--href here must match aria-controls, aria-labeledby, and div id below-->
-				<button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" href="#InstrumentalPerformance" aria-expanded="true" aria-controls="InstrumentalPerformance">
+				<button class="btn btn-link" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#InstrumentalPerformance" aria-expanded="true" aria-controls="InstrumentalPerformance">
 				Performance-Instrumental
 				</button>
 				</h4>
@@ -207,7 +207,7 @@ include($config['path'].'resources/header.php');
 			<div class="card-header" role="tab" id="PianoPerformanceHeading"><!--id here must match aria-labeledby below-->
 				<h4 class="mb-0">
 				<!--href here must match aria-controls, aria-labeledby, and div id below-->
-				<button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" href="#PianoPerformance" aria-expanded="true" aria-controls="PianoPerformance">
+				<button class="btn btn-link" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#PianoPerformance" aria-expanded="true" aria-controls="PianoPerformance">
 				Performance-Piano
 				</button>
 				</h4>
@@ -217,7 +217,7 @@ include($config['path'].'resources/header.php');
 					<p><a href="https://www.youtube.com/watch?v=oxV1_PY0mJY">Learn about NDSU's Piano Programs in this video!</a></p>
 					<p>Few instruments offer as individualized a medium for expression as the piano, and your success as a pianist depends on individualized instruction. Our piano faculty are at the top of their field as performers and teachers; and take into account each student's needs, aptitudes, background and goals to create a unique plan for success. Our curriculum includes a balance of applied lessons, academic courses and the study of pedagogy, in addition to opportunities for hands-on experience as a performer, teacher, and accompanist</p>
 
-					<p>The NDSU Piano Performance Program will be facilitating live auditions as well as accepting video auditions for applicants wishing to audition for the 2022-2023 academic year.<br>
+					<p>The NDSU Piano Performance Program will be facilitating live auditions as well as accepting video auditions for applicants wishing to audition for the 2023-2024 academic year.<br>
 
 					For those wishing to travel to Fargo, ND for a live audition: please contact <a href="mailto:tyler.wottrich@ndsu.edu">Dr. Tyler Wottrich</a> to discuss potential dates for your audition. For those submitting a video audition: please contact <a href="mailto:tyler.wottrich@ndsu.edu">Dr. Tyler Wottrich</a> to discuss submission of your audition video as well as to arrange an interview by Zoom or comparable platform.</p>
 
@@ -236,7 +236,7 @@ include($config['path'].'resources/header.php');
 			<div class="card-header" role="tab" id="CollaborativePianoHeading"><!--id here must match aria-labeledby below-->
 				<h4 class="mb-0">
 				<!--href here must match aria-controls, aria-labeledby, and div id below-->
-				<button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" href="#CollaborativePiano" aria-expanded="true" aria-controls="CollaborativePiano">
+				<button class="btn btn-link" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#CollaborativePiano" aria-expanded="true" aria-controls="CollaborativePiano">
 				Performance-Collaborative Piano
 				</button>
 				</h4>
@@ -263,7 +263,7 @@ include($config['path'].'resources/header.php');
 			<div class="card-header" role="tab" id="OperaHeading"><!--id here must match aria-labeledby below-->
 				<h4 class="mb-0">
 				<!--href here must match aria-controls, aria-labeledby, and div id below-->
-				<button class="btn btn-link" data-toggle="collapse" data-parent="#accordion" href="#VocalPerformance" aria-expanded="true" aria-controls="VocalPerformance">
+				<button class="btn btn-link" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#VocalPerformance" aria-expanded="true" aria-controls="VocalPerformance">
 				Performance-Voice
 				</button>
 				</h4>
@@ -314,5 +314,5 @@ include($config['path'].'resources/header.php');
 </div>
 </div>
 <!-- InstanceEndEditable --></div></section>
-
+<br />
 <?php include($config['path'].'resources/footer.php')?>

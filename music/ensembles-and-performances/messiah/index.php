@@ -20,8 +20,10 @@ include($config['path'].'resources/header.php');
 	
 	<article>
 		        
-		<p>Upcoming Performances: Thursday, Dec 2; Friday, Dec. 3; Saturday, Dec. 4, 2021.</p>
-		<p>Coordinated by Dr. Jo Ann Miller, Baroque Festival Music Director, over 150 students in five choirs and the Baroque Festival Orchestra will present Handel&rsquo;s monumental piece, which has become a holiday tradition throughout the world.  Premiered in Dublin, Ireland in 1742, <em>Messiah</em> combines Old and New Testament texts in one of the most memorable works of Western music. Performances will be held on three evenings at First Lutheran Church, 619 Broadway North in Fargo.</p>
+		<p>Fargo - Thursday, Dec. 1; Friday, Dec. 2, 2022, 7:30 p.m. (First Lutheran Church, 619 Broadway N)<br />
+		Minneapolis - Saturday, Dec. 3, 7:30 p.m. (Saint Mark's Episcopal Cathedral, 519 Oak Grove St.)
+		</p>
+		<p>Coordinated by Dr. Jo Ann Miller, Baroque Festival Music Director, over 150 students in five choirs and the Baroque Festival Orchestra will present Handel&rsquo;s monumental piece, which has become a holiday tradition throughout the world.  Premiered in Dublin, Ireland in 1742, <em>Messiah</em> combines Old and New Testament texts in one of the most memorable works of Western music. Performances will be held on two evenings at First Lutheran Church, 619 Broadway North in Fargo, and on one evening at Saint Mark's Episcopal Cathedral, 519 Oak Grove in Minneapolis.</p>
 		
 		<h2>Featuring</h2>
 		
@@ -36,7 +38,7 @@ include($config['path'].'resources/header.php');
         
 		<p><strong>Pricing at Door</strong> - Adults: $20 | Seniors: $15 | Students: $10 | Free to NDSU students with NDSU ID <!--<strong>Discounts are available on advance purchases for this event.</strong>--> Contact Performing Arts Box Office: 701.231.7969 or <a href="https://ndsu.showare.com">online</a> </p>
         
-		<p>Our Dec. 2, 2017 performance of Handel's Messiah is available, thanks to NewsDakota! Visit <a href="http://www.newsdakota.com/2017/12/02/ndsu-baroque-festival-presents-handels-messiah-with-live-video-on-newsdakota/">NewsDakota.com</a> for the full video.</p></p>
+		<p><iframe width="560" height="315" src="https://www.youtube.com/embed/OXspLWAwpcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 		
 		<img src="images/2017_messiah.jpg" 
 			 alt="Handel's Massiah" 

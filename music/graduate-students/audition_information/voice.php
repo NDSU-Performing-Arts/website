@@ -17,15 +17,33 @@ include($config['path'].'resources/header.php');
 <div class="col-md-12" id="">
 
  <h1>Voice Performance: Graduate Audition Information and Requirements</h1>
-        <div class="alert alert-secondary">
-          <p>The NDSU Voice Program is holding live auditions as well as accepting video auditions for applicants wishing to audition for the 2022-2023 academic year.</p>
-          <p><b>For those traveling to Fargo, ND for a live audition:</b> A member of the voice faculty will be in touch with you about scheduling your audition date. Refer to the audition requirements in the yellow box below for the MM and DMA programs.</p>
-			
-			<p><b>For those submitting a video audition:</b> Please <a href="mailto:voice.faculty@ad.ndus.edu?subject=Graduate%20Audition%20by%20Video">contact our voice faculty</a> to discuss submission of your audition videos as well as to arrange an interview by Zoom or similar platform. Refer to the audition requirements in the yellow box below for the MM and DMA programs.</p>
-        
-			<p><strong>NOTE:</strong> We cannot schedule your audition (or review your audition videos) until you have successfully completed your <a href="https://ndsugrad.force.com/Application/TX_SiteLogin?startURL=%2FApplication%2FTargetX_Portal__PB">application to the NDSU Graduate School</a>. We recommend applying to the Graduate School as soon as possible.</p>
+        <div class="alert alert-primary">
+        <h2>General Information</h2>
+
+		<p>The NDSU Challey School of Music is accepting applications for graduate degrees in voice performance for the 2023-2024 academic year.</p>
+
+		<p><strong>Live Auditions:</strong> An in-person audition is strongly preferred for all graduate applicants in voice performance. A live audition will be arranged after you have completed the graduate application and successfully passed the pre-screening audition (see Pre-Screening Requirements below). If you are unable to travel to Fargo a live audition, a video audition can be arranged.</p>
+
+		<p><strong>Application Deadline</strong>: The NDSU Graduate School accepts applications for graduate study on a rolling basis throughout the year. However, to be fully considered for an assistantship in music, please submit your completed graduate application by January 15, 2022.</p>
+
+		<p><strong>Video Auditions:</strong> In-person auditions are strongly preferred to video auditions. However, the voice faculty will review your application based on video recordings if you cannot travel to Fargo for a live audition. In order to qualify for a video audition, you must submit recordings of all your required audition selections as well as complete an interview via Zoom or a similar platform. Both components are required in order to gain admission to the Challey School of Music. Please <a href="mailto:voice.faculty@ad.ndus.edu?subject=Graduate Audition by Video">contact our voice faculty</a> to discuss this alternative application route and to make arrangements. Refer to the audition repertoire requirements in the yellow box below for the MM and DMA programs.</p>
+
+		<p><strong>IMPORTANT:</strong> We cannot schedule your audition (or review your video audition) until you have successfully completed your <a href="https://ndsugrad.force.com/Application/TX_SiteLogin?startURL=%2FApplication%2FTargetX_Portal__PB">application to the NDSU Graduate School</a>. We recommend applying to the Graduate School as soon as possible and notifying <a href="mailto:jo.miller@ndsu.edu">Dr. Jo Ann Miller</a>, Director of Graduate Studies in Music, by email.</p>
+
+		<p><strong>QUESTIONS:</strong> If you have any questions regarding the audition requirements or audition process, please <a href="mailto:voice.faculty@ad.ndus.edu">email our voice faculty</a> at <a href="mailto:voice.faculty@ad.ndus.edu">voice.faculty@ad.ndus.edu</a>.</p>
 		</div>
         
+		<div class="alert alert-secondary">
+		<h2>Pre-screening Requirements</h2>
+		All MM and DMA applicants must submit a pre-screening recording to the NDSU Voice Faculty. Recordings should meet the following requirements:
+		<ul>
+		<li><strong>MM Applicants:</strong> One art song and one aria (opera or oratorio) showcasing different languages, styles and moods.</li>
+		<li><strong>DMA Applicants:</strong> Three contrasting selections. At least one art song and at least one aria from opera or oratorio showcasing different languages, styles, and moods.</li>
+		<li><strong>ALL Applicants:</strong> Your pre-screen recordings should be videos that clearly show you performing your selections in a live, un-edited setting. Your body should be visible from the knees up. Your videos should be submitted as YouTube or Vimeo links. </li>
+		</ul>
+
+		</div>
+		
 		<div class="alert alert-warning mb-3">
 		<h2>Master of Music in Voice Repertoire Requirements</h2>
 		<p>
@@ -66,14 +84,15 @@ include($config['path'].'resources/header.php');
 		</p>
 		</div>
 
-		<div class="alert alert-warning mb-3" id="but">
+		<div class="alert alert-warning mb-3"><a name="but"></a>
 		<p><strong>***Exception: Arias from oratorio, mass, cantata, etc. may be sung in English translation if doing so is considered standard performance practice, for example: arias from Mendelssohn's <em>Elijah</em> or Haydn's <em>Creation</em>. </strong></p>
 		</div>
 		
-		<p><strong>All Applicants:</strong> On the day of your audition, you will start with the selection of your choosing, and the voice faculty will select pieces to be heard from the remaining titles on your audition list. A pianist is provided to you, free of charge. You will have an opportunity to rehearse with your pianist prior to your audition. After your sung audition, you will complete a brief interview with the voice faculty.</p>
-		
-        <div class="alert alert-primary">If you have any questions regarding the audition requirements or process, please <a href="mailto:voice.faculty@ad.ndus.edu?subject=Graduate%20Application/Audition">email our voice faculty</a> at <a href="mailto:voice.faculty@ad.ndus.edu">voice.faculty@ad.ndus.edu</a>.</div>
-       
+		<div class="alert alert-primary">
+		<h2>What to Expect at Your Audition </h2>
+		On the day of your in-person audition, you will start with the selection of your choosing, and the voice faculty will select pieces to be heard from the remaining titles on your audition list. A pianist is provided to you, free of charge. You will have an opportunity to rehearse with your pianist prior to your audition. After your sung audition, you will complete a brief interview with the voice faculty.
+
+		</div>
 
 </div></div>
 <!-- InstanceEndEditable --></div></section>

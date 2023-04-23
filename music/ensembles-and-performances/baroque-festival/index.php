@@ -19,7 +19,7 @@ include($config['path'].'resources/header.php');
 	</header>
 	
 	<article>
-	  <p align="left" style="margin-top: 0; margin-bottom: 0;">Upcoming Performances: Saturday, January 29, 2022 and Sunday, January 30, 2022</p>
+	  <p align="left" style="margin-top: 0; margin-bottom: 0;">Upcoming Performances: Saturday, January 21, 2022 and Sunday, January 22, 2022</p>
 	  <p align="left">&nbsp;</p>
 		<p>Coordinated by Dr. Jo Ann Miller, Baroque Festival Music Director, over 200 students in five choirs and the Baroque Festival Orchestra will present Handel&rsquo;s monumental piece, which has become a holiday tradition throughout the world.  Premiered in Dublin, Ireland in 1742, <em>Messiah</em> combines Old and New Testament texts in one of the most memorable works of Western music. Performances will be held on two evenings at First Lutheran Church,  619 Broadway North in Fargo.</p>
 		

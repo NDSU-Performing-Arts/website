@@ -18,7 +18,7 @@ include($config['path'].'resources/header.php');
 
  <h1>Collaborative Piano Audition Information and Requirements</h1>
         <div class="alert alert-secondary">
-          <p>The NDSU Collaborative Piano Program will be facilitating live auditions as well as accepting video auditions for applicants wishing to audition for the 2022-2023 academic year.
+          <p>The NDSU Collaborative Piano Program will be facilitating live auditions as well as accepting video auditions for applicants wishing to audition for the 2023-2024 academic year.
           </p>
           <p><b>For those wishing to travel to Fargo, ND for a live audition:</b>  Please contact <a href="mailto:tyler.wottrich@ndsu.edu">Dr. Tyler Wottrich</a>  to discuss dates and audition repertoire so that we can secure appropriate vocal and instrumental partners for your audition. Refer to the audition requirements in the yellow box below. </p>
 			

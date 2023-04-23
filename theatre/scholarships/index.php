@@ -20,9 +20,9 @@ include($config['path'].'resources/header.php');
 	</header>
 	
 	<article>
-		<p>If you are planning on coming to NDSU as a Theatre major, there are two possible ways you could earn scholarships!  One is through the university system for an academic scholarship and the other is by auditioning/interviewing in the theatre department and being awarded a scholarship for your major.</p>
+		<!--<p>If you are planning on coming to NDSU as a Theatre major, there are two possible ways you could earn scholarships!  One is through the university system for an academic scholarship and the other is by auditioning/interviewing in the theatre department and being awarded a scholarship for your major.</p>
        	
-		<div class="alert alert-warning pb-0">
+		<!--<div class="alert alert-warning pb-0">
 		<h3>
 		<ol>
 			<li>Apply for <a href="https://ndsu.academicworks.com/users/sign_in/">NDSU Scholarships</a></li>
@@ -30,9 +30,11 @@ include($config['path'].'resources/header.php');
 				Complete an <a href="https://ndstate.co1.qualtrics.com/SE/?SID=SV_1HT62v7hm9KkEjb" target="_blank" title="Theatre Scholarships">online scholarship form</a>.</li>
 		</ol>
 		</h3>
-		</div>
+		</div>-->
 		
-		<h3>Scholarship Auditions</h3>
+		<!--<h3>Scholarship Auditions</h3>
+		
+		<!--
 		<p>Students who are interested in a scholarship audition should do the following after filling out the online scholarship form:
 		  <br>
 	    Email a copy of your current resume, an unofficial copy of your high school transcript, and one letter of recommendation to <a href="mailto:Tiffany.Fier@ndsu.edu.">Tiffany.Fier@ndsu.edu</a>. 
@@ -64,7 +66,41 @@ include($config['path'].'resources/header.php');
 		
 		<p> If students have any questions about the process, preparing interviewing materials, or the program at NDSU, please don't hesitate to contact <a href="mailto:tiffany.fier@ndsu.edu">Tiffany Fier</a><a href="mailto:tiffany.fier@ndsu.edu"></a>.</p>
 		
-		<p>Good luck and we hope to see you soon!</p>
+		<p>Good luck and we hope to see you soon!</p>-->
+		<p>Are you interested in applying for an NDSU Theatre Arts Scholarship? We allow both in-person and virtual scholarship auditions for all interested students.</p>
+
+		<p><strong>First,</strong> begin by filling out this form: <a href="https://ndstate.co1.qualtrics.com/jfe/form/SV_1HT62v7hm9KkEjb?Q_JFE=qdg">https://ndstate.co1.qualtrics.com/jfe/form/SV_1HT62v7hm9KkEjb?Q_JFE=qdg</a></p>
+
+		<!--<p><strong>Next,</strong> you will need to provide an unofficial copy of your high school transcript</p>
+
+		<p>Your transcript should be sent to tiffany.fier@ndsu.edu</p>-->
+
+		<p><strong>Second,</strong> you will need to send us or schedule an in-person audition to present the following:</p>
+
+		<p>For Musical Theatre Students:<br />
+		• A one-minute cutting from a recognized musical<br />
+		• A contrasting one-minute monologue
+		</p>
+
+		<p>For Performance Students:<br />
+		• two contrasting one-minute monologues
+		</p>
+
+
+		<p>For Design/Tech Students:<br />
+		• images of their most recent work
+		</p>
+
+		<p>The deadline to apply is <strong>April 15th, 2023</strong>.</p>
+
+		<p>Factors determining the awarding of the scholarships:<br />
+		• Financial need<br />
+		• Talent/potential<br />
+		• Seriousness of intent<br />
+		• Scholastic record
+		</p>
+		
+		<p>Good luck and we hope to see you soon!<p>
 	</article>
 </section>
 <!-- InstanceEndEditable --></div></section>

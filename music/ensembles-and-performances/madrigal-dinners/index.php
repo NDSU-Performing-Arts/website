@@ -70,9 +70,9 @@ include($config['path'].'resources/header.php');
 	<article>
 		<p>The NDSU Madrigal Singers is a highly selective ensemble that performs vocal chamber music from the Renaissance through the 21st century. In addition to concert performances throughout the year, the annual Madrigal Dinners feature fully costumed productions of Renaissance revelry. Conducted by Dr. Michael Weber, the Madrigal Singers perform for numerous NDSU celebrations, and tour each spring with the NDSU Concert Choir. </p>
 		
-		<p><strong>December 9-11, 2021<br />
+		<p><strong>December 8-10, 2022<br />
 
-          Dinner, 6 PM - $45</strong><strong><br />
+          Dinner, 6 PM - $50</strong><strong><br />
 
         Reineke Performing Arts Center Challey Atrium</strong></p>
 
@@ -89,17 +89,17 @@ include($config['path'].'resources/header.php');
         <h3>Fanfare the Firste</h3>
         <p> Announcing the procession of ye Lords and Ladyes into the Great Hall<br />
           &quot;Deck the Hall&quot;<br />
-        House Salad with Homemade Ranch Dressing</p>
+        <!--House Salad with Homemade Ranch Dressing--></p>
 
         <h3>Fanfare the Second </h3>
         <p> Announcing the passing of the wassail bowle<br />
           &quot;Glouchestershire Wassail&quot;<br />
-          Wassail
+          <!--Wassail-->
         </p>
 
         <h3>Fanfare the Third</h3>
         <p> Announcing the serving of the soupe<br />
-        Vegetarian Wild Rice Soup</p>
+        <!--Vegetarian Wild Rice Soup--></p>
 		
         <h3>Fanfare the Fourth</h3>
         <p> Announcing the homage of Ye Boar's Head<br />
@@ -107,13 +107,13 @@ include($config['path'].'resources/header.php');
 
 		<h3>Fanfare the Fifthe</h3>
         <p>Serving the Entr&eacute;e<br />
-		Rotisserie Chicken
+		<!--Rotisserie Chicken
 		Beef Medallions &amp; Mushrooms
 		Vegetable Wellington
 		Garlic &amp; Herb Smashed Potatoes<br />
 		Dinner Rolls<br />
 		Carrots<br />
-		Chocolate Carmel Cake</p>
+		Chocolate Carmel Cake--></p>
 
         <h3>Fanfare the Sixth</h3>
 		<p>Sack Theatre</p>

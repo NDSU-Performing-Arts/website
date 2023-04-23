@@ -25,8 +25,8 @@ include($config['path'].'resources/header.php');
 	<!-- <a href="2019 MUSIC DAY SCHEDULE .pIn Pedf">Music Day Schedule</a> </h2> !-->
 
 
-    <h3>Thursday, Oct. 21 <br>
-		Friday, Oct. 22
+    <h3>Thursday, Oct. 20 <br>
+		Friday, Oct. 21
 		<br>
 	  Attention high school juniors and seniors! </h3>
 
@@ -34,7 +34,7 @@ include($config['path'].'resources/header.php');
         </p>
 	
 		
-        <p><strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSc_f4PuyCP4O-S46ruTtXV3K254VZDU14P-Wcz3icFoQpWAEw/viewform?usp=sf_link" class="btn btn-ndsu-green btn-sm">Register to attend NDSU Music Day</a></strong></p>
+        <p><strong><a href="https://ndsudpa.shopwindow.io/content/render/crm_form/6151e3e9-4071-4910-b971-cef285aeebd1?presentation=web#0" class="btn btn-ndsu-green btn-sm">Register to attend NDSU Music Day</a></strong></p>
         <p>Interested in auditioning for a scholarship during Music Day? <strong><a href="https://docs.google.com/forms/d/e/1FAIpQLScTN4d3LxL1QyCwfiuU-bb0tRMGsvlaTYDiyGIsX7hFQRAvzw/viewform">Fill out the application here.</a></strong> <br>
          
           
@@ -47,8 +47,8 @@ include($config['path'].'resources/header.php');
 	 <a href="https://www.ndsu.edu/discover">Directions and Parking </a>: Visitors will park at the Fargodome and board a bus to the NDSU Alumni Center.
 		
         <p><!--<a href="https://drive.google.com/open?id=1jABUv9u6gTSjP4W5bYbkLWWwxOnpiuC2WIIcgnbH1pQ" class="btn btn-warning">Register Here</a> -->
-		<a href="https://docs.google.com/document/d/1va_EE4q1NjLWApU9SZsuOKRxoMHPWNOr/edit?usp=sharing&ouid=109532413213720374781&rtpof=true&sd=true" class="btn btn-warning mr-3">10/21 Schedule</a>
-		<a href="https://docs.google.com/document/d/1Ii7qr6WeaCa4kK3-O2wyT2GYEJ0YQwzh/edit?usp=sharing&ouid=109532413213720374781&rtpof=true&sd=true" class="btn btn-warning">10/22 Schedule</a></p>
+		<a href="https://docs.google.com/document/d/1eHpOc67MhCzr7abIxoC9Hi5zXWvTc3XJ/edit?usp=sharing&ouid=109532413213720374781&rtpof=true&sd=true" class="btn btn-warning mr-3">10/20 Schedule</a>
+		<a href="https://docs.google.com/document/d/1ELeuXuWid74Q_7mSWtSoMl9S2ydIelb0/edit?usp=sharing&ouid=109532413213720374781&rtpof=true&sd=true" class="btn btn-warning">10/21 Schedule</a></p>
 
         <p><strong>For further information, please contact:</strong><br />
 

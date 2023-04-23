@@ -23,11 +23,14 @@ include($config['path'].'resources/header.php');
 
 		<h2>Handbooks</h2><br />
 		<div class="row mb-4">
-		<div class="col-md-6">
+		<div class="col-md-4 d-grid">
 		<a href="../undergraduate-students/images/11-5 2020 Instrumental Hbk.pdf" class="btn btn-ndsu-green btn-block btn-lg"><i class="fas fa-book"></i> Instrumental Area Handbook</a>
 		</div>
-		<div class="col-md-6">
-		<a href="../undergraduate-students/images/Voice-ChoralHandbook 2021-2022.pdf" class="btn btn-ndsu-green btn-block btn-lg"><i class="fas fa-book"></i> Vocal/Choral Area Handbook</a>
+		<div class="col-md-4 d-grid">
+		<a href="../undergraduate-students/images/Voice-ChoralHandbook-1-17-23.pdf" class="btn btn-ndsu-green btn-block btn-lg"><i class="fas fa-book"></i> Vocal/Choral Area Handbook</a>
+		</div>
+		<div class="col-md-4 d-grid">
+		<a href="https://ndsucomposition.com/Composition%20Handbook%2020220929.pdf" class="btn btn-ndsu-green btn-block btn-lg"><i class="fas fa-book"></i> Composition Area Handbook</a>
 		</div>
 		</div>
 
@@ -79,7 +82,6 @@ include($config['path'].'resources/header.php');
 		<strong>Further information coming soon</strong>.
 		<ul class="bg">
           <li><strong>Bachelor of Music - Composition</strong> | <a href="https://catalog.ndsu.edu/undergraduate/program-curriculum/music/#majorbmuscompositiontext">Curriculum</a></li>
-		  <li>More information at the <a href="//newmusicnd.org">Composition Studio Website</a></li>
         </ul>
         </div>
         </div>

@@ -15,7 +15,7 @@ include($config['path'].'resources/header.php');
 
 <div class="row">
 <!-- 	rotating headers -->
-	<div id="pa-carousel" class="carousel slide" data-ride="carousel">
+	<div id="pa-carousel" class="carousel slide" data-bs-ride="carousel">
     <!-- Indicators 
     <ol class="carousel-indicators">
       <li data-target="#pa-carousel" data-slide-to="0" class="active"></li>
@@ -29,40 +29,41 @@ include($config['path'].'resources/header.php');
     <div class="carousel-inner">
 		<!-- 1 -->
 		<div class="carousel-item active">
-			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2021-22/" title="20-21 Theatre NDSU"><img alt="2021-22 Theatre NDSU" src="shows/2021-22/DVFA Theatre Season_web banner.jpg" style="width:100%;"></a>
+			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2022-23/" title="22-23 Theatre NDSU"><img alt="2022-23 Theatre NDSU" src="shows/2022-23/DVFA 982 Theatre Web Banner Graphics 3800x1340 - Season.jpg" style="width:100%;"></a>
 			<div class="carousel-caption"></div>
 		</div>
+		  
 		<!-- 2 -->
 		<div class="carousel-item">
-			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2021-22/edges.php" title="Edges"><img alt="Edges" src="shows/2021-22/DVFA E426 Edges_1900x670.jpg" style="width:100%;"></a>
+			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2022-23/alabaster.php" title="Alabaster"><img alt="Alabaster" src="shows/2022-23/DVFA 982 Theatre Web Banner Graphics 3800x1340 - Alabaster.jpg" style="width:100%;"></a>
 			<div class="carousel-caption"></div>
 		</div>
 
 		<!-- 3 -->
 		<div class="carousel-item">
-			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2021-22/thecrucible.php" title="The Crucible"><img alt="The Crucible"  src="shows/2021-22/DVFA E427 Primary Web Banner.jpg" style="width:100%;"></a>
+			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2022-23/home.php" title="Home"><img alt="Home"  src="shows/2022-23/DVFA 982 Theatre Web Banner Graphics 3800x1340 - Home.jpg" style="width:100%;"></a>
 			<div class="carousel-caption"></div>
 		</div>
-
-		<!-- 4 --
-		<div class="carousel-item">
-			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2021-22/thesecretgarden.php" title="The Secret Garden"><img alt="The Secret Garden" src="shows/2021-22/DVFA E428 Secret Garden_web banner.jpg" style="width:100%;"></a>
-			<div class="carousel-caption"></div>
-		</div>-->
 		
+		<!-- 4 -->
+		<div class="carousel-item">
+			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2022-23/twelfth-night.php" title="Twelfth Night"><img alt="Twelfth Night" src="shows/2022-23/DVFA 982 Theatre Web Banner Graphics 3800x1340 - 12th Night.jpg" style="width:100%;"></a>
+			<div class="carousel-caption"></div>
+		</div>
+	
 		<!-- 5 -->
 		<div class="carousel-item">
-			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2021-22/thethanksgivingplay.php" title="The Thanksgiving Play"><img alt="The Thanksgiving Play" src="shows/2021-22/DVFA E249 Thanksgiving FB Cover Banner.jpg" style="width:100%;"></a>
+			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2022-23/cabaret.php" title="Cabaret"><img alt="Cabaret" src="shows/2022-23/DVFA 982 Theatre Web Banner Graphics 3800x1340 - Cabaret.jpg" style="width:100%;"></a>
 			<div class="carousel-caption"></div>
 		</div>
 	</div><!--/carousel-inner-->
 
     <!-- Controls -->
-	<a class="carousel-control-prev" href="#pa-carousel" role="button" data-slide="prev">
+	<a class="carousel-control-prev" href="#pa-carousel" role="button" data-bs-slide="prev">
 		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		<span class="sr-only">Previous</span>
 	</a>
-	<a class="carousel-control-next" href="#pa-carousel" role="button" data-slide="next">
+	<a class="carousel-control-next" href="#pa-carousel" role="button" data-bs-slide="next">
 		<span class="carousel-control-next-icon" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
 	</a>

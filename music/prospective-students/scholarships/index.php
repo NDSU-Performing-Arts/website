@@ -49,15 +49,16 @@ include($config['path'].'resources/header.php');
 		
 		<p>The Robert & Sheila Challey Scholarships are additional awards of significant support, presented to both incoming and continuing majors in music. Through these awards, the Challey family is committed to an ever increasing standard of high quality for music at NDSU.</p>
 		
-		<a href="../scholarships/documents/challey_brochure.pdf" class="btn btn-ndsu-green" style="white-space:normal;"><i class="fas fa-file-download"></i> Download the Robert &amp; Sheila Challey Scholarship brochure</a>
+		<a href="DVFA E239 Challey Scholarship Brochure_final[2].pdf" class="btn btn-ndsu-green" style="white-space:normal;"><i class="fas fa-file-download"></i> Download the Robert &amp; Sheila Challey Scholarship brochure</a>
 		<br />
 		<br />
 	</article>
 
 	<header>
-		<img align="left" alt="Music Scholarships" src="images/robert_challey.jpg" style="margin: 0px; padding: 16px;" >
+	<h2>About Robert &amp; Sheila Challey</h2>
+		<img align="left" alt="Music Scholarships" src="images/Challeys.jpg" style="margin: 0px; padding: 16px;max-width:500px;width:100%" >
 		
-		<h2>About Robert &amp; Sheila Challey</h2>
+		
 	</header>
 	
 	<article>
@@ -102,12 +103,12 @@ include($config['path'].'resources/header.php');
 			<li>Contact Dr. Michael Weber at <a href="tel:7012318497">701.231.8497</a> or <a href="mailto:m.weber@ndsu.edu">m.weber@ndsu.edu</a> to arrange an audition time.<br>
 			NDSU Reineke Fine Arts Center<br>
 			12th Ave North and Bolley Drive<br>
-			<span class="badge badge-warning"><a href="https://www.ndsu.edu/performingarts/music/day/">Music Day:</a> October 21 and 22, 2021</span>
-			<br>
-			<span class="badge badge-warning">Piano: TBD</span> (please contact Dr. Tyler Wottrich at <a href="tel:7012317884">701.231.7884</a> or <a href="mailto:tyler.wottrich@ndsu.edu">tyler.wottrich@ndsu.edu</a> to arrange an audition time)
+<!--			<strong><a href="https://www.ndsu.edu/performingarts/music/day/">Music Day:</a> <?php echo $md['music_day'];?></strong>
+			<br>-->
+			<strong>Piano: TBD</strong> (please contact Dr. Tyler Wottrich at <a href="tel:7012317884">701.231.7884</a> or <a href="mailto:tyler.wottrich@ndsu.edu">tyler.wottrich@ndsu.edu</a> to arrange an audition time)
 			  <br>
-				<span class="badge badge-warning">Voice: Jan. 28 and Feb. 7, 2022</span><br>
-				<span class="badge badge-warning">Instrumental: Jan. 28 and Feb. 7, 2022</span><br>
+				<strong>Voice: <?php echo $md['scholarships']['combined'];?></strong><br>
+				<strong>Instrumental: <?php echo $md['scholarships']['combined'];?></strong><br>
 			</li>
 			<li>Review the audition requirements <a href="../">here</a>.</li>
 			<li>Review the <a href="faq/">Scholarship Audition Frequently Asked Questions</a>.</li>
@@ -142,13 +143,13 @@ include($config['path'].'resources/header.php');
 <div class="card">
 <div class="card-header">
 	<header>
-		<h2>Presidential and Provost Scholarships</h2>
+		<h2>Guaranteed Scholarships</h2>
 	</header>
 	</div>
 	<div class="card-body">
 	<article>
 		<p>NDSU is proud of the number of academically talented students who enter the university each year. <br>
-		  The <a href="https://www.ndsu.edu/sites/default/files/scholarships_chart_112020.jpg"><strong>Presidential and Provost Scholarshps are guranteed based on academic merit</strong></a>.<b> Deadline: Must be admitted by February 1, 2022</b></p>
+		  The <a href="https://www.ndsu.edu/admission/financial_aid/first_year_scholarships"><strong>Guaranteed (Academic) Scholarships are based on academic merit</strong></a>.<b> Deadline: Must be admitted by February 1, 2023</b></p>
 		
 	</article>
 	</div>
@@ -194,18 +195,18 @@ include($config['path'].'resources/header.php');
 	</div>
 	<br />
 		!-->
-		<p>Scholarship applications for current and incoming students are accepted through <span class="badge badge-warning">February 1, 2022</span> for the Division of Performing Arts.</p>
+		<p>Scholarship applications for current and incoming students received by <strong>February 1, 2023</strong> will receive priority when distributing scholarships.</p>
 		
-		<p>To complete the online scholarship application please use the following link: <a href="https://www.ndsu.edu/onestop/finaid/scholarships/">https://www.ndsu.edu/onestop/finaid/scholarships/</a> and click on the "apply now" button. You will then be asked to log in using the same credentials that you use for blackboard.</p>
+		<p>To complete the online scholarship application please use the following link: <a href="https://ndsu.academicworks.com">https://ndsu.academicworks.com</a>. You will then be asked to log in using the same credentials that you use for blackboard.</p>
 		
-		<p>We hope you find the system easy to use. For general information, you can also refer to the<a href="https://www.ndsu.edu/onestop/finaid/scholarships/"> video on the scholarship information page</a>.</p>
+		<p>We hope you find the system easy to use. For general information, you can also refer to the <a href="https://www.ndsu.edu/onestop/scholarships">scholarship information page</a>.</p>
 		
 		<p>All external scholarships will also be listed on the same site so log in often to see if new opportunities have been added for you.</p>
 		
 		<div class="alert alert-warning"><i class="fas fa-exclamation-circle"></i> <strong>REMEMBER:</strong> Be sure to observe the criteria and deadline for each scholarship. It is the student's responsibility to submit the scholarship application and respond to all additional questions posted.</div>
 		
 		<p>If you have questions, please contact: <a href="mailto:m.weber@ndsu.edu">m.weber@ndsu.edu</a>        
-		<h2><a href="https://www.ndsu.edu/performingarts/music/prospective-students/scholarships/faq/"> Scholarships FAQ</h2></a>
+		<h2><a href="https://www.ndsu.edu/performingarts/music/prospective-students/scholarships/faq/">Scholarships FAQ</h2></a>
 		<br>        
           
           

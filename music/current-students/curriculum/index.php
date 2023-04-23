@@ -22,12 +22,12 @@ include($config['path'].'resources/header.php');
 <section>
 	<header>
 		<h2>Course Rotation and Schedule<br>
-			(effective fall 2017 for graduate and undergraduate students)</h2>
+			(effective fall 2022 for graduate and undergraduate students)</h2>
 	</header>
 	
 	<article>
 		<ul>
-			<li><a href="../documents/course_rotation/Complete Course Schedule Jan. 2022.pdf">Complete Schedule</a></li>	
+			<li><a href="../documents/course_rotation/Complete Course Schedule August 2022.xlsx">Complete Schedule</a></li>	
 			<!--<li><a href="../documents/course_rotation/even_fall_schedule.pdf">Even Fall Schedule</a></li>
 			<li><a href="../documents/course_rotation/even_spring_schedule.pdf">Even Spring Schedule</a></li>
 			<li><a href="../documents/course_rotation/odd_fall_schedule.pdf">Odd Fall Schedule</a></li>

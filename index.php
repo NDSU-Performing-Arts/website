@@ -11,9 +11,11 @@ include($config['path'].'resources/header.php');
 ?>
 <section id="" class="bg-bggreen"><!-- InstanceBeginEditable name="body" -->
 
-<div class="container">
 
-  <div id="pa-carousel" class="carousel slide" data-ride="carousel">
+<div class="container"><br />
+
+
+  <div id="pa-carousel" class="carousel slide" data-bs-ride="carousel">
     <!-- Indicators 
     <ol class="carousel-indicators">
       <li data-target="#pa-carousel" data-slide-to="0" class="active"></li>
@@ -50,9 +52,9 @@ include($config['path'].'resources/header.php');
       </div>
 		-->
 
-      <!-- 2 -->
+	  <!-- 2 -->
       <div class="carousel-item active">
-        <a href="https://www.ndsu.edu/performingarts/news/2019-20/0020.php" title="Protect the Herd">
+        <a href="https://www.ndsu.edu/performingarts/covid-audiences/" title="Protect the Herd">
     			<img alt="Protect the herd"	src="resources/media/images/headers/1900x670_ProtectTheHerd_CSOM.jpg" style="width:100%;">
     		</a>
         <div class="carousel-caption">
@@ -88,11 +90,11 @@ include($config['path'].'resources/header.php');
     </div>
 
     <!-- Controls -->
-    <a class="carousel-control-prev" href="#pa-carousel" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#pa-carousel" role="button" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#pa-carousel" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#pa-carousel" role="button" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>

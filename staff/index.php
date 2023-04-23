@@ -16,7 +16,7 @@ include($config['path'].'resources/header.php');
 	<header>
 		<h1>Administrative</h1>
 	</header>
-	<div class="card-deck">
+	<div class="row row-cols-lg-auto">
 		<div class="ndsu-column">
 		  <a href="../music/about/people/faculty/john_miller.php"><img class="d-none d-md-block" src="images/200px_faculty_miller_john.jpg" alt="John Miller">
 		  <div class="ndsu-column-inner">
@@ -45,7 +45,7 @@ include($config['path'].'resources/header.php');
 		<h1>Performing Arts Office</h1>
 	</header>
 	
-	<div class="card-deck">
+	<div class="row row-cols-lg-auto">
 	
 			<div class="ndsu-column">
 			  <a href="dahl_tracey.php"><img class="d-none d-md-block" src="images/200px_faculty_dahl_tracey.jpg" alt="Tracey Dahl">
@@ -64,12 +64,21 @@ include($config['path'].'resources/header.php');
 			</div>
 			
 			<div class="ndsu-column">
+			  <a href="iverson_jacoba.php"><img class="d-none d-md-block" src="images/Woodard_Jacoba.jpg" alt="Jacoba Woodard">
+			  <div class="ndsu-column-inner">
+				<h5>Jacoba Iverson</h5>
+				<p>Academic Assistant</p>
+			  </div></a>
+			</div>
+			
+			<?php /*
+			<div class="ndsu-column">
 			  <a href="latterell_margaret.php"><img class="d-none d-md-block" src="images/200px_faculty_latterell_maggie_2.jpg" alt="Margaret Latterell">
 			  <div class="ndsu-column-inner">
 				<h5>Margaret Latterell</h5>
 				<p>Concert Facilities and Box Office Manager</p>
 			  </div></a>
-			</div>
+			</div> */ ?>
 			
 			<div class="ndsu-column">
 			  <a href="scheerer_matt.php"><img class="d-none d-md-block" src="images/Scheerer_Matt.jpg" alt="Matt Scheerer">
@@ -79,21 +88,13 @@ include($config['path'].'resources/header.php');
 			  </div></a>
 			</div>
 						<!--<div class="w-100"><br /><!--Every 4!--</div>-->
-		
-			<div class="ndsu-column">
-			  <a href="woodard_jacoba.php"><img class="d-none d-md-block" src="images/Woodard_Jacoba.jpg" alt="Jacoba Woodard">
-			  <div class="ndsu-column-inner">
-				<h5>Jacoba Woodard</h5>
-				<p>Academic Assistant</p>
-			  </div></a>
-			</div>
 	</div>
 <br />
 	<header>
 		<h1>Theatre Arts Office</h1>
 	</header>
 	
-	<div class="row">
+	<div class="row row-cols-lg-auto">
 	
 			<div class="ndsu-column">
 			  <a href="../theatre/faculty/engler_mark.php"><img class="d-none d-md-block" src="../theatre/faculty/images/200px_faculty_engler_mark.jpg" alt="Mark Engler">
@@ -129,23 +130,4 @@ include($config['path'].'resources/header.php');
 	
 <!-- 	document footer -->
 <?php 	//include('../resources/languages/php/alpha_sitewide_footer.php')?>
-<?php 	include($path.'resources/parts/footer.php')?>
-
-</body>
-
-<!--	document javascript -->
-<script type="text/javascript"
-		src="//ndsu.edu/performingarts/resources/languages/jq/jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
-		
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		
-<script type="text/javascript"
-		src="//ndsu.edu/performingarts/resources/languages/jq/jq_onclick.js?v=<?php echo time();?>"></script>
-
-<!-- InstanceBeginEditable name="docscripts" -->
-<!-- 	additional scripts -->
-
-<!-- InstanceEndEditable -->
-
-<!-- InstanceEnd --></html>
+<?php include($config['path'].'resources/footer.php')?>

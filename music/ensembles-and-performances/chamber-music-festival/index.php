@@ -30,9 +30,7 @@ include($config['path'].'resources/header.php');
   </li>
 </ul>	<br /> -->
 	<header>
-		<img alt="Chamber Music Festival"
-			style="width:100%"
-			src="images/2021-Chamber-Web-Banner.jpg">
+		<img alt="Chamber Music Festival" style="width:100%" src="images/CMF-NoDates.jpeg">
 		<!--<h1>NDSU Chamber Music Festival 6th Season<br>
 		</h1>
 	</header>
@@ -42,25 +40,23 @@ include($config['path'].'resources/header.php');
 	<br />
 	<div class="row"><div class="col-md-9">
 	<article>
-			<h3>2021 NDSU Chamber Music Festival<br />
-		  Thursday, August 26 - Tuesday, August 31, 2021</h3><br />
+			<h3>2022 NDSU Chamber Music Festival<br />
+		  Thursday, August 25 - Tuesday, August 30, 2022</h3><br />
 		
-		  <br />
-			<h4>Concerts in Beckwith Recital Hall</h4>
-			Thursday, August 26 at 7:30 pm<br>
-			Monday, August 30 at 7:30 pm<br>
-			Tuesday, August 31 at 7:30 pm<br>
+			<h4>Free Concerts</h4>
+			<p>Thursday, August 25 at 7:30 PM, NDSU Beckwith Recital Hall:  Clara Osowski Art Song Recital<br />
+			Monday, August 29 at 7:30 PM, NDSU Beckwith Recital Hall<br />
+			Tuesday, August 30 at 12:00 Noon, Plains Art Museum<br />
+			Tuesday, August 30 at 7:30 PM, NDSU Beckwith Recital Hall</p>
 
 
-			<p>Come join us as we once again celebrate the joy of great chamber music together in person! Though we were able to also enjoy chamber music together outside in the Reineke courtyard for the Special 2020 edition of the NDSU Chamber Music Festival, we are pleased to announce a return to Beckwith Recital Hall with its superb chamber music acoustics for our 2021 Festival August 26-31.</p>
+			<p>Join us as we gather to be moved and inspired by chamber music in all of its up-close power and eloquence at the 2022 NDSU Chamber Music Festival! Superstar guest artists including violinists <a href="https://www.graceparkviolin.com">Grace Park</a> and <a href="https://www.concordiacollege.edu/directories/faculty-staff/details/dr-sonja-bosca-harasim/">Sonja Bosca-Harasim</a> as well as cellist <a href="https://www.metaweiss.com">Meta Weiss</a> and NDSU faculty will be performing alongside NDSU student pianists after an intensive five-day series of rehearsals.</p>
 			
-			<p>We are thrilled to announce the extraordinary special guest artists for our 2021 Festival: the <strong>Grammy-Award winning Attacca String Quartet</strong>, as well as <strong>Gabriel Campos-Zamora</strong>, <strong>Principal Clarinet of the Minnesota Orchestra</strong>. These world-class artists will be rehearsing with our NDSU student pianists during the Festival to prepare a varied selection of chamber masterworks of Beethoven, Brahms, Dvorak, Mendelssohn, Poulenc, and Schumann for your listening pleasure on the August 30 and 31 concerts!</p>
+			<p>The 2022 Festival will open on Thursday, August 25 at 7:30 PM with an art song recital featuring distinguished mezzo-soprano and NDSU alumna <a href="https://colbertartists.com/artists/clara-osowski/">Clara Osowski</a> alongside pianist Tyler Wottrich. The program will include works from Schubert, Britten, Poulenc, and De Falla and will close with Jonathan Dove's "On The Threshold", which was written for Clara and given its world premiere by Clara and Tyler just a few months ago at the Collaborative Arts Institute of Chicago. The concerts on August 29 and 30 at NDSU Beckwith Recital Hall and local treasure the Plains Art Museum will feature great chamber music masterworks by Mozart, Schumann, Brahms, Shostakovich, Decruck, Martinu, Nadia Boulanger, and Western Illinois University composer Hong-Da Chin, who will be making a special appearance performing one of his own works with one of our NDSU student pianists.</p>
 			
-			<p><!--Beckwith Recital Hall will be operating at full capacity, and masks will be optional.-->Previously, it had been advertised that masks would be optional for the Festival concerts; however, due to the rise in COVID cases related to the Delta variant, NDSU recently amended their policy to require masks for individuals in classroom spaces, which include performances spaces like Beckwith Recital Hall. <strong>Therefore, masks will be required regardless of vaccination status for all individuals in order to be able to attend any of the NDSU Chamber Music Festival events.</strong> It is also recommended that audience members exercise judiciousness in spacing themselves in Beckwith Recital Hall for the concerts.<!--Fall 2021 safety procedures and guidelines have not yet been finalized for NDSU's performing arts spaces, so please stay tuned for more information about our safety procedures and guidelines for the Festival.--><br><br>
+			<p>We hope that you will join us as we gather for the 2022 NDSU Chamber Music Festival!</p>
 
-			We hope you will join us as we come together for the 2021 NDSU Chamber Music Festival!</p>
-
-				<p>Pianists interested in discovering more about piano study at NDSU or being involved in the NDSU Chamber Music Festival are encouraged to contact Dr. Tyler Wottrich at <a href="mailto:tyler.wottrich@ndsu.edu">tyler.wottrich@ndsu.edu</a>.</p>
+			<p>Pianists interested in discovering more about piano study at NDSU or being involved in the NDSU Chamber Music Festival are encouraged to contact Dr. Tyler Wottrich at <a href="mailto:tyler.wottrich@ndsu.edu">tyler.wottrich@ndsu.edu</a>.</p>
 
 			<p>To whet your chamber music appetite, please enjoy this YouTube playlist of highlights from previous seasons of the NDSU Chamber Music Festival.</p>
 	
@@ -72,11 +68,12 @@ include($config['path'].'resources/header.php');
 </div><!--col-md-9-->
 	
 <div class="col-md-3">
-
+	<figure>
 	<blockquote class="blockquote">
-	<p class="mb-0">"I know this will sound terribly cliché, but this being the first time I've played in a real chamber group, I have to say I'm completely bitten by the chamber music bug... it was magical to be making music together with some fabulous string players and feel my sound mix with theirs."</p>
-	<footer class="blockquote-footer">Bernadette Fromherz, Festival participant and NDSU alumna</footer>
+	<p class="">"I know this will sound terribly cliché, but this being the first time I've played in a real chamber group, I have to say I'm completely bitten by the chamber music bug... it was magical to be making music together with some fabulous string players and feel my sound mix with theirs."</p>
 	</blockquote>
+	<figcaption class="blockquote-footer">Bernadette Fromherz, Festival participant and NDSU alumna</figcaption>
+	</figure>
 </div><!--col-md-3-->
 </div><!--row-->
 	

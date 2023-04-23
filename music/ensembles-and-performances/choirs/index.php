@@ -78,10 +78,11 @@ include($config['path'].'resources/header.php');
 			For more information or to schedule an audition, please email <a href="mailto:charlette.moe@ndsu.edu">charlette.moe@ndsu.edu</a>.
 		</div>
 		
-		<a href="https://www.facebook.com/groups/407268232678485/" class="btn btn-info"><i class="fa fa-facebook-official"></i> NDSU University Chamber Singers</a>
+		<a href="https://www.facebook.com/groups/407268232678485/" class="btn btn-info"><i class="fa fa-facebook-official"></i> NDSU University Chamber Singers</a><br /><br />
+		<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-choral" class="btn btn-ndsu-green">Sign up for auditions here!</a>
 		</div>
 		</div>
-		
+		<Br />
 	</article>
 </section>
 <!-- InstanceEndEditable --></div></section>

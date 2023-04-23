@@ -20,8 +20,7 @@ include($config['path'].'resources/header.php');
 	</header>
 	
 	<article>
-		<p>Department Head<br>
-		  Assistant Professor,
+		<p>Assistant Professor,
 			Movement, Acting</p>
 		
 		<p>E-Mail:  <a href="mailto:marc.devine@ndsu.edu">marc.devine@ndsu.edu</a><br>

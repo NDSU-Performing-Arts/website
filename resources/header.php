@@ -32,8 +32,8 @@ if(empty($config['page-desc'])){
 <meta property="og:description" name="description" content="<?php echo $config['page-desc'];?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title><?php echo $config['page-title'];?></title>
-<link rel="icon" href="//static.ndsu.edu/favicon.ico" />
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="icon" href="//www.ndsu.edu/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <link rel="stylesheet" href="//ndsu.edu/performingarts/resources/languages/css/sitewide_body.css?v=<?php echo time();?>">
 </head>
 <body>
@@ -46,11 +46,11 @@ elseif($config['page-realm']=="DTA"){$text = "<div class=\"d-none d-lg-inline\">
 <header class="bg-dkgreen">
 	<div class="container" style="padding-left:0px;padding-right:0px;">
 		<div class="row header-row" style="padding-left:0px;padding-right:0px;">
-			<div class="col-md-6 text-center text-md-left" style="padding-left:0px;">
+			<div class="col-md-6 text-center text-md-start" style="padding-left:0px;">
 					<a href="/" id="ndsu_logo"><img src="/performingarts/resources/media/images/logos/196px_ndsu_logo_stacked.png" alt="NDSU Logo" title="NDSU Logo" /></a>
 			</div>
 			<div class="col-md-6 d-none d-sm-none d-md-block" style="padding-right:0px;">
-				<a href="/performingarts/" class="float-right" style="border-bottom:none;">
+				<a href="/performingarts/" class="float-end" style="border-bottom:none;">
 					<img src="/performingarts/resources/media/images/logos/196px_performingarts_monoline.png" alt="Performing Arts Logo" title="Performing Arts Logo" />
 				</a>
 			</div>
@@ -105,7 +105,9 @@ else if (window.attachEvent) window.attachEvent("onload", loadSM);
 
 
 <?php 
-if($config['page-realm']=="DPA"){include($config['path'].'resources/parts/menu_pa.php');}
-elseif($config['page-realm']=="CSOM"){include($config['path'].'resources/parts/menu_csom.php');}
-elseif($config['page-realm']=="DTA"){include($config['path'].'resources/parts/menu_ta.php');}
+
+if($config['page-realm']=="DPA"){include($config['path'].'resources/parts/menu-pa-2022.php');}
+elseif($config['page-realm']=="CSOM"){include($config['path'].'resources/parts/menu-csom-2022.php');}
+elseif($config['page-realm']=="DTA"){include($config['path'].'resources/parts/menu-ta-2022.php');}
+include($config['path'].'resources/ndsu-functions.php');
 ?>

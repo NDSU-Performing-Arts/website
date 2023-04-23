@@ -25,8 +25,8 @@ include($config['path'].'resources/header.php');
 	-->
 	<section>
 	<header>
-		<img alt="Dido &amp; Aeneas"
-			 src="/performingarts/music/images/Opera Web Banner.jpg"
+		<img alt="Die Zauberflöte"
+			 src="images/DieZauberflote.jpg"
 			 style="margin: 0px; padding: 16px 0px 0px 0px; width: 100%;">
 		<h1>NDSU Opera	</h1>
 			<article>
@@ -37,27 +37,53 @@ include($config['path'].'resources/header.php');
         <p>Roles in NDSU Opera Theatre and Opera Workshop are assigned based on open auditions. NDSU Opera roles are typically filled by NDSU music graduate and undergraduate students.</p>
 
         <p>For more information, please contact <a href="mailto:kelly.burns@ndsu.edu">Dr. Kelly Burns</a>.<br /></p>
-
-	</article>
-	
-	      <article> </article>
-	
-		<br>
-		<article> 
-		  <!--<p>Handel's score brought to life the classic tale of <i>Julius Caesar</i> and his conquest of Egypt with Queen Cleopatra and her brother King Tolomeo, while his political captives the Romans, Sesto and his mother Cornelia, seek vengeance and justice for Tolomeo's murder of Pompey, Sesto’s father.		    </p>-->
+		<a href="auditions/" class="btn btn-ndsu-green">Opera Auditions</a>
 		</article>
-		
+	</header>
+	
+<section>		
+
+	<h1><a href="2021-all-american/">Dido &amp; Aeneas 2021</a></h1>
+	
+	<article>
+		<p></p>
+	</article>
+</section>
+	
+<section>		
+	<img alt="Figaro"
+			class="_header_image" 
+			src="2021-figaro/images/Figaro banner April 15 1900x670.jpg"
+			style="margin: 0px; padding: 16px 0px 0px 0px; width: 100%;">
+	<h1><a href="2021-figaro/">Le nozze di Figaro 2021</a></h1>
+	
+	<article>
+		<p></p>
+	</article>
+</section>
+
+<section>		
+	<img alt="All American"
+			class="_header_image" 
+			src="2021-all-american/images/1900x670_AllAmerican-WebsiteBanner-update.jpg"
+			style="margin: 0px; padding: 16px 0px 0px 0px; width: 100%;">
+	<h1><a href="2021-all-american/">All American 2021</a></h1>
+	
+	<article>
+		<p>We are pleased to present to you a LIVE performance of opera scenes from various Broadway Musicals including Oklahoma, Annie Get Your Gun, Little Women, and more!</p>
+	</article>
+</section>
+
+<section>		
 		<img alt="Patience"
 			 src="images/690x_Patience.jpg"
 			 style="margin: 0px; padding: 16px 0px 0px 0px; width: 100%;">
 		<h1><a href="2019-patience/">Patience 2019</a></h1>
-	</header>
 	
 	<article>
 		<p><em>Patience</em> is a pointed satire of the Aesthetic Movement, which flourished in mid-19th century England and United States.  “Art for Art’s Sake” was its followers' motto.  More than 135 years since its premiere, today’s audiences will still relate to the comedy as a brilliant send-up of any fad or movement be it Goth, Beatniks, Flower Children, or Pokemon</p>
 	</article>
 </section>
-		
 		
 	  
 </section>

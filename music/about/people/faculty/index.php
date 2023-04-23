@@ -21,12 +21,12 @@ include($config['path'].'resources/header.php');
 			
 		<h1>Faculty</h1>
 	</header>
-	<div class="card-deck">
+	<div class="row row-cols-lg-auto">
 	<div class="ndsu-column">
 		<a href="jeremy_brekke.php"><img class="d-none d-md-block" src="images/200px_faculty_brekke_jeremy.jpg" alt="Jeremy Brekke">
 		<div class="ndsu-column-inner">
 		<h5>Jeremy Brekke, D.A.</h5>
-		<p>Associate Professor (high brass)</p>
+		<p>Associate Professor (high brass, jazz)</p>
 		</div></a>
 	</div>
 	
@@ -43,15 +43,15 @@ include($config['path'].'resources/header.php');
 		<a href="challey_connor.php"><img class="d-none d-md-block" src="images/200px_faculty_challey-connor.jpg" alt="Connor Challey">
 		<div class="ndsu-column-inner">
 		<h5>Connor Challey, M.M.</h5>
-		<p>Lecturer, Sports Bands, and Low Brass</p>
+		<p>Lecturer<br />Director of Athletic Bands</p>
 		</div></a>
 	</div>
 
 	<div class="ndsu-column">
-		<a href="sigurd_johnson.php"><img class="d-none d-md-block" src="images/Sigurd_Johnson.jpeg" alt="Sigurd Johnson">
+		<a href="sigurd_johnson.php"><img class="d-none d-md-block" src="images/SigurdConducting.png" alt="Sigurd Johnson">
 		<div class="ndsu-column-inner">
 		<h5>Sigurd Johnson, D.M.A.</h5>
-		<p>Associate Professor<br />Director of Athletic Bands and Percussion</p>
+		<p>Associate Professor<br />Director of University Symphony Orchestra, Percussion</p>
 		</div></a>
 	</div>
 
@@ -59,7 +59,7 @@ include($config['path'].'resources/header.php');
 		<a href="cassie_keogh.php"><img class="d-none d-md-block" src="images/200px_faculty_keogh_cassie.jpg" alt="Cassie Keogh">
 		<div class="ndsu-column-inner">
 		<h5>Cassie Keogh, D.M.A.</h5>
-		<p>Associate Professor (clarinet)</p>
+		<p>Associate Professor<br />Clarinet, Coordinator Theory Pedagogy Program</p>
 		</div></a>
 	</div>
 	
@@ -69,7 +69,7 @@ include($config['path'].'resources/header.php');
 		<a href="kyle_mack.php"><img class="d-none d-md-block" src="images/200px_faculty_mack_kyle.jpg" alt="Kyle Mack">
 		<div class="ndsu-column-inner">
 		<h5>Kyle Mack, D.A.</h5>
-		<p>Associate Professor<br />Director of Jazz Studies (low brass, jazz)</p>
+		<p>Associate Professor (trombone, general studies)</p>
 		</div></a>
 	</div>
 	
@@ -93,7 +93,7 @@ include($config['path'].'resources/header.php');
 		<a href="charlette_moe.php"><img class="d-none d-md-block" src="images/200px_faculty_moe_charlette.jpg" alt="Charlette Moe">
 		<div class="ndsu-column-inner">
 		<h5>Charlette Moe, D.M.A.</h5>
-		<p>Associate Professor<br />Coordinator M.M. Ed Program</p>
+		<p>Associate Professor<br />Choral Activities, Music Education, Coordinator M.M. Ed Program</p>
 		</div></a>
 	</div>
 
@@ -101,7 +101,7 @@ include($config['path'].'resources/header.php');
 		<a href="warren_olfert.php"><img class="d-none d-md-block" src="images/200px_faculty_olfert_warren.jpg" alt="Robert Jones">
 		<div class="ndsu-column-inner">
 		<h5>Warren Olfert, Ph.D.</h5>
-		<p>Professor<br />Director of Bands</p>
+		<p>Professor<br />Director of Bands, Music Education</p>
 		</div></a>
 	</div>
 	
@@ -109,7 +109,7 @@ include($config['path'].'resources/header.php');
 		<a href="matthew_patnode.php"><img class="d-none d-md-block" src="images/200px_faculty_patnode_matthew.jpg" alt="Matthew Patnode">
 		<div class="ndsu-column-inner">
 		<h5>Matthew Patnode, D.M.A.</h5>
-		<p>Professor (saxophone, woodwinds)</p>
+		<p>Professor (saxophone, jazz)</p>
 		</div></a>
 	</div>
 	
@@ -117,7 +117,7 @@ include($config['path'].'resources/header.php');
 		<a href="karisa_templeton.php"><img class="d-none d-md-block" src="images/Millington-Karissa.jpg" alt="Karissa Millington">
 		<div class="ndsu-column-inner">
 		<h5>Karisa Templeton, D.M.</h5>
-		<p>Assistant Professor<br />(Voice)</p>
+		<p>Assistant Professor<br />(voice, opera)</p>
 		</div></a>
 	</div>
 	
@@ -134,7 +134,7 @@ include($config['path'].'resources/header.php');
 		<a href="michael_weber.php"><img class="d-none d-md-block" src="images/200px_faculty_weber_mike.jpg" alt="Michael Weber">
 		<div class="ndsu-column-inner">
 		<h5>Michael Weber, D.M.A.</h5>
-		<p>Professor (choral activities)</p>
+		<p>Professor (choral activities, music education)</p>
 		</div></a>
 	</div>
 	
@@ -142,7 +142,7 @@ include($config['path'].'resources/header.php');
 		<a href="tyler_wottrich.php"><img class="d-none d-md-block" src="images/200px_faculty_wottrich_tyler.jpg" alt="Tyler Wottrich">
 		<div class="ndsu-column-inner">
 		<h5>Tyler Wottrich, D.M.A.</h5>
-		<p>Associate Professor (piano)</p>
+		<p>Associate Professor (piano; coordinator, collaborative piano program)</p>
 		</div></a>
 	</div>
 	
@@ -152,7 +152,7 @@ include($config['path'].'resources/header.php');
 <section>
 	<header><h1>Adjunct Faculty</h1></header>
 		
-	<div class="card-deck">	
+	<div class="row row-cols-lg-auto">	
 	<div class="ndsu-column">
 		<a href="elise_nelson.php"><img class="d-none d-md-block" src="images/200px_faculty_buffatnelson_elise.jpg" alt="Elise Buffat-Nelson">
 		<div class="ndsu-column-inner">
@@ -160,31 +160,12 @@ include($config['path'].'resources/header.php');
 		<p>(cello)</p>
 		</div></a>
 	</div>
-	
-	
-		
-	
-	<!--<div class="ndsu-column">
-		<a href="jocelyn_hagen.php"><img class="d-none d-md-block" src="images/200px_faculty_hagen_jocelyn.jpg" alt="Jocelyn Hagen">
-		<div class="ndsu-column-inner">
-		<h5>Jocelyn Hagen, M.A.</h5>
-		<p>(composition)</p>
-		</div></a>
-	</div>-->
 
 	<div class="ndsu-column">
 		<a href="adam_hollingsworth.php"><img class="d-none d-md-block" src="images/Adam_Hollingsworth.png" alt="Adam Hollingsworth">
 		<div class="ndsu-column-inner">
 		<h5>Adam Hollingsworth, D.M.A.</h5>
 		<p>(music education)</p>
-		</div></a>
-	</div>
-	
-	<div class="ndsu-column">
-		<a href="cody_hunter.php"><img class="d-none d-md-block" src="images/200px_faculty_hunter_cody.jpg"  alt="Cody Hunter">
-		<div class="ndsu-column-inner">
-		<h5>Cody Hunter, D.M.A.</h5>
-		<p>(bassoon)</p>
 		</div></a>
 	</div>
 	
@@ -237,12 +218,15 @@ include($config['path'].'resources/header.php');
 	</div>	
 	
 	<div class="ndsu-column">
-		<a href="#"><img class="d-none d-md-block" src="images/200px_nelson.jpg" alt="Doug Neill">
+		<a href="#"><img class="d-none d-md-block" src="images/200px_nelson.jpg" alt="Tim Nelson">
 		<div class="ndsu-column-inner">
 		<h5>Tim Nelson, M.M.</h5>
-		<p>(orchestra)</p>
+		<p>(violin, viola)</p>
 		</div></a>
 	</div>
+	
+	
+
 
 	<!--<div class="ndsu-column">
 		<a href="annett_richter.php"><img class="d-none d-md-block" src="images/200px_faculty_richter_annett.jpg" alt="Annett Richter">
@@ -266,7 +250,7 @@ include($config['path'].'resources/header.php');
 <section>
 	<header><h1>Professors Emeriti</h1></header>
 	
-	<div class="card-deck">
+	<div class="row row-cols-lg-auto">
 	<div class="ndsu-column">
 		<a href="#"><img class="d-none d-md-block" src="images/200px_faculty_froelich_andrew.jpg" alt="Andrew Froelich">
 		<div class="ndsu-column-inner">

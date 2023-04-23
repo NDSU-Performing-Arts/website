@@ -22,9 +22,11 @@ include($config['path'].'resources/header.php');
 		<p>The D.M.A. is the terminal professional practical degree in music, designed for performers and conductors wishing to acquire the highest performance abilities. Graduates will have attained the academic qualifications generally accepted for teaching at the college level.</p>
         <p>Entering students in the vocal performance track are expected to have appropriate language proficiencies in French, German, and Italian.  Following acceptance into the doctoral program, students may be required to take the 702 theory and/or 704 history survey courses. Other review courses  may be required upon recommendation of the advisor and committee.</p>
         <p>Recitals and a final written project are planned in conjunction with the candidate’s committee, which consists of at least three graduate music faculty members: the advisor, a representative from academic studies, and at least one other member at large. In addition, there must be a graduate school representative who comes from an area outside of music.</p>
-        <p>All coursework must be passed with a minimum grade of B. Qualifying examinations in the student&#8217;s primary focus area and in academic studies must be passed near the end of or after coursework, and prior to a final oral examination by members of the candidate&#8217;s committee. All D.M.A. graduates must have reading proficiency in at least one foreign language. For some, an alternative such as a computer language or other research skill, if appropriate to the student&#8217;s focus area, may be substituted. This proficiency will be determined and assessed by the candidate&#8217;s committee. Further, students in Choral Conducting must demonstrate proficiency in foreign language diction.</p>
+        <p>Applications may be completed online at the <a href="http://www.ndsu.edu/gradschool/">NDSU Graduate School</a>. A complete application will include three recommendations, transcripts and a scholarly writing example. Applicants should notify the graduate music coordinators, <a href="mailto:jo.miller@ndsu.edu">Dr. Jo Ann Miller</a> or <a href="mailto:charlette.moe@ndsu.edu">Dr. Charlette Moe</a>, of their intention to apply. For applicants in performance and conducting, an on-campus visit and audition are required. Following acceptance into the master's program, applicants will complete a diagnostic exam, which will be used by their advisors to plan appropriate coursework. As a result of this diagnostic exam, students may be required to take the 702 Music Theory and/or 704 Music History survey courses.</p>
+		
+		<p>All coursework must be passed with a minimum grade of B. Qualifying examinations in the student&#8217;s primary focus area and in academic studies must be passed near the end of or after coursework, and prior to a final oral examination by members of the candidate&#8217;s committee. All D.M.A. graduates must have reading proficiency in at least one foreign language. For some, an alternative such as a computer language or other research skill, if appropriate to the student&#8217;s focus area, may be substituted. This proficiency will be determined and assessed by the candidate&#8217;s committee. Further, students in Choral Conducting must demonstrate proficiency in foreign language diction.</p>
         <p>Two tracks are offered: Performance and Conducting. Each track requires a minimum of 90 credits beyond the baccalaureate degree (93 for the D.M.A. in choral conducting). Students entering the program with an approved master&#8217;s degree or its equivalent may apply credits toward the D.M.A. The graduate music faculty will determine the viability and number of transfer credits.</p>
-        <p>Course requirements for <a href="#performance">performance,</a> <a href="#piano">collaborative piano</a>, and <a href="#conducting">conducting</a>.</p>
+        <p>Course requirements for <a href="#vocalperformance">performance,</a> <a href="#collabpiano">collaborative piano</a>, and <a href="#conducting">conducting</a>.</p>
         <h2><a name="vocalperformance" id="vocalperformance"></a>Doctor of Musical Arts in Vocal Performance</h2>
         <table class="table table-hover">
           <tr>
@@ -61,9 +63,9 @@ include($config['path'].'resources/header.php');
             <td>History/Theory*</td>
             <td>To be taken from*:<br />
               MUSC 611 Form and Analysis<br />
-              MUSC 630 Contemporary Harmonic Techniques<br />
-              MUSC 631 Counterpoint<br />
-              MUSC 734 Analytical Techniques<br />
+              MUSC 630 Counterpoint<br />
+              MUSC 631 Contemporary Harmonic Techniques<br />
+              MUSC 634 Analytical Techniques<br />
               MUSC 740 Medieval/Renaissance History <br />
               MUSC 741 Baroque and Classical Music History<br />
               MUSC 743 Romantic Music History<br />
@@ -93,7 +95,7 @@ include($config['path'].'resources/header.php');
             <td class="text-right"><b>90</b></td>
           </tr>
         </table>
-        <p>*At least one course must be taken from MUSC 611-734; at least one course must be taken from MUSC 740-744.</p>
+        <p>*At least one course must be taken from MUSC 611-634; at least one course must be taken from MUSC 740-744.</p>
         <br /><h2><a name="instperformance" id="instperformance"></a>Doctor of Musical Arts in Instrumental Performance</h2>
 		<p><em>Available for Clarinet, Euphonium, Percussion, Saxophone, Trumpet, and Trombone.</em></p>
         <table class="table table-hover">
@@ -131,9 +133,9 @@ include($config['path'].'resources/header.php');
             <td height="35">History/Theory*</td>
             <td>To be taken from*:<br />
               MUSC 611 Form and Analysis<br />
-              MUSC 630 Contemporary Harmonic Techniques<br />
-              MUSC 631 Counterpoint<br />
-              MUSC 734 Analytical Techniques<br />
+              MUSC 630 Counterpoint<br />
+              MUSC 631 Contemporary Harmonic Techniques<br />
+              MUSC 634 Analytical Techniques<br />
               MUSC 740 Medieval/Renaissance History <br />
               MUSC 741 Baroque and Classical Music History<br />
               MUSC 743 Romantic Music History<br />
@@ -159,7 +161,7 @@ include($config['path'].'resources/header.php');
             <td class="text-right"><b>90</b></td>
           </tr>
         </table>
-        <p>*At least one course must be taken from MUSC 611-734; at least one course must be taken from MUSC 740-744.
+        <p>*At least one course must be taken from MUSC 611-634; at least one course must be taken from MUSC 740-744.
         <h2><a name="pianoperformance" id="pianoperformance"></a>Doctor of Musical Arts in Piano Performance</h2>
         <table class="table table-hover">
           <tbody>
@@ -198,8 +200,8 @@ include($config['path'].'resources/header.php');
               <td>History/Theory**</td>
               <td>To be taken from:**<br />
               MUSC 611 Form and Analysis<br />
-              MUSC 630 Contemporary Harmonic Techniques<br />
-              MUSC 734 Analytical Techniques<br />
+              MUSC 631 Contemporary Harmonic Techniques<br />
+              MUSC 634 Analytical Techniques<br />
               MUSC 740 Medieval/Renaissance History<br />
               MUSC 741 Baroque and Classical Music History<br />
               MUSC 743 Romantic Music History<br />
@@ -228,7 +230,7 @@ include($config['path'].'resources/header.php');
           </tbody>
         </table>
         <p>* At least 3 credits of MUSC 709 must be earned while in residence at NDSU.<br />
-          ** At least one course must be taken from MUSC 611-734; at least one course must be taken from MUSC 740-744.
+          ** At least one course must be taken from MUSC 611-634; at least one course must be taken from MUSC 740-744.
         </p>
         <p>&nbsp;</p>
         <h2><a name="collabpiano" id="collabpiano"></a>Doctor of Musical Arts in Collaborative Piano<br />
@@ -271,9 +273,9 @@ include($config['path'].'resources/header.php');
               <td>History/Theory*</td>
               <td>To be taken from:*<br />
                 MUSC 611 Form and Analysis<br />
-                MUSC 630 Contemporary Harmonic Techniques<br />
-                MUSC 631 Counterpoint<br />
-                MUSC 734 Analytical Techniques<br />
+                MUSC 630 Counterpoint<br />
+                MUSC 631 Contemporary Harmonic Techniques<br />
+                MUSC 634 Analytical Techniques<br />
                 MUSC 740 Medieval/Renaissance History <br />
                 MUSC 741 Baroque and Classical Music History<br />                
                 MUSC 743 Romantic Music History<br />
@@ -320,7 +322,7 @@ include($config['path'].'resources/header.php');
             </tr>
           </tbody>
         </table>
-        <p>* At least one course must be taken from MUSC 611-734; at least one course must be taken from MUSC 740-744.<br />
+        <p>* At least one course must be taken from MUSC 611-634; at least one course must be taken from MUSC 740-744.<br />
           ** Credits earned in undergraduate language courses will not count toward degree totals.
         </p>
         <p>&nbsp;</p>
@@ -362,9 +364,9 @@ include($config['path'].'resources/header.php');
             <td height="35">History/Theory*</td>
             <td>To be taken from*:<br />
               MUSC 611 Form and Analysis<br />
-              MUSC 630 Contemporary Harmonic Techniques<br />
-              MUSC 631 Counterpoint<br />
-              MUSC 734 Analytical Techniques<br />
+              MUSC 630 Counterpoint<br />
+              MUSC 631 Contemporary Harmonic Techniques<br />
+              MUSC 634 Analytical Techniques<br />
               MUSC 740 Medieval/Renaissance History <br />
               MUSC 741 Baroque and Classical Music History<br />
               MUSC 743 Romantic Music History<br />
@@ -398,7 +400,7 @@ include($config['path'].'resources/header.php');
             <td class="text-right"><b>90-93</b></td>
           </tr>
         </table>
-         <p>*At least one course must be taken from MUSC 611-734; at least one course must be taken from MUSC 740-744.</p>
+         <p>*At least one course must be taken from MUSC 611-634; at least one course must be taken from MUSC 740-744.</p>
 	</article>
 </section>
 <!-- InstanceEndEditable --></div></section>

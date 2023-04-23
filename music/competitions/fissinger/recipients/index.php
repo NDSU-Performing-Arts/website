@@ -17,6 +17,15 @@ include($config['path'].'resources/header.php');
 	<header>
 		<h1>Previous Fissinger Recipients</h1>
 	</header>
+
+    <article>
+		<h2>2021 First Prize: Joshua Fishbein</h2>
+		
+		<p><strong>Title</strong>: <em>Out of the Ashes of Holocaust</em></p>
+		
+		<p>Dr. Joshua Fishbein composes and arranges vocal and instrumental music, with special emphasis on choral music. He has won awards from the American Choral Directors Association, the American Composers Forum, BMI, the Cantate Chamber Singers, Chorus America, Chorus Austin, The Esoterics, the Guild of Temple Musicians, the National Lutheran Choir, and several other music organizations. Professional vocal ensembles, such as Cantus, Chicago <em>a cappella</em>, The Thirteen, Volti, and Washington Master Chorale, have premiered Fishbein’s original music. Steeped in Jewish music, he has composed numerous Jewish and interfaith compositions for chorus and solo voice. Currently, Dr. Fishbein is an adjunct faculty member of The Peabody Institute of the Johns Hopkins University. Previously, he taught at Towson University, The College of New Jersey, the University of Maryland Baltimore County, and the University of Nevada Las Vegas. Fishbein holds degrees in music from the University of California Los Angeles, the San Francisco Conservatory of Music, and Carnegie Mellon University. E.C. Schirmer Music Company, Hal Leonard Corporation, Transcontinental Music Publications, Abundant Silence, and Yelton Rhodes Music publish his compositions.</p>
+		
+	</article>
     <article>
 		<h2>2020 First Prize: Ian Shaw</h2>
 		

@@ -23,7 +23,7 @@ include($config['path'].'resources/header.php');
 		<h1>Faculty</h1>
 	</header>
 	
-	<div class="card-deck">
+	<div class="row row-cols-lg-auto">
 	
 	<div class="ndsu-column">
 		<a href="devine_marc.php"><img class="d-none d-md-block" src="images/200px_faculty_devine_marc.jpg" alt="Marc Devine">
@@ -63,13 +63,6 @@ include($config['path'].'resources/header.php');
 		<p>Assistant Professor<br />directing/TYA Theatre for Young Audiences/acting</p>
 		</div></a>
 	</div>
-	<div class="ndsu-column">
-		<a href="scoble_ryan.php"><img class="d-none d-md-block" src="images/200x300_RyanScoble.jpg" alt="Ryan Scoble">
-		<div class="ndsu-column-inner">
-		<h5>Ryan Scoble, M.F.A.</h5>
-		<p>Assistant Professor<br />Musical Theatre<br /></p>
-		</div></a>
-	</div>
 	
 	<div class="ndsu-column">
 		<a href="varland_rooth.php"><img class="d-none d-md-block" src="images/200px_faculty_varland_rooth.jpg" alt="Rooth Varland">
@@ -80,7 +73,7 @@ include($config['path'].'resources/header.php');
 	</div>
 	
 	<div class="ndsu-column">
-		<a href="larew_donald.php"><img class="d-none d-md-block" src="images/200px_faculty_headshot.gif" alt="Donald E. Larew">
+		<a href="larew_donald.php"><img class="d-none d-md-block" src="images/donlarew.png" alt="Donald E. Larew">
 		<div class="ndsu-column-inner">
 		<h5>Donald E. Larew, M.F.A.</h5>
 		<p>Little County Theatre Historian<br />Professor Emeritus<br />(directing)</p>
@@ -94,9 +87,9 @@ include($config['path'].'resources/header.php');
 		<h1>Adjunct Faculty</h1>
 	</header>
 	
-	<div class="card-deck">
+	<div class="row row-cols-lg-auto">
 	<div class="ndsu-column">
-		<a href=""><img class="d-none d-md-block" src="images/200px_faculty_headshot.gif" alt="Matt Gasper">
+		<a href=""><img class="d-none d-md-block" src="images/mattgasper.jpg" alt="Matt Gasper">
 		<div class="ndsu-column-inner">
 		<h5>Matt Gasper</h5>
 		<p>Dance - Jazz</p>
@@ -126,7 +119,7 @@ include($config['path'].'resources/header.php');
 		<h1>Staff</h1>
 	</header>
 
-	<div class="card-deck">
+	<div class="row row-cols-lg-auto">
 	<!--<div class="ndsu-column">
 		<a href=""><img class="d-none d-md-block" src="images/200px_faculty_headshot.gif" alt="Cindy Roholt">
 		<div class="ndsu-column-inner">

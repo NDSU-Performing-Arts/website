@@ -31,21 +31,49 @@ include($config['path'].'resources/header.php');
 	<div class="text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/uRfcryAVWbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 	
 	<header>
-	  <h1>NDSU Wind Symphony Audition Information Fall 2021</h1>
+	  <h1>NDSU Wind Symphony Audition Information Fall 2022</h1>
 	</header>
-	<p>Auditions for the Wind Symphony for the fall semester will take place on Thursday and Friday, August 26 & 27. Students interested in playing in the Wind Symphony should sign up for an audition time for their respective instrument. You may sign up by going to <a href="https://docs.google.com/spreadsheets/d/1MAb3-h20og0VEErpryO7WnFz1-VaOOwN3o16SE2yrv0/edit#gid=0">2021 Fall Auditions</a>, click on the tab for your instrument and enter your name and instrument for your selected time.</p>
+	<p>Auditions for Wind Symphony for the spring semester will take place on Wednesday, January 11 from 12:00-2:00 pm. Please note the following regarding auditions:
+	<ul>
+<li>Flutes: all students should audition</li>
+<li>Oboes: new students only </li>
+<li>Clarinets: all students should audition</li>
+<li>Bassoons: new students only</li>
+<li>Saxophones: all students should audition</li>
+<li>Trumpets: all students should audition</li>
+<li>Horns: all students should audition</li>
+<li>Trombones: new students only</li>
+<li>Euphonium/Tuba: all students should audition</li>
+<li>Percussion: see Dr. Johnson for more information</li>
+</ul>
+</p>
+
+<p>Results of the auditions will be posted as soon as possible upon completion. The first rehearsal will be on Friday, January 13, at 12:15 pm.</p>
 	
-	<p>If you are new to the Wind Symphony this fall, please send an email to Dr. Olfert (<a href="mailto:warren.olfert@ndsu.edu">warren.olfert@ndsu.edu</a>) in addition to signing up for an audition time that indicates your intention to audition. this will allow you to receive additional information regarding the coming year. If you are unable to audition during the listed time or need special accommodations, you may make arrangements with the faculty member in question for an alternate time.</p>
+	<a href="https://docs.google.com/spreadsheets/d/1qURMGcAN31jt6k5jvcpDwmlWnVIvAXIoEq2xgJb_Z68/edit?usp=sharing" class="btn btn-lg btn-ndsu-green">2023 Spring Auditions</a></p>
 	
-	<p>Once auditions are completed, we will try to post the personnel lists by late Friday, August 27, Rehearsals begin on Wednesday, September 1, at 12:15 pm. Wind Symphony rehearses Mondays, Wednesdays and Fridays from 12:15-1:50 pm.</p>
+<!--	<p>If you are new to the Wind Symphony this fall, please send an email to Dr. Olfert (<a href="mailto:warren.olfert@ndsu.edu">warren.olfert@ndsu.edu</a>) in addition to signing up for an audition time that indicates your intention to audition. This will allow you to receive additional information regarding the coming year. If you are unable to audition during the listed time or need special accommodations, you may make arrangements with the faculty member in question for an alternate time.</p>
 	
-	<p>Highlights of this fall include a performance with the Boston Brass in October and a residency with composer James Stephenson in December. The Wind Symphony will also perform at the North Dakota Music Educators Association conference in Bismarck in March and plans are being made for a tour in October.</p>
+	<p>Once auditions are completed, we will try to post the personnel lists by late Friday, August 26, Rehearsals begin on Wednesday, August 31 at 12:15 pm. Wind Symphony rehearses Mondays, Wednesdays and Fridays from 12:15-1:50 pm.</p>
+	
+	<p>We hit the ground running with a world premiere of a new piece by Gordon Goodwin and the Boston Brass on September 14! In addition, highlights will include a tour in November and a concerto performance with Dr. Tyler Wottrich in the spring.</p>-->
 
 	<p>If you have any questions, contact Dr. Olfert either at <a href="tel:701-231-7266">701-231-7266</a> or at <a href="mailto:warren.olfert@ndsu.edu">warren.olfert@ndsu.edu</a>.	</p>
 	
 	<p>Audition Music for the Wind Symphony may be downloaded at the following web address:</p>
-	
-	<a href="https://drive.google.com/drive/folders/13RyrKgjUwN081Qei3B7j2YjHjv9ES3aP?usp=sharing" class="btn btn-ndsu-green btn-lg">Audition Music</a> <a href="https://docs.google.com/spreadsheets/d/1MAb3-h20og0VEErpryO7WnFz1-VaOOwN3o16SE2yrv0/edit?usp=sharing" class="btn btn-ndsu-green btn-lg">Sign Up</a><br /><br />
+	<a href="https://drive.google.com/file/d/1Cwcn_cc_tzDhIDGWnp6csjXb8uDsBJ9j/view?usp=share_link" class="btn btn-ndsu-green mb-2">Flute</a><br />
+	<a href="https://drive.google.com/file/d/185pt7JzJRuqRLyEucKkMui_l2HkyqbuI/view?usp=share_link" class="btn btn-ndsu-green mb-2">Oboe</a><br />
+	<a href="https://drive.google.com/file/d/1A05ZUExtwQ23F0UL7qBMtH8ygO-7BLcE/view?usp=share_link" class="btn btn-ndsu-green mb-2">Clarinet</a><br />
+	<a href="https://drive.google.com/file/d/1D-sriRPUfhJywdkiTGMsMxYSlUTkZAbZ/view?usp=share_link" class="btn btn-ndsu-green mb-2">Bassoon</a><br />
+	<a href="https://drive.google.com/file/d/19v5QeNXaS_Vv9T5MFmj4t3gug8d_OfQc/view?usp=share_link" class="btn btn-ndsu-green mb-2">Saxophone</a><br /><br />
+	<a href="https://drive.google.com/file/d/19rEcGvxbNUgdNLVrsE6E3inNABlMQaYk/view?usp=share_link" class="btn btn-ndsu-green mb-2">Trumpet</a><br />
+	<a href="https://drive.google.com/file/d/19wp2DsgcLEOunhBj_QBaM2qH5XvEFx52/view?usp=share_link" class="btn btn-ndsu-green mb-2">Horn</a><br />
+	<a href="https://drive.google.com/file/d/19yfetBjr_6h4GgAKcrtw-yTYR_byRknv/view?usp=share_link" class="btn btn-ndsu-green mb-2">Trombone/Euphonium</a><br />
+	<a href="https://drive.google.com/file/d/1A4Psc1jwefFrJT5F1hpeEPDmqPP9sAnM/view?usp=share_link" class="btn btn-ndsu-green mb-2">Tuba</a><br /><br />
+	<!--<a href="https://drive.google.com/file/d/1uXIintBMqgqztw3m1_uBcaT5D6C5qEgg/view?usp=sharing" class="btn btn-ndsu-green mb-2">Percussion</a><br />-->
+    
+    <br /><br />
+	<!--<a href="https://drive.google.com/drive/folders/13RyrKgjUwN081Qei3B7j2YjHjv9ES3aP?usp=sharing" class="btn btn-ndsu-green btn-lg">Audition-Music</a><a href="https://docs.google.com/spreadsheets/d/1MvSLc04OOiOUzrY-M3SEm5hdTz898NHxE67-kV-ZtQQ/edit?usp=sharing" class="btn btn-ndsu-green btn-lg">Sign Up for Auditions</a><br /><br /> -->
 			<!--<ul>
 	<li><a href="https://bit.ly/WS_Spring21_Flute">Flute</a></li>
 	<li><a href="https://bit.ly/WS_Spring21_Oboe">Oboe</a></li>

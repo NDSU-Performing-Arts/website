@@ -42,7 +42,7 @@ include($config['path'].'resources/header.php');
 		<p>Scholarships range from $500 to one full-tuition award every year. Some are renewable, subject to review and student success, for up to three additional years. </p>
 
 		<h2>How Do I Arrange For An Audition?</h2>
-		<p>The first step is to complete a <a href="https://ndstate.co1.qualtrics.com/SE/?SID=SV_9N4gvzfs9i5YFGB">Scholarship Audition Form.</a> Once the form is submitted, contact <a href="mailto:m.weber@ndsu.edu">Dr. Michael Weber</a> or 701.231.8497 to schedule an audition time.</p>
+		<p>The first step is to complete a <a href="https://www.ndsu.edu/performingarts/music/prospective-students/scholarships/">Scholarship Audition Form.</a> Once the form is submitted, contact <a href="mailto:m.weber@ndsu.edu">Dr. Michael Weber</a> or <a href="tel:7012318497">701.231.8497</a> to schedule an audition time.</p>
 
  	<h2>Which Is Best – A Live Audition Or A Recorded Audition? </h2>
  <p>Everyone makes the strongest impression by auditioning in person. The audition allows you and the faculty of your specialty area to meet. This is an opportunity to perform in Beckwith Recital Hall, ask questions of the faculty, meet the NDSU Music Student Ambassadors (all current NDSU music students), and other prospective students from various high schools in your region. It is an exciting experience, and it is to your advantage to audition in person. However, we also know that distance and schedule conflicts may necessitate a recorded audition; please contact the department for details.</p>
@@ -61,7 +61,7 @@ include($config['path'].'resources/header.php');
 		<p>No. We may award scholarships at any time prior to starting school. However, scholarship funds are limited, and awards might not be available later in the year. For full consideration, auditions should be completed by March 1. </p>
 
 		<h2>When Are The NDSU Music Scholarship Audition Dates? </h2>
-		<p>January 28 and February 7, 2022: Vocal auditions at NDSU in Fargo<br>
+		<p>January 27 and February 6, 2023<!-- Vocal auditions at NDSU in Fargo<br>-->
 		<!--February 5, 2021: Instrumental auditions at NDSU in Fargo--></p>
 
 		<h2>May We Make Appointments For An Audition Outside Of The Scheduled Audition Dates? </h2>

@@ -24,7 +24,7 @@ include($config['path'].'resources/header.php');
 	<?php
 	//KV-Ughhhhhh fine this will be faster
 	function writeTab($name,$active=0){
-		echo "<a class=\"nav-link mr-3"; if(!empty($active)){echo " active";}echo "\" id=\"v-pills-".$name."-tab\" data-toggle=\"pill\" href=\"#".$name."\" role=\"tab\" aria-controls=\"".$name."\" aria-selected=\"false\">".$name."</a>";
+		echo "<a class=\"nav-link mr-3"; if(!empty($active)){echo " active";}echo "\" id=\"v-pills-".$name."-tab\" data-bs-toggle=\"pill\" href=\"#".$name."\" role=\"tab\" aria-controls=\"".$name."\" aria-selected=\"false\">".$name."</a>";
 	}
 	
 	function tabHeader($name,$active=0){
@@ -101,7 +101,13 @@ include($config['path'].'resources/header.php');
 
 <section>
 	<header><h1>Adjunct Faculty</h1></header>
-	
+		<!--<div class="ndsu-column">
+		<a href="#"><img class="d-none d-md-block" src="images/200px_faculty_tackling_sebastian.jpg"  alt="Sebastian Tackling">
+		<div class="ndsu-column-inner">
+		<h5>Sebastian Tackling, M.M.</h5>
+		<p>(bassoon)</p>
+		</div></a>
+	</div>-->
 	
 </section>
 

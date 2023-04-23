@@ -21,6 +21,9 @@ include($config['path'].'resources/header.php');
 	</header>
 	
 	<article id="">
+	
+	<div class="alert alert-warning"><i class="fa-brands fa-safari"></i> Safari Users: If calendar fails to load, <a href="https://calendar.google.com/calendar/embed?src=ndsu.performing.arts%40gmail.com&ctz=America%2FChicago">Click Here</a>
+	</div>
 	<iframe src="https://calendar.google.com/calendar/embed?src=ndsu.performing.arts%40gmail.com&ctz=America%2FChicago" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 		<!--<script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>-->
 		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>-->

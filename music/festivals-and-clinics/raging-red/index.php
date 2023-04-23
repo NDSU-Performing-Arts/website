@@ -18,26 +18,26 @@ include($config['path'].'resources/header.php');
 		<img alt="Music Scholarships"
 			class="_header_image" 
 			style="width:100%"
-			src="images/raging_red_title.jpg">
+			src="/music/static-images/RagingRedWebBanner.png">
 		
 		<h1>Raging Red</h1>
 	</header>
 	
 	<article>
 	
-		<h2>March 8 &amp; 9, 2022| NDSU Challey School of Music</h2>
+		<h2><?php echo $md['ragingred']; ?> | NDSU Challey School of Music</h2>
 		
-		<a href="https://drive.google.com/file/d/1x6aDyCPa_R0K02O3MI14eoNNLmTVngun/view" class="btn btn-lg btn-ndsu-green mr-4"><i class="fas fa-calendar"></i> Schedule</a>
+		<!--<a href="https://drive.google.com/file/d/1x6aDyCPa_R0K02O3MI14eoNNLmTVngun/view" class="btn btn-lg btn-ndsu-green mr-4"><i class="fas fa-calendar"></i> Schedule</a>
 		<a href="Clinic Schedule for Raging Red 2022.pdf" class="btn btn-lg btn-ndsu-green mr-4"><i class="fas fa-music"></i> Clinic Schedule</a>
-		<a href="https://drive.google.com/file/d/1x6aDyCPa_R0K02O3MI14eoNNLmTVngun/view" class="btn btn-lg btn-ndsu-green mr-4"><i class="fab fa-vimeo"></i> Livestream</a>
+		<a href="https://drive.google.com/file/d/1x6aDyCPa_R0K02O3MI14eoNNLmTVngun/view" class="btn btn-lg btn-ndsu-green mr-4"><i class="fab fa-vimeo"></i> Livestream</a>-->
 		  
 		  <h3>General Information<!-- | <a href="Raging Red_2022-Schedule.pdf" title="Schedule">Schedule</a>--></h3>
 		  
-		  <p align="left">Join us on the campus of North Dakota State University on Tuesday or Wednesday, March 8 &amp; 9, 2022 for the Raging Red Band Festival—a truly unique opportunity for your band students! Spend a day with us in experiences that will help your students become stronger performers and a better band, including:</p>
+		  <p align="left">Join us on the campus of North Dakota State University on Tuesday or Wednesday, <?php echo $md['ragingred']; ?> for the Raging Red Band Festival—-a truly unique opportunity for your band students! Spend a day with us in experiences that will help your students become stronger performers and a better band, including:</p>
 		  
 		  <ul>
 			  <li>An opportunity to perform in Festival Concert Hall, the largest concert hall in the region.</li>
-			  <li>Feedback from three nationally recognized adjudicators, both in comments and in clinic sessions with the adjudicators actually spending time working with your band.</li>
+			  <li>Feedback from four nationally recognized adjudicators, both in comments and in clinic sessions with the adjudicators actually spending time working with your band.</li>
 			  <li>Clinics with the NDSU instrumental faculty on everyone’s instruments throughout the day.</li>
 			  <li>Performances by the NDSU Wind Symphony—a chance to hear a university-level band.</li>
 			  <li>A chance to hear other bands like yours in performance!</li>
@@ -78,28 +78,14 @@ include($config['path'].'resources/header.php');
 		  </table>
 -->
 		  
-	<h2>Faculty Clinicians </h2>
+	<h2>Faculty Master Classes</h2>
 <p>Throughout the day, your students will have a chance to work with NDSU faculty in clinics that address playing on their specific instrument. If you miss a session, don’t worry—there will be several throughout the day for your students to attend.</p>
-		
-  				<!--<img src="images/Clardy-Dick.jpg" alt="Dick Clardy" style="width:100%;max-width:100px;">-->
-  		
-    			Dr. Joseph Missal, <i>Director of Bands (retired)</i>, Oklahoma State University <br>
-			
-		
-  				<!--<img src="images/Phillips-Rebecca.jpg" alt="Dr. Rebecca Phillips" style="width:100%;max-width:100px;">-->
-  				
-    			Dr. Deborah Confredo, Professor of Music Education and Director of Graduate Programs for Music Education, Temple University<br>
 
-			
-  				<!--<img src="images/Climer.jpg" alt="John Climer" style="width:100%;max-width:100px;">-->
-  			
-    			Dr. Mary Schneider, <i>Director of Bands</i>, Eastern Michigan University<br>
+				Dr Bruce Moss—Director of Bands at Bowling Green University, Bowling Green OH<br />
+				Dr Robert Hansbrough, Director of bands, College of St. Rose, Albany NY<br />
+				Dr Christopher Chapman, Director of Bands, Central Michigan University, Mt. Pleasant, MI<br />
+				Dr Michael King, former Director of Athletic Bands, Bowling Green University, Bowling Green OH<br />
 
-
-
-  				<!--<img src="images/Rhea-Tim.jpg" alt="Dr. Timothy Rhea" style="width:100%;max-width:100px;">-->
-  			
-    			Dr. Roby George, <i>Director of Bands</i>, Indiana State University<br>
 					
 						</p>
 <h2>NDSU Wind Symphony in Performance</h2>
@@ -133,7 +119,7 @@ include($config['path'].'resources/header.php');
         <h2>Registration </h2>
         
         <strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSekooyyLXNTkvUjyhHPvle7OqxwEqn__UgP3zMNftZy-74iIw/viewform?usp=sf_link" class="btn btn-ndsu-green btn-lg">Online Registration Form</a></strong>
-        <p>Registration fee is $275. Additional band registation is $240 each. <br />
+        <p>Registration fee is $275. Additional band registration is $240 each. <br />
           <br />
         <em><strong>Checks should be made NDSU Challey School of Music and mailed to:</strong></em></p>
         <p><strong>Raging Red Band Festival</strong><br />
