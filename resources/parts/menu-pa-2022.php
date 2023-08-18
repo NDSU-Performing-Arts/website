@@ -44,10 +44,9 @@
 					<a class="dropdown-item" href="https://ndsu.showare.com">Tickets</a>
 				</div>
 			</li>-->
-			<li class="dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="Button" aria-haspopup="true" aria-expanded="false" id="NEDrop">NEWS &amp; EVENTS</a>
+			<li class="dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="Button" aria-haspopup="true" aria-expanded="false" id="NEDrop">EVENTS</a>
 				<div class="dropdown-menu" aria-labelledby="NEDrop">
 					<a class="dropdown-item" href="/performingarts/calendar/">Calendar</a>
-					<a class="dropdown-item" href="/performingarts/news/">News Releases</a>
 					<a class="dropdown-item" href="https://visitor.r20.constantcontact.com/manage/optin?v=001R17bMHtpg0OYt8j4sbNT21fbMBe4bcrHZv2VMEW91uXgsCgG3auAr8ft8-qwv0C-KdBVkcPapgIrZ98OycNlLGqYxV3G8PjuuyPsya_WP7w%3D">Sign Up for E-Blasts</a>
 				</div>
 			</li>

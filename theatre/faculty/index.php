@@ -29,7 +29,7 @@ include($config['path'].'resources/header.php');
 		<a href="devine_marc.php"><img class="d-none d-md-block" src="images/200px_faculty_devine_marc.jpg" alt="Marc Devine">
 		<div class="ndsu-column-inner">
 		<h5>Marc Devine, M.F.A.</h5>
-		<p>Assistant Professor <br />
+		<p>Associate Professor <br />
 		  movement, acting<br /></p>
 		</div></a>
 		</div>
@@ -60,7 +60,7 @@ include($config['path'].'resources/header.php');
 		<a href="jung_jess.php"><img class="d-none d-md-block" src="images/200px_faculty_jung_jess.jpg" alt="Jess Jung">
 		<div class="ndsu-column-inner">
 		<h5>Jess Jung, M.F.A.</h5>
-		<p>Assistant Professor<br />directing/TYA Theatre for Young Audiences/acting</p>
+		<p>Associate Professor<br />directing/TYA Theatre for Young Audiences/acting</p>
 		</div></a>
 	</div>
 	
@@ -103,14 +103,6 @@ include($config['path'].'resources/header.php');
 		<p>World Film</p>
 		</div></a>
 	</div>-->
-	
-	<div class="ndsu-column">
-		<a href=""><img class="d-none d-md-block" src="images/200px_faculty_headshot.gif" alt="Cindy Roholt">
-		<div class="ndsu-column-inner">
-		<h5>Sarah Aldridge</h5>
-		<p>Costume Craft</p>
-		</div></a>
-	</div>
 	</div>
 </section>
 

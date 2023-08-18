@@ -24,7 +24,6 @@ include($config['path'].'resources/header.php');
 		
 		<p>E-mail: <a href="mailto:Tiffany.Fier@ndsu.edu">tiffany.fier@ndsu.edu</a><br>
 			Office: Askanase Hall Room 134<br>
-			Phone: 701.231.7826<br>
 			Website: <a href="http://www.tiffanyfier.com">tiffanyfier.com </a></p>
 							
 		<p>Degrees</p>

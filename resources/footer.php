@@ -1,20 +1,20 @@
 <?php
 if($config['page-realm']=="DPA"){
-	$contact['dept']="2330";
+	$contact['dept']="2540";
 	$contact['phone']="(701) 231-7932";
 	$contact['phonelink']="7012317932";
 	$contact['campus']="Reineke Fine Arts Center 115";
 	$contact['fax']="(701) 231-2085";
 	$name = "Division of Performing Arts";
 }elseif($config['page-realm']=="CSOM"){
-	$contact['dept']="2334";
+	$contact['dept']="2540";
 	$contact['phone']="(701) 231-7932";
 	$contact['phonelink']="7012317932";
 	$contact['campus']="Reineke Fine Arts Center 115";
 	$contact['fax']="(701) 231-2085";
 	$name = "Challey School of Music";
 }elseif($config['page-realm']=="DTA"){
-	$contact['dept']="2336";
+	$contact['dept']="2540";
 	$contact['phone']="(701) 231-8725";
 	$contact['phonelink']="7012318725";
 	$contact['campus']="Askanase 107";

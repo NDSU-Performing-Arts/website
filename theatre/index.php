@@ -91,7 +91,7 @@ include($config['path'].'resources/header.php');
 		</article>
 	</section>
 	<h4>Explore Theatre NDSU</h4>
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/pQiPk5llOE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/qguM6GbQk4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<section>
 		<header class="mt-4">
 			<h2>Prospective Students</h2>

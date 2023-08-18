@@ -195,7 +195,7 @@ include($config['path'].'resources/header.php');
 
 					<ul>
 						<li>Course requirements - <a href="masters/#instperformance">Master of Music</a> | <a href="doctoral/#instperformance">Doctor of Musical Arts</a></li>
-						<li>Degree professors - <a href="../about/people/faculty/jeremy_brekke.php">Dr. Jeremy Brekke</a> | <a href="../about/people/faculty/sigurd_johnson.php">Dr. Sigurd Johnson</a> | <a href="../about/people/faculty/cassie_keogh.php">Dr. Cassie Keogh</a> | <a href="../about/people/faculty/matthew_patnode.php">Dr. Matthew Patnode</a> | <a href="../about/people/faculty/kyle_mack.php">Dr. Kyle Mack</a> | <a href="../about/people/faculty/kellogg_laura.php">Dr. Laura Kellogg</a></li>
+						<li>Degree professors - <a href="../about/people/faculty/jeremy_brekke.php">Dr. Jeremy Brekke</a> | <a href="../about/people/faculty/sigurd_johnson.php">Dr. Sigurd Johnson</a> | <a href="../about/people/faculty/cassie_keogh.php">Dr. Cassie Keogh</a> | <a href="../about/people/faculty/matthew_patnode.php">Dr. Matthew Patnode</a> | <a href="../about/people/faculty/challey_connor.php">Connor Challey</a> | <a href="../about/people/faculty/kellogg_laura.php">Dr. Laura Kellogg</a></li>
 						<li><a href="handbook/">Graduate Handbook</a></li>
 						<li><a href="../prospective-students/#graduate">Application process / What is the next step?</a></li>
 					</ul>

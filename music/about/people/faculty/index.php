@@ -226,6 +226,15 @@ include($config['path'].'resources/header.php');
 	</div>
 	
 	
+	<div class="ndsu-column">
+		<a href="martin_vanklompenberg.php"><img class="d-none d-md-block" src="images/200px_faculty_vanklompenberg.png" alt="Martin Van Klompenberg">
+		<div class="ndsu-column-inner">
+		<h5>Martin Van Klompenberg, D.M.A.</h5>
+		<p>(bassoon, chamber music)</p>
+		</div></a>
+	</div>
+	
+	
 
 
 	<!--<div class="ndsu-column">

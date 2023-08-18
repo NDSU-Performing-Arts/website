@@ -23,8 +23,7 @@ include($config['path'].'resources/header.php');
 		<p>Horn</p>
 		
 		<p>E-Mail: <a href="mailto:kayla.l.nelson@ndsu.edu">kayla.l.nelson@ndsu.edu</a><br>
-		Office: 218B Music Education Building<br>
-		Phone: (701) 231-6683<br>
+		Office: 218C Music Education Building<br>
 		</p>
 							
 		<p>Degrees</p>

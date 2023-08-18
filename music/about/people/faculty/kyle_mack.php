@@ -26,9 +26,7 @@ include($config['path'].'resources/header.php');
 		Director of Jazz Studies<br>
 		Low brass | Instrumental Jazz</p>
 		
-		<p>E-Mail: <a href="mailto:Kyle.Mack@ndsu.edu">kyle.mack@ndsu.edu</a><br>
-		Office: 208 Music Education Building<br>
-		Phone: (701) 231-7873</p>
+		<p>E-Mail: <a href="mailto:Kyle.Mack@ndsu.edu">kyle.mack@ndsu.edu</a></p>
 							
 		<p>Degrees</p>
 		

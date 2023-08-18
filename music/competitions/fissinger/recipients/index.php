@@ -19,6 +19,23 @@ include($config['path'].'resources/header.php');
 	</header>
 
     <article>
+			<h2>2022 Competition Winners</h2>
+			<?php biobox("../images/Cook.jpeg","<p><strong>JENNIFER LUCY COOK<br />
+		Some Keep the Sabbath</strong></p>
+
+		<p>Jennifer Lucy Cook is a composer and lyricist based in Los Angeles. Jen specializes in musical comedy for the stage and screen, choral music and pop songwriting. Recent choral commissions include Cantorum Chamber Choir, Opus Voices, and the UVU Chamber Choir. She is the recipient of the 2022 Chorus Austin Composition Priz and the 2022 Cantus Emerging Composer Award. Her theatre commissions include Full House Theatre Co., British Youth Musical Theatre, and the Shakespeare's Globe Theatre in London, and her musical recaps of The Bachelor recently went viral on TikTok. She earned a Master's degree in Musical Theatre Writing from Goldsmiths University in London and a Bachelor's in Contemporary Music from Brigham Young University. Jen is mentored by renowned composer Eric Whitacre.</p>","Jennifer Lucy Cook");?>
+		<br />
+			<?php biobox("../images/Winchester.jpeg","<p><strong>PAUL WINCHESTER<br />
+		A Holy Night</strong></p>
+
+		<p>Paul Winchester is a composer, performer, educator, and music director in Minneapolis, MN. As a composer, Paul's work has been commissioned and performed by the The Singers: Minnesota Choral Artists, The Society for New Music, the Ohio Shakespeare Festival, the Wooster Symphony, and numerous church and school choirs. Paul received his Bachelor's of Music in Composition from The College of Wooster and his Master's in Music in Composition at Syracuse University, where he was a Heaton Fellow and a recipient of the Brian Israel Award. Paul currently serves as the Music Director for the Unitarian Universalist Church of Minnetonka, where he leads the church choir, band, and orchestra, and regularly composes and arranges music for a wide variety of performers and ensembles. In addition to his music career, Paul is also a professional game developer. He is currently freelancing after working for 3 years with Fantasy Flight Games in Roseville, where he worked on the development team for and subsequently served as lead designer and producer for the product line of Star Wars: Imperial Assault, winner of the 2016 Board Game of the Year Origin Award. Paul lives in Minneapolis with his wife, Mo, their 3 cats, 2 dogs, and, very soon, their first son.</p>","Paul Winchester");?>
+			<br />
+			 <h2>2022 Second Place Winner</h2>
+			<?php biobox("../images/Vu.jpeg","<p><strong>PATRICK VU<br />
+		On the Hillside</strong></p>
+
+		<p>Patrick Vu (b. 1998) is an award-winning composer from Allen, Texas whose music has quickly gained increasing attention in the United States. His vocal and choral music has been performed across the United States by both professional and collegiate ensembles. Even in his short career, he has received commissions and performances from professional organizations including VocalEssence, Dallas Chamber Choir, Chorus Austin, Fort Worth Opera, the Savannah VOICE Festival, the Lubbock Chorale, and his music has been heard at TMEA, ACDA, SCI, and the International Trumpet Guild conferences. While Patrick remains mostly self-published, his choral music has been published by Gentry, Hinshaw, and Alliance. Currently, Patrick is pursuing his MM in Choral Conducting from Texas Tech University in Lubbock, Texas under Dr. Alan Zabriskie. In May 2022, Patrick graduated with a BM in Music Composition and a BME Vocal Music Education from Texas Christian University in Fort Worth, Texas where he studied with Dr. Christopher Aspaas.</p>","Patrick Vu");?>
+	
 		<h2>2021 First Prize: Joshua Fishbein</h2>
 		
 		<p><strong>Title</strong>: <em>Out of the Ashes of Holocaust</em></p>

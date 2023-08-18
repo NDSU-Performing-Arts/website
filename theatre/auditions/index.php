@@ -22,29 +22,29 @@ include($config['path'].'resources/header.php');
 	<article>
 		<p>All students, regardless of major, are invited to audition for Theatre NDSU and newfangled theatre company productions.</p>
 
-		<p>For perusal scripts, please contact Artistic Director <a href="mailto:jessica.jung@ndsu.edu">Jess Jung</a>.</p>
+		<p>For perusal scripts, please contact <a href="mailto:jessica.jung@ndsu.edu">Jess Jung</a>.</p>
 
-		<p>Audition sign-ups are located <a href="https://docs.google.com/spreadsheets/d/1NdAZUMWYxhEiwzvXzYCL1ttWLpe300-hmlreF_e9IG0/edit?usp=sharing">here</a>. You can find instructions and materials for the fall audition in our <a href="https://docs.google.com/document/d/10g0OyAuliGgdkMMha5Ulk-ZRMHR4aQVQ/edit?usp=sharing&ouid=110154341269382169606&rtpof=true&sd=true">Audition Announcement</a>.</p>
+		<p>Audition sign-ups are located <a href="https://docs.google.com/spreadsheets/d/1XGh_VvjGNUiV6CelTjz2C4peTpA6QNZTOzgLYWDbmWc/edit?usp=sharing">here</a>. You can find instructions and materials for the fall audition in our <a href="https://docs.google.com/document/d/1G9x-QycdoATaOf084X5BA5gToQF9dEdl/edit?usp=sharing&ouid=110154341269382169606&rtpof=true&sd=true">Audition Announcement</a>.</p>
 
 		<p>Please bring the completed <a href="https://drive.google.com/file/d/1jlYPdpCUZddoTDnruW7-I6A10YYtR2K3/view?usp=sharing">Audition Information</a> form to your audition.</p>
 
 		<h2>Auditions</h2> 
 
-		<div class="alert alert-secondary"><p><strong><i>Home</i></strong><br><br />
-		Auditions: November 6th &amp; 7th 6:00 - 9:00 p.m. (Askanase Auditorium)<br />
-		Callbacks: November 8th 8:00-11:00 p.m. (Askanase Auditorium)<br>
-		Production Dates: March 30-31, April 1, 5-6 at 7:30pm (Memorial Union Gallery)<br>
-		Director: Marc Devine<ul>
-		<li>Please prepare the following <a href="https://docs.google.com/document/d/10g0OyAuliGgdkMMha5Ulk-ZRMHR4aQVQ/edit?usp=sharing&ouid=110154341269382169606&rtpof=true&sd=true">Click here.</a></li></ul>
+		<div class="alert alert-secondary"><p><strong><i>Dracula: A Feminist Revenge Fantasy</i></strong><br><br />
+		Auditions: August 27th &amp; August 28th 6:00 - 9:00 p.m. (Walsh Studio Theatre)<br />
+		Callbacks: August 29th 8:00-11:00 p.m. (Walsh Studio Theatre)<br>
+		Production Dates: October 12-14 &amp; 19-21 at 7:30pm, October 15th at 2:00pm, October 18th at 10:00am<br>
+		Director: Jess Jung<ul>
+		<li>Please prepare the following <a href="https://docs.google.com/document/d/1G9x-QycdoATaOf084X5BA5gToQF9dEdl/edit?usp=sharing&ouid=110154341269382169606&rtpof=true&sd=true">Click here.</a></li></ul>
 		</p>
 		</div>
-
-		<div class="alert alert-secondary"><p><strong><i>Twelfth Night  </i></strong><br /><br />
-		Auditions: November 6th &amp; 7th 6:00 - 9:00 p.m. (Walsh Studio Theatre)<br />
-		Callbacks: November 8th 5:00-8:00 p.m. (Walsh Studio Theatre)<br>
-		Production Dates: April 20-22 &amp; 27-29 at 7:30pm<br>
-		Director: Matthew Dryburgh<ul>
-		<li>Please prepare the following <a href="https://docs.google.com/document/d/10g0OyAuliGgdkMMha5Ulk-ZRMHR4aQVQ/edit?usp=sharing&ouid=110154341269382169606&rtpof=true&sd=true">Click here.</a></li></ul>
+		
+		<div class="alert alert-secondary"><p><strong><i>'Twas the Night Before Christmas</i></strong><br><br />
+		Auditions: August 27th &amp; August 28th 6:00 - 9:00 p.m. (Askanase Auditorium)<br />
+		Callbacks: August 29th 5:00-8:00 p.m. (Askanase Auditorium)<br>
+		Production Dates: December 1-2 &amp; 8-9 at 7:00pm, December 7th at 10:00pm, December 2nd &amp; 9th at 2:00pm<br>
+		Director: Lori Koenig<ul>
+		<li>Please prepare the following <a href="https://docs.google.com/document/d/1G9x-QycdoATaOf084X5BA5gToQF9dEdl/edit?usp=sharing&ouid=110154341269382169606&rtpof=true&sd=true">Click here.</a></li></ul>
 		</p>
 		</div>
 

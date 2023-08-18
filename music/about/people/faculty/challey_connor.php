@@ -26,6 +26,7 @@ include($config['path'].'resources/header.php');
 		</p>
 		
 		<p>E-Mail: <a href="mailto:connor.challey@ndsu.edu">connor.challey@ndsu.edu</a><br>
+		Office: 209 Music Education Building
 		</p>
 							
 		<p>Degrees</p>

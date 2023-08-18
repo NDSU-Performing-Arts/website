@@ -27,8 +27,7 @@ include($config['path'].'resources/header.php');
 		Music Education</p>
 		
 		<p>E-Mail: <a href="mailto:m.weber@ndsu.edu">m.weber@ndsu.edu</a><br>
-		Office: 221 Music Education Building<br>
-		Phone: (701) 231-8497</p>
+		Office: 221 Music Education Building</p>
 							
 		<p>Degrees</p>
 		

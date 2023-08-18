@@ -22,19 +22,15 @@ include($config['path'].'resources/header.php');
 	<article>
 
 	<h3>Important Links</h3>
-		<div class="card mb-3">
-			<div class="card-body">
-				<h5 class="card-title">Sharepoint</h5>
-				<a href="https://ndusbpos.sharepoint.com/sites/NDSU_Production_Facilities/SitePages/Home.aspx" class="btn btn-lg btn-ndsu-green">Sharepoint</a>
-			</div>
-		</div>
 		
 		<div class="card mb-3">
 			<div class="card-body">
 				<h5 class="card-title">Rooms</h5>
 				To get a room for tomorrow or beyond: fill out the room request form.<br /><br />
-				Each morning Maggie will schedule all the things for the day, email people their rooms, and post the schedule outside her office (107)<br /><br />
+				Each morning James will schedule all the things for the day, email people their rooms, and post the schedule outside her office (107)<br /><br />
 				If you need a room for today: stop on by and write yourself on the paper schedule in the room you’d like.<br /><br />
+				
+				<a href="calendar/" class="btn btn-lg btn-ndsu-green mb-3">Room Calendars</a><br />
 				<a href="https://forms.gle/CeHLHQtsHnB4tnWaA" class="btn btn-lg btn-ndsu-green">Room Request Form</a>
 			</div>
 		</div>	
@@ -60,9 +56,17 @@ include($config['path'].'resources/header.php');
 				
 				<a href="https://docs.google.com/document/d/16nzYIMdqomEPsyMVlphgjQKq9SyabjPJl3lkPZYXXIo/edit?usp=sharing">Hospitality List</a><br />
 				<a href="https://drive.google.com/file/d/1F2unuk9lS3Sgy9cOu2fL6k-8HDbAPEJC/view?usp=sharing">South Campus Map</a><br />
-				<a href="https://drive.google.com/file/d/1h7os2I81kc-MwudTGYEQnxbymYEa3mQG/view?usp=sharing">Building Map</a><br />
+				<a href="https://drive.google.com/file/d/1jDzMRWoWhIB-OFjR-T1BAs9hZ_QFHUgf/view?usp=drive_link">Building Map</a><br />
 				<a href="https://kb.ndsu.edu/page.php?id=95904">Guest WiFi</a><br />
 
+			</div>
+		</div>
+		
+		<div class="card mb-3">
+			<div class="card-body">
+				<h5 class="card-title">Sharepoint</h5>
+				We are moving away from Sharepoint for normal operations. It is listed here just in case.<br />
+				<a href="https://ndusbpos.sharepoint.com/sites/NDSU_Production_Facilities/SitePages/Home.aspx" class="btn btn-lg btn-warning">Sharepoint</a>
 			</div>
 		</div>
 		

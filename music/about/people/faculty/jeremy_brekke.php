@@ -27,7 +27,6 @@ include($config['path'].'resources/header.php');
 		
 		<p>E-Mail: <a href="mailto:jeremy.brekke@ndsu.edu">jeremy.brekke@ndsu.edu</a><br>
 		Office: 213 Music Education Building<br>
-		Phone: (701) 231-7929<br>
 		<a href="/performingarts/music/ensembles-and-performances/bison-brass/">NDSU Bison Brass Quintet</a></p>
 							
 		<p>Degrees</p>

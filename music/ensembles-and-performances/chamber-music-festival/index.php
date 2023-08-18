@@ -30,7 +30,7 @@ include($config['path'].'resources/header.php');
   </li>
 </ul>	<br /> -->
 	<header>
-		<img alt="Chamber Music Festival" style="width:100%" src="images/CMF-NoDates.jpeg">
+		<img alt="Chamber Music Festival" style="width:100%" src="images/2023 Chamber Fest Web Banner.png">
 		<!--<h1>NDSU Chamber Music Festival 6th Season<br>
 		</h1>
 	</header>
@@ -38,23 +38,28 @@ include($config['path'].'resources/header.php');
 	<!--Videos-->
 	<br />
 	<br />
+	<p class="text-center" style="margin-left:7%; margin-right:7%"><em>
+	Since 2015, the NDSU Chamber Music Festival has paired NDSU student musicians with professional musicians including NDSU faculty as well as local, national, and international luminaries in performances of chamber music presented free of charge to the NDSU and Fargo-Moorhead community. Guest musicians at the Festival have included Grammy Award-winning artists, faculty from such institutions as the Royal Academy of Music in London and Carnegie Mellon, and players from many of the major U.S. orchestras. A wide diversity of great composers has been represented in the Festival's programming, from the likes of Mozart and Beethoven to more recent greats such as Margaret Bonds, Frank Zappa, and Libby Larsen, some of whose work has had its World Premiere in Fargo at the Festival. Chamber music, being music for small groups of musicians performing without a conductor, is unique in its combination of potent immediacy and enormous dramatic range. We are proud to be able to share performances by NDSU students and professional musicians of this wonderful music.
+	</em></p>
+	<hr>
 	<div class="row"><div class="col-md-9">
+	
 	<article>
-			<h3>2022 NDSU Chamber Music Festival<br />
-		  Thursday, August 25 - Tuesday, August 30, 2022</h3><br />
+			<h3>2023 NDSU Chamber Music Festival<br />
+			Thursday, August 24 - Tuesday, August 29, 2023</h3><br />
 		
 			<h4>Free Concerts</h4>
-			<p>Thursday, August 25 at 7:30 PM, NDSU Beckwith Recital Hall:  Clara Osowski Art Song Recital<br />
-			Monday, August 29 at 7:30 PM, NDSU Beckwith Recital Hall<br />
-			Tuesday, August 30 at 12:00 Noon, Plains Art Museum<br />
-			Tuesday, August 30 at 7:30 PM, NDSU Beckwith Recital Hall</p>
+			<p>Thursday, August 24 at 7:30 PM, NDSU Beckwith Recital Hall<br />
+			Monday, August 28 at 7:30 PM, NDSU Beckwith Recital Hall<br />
+			Tuesday, August 29 at 12:00 Noon, Plains Art Museum<br />
+			Tuesday, August 29 at 7:30 PM, NDSU Beckwith Recital Hall</p>
 
 
-			<p>Join us as we gather to be moved and inspired by chamber music in all of its up-close power and eloquence at the 2022 NDSU Chamber Music Festival! Superstar guest artists including violinists <a href="https://www.graceparkviolin.com">Grace Park</a> and <a href="https://www.concordiacollege.edu/directories/faculty-staff/details/dr-sonja-bosca-harasim/">Sonja Bosca-Harasim</a> as well as cellist <a href="https://www.metaweiss.com">Meta Weiss</a> and NDSU faculty will be performing alongside NDSU student pianists after an intensive five-day series of rehearsals.</p>
-			
-			<p>The 2022 Festival will open on Thursday, August 25 at 7:30 PM with an art song recital featuring distinguished mezzo-soprano and NDSU alumna <a href="https://colbertartists.com/artists/clara-osowski/">Clara Osowski</a> alongside pianist Tyler Wottrich. The program will include works from Schubert, Britten, Poulenc, and De Falla and will close with Jonathan Dove's "On The Threshold", which was written for Clara and given its world premiere by Clara and Tyler just a few months ago at the Collaborative Arts Institute of Chicago. The concerts on August 29 and 30 at NDSU Beckwith Recital Hall and local treasure the Plains Art Museum will feature great chamber music masterworks by Mozart, Schumann, Brahms, Shostakovich, Decruck, Martinu, Nadia Boulanger, and Western Illinois University composer Hong-Da Chin, who will be making a special appearance performing one of his own works with one of our NDSU student pianists.</p>
-			
-			<p>We hope that you will join us as we gather for the 2022 NDSU Chamber Music Festival!</p>
+			<p>Join us as we gather to experience the power of great chamber music at the 2023 NDSU Chamber Music Festival! Our cast of world-class artists for this season includes violinists <a href="https://content.thespco.org/people/rolf-haas/">Rolf Haas</a>, <a hraef="https://www.graceparkviolin.com/">Grace Park</a>, and <a href="https://www.concordiacollege.edu/directories/faculty-staff/details/dr-sonja-bosca-harasim/">Sonja Bosca-Harasim</a>; violist <a href="http://www.jenniseo.com/aboutme">Jenni Seo</a>; cellists <a href="https://www.metaweiss.com/">Meta Weiss</a> and her husband <a href="https://www.davidrequiro.com/">David Requiro</a> as well as NDSU faculty, all of whom will be performing alongside NDSU student pianists following intensive rehearsals.</p>
+
+			<p>The 2023 Festival concerts will feature such chamber music masterworks as the dramatic and virtuosic Rachmaninoff Cello Sonata, a beautiful and evocative set of Margaret Bonds songs set to texts of Langston Hughes, the poetic and impassioned Turina Piano Quartet, the wondrously warm and lyrical Fauré Piano Quartet No. 1, and many more from the likes of Beethoven, Saint-Saëns, Lutoslawski, Martinu, Gade, and John Ireland.</p>
+
+			<p>We hope that you will join us as we gather for the 2023 NDSU Chamber Music Festival!</p>
 
 			<p>Pianists interested in discovering more about piano study at NDSU or being involved in the NDSU Chamber Music Festival are encouraged to contact Dr. Tyler Wottrich at <a href="mailto:tyler.wottrich@ndsu.edu">tyler.wottrich@ndsu.edu</a>.</p>
 

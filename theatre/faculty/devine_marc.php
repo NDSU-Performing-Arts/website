@@ -20,12 +20,12 @@ include($config['path'].'resources/header.php');
 	</header>
 	
 	<article>
-		<p>Assistant Professor,
+		<p>Associate Professor,
 			Movement, Acting</p>
 		
 		<p>E-Mail:  <a href="mailto:marc.devine@ndsu.edu">marc.devine@ndsu.edu</a><br>
-			Office: 128 Askanase Hall<br>
-			Phone: (701) 231-7785</span><br>
+			Office: 136 Askanase Hall<br>
+			Phone: <a href="tel:7012318497">(701) 231-8497</a><br>
 			Website: <a href="http://www.marcdevine.net/">www.marcdevine.net</a> 
 		</p>
 		<p>Degrees:</p>
@@ -36,7 +36,7 @@ include($config['path'].'resources/header.php');
 			</li>
 		</ul>
       
-		<p>Marc Devine is an Assistant Professor at North Dakota State University.He specializes in somatic movement, devising, Grotowski, Viewpoints, acting, vocal production, Roy Hart inspired Voice Work, and dialects. His publication “Four Principles about Site-Specific Theatre: A Conversation on Architecture, Bodies, and Presence” appeared in the online edition of <i>Theatre Topics: Notes from the Field</i> in the spring of 2018, along with co-authors Rachel Bowditch, Daniel Bird Tobin, and Chelsea Pace.</p>
+		<p>Marc Devine is an Associate Professor at North Dakota State University. He specializes in somatic movement, devising, Grotowski, Viewpoints, acting, vocal production, Roy Hart inspired Voice Work, and dialects. His publication “Four Principles about Site-Specific Theatre: A Conversation on Architecture, Bodies, and Presence” appeared in the online edition of <i>Theatre Topics: Notes from the Field</i> in the spring of 2018, along with co-authors Rachel Bowditch, Daniel Bird Tobin, and Chelsea Pace.</p>
 		<p>Marc is the recipient of the 2015 National Award of Distinguished Choreography/Movement Direction for Ball State’s new musical ‘Mad World’ from the Kennedy Center American College Theater Festival. Marc’s audio-book recording of ‘The Adventures of Huckleberry Finn’ has over one million chapter downloads, and was among the top 50 iTunes podcasts in the Arts and Literature category for over three years.  Marc has worked as a performing artist in various cities around the country, including Los Angeles, Santa Fe, San Francisco, Cincinnati and the Denver/Boulder Area for over the past 15 years.  </p>
 		<p>Marc currently serves as the Treasurer for the Association of Theatre Movement Educators and is an active member of ATME, VASTA, and ATHE. He has an MFA in Contemporary Performance from Naropa University and a BFA in Acting from the College of Santa Fe.</p>
 		</p>

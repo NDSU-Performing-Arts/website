@@ -25,7 +25,6 @@ include($config['path'].'resources/header.php');
 		
 		<p>E-Mail: <a href="mailto:cassie.keogh@ndsu.edu">cassie.keogh@ndsu.edu</a><br>
 		Office: 225 Music Education Building<br>
-		Phone: (701) 231-8498<br>
 		Web: <a href="https://cassiekeogh.com">cassiekeogh.com</a></p>
 							
 		<p>Degrees</p>

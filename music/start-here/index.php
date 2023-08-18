@@ -16,7 +16,7 @@ include($config['path'].'resources/header.php');
 <section>
 	<header>
 		<p align="center">
-	  <h1>Start Here (Fall 2022)</h1>
+	  <h1>Start Here (Fall 2023)</h1>
 	</header>
 	
 	<div class="alert alert-warning">
@@ -36,7 +36,10 @@ include($config['path'].'resources/header.php');
 			<div class="card-footer">
 				<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-choral" class="btn btn-ndsu-green mb-2">Choral Audition Signups</a><br />
 				<a href="/music/ensembles-and-performances/wind-symphony/" class="btn btn-ndsu-green mb-2">Wind Symphony Auditions</a><br />
-				<a href="/music/ensembles-and-performances/jazz/" class="btn btn-ndsu-green">Jazz Auditions</a>
+				<a href="https://docs.google.com/spreadsheets/d/1YqL9OIXAn0zhkQm6TVUrGCydU-ys7YNtCdJoBFNUHgY/edit?usp=sharing" class="btn btn-ndsu-green mb-2">Wind Symphony Sign-Ups</a><br />
+				<a href="/music/ensembles-and-performances/jazz/" class="btn btn-ndsu-green mb-2">Jazz Auditions</a><br />
+				<a href="/music/ensembles-and-performances/orchestra/" class="btn btn-ndsu-green mb-2">Orchestra Audition Information</a><br />
+				<a href="https://forms.gle/2XpY9E5KS5Rnx6gs7" class="btn btn-ndsu-green">Orchestra Audition Sign-Ups</a>
 			</div>
 		</div>
 		

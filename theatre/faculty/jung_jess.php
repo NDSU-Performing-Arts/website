@@ -26,7 +26,6 @@ include($config['path'].'resources/header.php');
 		
 		<p>E-Mail: <a href="mailto:Jessica.Jung@ndsu.edu">jessica.jung@ndsu.edu</a><br>
 		Office: Askanase Hall Room 135<br>
-		Phone: (701) 231-8776<br>
 			Web: <a href="http://www.jessjungdirecting.com/">jessjungdirecting.com/</a></p>
 							
 		<p>Degrees</p>

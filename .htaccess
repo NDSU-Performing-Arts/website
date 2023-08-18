@@ -1,1 +1,2 @@
 #RedirectMatch 301 /news /performingarts/news/2017-18
+Options -Indexes

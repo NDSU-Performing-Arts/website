@@ -30,12 +30,37 @@ include($config['path'].'resources/header.php');
 
 
 	  <div class="carousel-item active">
+        <a href="/music/ensembles-and-performances/chamber-music-festival/" title="Chamber Music Festival">
+          <img alt="Choral Anthology" src="/music/ensembles-and-performances/chamber-music-festival/images/2023 Chamber Fest Web Banner.png" style="width:100%;">
+        </a>
+        <div class="carousel-caption">
+		</div>
+      </div>
+	  
+      <div class="carousel-item">
+        <a href="https://forms.gle/2XpY9E5KS5Rnx6gs7" title="String Auditions">
+          <img alt="String Auditions" src="images/String Auditions Web-1.png"- style="width:100%;">
+        </a>
+        <div class="carousel-caption">
+		</div>
+      </div>
+	  
+	  <div class="carousel-item">
         <a href="/music/choral-anthology/" title="Choral Anthology">
           <img alt="Choral Anthology" src="images/Choral Anthology.png"- style="width:100%;">
         </a>
         <div class="carousel-caption">
 		</div>
       </div>
+	  
+	<div class="carousel-item">
+        <a href="#" title="Homeschool Piano Day">
+          <img alt="Homeschool Piano Day" src="images/HomeschoolPianoDay.png"- style="width:100%;">
+        </a>
+        <div class="carousel-caption">
+		</div>
+      </div>
+	  
       
 	  <div class="carousel-item">
         <a href="/performingarts/calendar/" title="Upcoming Events">
@@ -96,8 +121,10 @@ include($config['path'].'resources/header.php');
 			<figcaption class="blockquote-footer">Learn More: <a href="about/mission/">Mission and Goals</a></figcaption></figure>
 			<br />
 			<div class="alert alert-warning">
-			<h1>Upcoming Performances and Festivals</h1>
-			<a href="/music/festivals-and-clinics/raging-red/" class="btn btn-ndsu-green mb-2">Raging Red Band Festival</a>&nbsp;
+			<h1>Upcoming Events</h1>
+			<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-choral" class="btn btn-ndsu-green mb-2">Choral Audition Sign-ups</a>&nbsp;
+			<a href="/music/ensembles-and-performances/wind-symphony/" class="btn btn-ndsu-green mb-2">Wind Symphony Audition Sign-ups</a>&nbsp;
+			<a href="/music/competitions/fissinger/" class="btn btn-ndsu-green mb-2">Fissinger Choral Composition Contest</a>&nbsp;
 			</div>
 				
 			<!-- BEGIN CONTENT CARD EMBED CODE--> <div></div><script id="embed-a1f6df60-7b02-4224-ac10-3c52ea6af565" type="text/javascript" src="//ndsudpa.shopwindow.io/pipeline/serve_pipeline_embed/?embeddable=a1f6df60-7b02-4224-ac10-3c52ea6af565"></script> <!-- END CONTENT CARD EMBED CODE -->
@@ -295,7 +322,7 @@ include($config['path'].'resources/header.php');
 		    <!--<strong><a href="/music/competition/">HS Solo Competition</a></strong><br />-->
 			<a href="prospective-students/scholarships/">Scholarship Information</a>
 		    <ul>
-				<li>2022 Scholarship Dates: <strong><?php echo $md['scholarships'][1]; ?></strong> and <strong><?php echo $md['scholarships'][2]; ?></strong></li>
+				<li>Scholarship Dates: <strong><?php echo $md['scholarships'][1]; ?></strong> and <strong><?php echo $md['scholarships'][2]; ?></strong></li>
 				<li><a href="https://docs.google.com/forms/d/e/1FAIpQLScTN4d3LxL1QyCwfiuU-bb0tRMGsvlaTYDiyGIsX7hFQRAvzw/viewform">NDSU Music Scholarship Application for First Year Students</a></li>
 				<li>Scholarship auditions may also take place by appointment.</li>
 				<li>Want us to contact you? Please complete this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdcmKFQSNFVWxTLTKl9HAUtk_zZGK-FBllKSjmUuzfI4Hm7Q/viewform?usp=sf_link">online student contact form</a>.				</li>

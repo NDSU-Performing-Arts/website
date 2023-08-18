@@ -27,7 +27,7 @@ include($config['path'].'resources/header.php');
 		
 		<p>E-Mail: <a href="mailto:kyle.vanderburg@ndsu.edu">kyle.vanderburg@ndsu.edu</a><br>
 		Website: <a href="http://kylevanderburg.com/">http://kylevanderburg.com/</a><br>
-		Office: 216A Music Education Building<br>
+		Office: 115C Music Education Building<br>
 		Phone: (701) 231-5670</p>
 							
 		<p>Degrees</p>

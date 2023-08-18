@@ -54,7 +54,15 @@ include($config['path'].'resources/header.php');
 				<p>Account Technician</p>
 			  </div></a>
 			</div>
-		
+
+			<div class="ndsu-column">
+			  <a href="fornes_james.php"><img class="d-none d-md-block" src="images/200px_Fornes_James.L.jpg" alt="James Fornes">
+			  <div class="ndsu-column-inner">
+				<h5>James Fornes</h5>
+				<p>Concert Facilities and Box Office Manager</p>
+			  </div></a>
+			</div>	
+			
 			<div class="ndsu-column">
 			  <a href=""><img class="d-none d-md-block" src="images/200px_faculty_headshot.gif" alt="Dave Huber">
 			  <div class="ndsu-column-inner">
@@ -71,14 +79,7 @@ include($config['path'].'resources/header.php');
 			  </div></a>
 			</div>
 			
-			<?php /*
-			<div class="ndsu-column">
-			  <a href="latterell_margaret.php"><img class="d-none d-md-block" src="images/200px_faculty_latterell_maggie_2.jpg" alt="Margaret Latterell">
-			  <div class="ndsu-column-inner">
-				<h5>Margaret Latterell</h5>
-				<p>Concert Facilities and Box Office Manager</p>
-			  </div></a>
-			</div> */ ?>
+
 			
 			<div class="ndsu-column">
 			  <a href="scheerer_matt.php"><img class="d-none d-md-block" src="images/Scheerer_Matt.jpg" alt="Matt Scheerer">

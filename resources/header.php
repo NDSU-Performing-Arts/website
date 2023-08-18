@@ -82,22 +82,33 @@ elseif($config['page-realm']=="DTA"){$text = "<div class=\"d-none d-lg-inline\">
 <?php //if($config['page-realm']=="CSOM"){?>
 <!-- DATASYNC CODE SNIPPET BEGIN -->
 <script type="text/javascript">
-(function() {
-var didLoad = false;
-var script = document.createElement("script");
-script.setAttribute("type", "text/javascript");
-script.setAttribute("src", "//ndsudpa.shopwindow.io/siteintegrator/loadsitemodules/app.js");
-script.async = true;
-function loadSM() {
-if (didLoad) {
-  return;
-}
-didLoad = true;
-document.body.appendChild(script);
-};
-if (window.addEventListener) window.addEventListener("load", loadSM, false);
-else if (window.attachEvent) window.attachEvent("onload", loadSM);
-})();
+
+if(typeof(Storage) !== "undefined") {
+		peace = localStorage.getItem("peace");
+			if(peace){
+				
+			}else{
+				//Start Musicwindow Code
+				(function() {
+				var didLoad = false;
+				var script = document.createElement("script");
+				script.setAttribute("type", "text/javascript");
+				script.setAttribute("src", "//ndsudpa.shopwindow.io/siteintegrator/loadsitemodules/app.js");
+				script.async = true;
+				function loadSM() {
+				if (didLoad) {
+				  return;
+				}
+				didLoad = true;
+				document.body.appendChild(script);
+				};
+				if (window.addEventListener) window.addEventListener("load", loadSM, false);
+				else if (window.attachEvent) window.attachEvent("onload", loadSM);
+				})();
+			}
+		}
+
+
 </script>
 
 <!-- DATASYNC CODE SNIPPET END -->

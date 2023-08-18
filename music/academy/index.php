@@ -64,8 +64,8 @@ Please check the "Meet the Instructors" tab for ages the instructors teach.
 			Dr. Laura Kellogg<br>
 			Director of the NDSU Music Academy
 			<a href="mailto:laura.kellogg@ndsu.edu">laura.kellogg@ndsu.edu</a><br>
-			Phone: <a href="tel:7012318271">(701) 231-8271</a><br />
-			*I am not always in the office to answer the phone. Email is the fastest way to reach me.
+			<!--Phone: <a href="tel:7012318271">(701) 231-8271</a><br />
+			*I am not always in the office to answer the phone. Email is the fastest way to reach me.-->
 			</p>
 		  </div>
 		</div>

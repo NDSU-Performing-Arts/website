@@ -27,8 +27,7 @@ include($config['path'].'resources/header.php');
 		Coordinator of the Master of Music degree</p>
 		
 		<p>E-Mail: <a href="mailto:Charlette.Moe@ndsu.edu">Charlette.Moe@ndsu.edu</a><br>
-		Office: 117B Music Education Building<br>
-		Phone: (701) 231-6165</p>
+		Office: 117B Music Education Building</p>
 							
 		<p>Degrees</p>
 		

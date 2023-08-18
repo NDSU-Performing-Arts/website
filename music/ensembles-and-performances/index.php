@@ -451,8 +451,8 @@ include($config['path'].'resources/header.php');
 				
 					<div class="alert alert-success">
 						<i class="fa fa-user-circle fa-fw"></i> Dr. Sigurd Johnson, <a href="mailto:sigurd.johnson@ndsu.edu">sigurd.johnson@ndsu.edu</a>.<br />
-						<i class="fa fa-calendar fa-fw"></i> TTh 7:00-9:00<br />
-						<i class="fa fa-university fa-fw"></i> MUSC 316-02<br />
+						<i class="fa fa-calendar fa-fw"></i>T 6:30-8:00<br />
+						<i class="fa fa-university fa-fw"></i> MUSC 304<br />
 					</div>
 					
 					<a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#uso-collapse" role="button" aria-expanded="false" aria-controls="uso-collapse"><i class="fas fa-plus"></i> More Information</a> 
@@ -460,25 +460,45 @@ include($config['path'].'resources/header.php');
 					
 					
 				  <div class="collapse" id="uso-collapse">
-					<p><strong>String Chamber Orchestra Information Spring 2022</strong><br />
-					(Plans to add WWs/Brass/Percussion in Fall 2022)<br /><br />
+					<p><strong>The University Symphony Orchestra</strong> rehearses and performs standard classical, traditional, contemporary orchestral and chamber music repertoire. This ensemble provides members the opportunity to rehearse and perform orchestral literature at a high and challenging level.</p>
 					
-					<strong>Ensemble Description and Requirements:</strong><br />
-					Open to NDSU students regardless of major.  <br />
-					Also open to NDSU staff and faculty members as well as select FM community string musicians. <br />
-					(Please contact Dr Johnson with questions regarding ensemble participation qualifications)<br /><br />
-  
-					No entrance audition required to join the ensemble, however there will be a chair placement audition the first week of classes (sign up will be posted). 1 or 2 etudes (contrasting lyrical and technical preferred) should be prepared. <br />
-
-					Ensemble members are required to have some experience playing. <br />
-
-					Ensemble members should provide their own instrument (however there remains the possibility of rental instrument through local music stores)<br />
-
-					Literature will be largely classical string chamber music <br />
-
-					(Music difficulty degree will ultimately depend on ensemble experience level) <br />
-
-					Ensemble will have 2 concerts a semester</p>
+					<p><strong>All String Students and *Community Members selected to play in the USO through audition are Strongly Encouraged <u>to participate in Both the USO AND the SCE.</u></strong></p>
+					
+					<p><strong>Participation in <strong>University Symphony Orchestra</strong> is through <strong>audition for all instruments</strong>. Players seeking to play in the <strong>USO</strong> are required to audition at a generally higher level. It should be understood that not all who audition will make it into the USO. </strong></p>
+					
+					<a href="https://www.ndsu.edu/performingarts/music/ensembles-and-performances/orchestra/" class="btn btn-ndsu-green">Click here for audition information</a> 
+					</div>
+				</div><!--card-body-->
+			</div><!--panel-collapse-->
+		</div><!--Panel-->
+		</div><!--Panel-->
+		
+		<div class="col-lg-6 element-item Instrumental Strings">
+		<div class="card mb-3">
+			<img src="images/542x236_USO.jpg" class="card-img-top" alt="...">
+			<div class="card-header" role="tab" id="SCEHeading"><!--id here must match aria-labeledby below-->
+				<h5 class="mb-0">
+				<!--href here must match aria-controls, aria-labeledby, and div id below-->
+				String Chamber Ensemble
+				</h5>
+			</div><!--card-header-->
+			<div id="SCE" aria-labelledby="SCEHeading">
+				<div class="card-body">
+				
+					<div class="alert alert-success">
+						<i class="fa fa-user-circle fa-fw"></i> Dr. Sigurd Johnson, <a href="mailto:sigurd.johnson@ndsu.edu">sigurd.johnson@ndsu.edu</a>.<br />
+						<i class="fa fa-calendar fa-fw"></i> Th 6:30-8:00<br />
+						<i class="fa fa-university fa-fw"></i> MUSC 316<br />
+					</div>
+					
+					<a class="btn btn-ndsu-green" data-bs-toggle="collapse" href="#sce-collapse" role="button" aria-expanded="false" aria-controls="sce-collapse"><i class="fas fa-plus"></i> More Information</a> 
+					
+				  <div class="collapse" id="sce-collapse">
+					<p><strong>The String Chamber Ensemble (Strings Only)</strong> focuses on developing technical skills and ensemble playing though string orchestra repertoire. Membership in this ensemble provides string players the opportunity to rehearse and perform in an ensemble setting which – while still be committed to excellence - is less arduous and less stressful than in the USO.</p>
+					
+					<p><strong>All String Students and *Community Members selected to play in the USO through audition are Strongly Encouraged <u>to participate in Both the USO AND the SCE.</u></strong></p>
+										
+					<a href="https://www.ndsu.edu/performingarts/music/ensembles-and-performances/orchestra/" class="btn btn-ndsu-green">Click here for audition information</a> 
 					</div>
 				</div><!--card-body-->
 			</div><!--panel-collapse-->

@@ -25,9 +25,7 @@ include($config['path'].'resources/header.php');
 		<p>Voice</p>
 		
 		<p>E-Mail: <a href="mailto:mariane.lemieux@ndsu.edu">mariane.lemieux@ndsu.edu</a><br>
-		Office: 218F Music Education Building<br>
-		Phone: 701-231-7463
-		</p>
+		Office: 216A Music Education Building</p>
 							
 		<p>Degrees</p>
 		
