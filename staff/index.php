@@ -51,7 +51,7 @@ include($config['path'].'resources/header.php');
 			  <a href="dahl_tracey.php"><img class="d-none d-md-block" src="images/200px_faculty_dahl_tracey.jpg" alt="Tracey Dahl">
 			  <div class="ndsu-column-inner">
 				<h5>Tracey Dahl</h5>
-				<p>Account Technician</p>
+				<p>Business Coordinator</p>
 			  </div></a>
 			</div>
 
@@ -82,9 +82,9 @@ include($config['path'].'resources/header.php');
 
 			
 			<div class="ndsu-column">
-			  <a href="scheerer_matt.php"><img class="d-none d-md-block" src="images/Scheerer_Matt.jpg" alt="Matt Scheerer">
+			  <a href=""><img class="d-none d-md-block" src="images/200px_faculty_headshot.gif" alt="Dave Huber">
 			  <div class="ndsu-column-inner">
-				<h5>Matt Scheerer</h5>
+				<h5><em>Open</em></h5>
 				<p>Promotions Director</p>
 			  </div></a>
 			</div>
@@ -114,10 +114,10 @@ include($config['path'].'resources/header.php');
 			</div>
 		
 			<div class="ndsu-column">
-			  <a href="../theatre/faculty/jung_jess.php"><img class="d-none d-md-block" src="../theatre/faculty/images/200px_faculty_jung_jess.jpg" alt="Jess Jung">
+			  <a href="../theatre/faculty/devine_marc.php"><img class="d-none d-md-block" src="/performingarts/theatre/faculty/images/200px_faculty_devine_marc.jpg" alt="Jess Jung">
 			  <div class="ndsu-column-inner">
-				<h5>Jess Jung, M.F.A.</h5>
-				<p>Assistant Professor of Directing,<br />Artistic Director</p>
+				<h5>Marc Devine, M.F.A.</h5>
+				<p>Associate Professor, Movement &amp; Acting<br />Artistic Director</p>
 			  </div></a>
 			</div>
 		

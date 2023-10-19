@@ -29,7 +29,7 @@ include($config['path'].'resources/header.php');
 				<li><strong>Master of Music</strong>
 					<ul>
 						<li>Conducting (Choral, Instrumental)</li>
-						<li>Music Education</li>
+						<li><a href="programs/music-education/">Music Education</a></li>
 						<li>Music Theory Pedagogy</li>
 						<li>Performance (Bassoon, Clarinet, Euphonium, Flute, Horn, Oboe, Percussion, Piano, Collaborative Piano, Saxophone, Trumpet, Trombone, Tuba, and Voice)</li>
 					</ul>
@@ -138,7 +138,7 @@ include($config['path'].'resources/header.php');
 					<p>You're a working professional. The NDSU Challey School of Music is an institution that's as passionate about music education as you are. When you're ready to update and augment your skills, our program fits into your schedule as a working professional through a combination of online and summer classes. The curriculum is designed to both increase your effectiveness in the classroom and enhance your personal growth as a musician. This combination of commitment, quality and flexibility have made NDSU's graduate programs in music the most popular in the region. </p>
 
 					<ul>
-						  <li>Course Requirements: <a href="masters/#musiced">Master of Music</a></li>
+						  <li>Course Requirements: <a href="programs/music-education">Master of Music</a></li>
 						  <li>Faculty - <a href="../about/people/faculty/jo_ann_miller.php">Dr. Jo Ann Miller</a> | <a href="../about/people/faculty/charlette_moe.php">Dr. Charlette Moe</a> | <a href="../about/people/faculty/warren_olfert.php">Dr. Warren Olfert</a> | <a href="../about/people/faculty/michael_weber.php">Dr. Michael Weber</a></li>
 						  <li><a href="handbook/">Graduate Handbook</a></li>
 						  <li><a href="../prospective-students/#graduate">Application process / What's the next step?</a></li>
@@ -217,7 +217,7 @@ include($config['path'].'resources/header.php');
 					<p><a href="https://www.youtube.com/watch?v=oxV1_PY0mJY">Learn about NDSU's Piano Programs in this video!</a></p>
 					<p>Few instruments offer as individualized a medium for expression as the piano, and your success as a pianist depends on individualized instruction. Our piano faculty are at the top of their field as performers and teachers; and take into account each student's needs, aptitudes, background and goals to create a unique plan for success. Our curriculum includes a balance of applied lessons, academic courses and the study of pedagogy, in addition to opportunities for hands-on experience as a performer, teacher, and accompanist</p>
 
-					<p>The NDSU Piano Performance Program will be facilitating live auditions as well as accepting video auditions for applicants wishing to audition for the 2023-2024 academic year.<br>
+					<p>The NDSU Piano Performance Program will be facilitating live auditions as well as accepting video auditions for applicants wishing to audition for the 2024-2025 academic year.<br>
 
 					For those wishing to travel to Fargo, ND for a live audition: please contact <a href="mailto:tyler.wottrich@ndsu.edu">Dr. Tyler Wottrich</a> to discuss potential dates for your audition. For those submitting a video audition: please contact <a href="mailto:tyler.wottrich@ndsu.edu">Dr. Tyler Wottrich</a> to discuss submission of your audition video as well as to arrange an interview by Zoom or comparable platform.</p>
 

@@ -29,29 +29,29 @@ include($config['path'].'resources/header.php');
     <div class="carousel-inner">
 		<!-- 1 -->
 		<div class="carousel-item active">
-			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2022-23/" title="22-23 Theatre NDSU"><img alt="2022-23 Theatre NDSU" src="shows/2022-23/DVFA 982 Theatre Web Banner Graphics 3800x1340 - Season.jpg" style="width:100%;"></a>
+			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2023-24/" title="23-24 Theatre NDSU"><img alt="2023-24 Theatre NDSU" src="shows/2023-24/DVFA 1507 Theatre Season Web Banner 3800x1340.jpg" style="width:100%;"></a>
 			<div class="carousel-caption"></div>
 		</div>
 		  
-		<!-- 2 -->
+		<!-- 2 --
 		<div class="carousel-item">
 			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2022-23/alabaster.php" title="Alabaster"><img alt="Alabaster" src="shows/2022-23/DVFA 982 Theatre Web Banner Graphics 3800x1340 - Alabaster.jpg" style="width:100%;"></a>
 			<div class="carousel-caption"></div>
 		</div>
 
-		<!-- 3 -->
+		<!-- 3 --
 		<div class="carousel-item">
 			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2022-23/home.php" title="Home"><img alt="Home"  src="shows/2022-23/DVFA 982 Theatre Web Banner Graphics 3800x1340 - Home.jpg" style="width:100%;"></a>
 			<div class="carousel-caption"></div>
 		</div>
 		
-		<!-- 4 -->
+		<!-- 4 --
 		<div class="carousel-item">
 			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2022-23/twelfth-night.php" title="Twelfth Night"><img alt="Twelfth Night" src="shows/2022-23/DVFA 982 Theatre Web Banner Graphics 3800x1340 - 12th Night.jpg" style="width:100%;"></a>
 			<div class="carousel-caption"></div>
 		</div>
 	
-		<!-- 5 -->
+		<!-- 5 --
 		<div class="carousel-item">
 			<a href="https://www.ndsu.edu/performingarts/theatre/shows/2022-23/cabaret.php" title="Cabaret"><img alt="Cabaret" src="shows/2022-23/DVFA 982 Theatre Web Banner Graphics 3800x1340 - Cabaret.jpg" style="width:100%;"></a>
 			<div class="carousel-caption"></div>
@@ -87,7 +87,9 @@ include($config['path'].'resources/header.php');
 		</header>
 
 		<article>
-			<p>Theatre NDSU develops the creative potential of emerging artists to help them realize their vision of success through a thoughtful, personal, and professional approach to education, practice, and production. Through our commitment to nurturing multifaceted artists, we achieve a lasting impact on our region and beyond.</p>
+		<p><a href="shows/" class="btn btn-ndsu-green btn-lg">2023-24 Season</a></p>	
+		<p>Theatre NDSU develops the creative potential of emerging artists to help them realize their vision of success through a 
+thoughtful, personal, and professional approach to education, practice, and production. Through our commitment to nurturing multifaceted artists, we achieve a lasting impact on our region and beyond.</p>
 		</article>
 	</section>
 	<h4>Explore Theatre NDSU</h4>

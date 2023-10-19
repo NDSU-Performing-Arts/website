@@ -56,7 +56,7 @@ include($config['path'].'resources/header.php');
 <div class="card"><a name="oboe" class="nu"></a>
 	<div class="card-header"><h2>Oboe</h2></div>
 	<div class="card-body">
-		<div class="alert alert-warning"><strong>Please contact Philip McKenzie at <a href="mailto:philip.mckenzie@ndsu.edu">philip.mckenzie@ndsu.edu</a> for any questions pertaining to the audition requirements, and/or to schedule an audition.</strong></div>
+		<div class="alert alert-warning"><strong>Please contact Prof. Philip McKenzie at <a href="mailto:philip.mckenzie@ndsu.edu">philip.mckenzie@ndsu.edu</a> for any questions pertaining to the audition requirements, and/or to schedule an audition.</strong></div>
 		
 		<h3>Undergraduate Students (Incoming Freshmen &amp; Transfer Students):</h3>
 		1. Scales:
@@ -260,7 +260,7 @@ include($config['path'].'resources/header.php');
 <div class="card"><a name="bassoon" class="nu"></a>
 	<div class="card-header"><h2>Bassoon</2></div>
 	<div class="card-body">
-		<div class="alert alert-warning"><strong>Please contact Sebastian Tackling at <a href="mailto:tacklis@fargo.k12.nd.us">tacklis@fargo.k12.nd.us</a> for any questions pertaining to the audition requirements, and/or to schedule an audition.</strong></div>
+		<div class="alert alert-warning"><strong>Please contact Dr. Martin Van Klompenberg at <a href="mailto:m.vanklompenberg@ndsu.edu">m.vanklompenberg@ndsu.edu</a> for any questions pertaining to the audition requirements, and/or to schedule an audition.</strong></div>
 		
 		<h3>Undergraduate Students (Incoming Freshmen &amp; Transfer Students)</h3>
 
@@ -377,7 +377,7 @@ include($config['path'].'resources/header.php');
 <div class="card"><a name="horn" class="nu"></a>	
 	<div class="card-header"><h2>Horn</h2></div>
 	<div class="card-body">
-		<div class="alert alert-warning"><strong>Please contact Professor Kayla Nelson at <a href="mailto:"kayla.l.nelson@ndsu.edu">kayla.l.nelson@ndsu.edu</a> for any questions pertaining to the audition requirements, and/or to schedule an audition.</strong></div>
+		<div class="alert alert-warning"><strong>Please contact Prof. Kayla Nelson at <a href="mailto:"kayla.l.nelson@ndsu.edu">kayla.l.nelson@ndsu.edu</a> for any questions pertaining to the audition requirements, and/or to schedule an audition.</strong></div>
 		
 		<h3>Undergraduate Students (Incoming Freshmen &amp; Transfer Students)</h3>
 		

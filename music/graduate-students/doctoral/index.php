@@ -26,7 +26,7 @@ include($config['path'].'resources/header.php');
 		
 		<p>All coursework must be passed with a minimum grade of B. Qualifying examinations in the student&#8217;s primary focus area and in academic studies must be passed near the end of or after coursework, and prior to a final oral examination by members of the candidate&#8217;s committee. All D.M.A. graduates must have reading proficiency in at least one foreign language. For some, an alternative such as a computer language or other research skill, if appropriate to the student&#8217;s focus area, may be substituted. This proficiency will be determined and assessed by the candidate&#8217;s committee. Further, students in Choral Conducting must demonstrate proficiency in foreign language diction.</p>
         <p>Two tracks are offered: Performance and Conducting. Each track requires a minimum of 90 credits beyond the baccalaureate degree (93 for the D.M.A. in choral conducting). Students entering the program with an approved master&#8217;s degree or its equivalent may apply credits toward the D.M.A. The graduate music faculty will determine the viability and number of transfer credits.</p>
-        <p>Course requirements for <a href="#vocalperformance">performance,</a> <a href="#collabpiano">collaborative piano</a>, and <a href="#conducting">conducting</a>.</p>
+        <p>Course requirements for <a href="#vocalperformance">vocal performance</a>, <a href="#instperformance">instrumental performance</a>, <a href="#pianoperformance">piano performance</a>, <a href="#collabpiano">collaborative piano</a>, <a href="#conducting">choral conducting</a>, and <a href="#iconducting">instrumental conducting</a>.</p>
         <h2><a name="vocalperformance" id="vocalperformance"></a>Doctor of Musical Arts in Vocal Performance</h2>
         <table class="table table-hover">
           <tr>
@@ -97,7 +97,7 @@ include($config['path'].'resources/header.php');
         </table>
         <p>*At least one course must be taken from MUSC 611-634; at least one course must be taken from MUSC 740-744.</p>
         <br /><h2><a name="instperformance" id="instperformance"></a>Doctor of Musical Arts in Instrumental Performance</h2>
-		<p><em>Available for Clarinet, Euphonium, Percussion, Saxophone, Trumpet, and Trombone.</em></p>
+		<p><em>Available for Clarinet, Percussion, Saxophone, and Trumpet.</em></p>
         <table class="table table-hover">
           <tr>
             <th>Course</th>
@@ -326,7 +326,7 @@ include($config['path'].'resources/header.php');
           ** Credits earned in undergraduate language courses will not count toward degree totals.
         </p>
         <p>&nbsp;</p>
-        <h2><a name="conducting" id="conducting"></a>Doctor of Musical Arts in Conducting</h2>
+        <h2><a name="conducting" id="conducting"></a>Doctor of Musical Arts in Choral Conducting</h2>
         <table class="table table-hover">
           <tr>
             <th>Course</th>
@@ -378,26 +378,66 @@ include($config['path'].'resources/header.php');
             <td>MUSC 760 Medieval/Renaissance Choral Lit.<br />
               MUSC 761 Baroque Choral Literature <br />
               MUSC 762 Classical/Romantic Choral Literature<br />
-              MUSC 763 20th Century/Contemporary Choral Lit<br />
-              <strong>or</strong><br />
-              MUSC 765 Band Lit: History/Development<br />
-            MUSC 766 Band Lit: Chamber Music</td>
+              MUSC 763 20th Century/Contemporary Choral Lit</td>
             <td class="text-right">6-12</td>
           </tr>
           <tr>
             <td>Cognate</td>
             <td>Courses determined with advisor from Conducting, Music Education, Academic Studies and Performance</td>
-            <td class="text-right">14</td>
+            <td class="text-right">15</td>
           </tr>
           <tr>
             <td>Electives</td>
             <td>(In consultation with advisor)</td>
-            <td class="text-right">12</td>
+            <td class="text-right">4</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
             <td class="text-right"><b>Total</b></td>
-            <td class="text-right"><b>90-93</b></td>
+            <td class="text-right"><b>90</b></td>
+          </tr>
+        </table>
+         <p>*At least one course must be taken from MUSC 611-634; at least one course must be taken from MUSC 740-744.</p>
+		 <p></p>
+		 <h2><a name="iconducting" id="iconducting"></a>Doctor of Musical Arts in Instrumental Conducting</h2>
+        <table class="table table-hover">
+          <tr><th>Course</th><th>Course Name </th><th class="text-right">Credits</th></tr>
+          <tr><td>MUSC 709</td><td>Ensemble Performance (1,1,1,1,1,1)</td><td class="text-right">6</td></tr>
+          <tr><td>MUSC 731</td><td>Applied Study (4,4,4,4,4)<br /></td><td class="text-right">20</td></tr>
+          <tr><td>MUSC 748</td><td>Music Bibliography and Research Methods</td><td class="text-right">2</td></tr>
+          <tr><td>MUSC 780</td><td>Recitals (4,4,4)</td><td class="text-right">12</td></tr>
+          <tr><td>MUSC 789</td><td>D.M.A. Thesis (1,1,1,1)</td><td class="text-right">4</td></tr>
+          <tr><td>History/Theory*</td><td>To be taken from*:<br />
+              MUSC 611 Form and Analysis<br />
+              MUSC 630 Counterpoint<br />
+              MUSC 631 Contemporary Harmonic Techniques<br />
+              MUSC 634 Analytical Techniques<br />
+              MUSC 740 Medieval/Renaissance History <br />
+              MUSC 741 Baroque and Classical Music History<br />
+              MUSC 743 Romantic Music History<br />
+            MUSC 744 20th Century Music History </td>
+            <td class="text-right">15</td>
+          </tr>
+          <tr>
+            <td>Literature</td>
+            <td>MUSC 765 Band Lit: History/Development<br />
+            MUSC 766 Band Lit: Chamber Music</td>
+            <td class="text-right">6</td>
+          </tr>
+          <tr>
+            <td>Cognate</td>
+            <td>Courses determined with advisor from Conducting, Music Education, Academic Studies and Performance</td>
+            <td class="text-right">15</td>
+          </tr>
+          <tr>
+            <td>Electives</td>
+            <td>(In consultation with advisor)</td>
+            <td class="text-right">10</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td class="text-right"><b>Total</b></td>
+            <td class="text-right"><b>90</b></td>
           </tr>
         </table>
          <p>*At least one course must be taken from MUSC 611-634; at least one course must be taken from MUSC 740-744.</p>

@@ -18,29 +18,29 @@ include($config['path'].'resources/header.php');
 	<img src="../drama-day/images/1140x400_dramaday.jpg" style="width:100%;" />
 	<header>
 		<h1>Drama Day at Theatre NDSU</h1>
-		<p><strong>Wednesday, April 26th | 8:45am - 2:00 PM <br />
+		<p><strong>Wednesday, October 18, 2023 | 8:45am - 2:00 PM <br />
 		NDSU Askanase Hall</strong></p>
 	</header>
 	
 	<article>
 	
-	<p>We are pleased to invite you to our Spring Drama Day on <strong>Wednesday, Wednesday, April 26</strong>. Drama Day will consist of a theatre workshop led by NDSU faculty, as well as a special performance of Shakespeare’s classic comedy, <em>Twelfth Night</em>. Please find a detailed schedule below.</p>
+	<p>We are pleased to invite you to our Spring Drama Day on <strong>Wednesday, October 18, 2023</strong>. Drama Day will consist of a theatre workshop led by NDSU faculty, as well as a special performance of <strong><em>Dracula: A Feminist Revenge Fantasy</em> by Kate Hamill</strong>. Please find a detailed schedule below.<br />
+	<em>Please note that Dracula contains violence and adult language. </em></p>
 	
 	<p><strong>Drama Day is a free event open to all theatre students and teachers.</strong></p>
 	
 	<p><u>Drama Day Schedule</u><br />
-	8:30-8:45am | Check-in<br />
-	8:45-9:00am | Welcome<br />
+	8:45-9:00am | Check-in &amp; Welcome (Askanase Auditorium)<br />
 	9:00-9:45am | Concurrent Theatre Workshops<br />
 	9:45-10:00am | Snack Break (snacks provided by Theatre NDSU)<br />
-	10:00am-1:00pm | <em>Twelfth Night</em> matinee<br />
+	10:00am-1:00pm | <em>Dracula</em> matinee<br />
 	1:00-2:00pm | *Lunch on campus</p>
 	
 	<p>*Please note that participants will need to bring money to purchase lunch at the NDSU dining center. Participants are welcome to pack a lunch.</p>
 
 	<p>All participants must register for Drama Day prior to the event using the form below. Teachers are encouraged to register for student groups.</p>
 
-	<p><!--<a href="https://docs.google.com/forms/d/e/1FAIpQLSc6PfRWEzJjsXqgihK-hckDjqdQUxPKpm7hstVNMxAl1cKkIA/viewform" class="btn btn-lg btn-ndsu-green">ONLINE REGISTRATION FORM</a>-->Please note that our Twelfth Night Drama Day is sold out. Please email Jess Jung (<a href="jessica.jung@ndsu.edu">jessica.jung@ndsu.edu</a>) if you would like to be added to our waiting list. </p>
+	<p><!--<a href="https://docs.google.com/forms/d/e/1FAIpQLSc6PfRWEzJjsXqgihK-hckDjqdQUxPKpm7hstVNMxAl1cKkIA/viewform" class="btn btn-lg btn-ndsu-green">ONLINE REGISTRATION FORM</a>-->Please note that our <em>Dracula: A Feminist Revenge Fantasy</em> is sold out. Please email Marc Devine (<a href="marc.devine@ndsu.edu">marc.devine@ndsu.edu</a>) if you would like to be added to our waiting list. </p>
 
 	<p>We look forward to the opportunity to work with your students and host you on our campus!</p>
 	

@@ -16,9 +16,9 @@ include($config['path'].'resources/header.php');
 <!--	body content -->
 <section>
 	<header>
-		<img alt="'Twas the Night Before Christmas"
+		<!--<img alt="'Twas the Night Before Christmas"
 			class="_header_image" 
-			src="DVFA 982 Theatre Web Banner Graphics 3800x1340 - Alabaster.jpg" style="width:100%;">
+			src="DVFA 982 Theatre Web Banner Graphics 3800x1340 - Alabaster.jpg" style="width:100%;">-->
 		
 		<h1 align="center"><strong>'Twas the Night Before Christmas</strong></h1>
 	</header>
@@ -40,7 +40,8 @@ include($config['path'].'resources/header.php');
 		<p><a href="https://ndsu.showare.com/" class="btn btn-warning"><b>PURCHASE TICKETS</b></a> Adults $20, Seniors $15, Non-NDSU Students $10, NDSU Student free with ID
 		</p>
 		
-		<p>NDSU Students can get their FREE ticket by calling or visiting the Performing Arts Box Office</p>
+		<p>NDSU Students can get their FREE ticket by calling or visiting the Performing Arts Box Office<br />
+		<em>Please note – the student matinee on December 7th is sold out. If you’d like to be added to the waitlist, please contact Marc Devine, <a href="marc.devine@ndsu.edu">marc.devine@ndsu.edu</a>.</em></p>
 
 	</article>
 </section>

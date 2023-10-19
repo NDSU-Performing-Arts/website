@@ -28,7 +28,7 @@ include($config['path'].'resources/header.php');
           Throughout the year, the division sponsors a complete range of arts events, including concerts, recitals, and theatrical and opera performances. All events are open to the public and many are free of charge.
           <p>Reineke Fine Arts Center<br>
 	    12th Avenue North & Bolley Drive<br>
-	  	Dept. 2330, P.O. Box 6050<br>
+	  	Dept. 2540, P.O. Box 6050<br>
 	  	Fargo, North Dakota 58108-6050</p>
 	  	
 	  	<p>Administration Office:(701)231-7932<br>

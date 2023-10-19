@@ -24,8 +24,7 @@ include($config['path'].'resources/header.php');
 		Piano | Literature</p>
 		
 		<p>E-Mail: <a href="mailto:robert.groves@ndsu.edu">robert.groves@ndsu.edu</a><br>
-		Office: 215 Music Education Building<br>
-		Phone: (701) 231-7090</p>
+		Office: 215 Music Education Building</p>
 							
 		<p>Degrees</p>
 		

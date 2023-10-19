@@ -42,7 +42,7 @@ include($config['path'].'resources/header.php');
 			<p><a href="guidelines/" title="Guidelines">Guidelines</a><br />
 			  <a href="https://forms.gle/HTSA3yA7Tn1WACKm9">Reservation Request Form (pdf)</a><br />
 			  <!--<a href="documents/recitals/recital_guidelines-2020.docx" title="Student Recital Template Instructions">Student Recital Template Instructions (Word)</a><br />-->
-			  <a href="documents/ConcertTemplate.docx" title="Program Template">Program Template (Word)</a><br />
+			  <a href="documents/program_template_2023.docx" title="Program Template">Program Template (Word)</a><br />
 			  <a href="documents/recitals/notes_translations_template.docx" title="Notes / Translations Template">Notes / Translations Template (Word)</a><br />
 		  <a href="https://www.ndsu.edu/fileadmin/news.ndsu.edu/Student_News/student.scholarship.pdf">Hometown News Release</a></p>
 			<hr>
@@ -59,13 +59,13 @@ include($config['path'].'resources/header.php');
 	<div class="card">
 		<div class="card-header"><h5>Vocal Accompaniment Forms</h5></div>
 		<div class="card-body">
-			<a href="https://docs.google.com/document/d/1z_0y2rm5i3Tgh6ejpjMhbrKmZNkKpolR/edit?usp=sharing&ouid=113951085338360111442&rtpof=true&sd=true" title="Vocal Accompaniment Policies">Vocal Accompaniment Contract Spring 2023</a>
+			<a href="https://docs.google.com/document/d/1z_0y2rm5i3Tgh6ejpjMhbrKmZNkKpolR/edit?usp=sharing&ouid=113951085338360111442&rtpof=true&sd=true" title="Vocal Accompaniment Policies">Vocal Accompaniment Contract</a>
 		</div>
 	</div>	<br />
 	<div class="card">
 		<div class="card-header"><h5>Instrumental Accompaniment Forms</h5></div>
 		<div class="card-body">
-			<a href="https://docs.google.com/document/d/1pVKrwKaVJ_TqkHWXk2mGPdCKSqvt_h0c/edit?usp=sharing&ouid=113951085338360111442&rtpof=true&sd=true" title="Instrumental Accompaniment Contract Fall 2022">Instrumental Accompaniment Contract Spring 2023</a><br />
+			<a href="https://docs.google.com/document/d/1pVKrwKaVJ_TqkHWXk2mGPdCKSqvt_h0c/edit?usp=sharing&ouid=113951085338360111442&rtpof=true&sd=true" title="Instrumental Accompaniment Contract">Instrumental Accompaniment Contract</a><br />
 			<a href="https://docs.google.com/document/d/1BzJLEZq7cDwJJCCyKHoz1SG-MCLsemw1_iNq7NriCGY/edit?usp=sharing" title="Community Pianists Contact List">Community Pianists Contact List</a>
 		</div>
 	</div>	<br />

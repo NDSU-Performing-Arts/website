@@ -135,7 +135,7 @@ include($config['path'].'resources/header.php');
 				<li>An accompanist will be provided.</li>
 				</ul>
 				Studio teacher assignments are based on the student’s vocal characteristics as well as logistical considerations such as studio space and scheduling. <br/><br />
-				NOTE: The student’s studio teacher and academic advisor are not always the same faculty member. Academic advisors will be assigned in the first month of the Fall semester. Students entering a music degree in Spring semesters will be assigned a teacher and advisor based on their audition to the Challey School of Music.
+				<!--NOTE: The student’s studio teacher and academic advisor are not always the same faculty member. Academic advisors will be assigned in the first month of the Fall semester. Students entering a music degree in Spring semesters will be assigned a teacher and advisor based on their audition to the Challey School of Music.-->
 				<hr>
 				<h3>Instrumentalists</h3>
 				You will be contacted by your studio or area professor.
@@ -165,7 +165,7 @@ include($config['path'].'resources/header.php');
 				</ul>
 				<br />
 				<h6>Instrumentalists</h6>
-				It is your responsibility to secure an accompanist if your assigned repertoire is with piano. Instrumental accompanying policies and procedures are available <a href="http://bit.ly/InstrumentalAccompanimentForm">here</a>. 
+				It is your responsibility to secure an accompanist if your assigned repertoire is with piano. Instrumental accompanying policies and procedures are available on the <a href="https://www.ndsu.edu/performingarts/music/current-students/">Current Students Page</a>. 
 			</div>
 		</div>
 
@@ -219,7 +219,7 @@ include($config['path'].'resources/header.php');
 				<li>Practice rooms are primarily for the use of enrolled music majors. Others may apply in the music office (Room 115) for permission to use practice rooms, but must relinquish them if needed by an enrolled music major.</li>
 				<li>Practice rooms are available on a first come/first served basis.</li>
 				<li>No sign-ups are required for practice times, but students are encouraged to sign up for regular practice times. Sign-up cards are outside each practice room.</li>
-				<li>Piano majors will have access to the practice rooms with grand pianos. Piano majors should obtain a key for the grand piano practice rooms from the Administrative Assistant (Reineke 115) and will pay a $20 key deposit (refundable on return).</li>
+				<li>Piano majors will have access to practice rooms with grand pianos. Piano majors should obtain a key for the grand piano practice room from the Academic Assistant (Reineke 115). Keys are to be returned when the student is done being a piano student, if keys are lost or broken there will be a $25 dollar charge to replace.</li>
 				<li><strong>Practice rooms are not to be used for teaching private students</strong></li>
 				<li>Practice rooms are not to be locked. Do not leave your personal belongings in a practice room.</li>
 				</ul>

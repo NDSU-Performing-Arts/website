@@ -25,32 +25,38 @@ include($config['path'].'resources/header.php');
 	<article>
 	
 		<div class="media">
-			<img src="//www.ndsu.edu/performingarts/music/about/people/faculty/images/Laura-Kellogg-NDSU-Headshot.jpg" alt="Laura Kellogg" width="150" class="mr-3"/>
+			
 		  <div class="media-body">
 			<h5 class="mt-0"></h5>
-			<p>We are excited to continue another year of music-making at the NDSU Music Academy! Fall lessons will be offered both in-person and virtually.</p>
+			<p>We are excited to continue another year of music-making at the NDSU Music Academy!</p>
             
-            <!--<div class="alert alert-info"><p><strong>Updated Covid policy:</strong><br />
-            Effective March 7, NDSU lifted the mask requirement. The Music Academy will follow the same guidelines as NDSU. NDSU policies state that the instructor may choose to continue to require masks in their individual classes and students will be expected to honor that faculty prerogative. Every person should feel free to continue wearing a mask and should feel supported in that decision. <br />
-            Check with your instructor to find out their preference for mask or no mask. </p>
-
-            <p>I will continue to update parents, students, and instructors if policies change throughout the semester.</p></div>-->
-
-			<p>We feel our Music Academy is a great opportunity to enrich our community by educating students young and old about music and the fine arts. Please contact us for more information about lesson availability or other questions you may have concerning the Academy. We look forward to meeting you!</p>
+			<p>We feel our Music Academy is a great opportunity to enrich our community by educating students young and old about music and the fine arts. Please check out our FAQ tab for common questions and an explanation of how we set up lessons. 
+We look forward to meeting you!</p>
 			
-			<p>Registration for returning students is open August 1, 2022 (email <a href="mailto:laura.kellogg@ndsu.edu">laura.kellogg@ndsu.edu</a>)<br />
-			Registration for new students is open August 6, 2022 (fill out registration form below)</p>
+			<p><b>Registration for returning students is open August 1, 2023</b> An email is sent to returning students to register. If you are a returning student and didn't receive an email, please check your spam folder first and then email <a 
+href="mailto:laura.kellogg@ndsu.edu">laura.kellogg@ndsu.edu</a>. Please do not fill out a new registration form.<br />
+			Registration for new students is open August 6, 2023 (fill out registration form below)</p>
+
+<p><strong><u>For the first time in over 5 years, we are raising tuition prices to be able to better compensate our instructors and hosts. We are raising lesson fees by $5 for each 30-minute lesson. Please see the policies and tuition tab for 
+more information.</u></strong></p>
+
+<p><strong>Scholarships Available</strong></p>
+Excite Music, a fiscal sponsor project of the Impact Foundation, provides scholarships on the basis of need to students at the NDSU Music Academy. Excite Music’s mission is to ensure that every child has the opportunity to learn and experience music, regardless 
+of economic status. To apply for a scholarship, please visit their website to fill out the application: <a href="https://excitemusicfm.com">https://excitemusicfm.com</a>
 
 			<p>The NDSU Music Academy currently offers lessons in the following areas:
 			<ul>
+				<li>Organ (new to Fall 2023!)</li>
+				<li>Rhythm ukulele</li>
+				<li>Rhythm Guitar (centers around chords, strumming patterns, and working with groups of strings</li>
 				<li>Voice</li>
 				<li>Piano</li>
-				<li>Ukulele</li>
 				<li>Flute</li>
 				<li>Oboe</li>
 				<li>Clarinet</li>
 				<li>Saxophone</li>
 				<li>Trumpet</li>
+				<li>Trombone</li>
 				<li>French horn</li>
 				<li>Percussion</li>
 				<li>Violin</li>
@@ -60,12 +66,11 @@ Please check the "Meet the Instructors" tab for ages the instructors teach.
 
 <p>We also have a FB page, so please give us a Like! The Music Academy Director will post updates on social media and via email. <a href="https://www.facebook.com/NDSUMusicAcademy/">https://www.facebook.com/NDSUMusicAcademy/</a></p>
        
+	   
 			<br /><br />
 			Dr. Laura Kellogg<br>
 			Director of the NDSU Music Academy
 			<a href="mailto:laura.kellogg@ndsu.edu">laura.kellogg@ndsu.edu</a><br>
-			<!--Phone: <a href="tel:7012318271">(701) 231-8271</a><br />
-			*I am not always in the office to answer the phone. Email is the fastest way to reach me.-->
 			</p>
 		  </div>
 		</div>
@@ -94,6 +99,14 @@ Please check the "Meet the Instructors" tab for ages the instructors teach.
 
 	<article>
 		<p>The NDSU Music Academy is a non-degree organization that provides high quality music education to students from age four years through adult. The Academy allows students to work at their own pace in an encouraging environment. We also provide opportunities for students to perform and interact with each other in a non-competitive atmosphere. The instructors at the Academy are highly qualified NDSU graduate and undergraduate students pursuing degrees in music education, music performance, and conducting. The NDSU Music Academy is housed at Peace Lutheran Church (1011 12th Avenue N, Fargo, ND).</p>
+		
+		<p>The NDSU Music Academy is housed at Peace Lutheran Church (1011 12th Avenue N, Fargo, ND).</p>
+		
+		<div class="row"><div class="col-md-3"><img src="//www.ndsu.edu/performingarts/music/about/people/faculty/images/Laura-Kellogg-NDSU-Headshot.jpg" alt="Laura Kellogg" width="150" class="mr-3"/></div>
+		<div class="col-md-9">
+		Laura Kellogg is the Director of the NDSU Music Academy. She is also flute faculty at NDSU and the Executive Director of the Fargo Moorhead Area Youth Symphonies. 
+		</div></div>
+		<br />
 	</article>
 </section>
 	
@@ -109,29 +122,29 @@ Please check the "Meet the Instructors" tab for ages the instructors teach.
 	 
 			<div id="calendar" class="collapse" aria-labelledby="calendar-header" data-bs-parent="#accordion">
 				<div class="card-body">
-					<h2>Fall Session 2022 (13 lessons)</h2>
+					<h2>Fall Session 2023</h2>
 					<table class="table table-hover">
 					<tr><td>Registration Opens - Returning Students</td><td>August 1</td></tr>	
 					<tr><td>Registration Opens - New Students</td><td>August 6</td></tr>
-					<tr><td>Lessons Begin</td><td>September 6</td></tr>
-					<tr><td>No lessons</td><td>November 11<br />November 23-25</td></tr>
-					<tr><td>Last Day of Lessons</td><td>December 9</td></tr>
-					<tr><td>Fall Recital</td><td>December 10, 2:00pm</td></tr>
+					<tr><td>Lessons Begin</td><td>September 5 (Tuesday)</td></tr>
+					<tr><td>No lessons</td><td>November 10<br />November 22-24</td></tr>
+					<tr><td>Last Day of Lessons</td><td>December 8</td></tr>
+					<tr><td>Fall Recital</td><td>December 9, 2:00pm</td></tr>
 									
-					<tr><td colspan="2"><h2>Spring Session 2023 (15 lessons)</h2></td></tr>
+					<tr><td colspan="2"><h2>Spring Session 2024</h2></td></tr>
 					<tr><td>Registration Opens - Returning Students</td><td>December 1</td></tr>
 					<tr><td>Registration Opens - New Students</td><td>December 6</td></tr>
-					<tr><td>Lessons Begin</td><td>January 9</td></tr>
-					<tr><td>No Lessons</td><td>January 16<br />February 20<br />March 13-17<br/>April 7,10</td></tr>
-					<tr><td>Last Day of Lessons</td><td>May 5</td></tr>
-					<tr><td>Spring Recital</td><td>May 6, 2:00pm</td></tr>
+					<tr><td>Lessons Begin</td><td>January 16 (Tuesday)</td></tr>
+					<tr><td>No Lessons</td><td>February 19<br />March 4-8<br/>March 29<br />April 1</td></tr>
+					<tr><td>Last Day of Lessons</td><td>May 3</td></tr>
+					<tr><td>Spring Recital</td><td>May 4, 2:00pm</td></tr>
 
-					<tr><td colspan="2"><h2>Summer Session 2023 (8 lessons)</h2></td></tr>
+					<tr><td colspan="2"><h2>Summer Session 2024 (8 lessons)</h2></td></tr>
 					<tr><td>Registration Opens - Returning Students</td><td>May 1</td></tr>
 					<tr><td>Registration Opens - New Students</td><td>May 6</td></tr>
-					<tr><td>Lessons Begin</td><td>June 5</td></tr>
-					<tr><td>No Lessons</td><td>July 3-7</td></tr>
-					<tr><td>Last Day of Lessons</td><td>August 4</td></tr>
+					<tr><td>Lessons Begin</td><td>June 3</td></tr>
+					<tr><td>No Lessons</td><td>July 1-5</td></tr>
+					<tr><td>Last Day of Lessons</td><td>August 2</td></tr>
 					<tr><td>No Recital in summer session</td><td></td></tr>
 			 			   
 			</table>
@@ -150,11 +163,48 @@ Please check the "Meet the Instructors" tab for ages the instructors teach.
 		  <div class="card-body">
 			<h2><a href="https://northdakotastate-ndus.nbsstore.net/music-academy-payment"><u>Pay tuition online</u></a></h2>
 
-			<p><strong>30 minute lessons</strong></p>
+			<p>Prorated Fee</p>
+			<ul><li>$24.00 for each 30 minute lesson</li>
+			<li>$36.00  for each 45 minute lesson</li>
+			<li>$48.00 for each 1 hour lesson</li></ul>
+
+			<strong>We’re going to try something different this year and pro-rate the lessons depending on what day of the week lessons are. Please see charts below for tuition costs. </strong>
+			
+			<h3>Fall Semester</h3>
+			<p>In Fall Semester, lessons go from Sept. 5 to Dec. 8</p>
+
+			<p>Because of holidays and breaks, there are differing amounts of lessons for each day of the week.</p>
+
+<table class="table">
+<thead><th>Day of the week</th><th>Number of lessons</th><th>Length of lessons</th><th>Tuition Due</th></thead>
+<tbody><tr><td>Mondays</td><td>13</td><td>30-minute<br />45-minute<br />1 hour</td><td>$312<br />$468<br />$624</td></tr>
+<tr><td>Tuesdays</td><td>14</td><td>30-minute<br />45-minute<br />1 hour</td><td>$336<br />$504<br />$672</td></tr>
+<tr><td>Wednesdays</td><td>13</td><td>30-minute<br />45-minute<br />1 hour</td><td>$312<br />$468<br />$624</td></tr>
+<tr><td>Thursdays</td><td>13</td><td>30-minute<br />45-minute<br />1 hour</td><td>$312<br />$468<br />$624</td></tr>
+<tr><td>Fridays</td><td>12</td><td>30-minute<br />45-minute<br />1 hour</td><td>$288<br />$432<br />$576</td></tr>
+</table>
+
+<h3>Spring Semester</h3>
+			<p>In Spring Semester, lessons go from Jan. 16 to May 3</p>
+
+			<p>Because of holidays and breaks, there are differing amounts of lessons for each day of the week.</p>
+
+<table class="table">
+<thead><th>Day of the week</th><th>Number of lessons</th><th>Length of lessons</th><th>Tuition Due</th></thead>
+<tbody><tr><td>Mondays</td><td>12</td><td>30-minute<br />45-minute<br />1 hour</td><td>$288<br />$432<br />$576</td></tr>
+<tr><td>Tuesdays</td><td>15</td><td>30-minute<br />45-minute<br />1 hour</td><td>$360<br />$540<br />$720</td></tr>
+<tr><td>Wednesdays</td><td>15</td><td>30-minute<br />45-minute<br />1 hour</td><td>$360<br />$540<br />$720</td></tr>
+<tr><td>Thursdays</td><td>15</td><td>30-minute<br />45-minute<br />1 hour</td><td>$360<br />$540<br />$720</td></tr>
+<tr><td>Fridays</td><td>14</td><td>30-minute<br />45-minute<br />1 hour</td><td>$336<br />$504<br />$672</td></tr>
+</table>
+
+
+
+			<!--<p><strong>30 minute lessons</strong></p>
 			<ul>
 				<li>Fall (13 lessons): $247.00</li>
 				<li>Spring (15 lessons): $285.00</li>
-				<!--<li>Full School Year (29 lessons): $551.00</li>-->
+				<!--<li>Full School Year (29 lessons): $551.00</li>--
 				<li>Summer (8 lessons): $152.00</li>
 			</ul>
 
@@ -162,7 +212,7 @@ Please check the "Meet the Instructors" tab for ages the instructors teach.
 			<ul>
 				<li>Fall (13 lessons): $370.50</li>
 				<li>Spring (15 lessons): $427.50</li>
-				<!--<li>Full School Year (29 lessons): $826.00</li>-->
+				<!--<li>Full School Year (29 lessons): $826.00</li>--
 				<li>Summer (8 lessons): $228.00</li>
 			</ul>
 
@@ -170,7 +220,7 @@ Please check the "Meet the Instructors" tab for ages the instructors teach.
 			<ul>
 				<li>Fall (13 lessons): $494.00</li>
 				<li>Spring (15 lessons): $570.00</li>
-				<!--<li>Full School Year (29 lessons): $1102.00</li>-->
+				<!--<li>Full School Year (29 lessons): $1102.00</li>--
 				<li>Summer (8 lessons): $304.00</li>
 			</ul>
 			
@@ -180,8 +230,14 @@ Please check the "Meet the Instructors" tab for ages the instructors teach.
 				<li>$28.50 for 45 minute lesson</li>
 				<li>$38.00 for 60 minute lesson</li>
 			</ul>
+-->
 
-			<p>(Summer lessons offered only by specific teachers, check with your teacher to see about availability in the summer.)</p>
+			<h3>Summer Session</h3>
+<p>There will always be 8 lessons in the summer session.</p>
+<p>30-minute lessons $192<br />
+45-minute lessons $288<br >
+1 hour lessons $384</p>
+			<p>Summer lessons offered only by specific teachers, check with your teacher to see about availability in the summer.</p>
 			
 			<h2>Registration</h2>
 
@@ -191,11 +247,11 @@ Please check the "Meet the Instructors" tab for ages the instructors teach.
 
 			<p><strong>Payments</strong></p>
 
-			<p>Once you have registered, you may pay in full or make two payments per semester for the fall and spring semesters. Payment is due before the first lesson. Lessons will not begin until payment has been received. If paying twice per semester, the second payment is due during the seventh week of the semester. Summer session payment is due in full before the first lesson. Payment can be made in the form of a check or credit card. Checks should be made out to NDSU and sent to:
+			<p>Once you have established a lesson time, you may pay in full or make two payments per semester for the fall and spring semesters. Payment is due before the first lesson. Lessons will not begin until payment has been received. If paying twice per semester, the second payment is due during the seventh week of the semester. Summer session payment is due in full before the first lesson. Payment can be made in the form of a check or credit card. Checks should be made out to NDSU and sent to:
 			<br />
 			NDSU Music Academy<br />
 			Attn: Tracey Dahl <br />
-			PO Box 6050 Dept 2330<br />
+			PO Box 6050 Dept 2540<br />
 			Fargo ND 58108<br /><br />
 			
 			<a href="https://northdakotastate-ndus.nbsstore.net/music-academy-payment" class="btn btn-ndsu-green btn-lg">Pay Lessons Online</a>
@@ -274,6 +330,8 @@ Please check the "Meet the Instructors" tab for ages the instructors teach.
 			<br /><br />
 			<a name="form"></a><a href="https://forms.gle/RMSRbzD6vYNDAm3G6" class="btn btn-lg btn-ndsu-green">Registration for New Students</a><br /><br />
 			<em>Registrations for new students will open on August 6th, December 6th, and May 6th.</em>
+			<p>Scholarships for students are available on the basis of need through Excite Music. Please visit <a href="https://excitemusicfm.com/">https://excitemusicfm.com/</a> to apply. </p>
+
 			</div>
 		  </div>
 		</div>

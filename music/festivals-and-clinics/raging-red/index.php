@@ -18,7 +18,7 @@ include($config['path'].'resources/header.php');
 		<img alt="Music Scholarships"
 			class="_header_image" 
 			style="width:100%"
-			src="/music/static-images/RagingRedWebBanner.png">
+			src="images/RRBF.png">
 		
 		<h1>Raging Red</h1>
 	</header>
@@ -118,13 +118,14 @@ include($config['path'].'resources/header.php');
         </ul>
         <h2>Registration </h2>
         
-        <strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSekooyyLXNTkvUjyhHPvle7OqxwEqn__UgP3zMNftZy-74iIw/viewform?usp=sf_link" class="btn btn-ndsu-green btn-lg">Online Registration Form</a></strong>
+        <strong><a href="//raging.red" class="btn btn-ndsu-green btn-lg mb-2">Online Registration at Raging.Red</a></strong><br />
+		<a href="https://vimeo.com/873152371?share=copy" class="btn btn-ndsu-green mb-2">Instructional Video</a>
         <p>Registration fee is $275. Additional band registration is $240 each. <br />
           <br />
         <em><strong>Checks should be made NDSU Challey School of Music and mailed to:</strong></em></p>
         <p><strong>Raging Red Band Festival</strong><br />
           <strong>NDSU Challey School of Music</strong><br />
-          <strong>PO Box 6050 Dept. 2334</strong><br />
+          <strong>PO Box 6050 Dept. 2540</strong><br />
         <strong>Fargo, ND 58108-6050</strong></p>
         <p><strong>PLEASE NOTE:</strong> If the number of bands exceeds the available spaces, we will accept bands according to registration date. We urge you to register as soon as possible!</p>
         <h2>Questions?</h2>

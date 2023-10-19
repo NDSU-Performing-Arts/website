@@ -446,7 +446,8 @@ include($config['path'].'resources/header.php');
 		
 				
 		<h2><a name="musiced" id="musiced"></a>Master of Music in Music Education <span class="float-right"><a href="#" class="btn btn-ndsu-green" title="To Top of Page"><i class="fas fa-chevron-up"></i></a></span></h2>
-        <table class="table table-hover">
+        <a href="/music/graduate-students/programs/music-education/" class="btn btn-lg btn-ndsu-green">Find more details on our Online MM Music Education page.</a>
+		<table class="table table-hover">
 			<tr>
 				<th>Course</th>
 				<th>Course Name</th>

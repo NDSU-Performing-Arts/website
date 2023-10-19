@@ -16,9 +16,9 @@ include($config['path'].'resources/header.php');
 <!--	body content -->
 <section>
 	<header>
-		<img alt="Proof"
+		<!--<img alt="Proof"
 			class="_header_image" 
-			src="DVFA 982 Theatre Web Banner Graphics 3800x1340 - Home.jpg" style="width:100%;">
+			src="DVFA 982 Theatre Web Banner Graphics 3800x1340 - Home.jpg" style="width:100%;">-->
 		
 		<h1 align="center"><strong>Proof</strong></h1>
 	</header>

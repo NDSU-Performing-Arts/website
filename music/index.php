@@ -27,25 +27,8 @@ include($config['path'].'resources/header.php');
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
 	<?php //Kyle, don't forget to make sure that "carousel-item ACTIVE" is set somewhere. ?>
-
-
+	  
 	  <div class="carousel-item active">
-        <a href="/music/ensembles-and-performances/chamber-music-festival/" title="Chamber Music Festival">
-          <img alt="Choral Anthology" src="/music/ensembles-and-performances/chamber-music-festival/images/2023 Chamber Fest Web Banner.png" style="width:100%;">
-        </a>
-        <div class="carousel-caption">
-		</div>
-      </div>
-	  
-      <div class="carousel-item">
-        <a href="https://forms.gle/2XpY9E5KS5Rnx6gs7" title="String Auditions">
-          <img alt="String Auditions" src="images/String Auditions Web-1.png"- style="width:100%;">
-        </a>
-        <div class="carousel-caption">
-		</div>
-      </div>
-	  
-	  <div class="carousel-item">
         <a href="/music/choral-anthology/" title="Choral Anthology">
           <img alt="Choral Anthology" src="images/Choral Anthology.png"- style="width:100%;">
         </a>
@@ -53,15 +36,6 @@ include($config['path'].'resources/header.php');
 		</div>
       </div>
 	  
-	<div class="carousel-item">
-        <a href="#" title="Homeschool Piano Day">
-          <img alt="Homeschool Piano Day" src="images/HomeschoolPianoDay.png"- style="width:100%;">
-        </a>
-        <div class="carousel-caption">
-		</div>
-      </div>
-	  
-      
 	  <div class="carousel-item">
         <a href="/performingarts/calendar/" title="Upcoming Events">
           <img alt="Upcoming Events" src="images/Web Banner Performance Calendar.png"- style="width:100%;">
@@ -122,9 +96,9 @@ include($config['path'].'resources/header.php');
 			<br />
 			<div class="alert alert-warning">
 			<h1>Upcoming Events</h1>
-			<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-choral" class="btn btn-ndsu-green mb-2">Choral Audition Sign-ups</a>&nbsp;
-			<a href="/music/ensembles-and-performances/wind-symphony/" class="btn btn-ndsu-green mb-2">Wind Symphony Audition Sign-ups</a>&nbsp;
+			<a href="/music/day/" class="btn btn-ndsu-green mb-2">Music Day</a>&nbsp;
 			<a href="/music/competitions/fissinger/" class="btn btn-ndsu-green mb-2">Fissinger Choral Composition Contest</a>&nbsp;
+			<a href="/music/festivals-and-clinics/raging-red/" class="btn btn-ndsu-green mb-2">Raging Red Band Festival</a>&nbsp;
 			</div>
 				
 			<!-- BEGIN CONTENT CARD EMBED CODE--> <div></div><script id="embed-a1f6df60-7b02-4224-ac10-3c52ea6af565" type="text/javascript" src="//ndsudpa.shopwindow.io/pipeline/serve_pipeline_embed/?embeddable=a1f6df60-7b02-4224-ac10-3c52ea6af565"></script> <!-- END CONTENT CARD EMBED CODE -->

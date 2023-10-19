@@ -16,9 +16,9 @@ include($config['path'].'resources/header.php');
 <!--	body content -->
 <section>
 	<header>
-		<img alt="Company"
+		<!--<img alt="Company"
 			class="_header_image" 
-			src="DVFA 982 Theatre Web Banner Graphics 3800x1340 - 12th Night.jpg" style="width:100%;">
+			src="DVFA 982 Theatre Web Banner Graphics 3800x1340 - 12th Night.jpg" style="width:100%;">-->
 		
 		<h1 align="center"><strong>Company</strong></h1>
 	</header>

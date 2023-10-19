@@ -15,12 +15,13 @@ include($config['path'].'resources/header.php');
 <!--	body content -->
 <section>
 	<header>
-		<img alt="Flute Day" class="" src="Woodwind Day FB-1.png" style="width:100%;">
+		<img alt="Woodwind Day" class="" src="FB-Insta--long.png" style="width:100%;">
 		  
-		  <h1>NDSU Woodwind Day 2022</h1>
-		  <p>Saturday, Oct. 22, 2022<br />
+		  <h1>NDSU Woodwind Day 2023</h1>
+		  <p>Monday, Oct. 9, 2023<br />
 		  NDSU Reineke Fine Arts Center<br />
 		  Free and Open to the Public<br />
+		  Events for ALL Woodwinds<br />
 		  All Ages and Levels Welcome!</p>
 	</header>
 
@@ -35,48 +36,43 @@ include($config['path'].'resources/header.php');
 			<li>Raffle and door prizes</li>
 			<li>Exhibits featuring instruments, music, accessories, and more</li>
 			<li>Special topics sessions</li>
-			<li>Jazz jam session</li>
+			<li>Jazz Improv Clinic</li>
 			<li>And more!</li>
 			</ul>
 <br />
 		<h2>Guest Artists</h2>
 			<div class="row text-center">
-			<div class="col-md-4"><img src="Jennifer Piper Headshot.jpg" alt="Jennifer Piper, Flute" style="max-width:50%;" /><br /><h4>Jennifer Piper, Flute</h4></div>
-			<div class="col-md-4"><img src="JenniferFraley.jpg" alt="Jennifer Fraley, Clarinet" style="max-width:50%;" /><br /><h4>Jennifer Fraley, Clarinet</h4></div>
-			<div class="col-md-4"><img src="Copy of Duncan4W.jpg" alt="Preston Duncan, Saxophone" style="max-width:50%;" /><br /><h4>Preston Duncan, saxophone</h4></div>
+			<div class="col-md-6"><img src="AdamKuenzel.png" alt="Adam Kuenzel, Flute" style="max-width:50%;" /><br /><h4>Adam Kuenzel, Flute</h4></div>
+			<div class="col-md-6"><img src="GregGatien.jpg" alt="Greg Gatien, Saxophone" style="max-width:50%;" /><br /><h4>Greg Gatien, Saxophone</h4></div>
 			</div>
 		
 <br />		
 		<h2>NDSU Faculty</h2>
 		<div class="row text-center">
-		<div class="col-md-4"><img src="/music/about/people/faculty/images/Laura-Kellogg-NDSU-Headshot.jpg" alt="Laura Kellogg, Flute" style="max-width:50%;" /><br /><h4>Laura Kellogg, flute</h4></div>
-		<div class="col-md-4"><img src="/music/about/people/faculty/images/200px_faculty_keogh_cassie.jpg" alt="Cassie Keogh, Clarinet" style="max-width:50%;" /><br /><h4>Cassie Keogh, clarinet</h4></div>
-		<div class="col-md-4"><img src="/music/about/people/faculty/images/200px_faculty_patnode_matthew.jpg" alt="Matthew Patnode, Saxophone" style="max-width:50%;" /><br /><h4>Matthew Patnode, saxophone</h4></div>
+		<div class="col-md-2"><img src="/music/about/people/faculty/images/Laura-Kellogg-NDSU-Headshot.jpg" alt="Laura Kellogg, Flute" style="max-width:50%;" /><br /><h4>Laura Kellogg, flute</h4></div>
+		<div class="col-md-2"><img src="/music/about/people/faculty/images/200px_faculty_keogh_cassie.jpg" alt="Cassie Keogh, Clarinet" style="max-width:50%;" /><br /><h4>Cassie Keogh, clarinet</h4></div>
+		<div class="col-md-2"><img src="/music/about/people/faculty/images/200px_faculty_patnode_matthew.jpg" alt="Matthew Patnode, Saxophone" style="max-width:50%;" /><br /><h4>Matthew Patnode, saxophone</h4></div>
+		<div class="col-md-2"><img src="/music/about/people/faculty/images/200px_faculty_vanklompenberg.png" alt="Martin J. Van Klompenberg, Bassoon" style="max-width:50%;" /><br /><h4>Martin J. Van Klompenberg, bassoon</h4></div>
+		<div class="col-md-2"><img src="/music/about/people/faculty/images/200px_faculty_mckenzie_phil2.jpg" alt="Philip McKenzie, oboe" style="max-width:50%;" /><br /><h4>Philip McKenzie, Oboe</h4></div>
 		</div>
 <br />			
 		<h2>Schedule</h2>
             <table class="table">
-            <tr><td>8:30am-9:00am</td><td>Welcome and Check-in </td></tr>
-            <tr><td>9:00am-9:30am</td><td> Woodwind Warm-up 
-            <tr><td>9:30am-10:45am</td><td>Masterclass: Preston Duncan, saxophone<br />
-                                    Masterclass: Jennifer Piper, flute<br />
-                                    Workshop: Sound Painting with Jennifer Fraley, clarinet</td></tr>
-            <tr><td>10:45am-11:15am</td><td> Break and visit vendors</td></tr>
-            <tr><td>11:15am-12:00 pm</td><td> Recital: NDSU faculty and Fargo Sax Quartet</td></tr>
-            <tr><td>12:00pm-1:15pm</td><td> Lunch</td></tr>
-            <tr><td>1:15pm-2:30pm</td><td>Lecture: "Women and electronic music" with Jennifer Piper<br />
-                                            Masterclass: Jennifer Fraley, clarinet<br />
-                                            Lecture: "The Science of Practice" with Preston Duncan</td></tr>
-            <tr><td>2:30pm-3:00pm</td><td> Break and visit vendors</td></tr>
-            <tr><td>3:00pm-4:00pm</td><td> Woodwind Choir Reading Session<br />
-                                Jazz Jam Session</td></tr>
-            <tr><td>4:15pm-4:45pm</td><td> Recital: Woodwind Chamber and WW Day Woodwind Choir</td></tr>
-            <tr><td>4:45pm-5:00pm</td><td> Break</td></tr>
-            <tr><td>5:00pm</td><td> Recital with guest artists Jennifer Piper, Jennifer Fraley, and Preston Duncan (Beckwith Recital Hall)</td></tr>
+            <tr><td>9:30am-10:00am</td><td> Registration </td></tr>
+            <tr><td>10:00am-10:30am</td><td>Warm-up</td></tr>
+            <tr><td>10:30am-11:15am</td><td> WW Choir Rehearsal</td></tr>
+            <tr><td>11:15am-12:15pm</td><td> Lunch</td></tr>
+            <tr><td>12:15pm-1:00pm</td><td> Play with NDSU Wind Symphony</td></tr>
+            <tr><td>1:00pm-2:00pm</td><td>Breakout sessions with NDSU Faculty</td></tr>
+            <tr><td>3:00pm-3:30pm</td><td>Visit vendors</td></tr>
+            <tr><td>3:30pm-4:15pm</td><td> Kuenzel Guest Lecture</td></tr>
+            <tr><td>4:15pm-5:00pm</td><td> Gatien improv clinic</td></tr>
+            <tr><td>5:00pm-5:30pm</td><td> Faculty/Guest Recital</td></tr>
+            <tr><td>5:30pm-6:00pm</td><td> Woodwind Choir Performance</td></tr>
             </table>
 <br />
 		<h2>Registration</h2>
-			<a href="//forms.gle/qUteiPzzwF1dS68V8" class="btn btn-ndsu-green btn-lg">Register here</a>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSd8vzRYF7B_SyJZ5u-XA_xL6u__UuV378_eVCdKsdACQD2iDA/viewform" class="btn btn-ndsu-green btn-lg">Register here</a>
 		<br />
 		<br />
 	</article>

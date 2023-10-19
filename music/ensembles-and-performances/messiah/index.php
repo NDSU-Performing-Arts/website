@@ -20,10 +20,8 @@ include($config['path'].'resources/header.php');
 	
 	<article>
 		        
-		<p>Fargo - Thursday, Dec. 1; Friday, Dec. 2, 2022, 7:30 p.m. (First Lutheran Church, 619 Broadway N)<br />
-		Minneapolis - Saturday, Dec. 3, 7:30 p.m. (Saint Mark's Episcopal Cathedral, 519 Oak Grove St.)
-		</p>
-		<p>Coordinated by Dr. Jo Ann Miller, Baroque Festival Music Director, over 150 students in five choirs and the Baroque Festival Orchestra will present Handel&rsquo;s monumental piece, which has become a holiday tradition throughout the world.  Premiered in Dublin, Ireland in 1742, <em>Messiah</em> combines Old and New Testament texts in one of the most memorable works of Western music. Performances will be held on two evenings at First Lutheran Church, 619 Broadway North in Fargo, and on one evening at Saint Mark's Episcopal Cathedral, 519 Oak Grove in Minneapolis.</p>
+		<p>Thursday, Nov. 30; Friday, Dec. 1,; Saturday, Dec. 2, 2023, 7:30 p.m. (First Lutheran Church, 619 Broadway N)</p>
+		<p>Coordinated by Dr. Jo Ann Miller, Baroque Festival Music Director, over 150 students in five choirs and the Baroque Festival Orchestra will present Handel&rsquo;s monumental piece, which has become a holiday tradition throughout the world.  Premiered in Dublin, Ireland in 1742, <em>Messiah</em> combines Old and New Testament texts in one of the most memorable works of Western music. Performances will be held on three evenings at First Lutheran Church, 619 Broadway North in Fargo.</p>
 		
 		<h2>Featuring</h2>
 		

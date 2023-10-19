@@ -1,0 +1,1 @@
+<?php header("Location: https://ndsu.edu/music/graduate-students/programs/music-education/");?>

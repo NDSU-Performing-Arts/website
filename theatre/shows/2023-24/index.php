@@ -1,6 +1,6 @@
 <?php 
 //Edit the following:
-$config['page-title'] = "2022-23 Theatre NDSU Season";
+$config['page-title'] = "2023-24 Theatre NDSU Season";
 $config['page-description'] = "";
 $config['page-realm'] = "DTA"; //Choose DPA, DTA, CSOM
 
@@ -17,7 +17,7 @@ include($config['path'].'resources/header.php');
 <!--	body content -->
 <section>
 	<header>
-		<img alt="2023-24 Theatre Season" class="_header_image" style="width:100%;"	src="DVFA 982 Theatre Web Banner Graphics 3800x1340 - Season.jpg">
+		<img alt="2023-24 Theatre Season" class="_header_image" style="width:100%;"	src="DVFA 1507 Theatre Season Web Banner 3800x1340.jpg">
 		
 		<h1>2023-2024 Theatre NDSU Productions<br></h1>
 		<article>
@@ -30,7 +30,7 @@ include($config['path'].'resources/header.php');
 	<div class="row">
 		<div class="col-md-3"><a href="../2023-24/dracula.php" title="Dracula"><img alt="Dracula" src="20232024_Showare_Dracula.jpg" style="width:200px;"></a></div>
 		<div class="col-md-9">
-			<p><b><a href="../2023-24/dracula.php">DRACULA: A Feminist Revenge Fantasy, Really</a></b><br />Based on the novelby Bram Stoker<br />
+			<p><b><a href="../2023-24/dracula.php">DRACULA: A Feminist Revenge Fantasy, Really</a></b><br />Based on the novel by Bram Stoker<br />
 			By Kate Hamill<br />
 			Walsh Studio Theatre
 			</p>
@@ -75,7 +75,7 @@ include($config['path'].'resources/header.php');
 		<div class="col-md-3"><a href="../2023-24/proof.php"><img alt="Proof" src="20232024_Showare_Proof.jpg" style="width:200px;"></a></div>
 		<div class="col-md-9">
 			<p>
-				<a href="../2023-24/home.php"><strong>Proof</strong></a><br>
+				<a href="../2023-24/proof.php"><strong>Proof</strong></a><br>
 				By David Auburn<br />
 				  Walsh Studio Theatre</p>
 				  
