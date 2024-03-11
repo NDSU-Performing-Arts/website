@@ -61,7 +61,7 @@ include($config['path'].'resources/header.php');
 		<p>No. We may award scholarships at any time prior to starting school. However, scholarship funds are limited, and awards might not be available later in the year. For full consideration, auditions should be completed by March 1. </p>
 
 		<h2>When Are The NDSU Music Scholarship Audition Dates? </h2>
-		<p>January 27 and February 6, 2023<!-- Vocal auditions at NDSU in Fargo<br>-->
+		<p><?php echo $md['scholarships']['combined'];?><!-- Vocal auditions at NDSU in Fargo<br>-->
 		<!--February 5, 2021: Instrumental auditions at NDSU in Fargo--></p>
 
 		<h2>May We Make Appointments For An Audition Outside Of The Scheduled Audition Dates? </h2>
@@ -85,7 +85,7 @@ include($config['path'].'resources/header.php');
 		<h2>Additional Questions? </h2>
 		<p> Our goal is to make the audition process as comfortable for you as possible. Please contact <a href="mailto:m.weber@ndsu.edu"> Dr. Michael Weber</a> (701.231.8497) or the Music Office (701.231.7932) if you have any questions or need additional information.</p>
 		<p>NDSU Challey School of Music <br />
-		Dept 2334, PO Box 6050<br />
+		Dept 2540, PO Box 6050<br />
 		Fargo, ND 58108-6050
 		</p>
 	</article>

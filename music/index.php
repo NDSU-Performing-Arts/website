@@ -27,8 +27,24 @@ include($config['path'].'resources/header.php');
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
 	<?php //Kyle, don't forget to make sure that "carousel-item ACTIVE" is set somewhere. ?>
+
+	 <div class="carousel-item active">
+        <a href="/music/festivals-and-clinics/music-ed-symposium/" title="Summer Symposium">
+          <img alt="Summer Symposium" src="images/DVFA 1847 PA Web Banner.jpg"- style="width:100%;">
+        </a>
+        <div class="carousel-caption">
+		</div>
+      </div>  
 	  
-	  <div class="carousel-item active">
+	 <div class="carousel-item">
+        <a href="/music/fissinger" title="Fissinger Prize Winners">
+          <img alt="Fissinger Prize Winners" src="competitions/fissinger/images/Fissinger Banner-2023 Winners Announced copy.jpg"- style="width:100%;">
+        </a>
+        <div class="carousel-caption">
+		</div>
+      </div>
+	  
+	  <div class="carousel-item">
         <a href="/music/choral-anthology/" title="Choral Anthology">
           <img alt="Choral Anthology" src="images/Choral Anthology.png"- style="width:100%;">
         </a>
@@ -43,14 +59,7 @@ include($config['path'].'resources/header.php');
         <div class="carousel-caption">
 		</div>
       </div>
-	  
-	 <div class="carousel-item">
-        <a href="/music/fissinger" title="Fissinger Prize Winners">
-          <img alt="Fissinger Prize Winners" src="competitions/fissinger/images/2022FissingerBanner.jpg"- style="width:100%;">
-        </a>
-        <div class="carousel-caption">
-		</div>
-      </div>
+
 <!--
 	  <div class="carousel-item">
         <a href="/performingarts/music/prospective-students/scholarships/" title="Scholarship Opportunities">
@@ -96,8 +105,7 @@ include($config['path'].'resources/header.php');
 			<br />
 			<div class="alert alert-warning">
 			<h1>Upcoming Events</h1>
-			<a href="/music/day/" class="btn btn-ndsu-green mb-2">Music Day</a>&nbsp;
-			<a href="/music/competitions/fissinger/" class="btn btn-ndsu-green mb-2">Fissinger Choral Composition Contest</a>&nbsp;
+			<a href="/music/ensembles-and-performances/wind-symphony/" class="btn btn-ndsu-green mb-2">Wind Symphony Auditions</a>&nbsp;
 			<a href="/music/festivals-and-clinics/raging-red/" class="btn btn-ndsu-green mb-2">Raging Red Band Festival</a>&nbsp;
 			</div>
 				

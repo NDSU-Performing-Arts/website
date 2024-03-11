@@ -19,10 +19,10 @@ include($config['path'].'resources/header.php');
 	</header>
 	
 	<article>
-		<p><strong><em>University Symphony Orchestra</em> (USO) Full Symphony Orchestra MUSC 304 0-1 (#4583) 6:30-8:00pm Tuesday.<br />
+		<p><strong><em>University Symphony Orchestra</em> (USO) Full Symphony Orchestra MUSC 304 0-1 (#24515) 6:30-8:00pm Tuesday.<br />
 		Audition Required</strong></p>
 
-		<p><strong><em>String Chamber Ensemble</em> (SCE) – Strings Only MUSC 316 0-1 (#15404) 6:30-8:00pm Thursday <br />
+		<p><strong><em>String Chamber Ensemble</em> (SCE) – Strings Only MUSC 316 0-1 (#25324) 6:30-8:00pm Thursday <br />
 		Audition Required</strong></p>
 
 		<p><strong>Separate courses –1 credit each. May be repeated for credit. </strong></p>
@@ -37,13 +37,13 @@ include($config['path'].'resources/header.php');
 		<h2>Audition requirements:</h2>
 		<div class="alert alert-warning">
 		<h3>SCE</h3>
-		<p><strong>MUSC 316 0-1 (#15404) Rehearsals <u>6:30-8:00pm Thursday Night</u></strong></p>
+		<p><strong>MUSC 316 0-1 Rehearsals <u>6:30-8:00pm Thursday Night</u></strong></p>
 		<p>There will be one excerpt chosen by the player. This excerpt should demonstrate the skill level of the player and can be either lyrical or technical. Excerpt should be @ 2 minutes maximum in length. Aspiring ensemble members need to have string playing experience – but this ensemble will be less rigorous than the USO and will emphasize and promote playing development and improvement through quality string orchestra literature. </p>
 		</div>
 
 		<div class="alert alert-warning">
 		<h3>USO</h3>
-				<p><strong>MUSC 304 -01 (#4583) Rehearsals 6:30-8:00pm Tuesday Night.</strong></p>
+		<p><strong>MUSC 304 -01 Rehearsals 6:30-8:00pm Tuesday Night.</strong></p>
 		<div class="alert alert-success">
 		<h4>Strings</h4>
 
@@ -52,14 +52,14 @@ include($config['path'].'resources/header.php');
 		<p>There will be a required etude/excerpt+ as well as a piece/excerpt chosen by the student. Total audition length should be @3-4 minutes (1 ½ to 2 minutes for each excerpt).<br />
 		<u>Required</u> String Audition Music will be available by June 1st on the School of Music Website and via email from Johnson. </p>
 
-		<p>Auditions will take place the weekend and Monday and Tuesday before classes begin for String players – August 18/19/20/21/22.</p>
+		<p>Auditions will take place Sunday, January 7 in Beckwith Recital Hall.</p>
 		
 		<p><strong>
 		See required excerpts below (Mozart/violin or Bach/viola/cello/bass)<br />
 		Scale(s) as indicated below.
 		~2:00 excerpt or piece of your own choosing. </strong></p>
 		
-		<p>This is a "competitive" audition in the sense that not everyone who auditions will make the ensemble. If you aren't selected for the USO this fall - please make sure you stay engaged (be in the SCE) and audition again in the spring.</p>
+		<p>This is a "competitive" audition in the sense that not everyone who auditions will make the ensemble. If you aren't selected for the USO this spring - please make sure you stay engaged (be in the SCE) and audition again in the fall.</p>
 		<p><strong>If you are successful and selected to be in the USO - you can also be and are encouraged to be in the SCE too. In other words - you can be in both ensembles. </strong></p>
  
 		<p><a href="https://drive.google.com/drive/folders/1GY66uJvplRJ7_PG0c2BNT-vd1n48nx37?usp=sharing" class="btn btn- btn-ndsu-green">USO Required Audition excerpts and scales</a></p>

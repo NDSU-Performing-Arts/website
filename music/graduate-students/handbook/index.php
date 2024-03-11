@@ -11,8 +11,8 @@ include($config['path'].'resources/header.php');
 ?>
 
 <section id=""><div class="container"><!-- InstanceBeginEditable name="body" -->
-<a href="Grad Handbook 2022-09-01 Revision.pdf" target="_BLANK" class="btn btn-ndsu-green btn-lg"><i class="fas fa-download"></i> Download the current Graduate Handbook</a><br /><br />
-<iframe id="pdf-iframe" width="100%" height="1200" src="Grad Handbook 2022-09-01 Revision.pdf"></iframe>
+<a href="Grad Handbook 2023-11-20 Revision.pdf" target="_BLANK" class="btn btn-ndsu-green btn-lg"><i class="fas fa-download"></i> Download the current Graduate Handbook</a><br /><br />
+<iframe id="pdf-iframe" width="100%" height="1200" src="Grad Handbook 2023-11-20 Revision.pdf"></iframe>
 
 </section>
 

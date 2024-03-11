@@ -79,7 +79,7 @@ include($config['path'].'resources/header.php');
 		</div>
 		
 		<a href="https://www.facebook.com/groups/407268232678485/" class="btn btn-info"><i class="fa fa-facebook-official"></i> NDSU University Chamber Singers</a><br /><br />
-		<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-choral" class="btn btn-ndsu-green">Sign up for auditions here!</a>
+		<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-47563341-2024" class="btn btn-ndsu-green">Sign up for auditions here!</a>
 		</div>
 		</div>
 		<Br />

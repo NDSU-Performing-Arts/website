@@ -59,6 +59,7 @@ include($config['path'].'resources/header.php');
             <p><strong>Plan of Study Worksheets (program-specific)</strong><br>
             <a href="../forms/PoS Worksheet - MM Choral Conducting.docx">Choral Conducting</a><br>
 			<a href="../forms/PoS Worksheet - MM Instrumental Conducting.docx">Instrumental Conducting</a><br>
+			<a href="../forms/PoS Worksheet - MM Instrumental Performance.docx">Instrumental Performance</a><br>
 			<a href="../forms/PoS Worksheet - MM Piano Performance.docx">Piano Performance </a><br>
 			<a href="../forms/PoS Worksheet - MM Collaborative Piano.docx">Collaborative Piano Performance </a><br>
 			<a href="../forms/PoS Worksheet - MM Vocal Performance.docx">Vocal Performance</a> <br>
@@ -72,21 +73,23 @@ include($config['path'].'resources/header.php');
             <a href="../forms/Master's Plan of Study Sample.pdf">Sample Form</a>
             <br>
             Submit to the Graduate School within first year of study <br />
-            Signatures: Committee of three faculty members; one must be history/theory, and Department Chair or Coordinator                             
-            <a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=cc231712-425b-49e2-b395-71effd7a7979&env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&v=2">Report of Recital</a><br>	
+            Signatures: Committee of three faculty members; one must be history/theory, and Department Chair or Coordinator</p>
+
+<p>			
+            <a href="../forms/Report-of-Recital-2023.pdf">Report of Recital</a><br>	
 				This form is used for any recital that is not the final recital of the student's program.<br>
 				Submit form to the music graduate administrative assistant.<br>
 				Signatures: advisor
 		</div>
 
         <div class="alert alert-secondary">
-			<a href="MM_schedule_exam_2019.pdf">Request to Schedule Comprehensive Examination</a><br />
+			<a href="MM_schedule_exam_2023.pdf">Request to Schedule Comprehensive Examination</a><br />
 			Submit to<strong> Music Office </strong>at least two weeks before the examination<strong> </strong><br />
 			Signatures: Advisor
 		</div>
 
         <div class="alert alert-secondary">
-			<a href="MM_final_exam-2019.pdf">Report of Comprehensive Examination</a><br />
+			<a href="MM_final_exam-2023.pdf">Report of Comprehensive Examination</a><br />
 			Submit to the <strong>graduate coordinator</strong> as soon as examination is completed (submitted by your advisor)<br />
 			Signatures: Advisor
 		</div>
@@ -136,21 +139,21 @@ include($config['path'].'resources/header.php');
 			Submit to <strong>Graduate School</strong> within first year of study <br />
 			Signatures: Committee of four faculty members (one must be history/theory AND one faculty member from outside the music area) and Department Chair or Coordinator<br>
 			<br>
-			<p><a href="../forms/Report of Recital.docx">Report of Recital</a><br>
+			<p><a href="../forms/Report-of-Recital-2023.pdf">Report of Recital</a><br>
 			This form is used for any recital that is not the final recital of the student's program.<br>
 			Submit form to the music graduate administrative assistant.<br>
 			Signatures: Advisor</p>
 		</div>
 
 		<div class="alert alert-secondary">
-			<a href="DMA_language_exam-2019.pdf">Report of Language Exam</a><br />
+			<a href="DMA_language_exam-2023.pdf">Report of Language Exam</a><br />
 			Language requirements are program-specific. Please check with your advisor about your program's language requirements.<br>
 			Submit to music graduate administrative assistant as soon as examination is completed<br />
 			Signatures: Advisor
 		</div>
 
 		<div class="alert alert-secondary">
-			<a href="DMA-IPA-test-result.pdf">Report of DMA Choral Conducting International Phonetic Alphabet Exam</a><br />
+			<a href="DMA-IPA-test-result-2023.pdf">Report of DMA Choral Conducting International Phonetic Alphabet Exam</a><br />
 			Submit to music graduate assistant as soon as examination is completed<br />
 			Signatures: Advisor
 		</div>
@@ -174,16 +177,16 @@ include($config['path'].'resources/header.php');
 			Due mid-semester. See <a href="https://www.ndsu.edu/gradschool/current_students/pathway_to_degree_completion">Graduate College Deadlines</a>
 		</div>
 
-		<div class="alert alert-danger">
+		<?php /*?><div class="alert alert-danger">
 			<a href="https://powerforms.docusign.net/71b00c0e-af21-4473-bb23-cdbd85983676?env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&accountId=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7">
 			Application for Graduation</a><br>
 			Submit to Graduate School</br>
 			Signatures: Advisor
-		</div>
+		</div> */ ?>
 		
 		<div class="alert alert-secondary">
 			<a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=63d0ad66-b08e-4e65-a44d-40a9dd7892c7&env=na3&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7&v=2">Notification of Scheduled Final Recital for the D.M.A degree</a>. <br />
-			Submit to <strong>Graduate School</strong> at least two weeks before the recital<strong> </strong><br />
+			Submit to <strong>Graduate School</strong> at least seven calendar days before the recital<strong> </strong><br />
 			Signatures: Advisor and Department Chair or Coordinator
 		</div>
 
@@ -196,11 +199,14 @@ include($config['path'].'resources/header.php');
 		<div class="alert alert-primary">
 			<p>Details to know:</p>
 			<ul>
-			<li>Your outside committee member needs to attend the comprehensive oral exam and the final lecture recital.  The outside committee member should also have the opportunity to review the disquisition. Advisor and student will determine the involvement of the outside member.</li>
+			<li>Your Graduate School Representative is a voting member of your supervisory committee, meaning the GSR must sign the Plan of Study, attend all committee meetings and examinations (including the lecture recital), review the dissertation and vote and sign all examination reports.</li>
 			<li>The comprehensive exam and lecture recital cannot take place in the same semester</li>
-			<li>The 3 minute <a href="https://www.ndsu.edu/gradschool/current_students/3mt">dissertation video</a> must be submitted to the graduate school before submitting your paper for review</li>
-			<li>Your document needs <a href="https://www.ndsu.edu/gradschool/current_students/graduation/theses_dissertations_papers/disquisition_formatting">disquisition approval form</a> (signed by all committee members with the completed disquisition) The <a href="https://powerforms.docusign.net/e5a8eada-d5eb-4ba5-8195-611fc746047e?env=na3-eu1&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7%22%20%22%20&accountId=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7">IRB form</a> goes along with this form.</li>
-			<li><strong>Students have one year from the final lecture recital to finish the disquisition with graduate school approval.</strong><strong> </strong></li>
+			<!--<li>The 3 minute <a href="https://www.ndsu.edu/gradschool/current_students/3mt">dissertation video</a> must be submitted to the graduate school before submitting your paper for review</li>-->
+			<?php /*
+			//Removed 12/04/23 per MSO, "We send the students a link to these forms after submitting the recital notification and report of final recital."
+			<li>Your document needs <a href="https://www.ndsu.edu/gradschool/current_students/graduation/theses_dissertations_papers/disquisition_formatting">disquisition approval form</a> (signed by all committee members with the completed disquisition) The <a href="https://powerforms.docusign.net/e5a8eada-d5eb-4ba5-8195-611fc746047e?env=na3-eu1&acct=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7%22%20%22%20&accountId=1ceb9a57-b6a3-4df7-b655-d64cf8f1c2d7">IRB form</a> goes along with this form.</li> */ ?>
+			<li>Students have one year from the final lecture recital to complete the format review process and obtain Graduate School approval.</li>
+			<li>Students must maintain continuous enrollment each fall and spring semester until all degree requirements have been completed, including the Graduate School format review process and approval.</strong></li>
 			</ul>
 		</div>
 	</article>

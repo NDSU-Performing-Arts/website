@@ -59,13 +59,13 @@ include($config['path'].'resources/header.php');
 	<div class="card">
 		<div class="card-header"><h5>Vocal Accompaniment Forms</h5></div>
 		<div class="card-body">
-			<a href="https://docs.google.com/document/d/1z_0y2rm5i3Tgh6ejpjMhbrKmZNkKpolR/edit?usp=sharing&ouid=113951085338360111442&rtpof=true&sd=true" title="Vocal Accompaniment Policies">Vocal Accompaniment Contract</a>
+			<a href="https://docs.google.com/document/d/1o9-leAkPgAZ2j_BQC8gsop63FryhsEiD/edit" title="Vocal Accompaniment Policies">Vocal Accompaniment Contract</a>
 		</div>
 	</div>	<br />
 	<div class="card">
 		<div class="card-header"><h5>Instrumental Accompaniment Forms</h5></div>
 		<div class="card-body">
-			<a href="https://docs.google.com/document/d/1pVKrwKaVJ_TqkHWXk2mGPdCKSqvt_h0c/edit?usp=sharing&ouid=113951085338360111442&rtpof=true&sd=true" title="Instrumental Accompaniment Contract">Instrumental Accompaniment Contract</a><br />
+			<a href="https://docs.google.com/document/d/18ZjvqI-nbUYGe-VhH1hfVgRu21-DoT4s/edit" title="Instrumental Accompaniment Contract">Instrumental Accompaniment Contract</a><br />
 			<a href="https://docs.google.com/document/d/1BzJLEZq7cDwJJCCyKHoz1SG-MCLsemw1_iNq7NriCGY/edit?usp=sharing" title="Community Pianists Contact List">Community Pianists Contact List</a>
 		</div>
 	</div>	<br />
@@ -76,7 +76,7 @@ include($config['path'].'resources/header.php');
 			<a href="documents/jury_forms/jury_rubric.pdf" title="Instrumental Jury Evaluation">Instrumental Jury Evaluation (pdf)</a><br />
 			<a href="documents/jury_forms/jury_evaluation_musical_theatre.pdf" title="Musical Theatre Jury Evaluation">Musical Theatre Jury Evaluation (pdf)</a><br />
 			<a href="documents/jury_forms/jury_evaluation_percussion.pdf" title="Percussion Jury Evaluation">Percussion Jury Evaluation (pdf)</a><br />
-			<a href="documents/jury_forms/NDSU Voice Jury Form 2022-2023 fillable.pdf" title="Vocal Jury Evaluation">Vocal Jury Evaluation (pdf)</a><br />
+			<a href="documents/jury_forms/JuryForm2023-2024fillable.pdf" title="Vocal Jury Evaluation">Vocal Jury Evaluation (pdf)</a><br />
 			<a href="documents/jury_forms/jury_evaluation_summary_sheet.pdf" title="Jury Evaluation Summary Sheet">Jury Evaluation Summary Sheet (pdf)</a><br />
 		</div>
 	</div><br />

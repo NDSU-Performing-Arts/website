@@ -20,8 +20,6 @@ include($config['path'].'resources/header.php');
 	</article>
 	<p>The North Dakota State University Wind Symphony is the premier collegiate wind band performing group in the state of North Dakota. Students who participate experience the highest quality of music literature. Comprised of both Music Majors and Non-Majors, the members of the NDSU Wind Symphony come from a wide array of backgrounds and disciplines. Under the direction of Dr. Warren Olfert, students work tirelessly from practice room to the concert hall to create musical artistry for audiences across the Midwest and the Nation. Now they would like to bring that high level of excellence to the other side of the world.</p>
 
- 
-
 	<p>In the Fall of 2017 on campus, the NDSU Wind Symphony had the opportunity to work with Colonel Václav Blahunek, conductor of the Prague Castle Guard and Czech Symphonic Police Band. It was through this experience, and the impression made upon Col. Blahunek, that the NDSU Wind Symphony received an invitation from The Ministry of Culture for the Czech Republic to perform with the Czech Police Symphonic Police Band in the Spanish Hall in the New Royal Palace of Prague Castle.
 		
 	<p>The NDSU Wind Symphony, led by Professor Warren Olfert, embarked on a tour of Eastern Europe, visiting and performing in Budai Vigadó (Hungarian Heritage House) in Budapest, the Slovak Radio Hall in Bratislava, and culminating with a prestigious performance in the Spanish Hall in the Prague Castle to a sold-out audience of over 600 dignitaries. The group was the first American ensemble to ever perform in the Spanish Hall. Over 65 students, faculty, chaperones, and alumni participated in this once-in-a-lifetime experience.</p>
@@ -31,9 +29,9 @@ include($config['path'].'resources/header.php');
 	<div class="text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/uRfcryAVWbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 	
 	<header>
-	  <h1>NDSU Wind Symphony Audition Information Fall 2023</h1>
+	  <h1>NDSU Wind Symphony Audition Information Spring 2024</h1>
 	</header>
-	<p>Auditions for Wind Symphony for the Fall semester will take place on Thursday and Friday, August 24-25. Click the button below to sign up for an audition time.</p>
+	<p>Auditions for Wind Symphony for the Spring Semester will take place on Tuesday, January 8, from 12:30-2:30 pm and 3:00-5:00 pm. Click the button below to sign up for an audition time.</p>
 	
 	<!--<ul>
 <li>Flutes: all students should audition</li>
@@ -49,7 +47,7 @@ include($config['path'].'resources/header.php');
 </ul>-->
 </p>
 	
-	<a href="https://docs.google.com/spreadsheets/d/1YqL9OIXAn0zhkQm6TVUrGCydU-ys7YNtCdJoBFNUHgY/edit?usp=sharing" class="btn btn-lg btn-ndsu-green">2023 Fall Auditions</a></p>
+	<a href="https://docs.google.com/spreadsheets/d/1-ZZiuVPu3uuHn0VwOmJ6H_DWd4f8FX1DzElvKfiaokc/edit?usp=sharing" class="btn btn-lg btn-ndsu-green">2024 Spring Auditions</a></p>
 	
 <!--	<p>If you are new to the Wind Symphony this fall, please send an email to Dr. Olfert (<a href="mailto:warren.olfert@ndsu.edu">warren.olfert@ndsu.edu</a>) in addition to signing up for an audition time that indicates your intention to audition. This will allow you to receive additional information regarding the coming year. If you are unable to audition during the listed time or need special accommodations, you may make arrangements with the faculty member in question for an alternate time.</p>
 	
@@ -60,18 +58,18 @@ include($config['path'].'resources/header.php');
 	<p>Audition Music for the Wind Symphony may be downloaded at the following web address:</p>
 	<a href="https://drive.google.com/file/d/1G9sWRqWW63-YVyq0WHbwCrpiBO7ci130/view?usp=drive_link" class="btn btn-ndsu-green mb-2">Flute</a><br />
 	<a href="https://drive.google.com/file/d/1G0hFVFp7GIc7jLx2fp-PTomk41nF7wlA/view?usp=drive_link" class="btn btn-ndsu-green mb-2">Oboe</a><br />
-	<a href="https://drive.google.com/file/d/1FUZ5-XUM3GeKuBwdpG9jkP5O_phkcsEh/view?usp=drive_link" class="btn btn-ndsu-green mb-2">Clarinet</a><br />
+	<a href="https://drive.google.com/file/d/1PzkeCrDAm9DD_tbKPVVbequ8WXx_lhJs/view?usp=sharing" class="btn btn-ndsu-green mb-2">Clarinet</a><br />
 	<a href="https://drive.google.com/file/d/1GCFFiig1EDo6QQvugAPi3koSljKXoq31/view?usp=drive_link" class="btn btn-ndsu-green mb-2">Bassoon</a><br />
-	<a href="https://drive.google.com/file/d/1G40kzpt6eT8KZWTifWPLTODFvHhMyb2i/view?usp=drive_link" class="btn btn-ndsu-green mb-2">Saxophone</a><br /><br />
-	<a href="https://drive.google.com/file/d/1G-Fhb81c-o9rpE2e_Ayw-MkOCBhfceeS/view?usp=drive_link" class="btn btn-ndsu-green mb-2">Trumpet</a><br />
-	<a href="https://drive.google.com/file/d/1FzlAmudgSjIswrglifmEfrJ05vSXss4d/view?usp=drive_link" class="btn btn-ndsu-green mb-2">Horn</a><br />
-	<a href="https://drive.google.com/file/d/1GQNsa5ivv14tKJSktuU8E1L8MVRb-n2o/view?usp=drive_link" class="btn btn-ndsu-green mb-2">Trombone</a><br />
-	<a href="https://drive.google.com/file/d/1GMX6oTdLkOhUDOBu381s9Nbx-I3-7oDc/view?usp=drive_link" class="btn btn-ndsu-green mb-2">Euphonium</a><br />
-	<a href="https://drive.google.com/file/d/1GMPuFVpUaISu68JCl81qkhQFZNcqT9Ft/view?usp=drive_link" class="btn btn-ndsu-green mb-2">Tuba</a><br /><br />
-	<a href="https://drive.google.com/file/d/1FzJiTf_Y3owRTEBlGmHI_ii4u6nriWte/view?usp=drive_link" class="btn btn-ndsu-green mb-2">Percussion</a><br />
+	<a href="https://drive.google.com/file/d/1PMPuCEiIq_TA4nJMkdDjk07cIOZRy3bN/view?usp=sharing" class="btn btn-ndsu-green mb-2">Saxophone</a><br /><br />
+	<a href="https://drive.google.com/file/d/1PK5zdH_MQR3uTSS-gR3Pvka5rCuTAMdW/view?usp=sharing" class="btn btn-ndsu-green mb-2">Trumpet</a><br />
+	<a href="https://drive.google.com/file/d/1PuScdJCpJ7CGMj9y5KmqWLw98LXXaOmK/view?usp=sharing" class="btn btn-ndsu-green mb-2">Horn</a><br />
+	<a href="https://drive.google.com/file/d/1P_mA6Y1zXx5qgYouXcCGx7DgEMTnkoMt/view?usp=sharing" class="btn btn-ndsu-green mb-2">Trombone</a><br />
+	<a href="https://drive.google.com/file/d/1PjzOciPI4rmKILqH5yD4Bb0dV4g4RBXd/view?usp=sharing" class="btn btn-ndsu-green mb-2">Euphonium</a><br />
+	<a href="https://drive.google.com/file/d/1PeU5dWUMjBRzTCDE0KfkmCIWsUCoerCO/view?usp=sharing" class="btn btn-ndsu-green mb-2">Tuba</a><br /><br />
+	<a href="mailto:sigurd.johnson@ndsu.edu" class="btn btn-ndsu-green mb-2">Percussion (email or see Sigurd Johnson for details)</a><br />
     
     <br />
-	<p>Results of the auditions will be posted as soon as possible upon completion. The first rehearsal will be on Monday, August 28, at 12:15 pm.</p>
+	<p>Results of the auditions will be posted as soon as possible upon completion. <!--The first rehearsal will be on Monday, August 28, at 12:15 pm.--></p>
 	
 	<p>If you have any questions, contact Dr. Olfert either at <a href="tel:701-231-7266">701-231-7266</a> or at <a href="mailto:warren.olfert@ndsu.edu">warren.olfert@ndsu.edu</a>.	</p>
 

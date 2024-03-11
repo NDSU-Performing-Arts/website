@@ -54,6 +54,14 @@ include($config['path'].'resources/header.php');
 				<p>Business Coordinator</p>
 			  </div></a>
 			</div>
+			
+			<div class="ndsu-column">
+			  <a href="ewen_chelsey.php"><img class="d-none d-md-block" src="images/Ewen_Chelsey_200.jpg" alt="Chelsey Ewen">
+			  <div class="ndsu-column-inner">
+				<h5>Chelsey Ewen</h5>
+				<p>Promotions Director</p>
+			  </div></a>
+			</div>
 
 			<div class="ndsu-column">
 			  <a href="fornes_james.php"><img class="d-none d-md-block" src="images/200px_Fornes_James.L.jpg" alt="James Fornes">
@@ -79,15 +87,6 @@ include($config['path'].'resources/header.php');
 			  </div></a>
 			</div>
 			
-
-			
-			<div class="ndsu-column">
-			  <a href=""><img class="d-none d-md-block" src="images/200px_faculty_headshot.gif" alt="Dave Huber">
-			  <div class="ndsu-column-inner">
-				<h5><em>Open</em></h5>
-				<p>Promotions Director</p>
-			  </div></a>
-			</div>
 						<!--<div class="w-100"><br /><!--Every 4!--</div>-->
 	</div>
 <br />

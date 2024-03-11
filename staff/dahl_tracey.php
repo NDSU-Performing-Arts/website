@@ -19,7 +19,7 @@ include($config['path'].'resources/header.php');
 	</header>
 	
 	<article>
-		<p>Account  Technician,
+		<p>Business Coordinator,
 			Division of Performing Arts</p>
 		
 		<p>Email:<a href="mailto:Tracey.Dahl@ndsu.edu"> Tracey.Dahl@ndsu.edu</a><br>

@@ -266,9 +266,9 @@ include($config['path'].'resources/header.php');
 
 		1. Scales
 		<ul>
-			<li>F major 2 octaves</li>
-			<li>E major 2 octaves</li>
-			<li>Bb chromatic 2 octaves</li>
+			<li>F, G major 2 octaves</li>
+			<li>C, B-flat major 3 octaves</li>
+			<li>F chromatic 2 octaves</li>
 		</ul>
 
 		2. Two contrasting works (ONE technical &amp; ONE lyrical).		
@@ -287,7 +287,7 @@ include($config['path'].'resources/header.php');
 		
 		<em>Solos</em>
 		<ul>
-			<li>Mozart: Concerto in Bb</li>
+			<li>Jenni Brandon: Colored Stones</li>
 			<li>Concert and Contest Collection (Rubank)</li>
 			<li>Schoenbach: Solos for the Bassoon Player</li>
 			<li>Weissenborn: Any solo</li>
@@ -309,7 +309,7 @@ include($config['path'].'resources/header.php');
 		
 		2. Two contrasting works (ONE technical &amp; ONE lyrical).		
 		<ul>
-			<li>The works may be chosen from studies and or contrasting movements of clarinet sonatas/concerti. </li>
+			<li>The works may be chosen from studies and or contrasting movements of bassoon sonatas/concerti. </li>
 		</ul>
 		
 		Suggested Repertoire:<br />	
@@ -330,6 +330,7 @@ include($config['path'].'resources/header.php');
 			<li>Bourdeau: Premiere Solo</li>
 			<li>Hummel: Concerto in F</li>
 			<li>Weber: Andante and Hungarian Rondo</li>
+			<li>Zwilich: Concerto for Bassoon and Orchestra</li>
 		</ul>
 		
 		3. Sight Reading
@@ -405,7 +406,7 @@ include($config['path'].'resources/header.php');
 <div class="card"><a name="lowbrass" class="nu"></a>
 	<div class="card-header"><h2>Trombone &amp; Euphonium</h2></div>
 	<div class="card-body">
-		<div class="alert alert-warning"><strong>Please contact Dr. Kyle Mack at <a href="mailto:Kyle.Mack@ndsu.edu">Kyle.Mack@ndsu.edu</a> for any questions pertaining to the audition requirements, and/or to schedule an audition.</strong></div>
+		<div class="alert alert-warning"><strong>Please contact Prof. Connor Challey at <a href="mailto:Connor.Challey@ndsu.edu">COnnor.Challey@ndsu.edu</a> for any questions pertaining to the audition requirements, and/or to schedule an audition.</strong></div>
 		
 		<h3>Undergraduate Students (Incoming Freshmen &amp; Transfer Students)</h3>
 		
@@ -481,7 +482,7 @@ include($config['path'].'resources/header.php');
 		</ul>
 		<em>Studies</em>: Same as above
 		<br /><br />
-		<em>Solos</em>: Contact Dr. Mack
+		<em>Solos</em>: Contact Prof. Challey
 	</div><!--card-body-->
 </div><!--card-->
 

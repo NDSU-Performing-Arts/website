@@ -16,9 +16,9 @@ include($config['path'].'resources/header.php');
 <!--	body content -->
 <section>
 	<header>
-		<!--<img alt="'Twas the Night Before Christmas"
+		<img alt="'Twas the Night Before Christmas"
 			class="_header_image" 
-			src="DVFA 982 Theatre Web Banner Graphics 3800x1340 - Alabaster.jpg" style="width:100%;">-->
+			src="TwasWebBanner.jpeg" style="width:100%;">
 		
 		<h1 align="center"><strong>'Twas the Night Before Christmas</strong></h1>
 	</header>

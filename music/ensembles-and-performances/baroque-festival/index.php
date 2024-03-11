@@ -15,32 +15,16 @@ include($config['path'].'resources/header.php');
 <!--	body content -->
 <section>
 	<header>
+		<img alt="Baroque Fest" src="/music/images/DVFA 1773 Baroque Fest Web Banner.jpg" style="width:100%;">
 		<h1>Baroque Festival</h1>
 	</header>
 	
 	<article>
-	  <p align="left" style="margin-top: 0; margin-bottom: 0;">Upcoming Performances: Saturday, January 21, 2022 and Sunday, January 22, 2022</p>
-	  <p align="left">&nbsp;</p>
-		<p>Coordinated by Dr. Jo Ann Miller, Baroque Festival Music Director, over 200 students in five choirs and the Baroque Festival Orchestra will present Handel&rsquo;s monumental piece, which has become a holiday tradition throughout the world.  Premiered in Dublin, Ireland in 1742, <em>Messiah</em> combines Old and New Testament texts in one of the most memorable works of Western music. Performances will be held on two evenings at First Lutheran Church,  619 Broadway North in Fargo.</p>
+		<p>NDSU Challey School of Music's Baroque Festival is returning January 2024! Come enjoy classical music from the Baroque period performed by our students at 7:30 PM Saturday, January 20 and by our faculty at 2 PM Sunday, January 21 at Peace Lutheran Church.</p>
 		
-		<h2><strong>Featuring</strong></h2>
-		
-		<p>NDSU Concert Choir <br>
-			Madrigal Singers <br>
-			University Chamber Singers <br />
-			Cantemus <br>
-  			The Statesmen of NDSU <br>
-			The Baroque Festival Orchestra</p>
-        
-		<h2><strong>Tickets</strong></h2>
-        
-		<p><strong>Pricing at Door</strong> - Adults: $20 | Seniors: $15 | Students: $10 | Free to NDSU students with NDSU ID <strong>Discounts are available on advance purchases for this event.</strong> Contact Performing Arts Box Office: 701.231.7969 or <a href="http://tickets.ndsu.nodak.edu/default.asp">online</a> </p>
-        
-		<p>&nbsp;</p>
-		
-		<img src="images/2017_messiah.jpg" 
-			 alt="Handel's Massiah" 
-			 width="100%">
+		<p>Admission to both performances is free. Peace Lutheran Church is located at 1011 12th Ave N in Fargo. Concerts will also be streamed on our <a href="/music/stream">Livestream</a>.</p>
+
+		<p>Join us for a weekend of baroque music!</p>
 	</article>
 </section>
 <!-- InstanceEndEditable --></div></section>

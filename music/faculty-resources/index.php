@@ -23,18 +23,6 @@ include($config['path'].'resources/header.php');
 
 	<h3>Important Links</h3>
 
-		
-		<div class="card bg-danger text-light mb-3">
-			<div class="card-body">
-				<h5 class="card-title">While we search for a promotions director:</h5>
-				To add recitals to calendar: <a href="james.l.fornes@ndsu.edu">James</a><br /><br />
-				To post to DPA Facebook: Post to your own page, then send to <a href="kyle.vanderburg@ndsu.edu">Kyle</a>. Mike and Bill also have access.<br /><br />
-				For Programs: send completed program template (below) to <a href="jacoba.iverson@ndsu.edu">Jacoba</a> and specify whether or not you need them printed.<br /><br />
-				For everything else: <a href="bill.law@ndsu.edu">Bill</a> knows all.<br /><br />
-				
-			</div>
-		</div>	
-		
 		<div class="card mb-3">
 			<div class="card-body">
 				<h5 class="card-title">Rooms</h5>
@@ -57,7 +45,8 @@ include($config['path'].'resources/header.php');
 		<div class="card mb-3">
 			<div class="card-body">
 				<h5 class="card-title">Programs</h5>
-				<a href="https://forms.gle/2Ues9RsbUEGoH7zN7" class="btn btn-lg btn-ndsu-green">Program Submission Form</a>
+				For small concert and recital programs, send completed program template (Make sure to use updated template linked below) to Chelsey and specify whether or not you need them printed and the quantity. Deadline for those submissions is 2 weeks before the performance date. For large programs where you would like to work with production services please contact Chelsey.
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSf8H6b0Uk2spxOevN9Sy5sTRI04y8TEn2E5Qy0sC2AHNrqKvw/viewform" class="btn btn-lg btn-ndsu-green">Program Submission Form</a>
 				<a href="/music/current-students/documents/program_template_2023.docx" class="btn btn-lg btn-ndsu-green">Program Template</a>
 			</div>
 		</div>

@@ -24,7 +24,7 @@ include($config['path'].'resources/header.php');
 
 		<p><strong>Live Auditions:</strong> An in-person audition is strongly preferred for all graduate applicants in voice performance. A live audition will be arranged after you have completed the graduate application and successfully passed the pre-screening audition (see Pre-Screening Requirements below). If you are unable to travel to Fargo a live audition, a video audition can be arranged.</p>
 
-		<p><strong>Application Deadline</strong>: The NDSU Graduate School accepts applications for graduate study on a rolling basis throughout the year. However, to be fully considered for an assistantship in music, please submit your completed graduate application by January 15, 2022.</p>
+		<p><strong>Application Deadline</strong>: The NDSU Graduate School accepts applications for graduate study on a rolling basis throughout the year. However, to be fully considered for an assistantship in music, please submit your completed graduate application and pre-screening recordings by the December 1, 2023 (priority deadline). Assistantship consideration is possible after this date if awards remain available.</p>
 
 		<p><strong>Video Auditions:</strong> In-person auditions are strongly preferred to video auditions. However, the voice faculty will review your application based on video recordings if you cannot travel to Fargo for a live audition. In order to qualify for a video audition, you must submit recordings of all your required audition selections as well as complete an interview via Zoom or a similar platform. Both components are required in order to gain admission to the Challey School of Music. Please <a href="mailto:voice.faculty@ad.ndus.edu?subject=Graduate Audition by Video">contact our voice faculty</a> to discuss this alternative application route and to make arrangements. Refer to the audition repertoire requirements in the yellow box below for the MM and DMA programs.</p>
 
@@ -35,7 +35,7 @@ include($config['path'].'resources/header.php');
         
 		<div class="alert alert-secondary">
 		<h2>Pre-screening Requirements</h2>
-		All MM and DMA applicants must submit a pre-screening recording to the NDSU Voice Faculty. Recordings should meet the following requirements:
+		All MM and DMA applicants must submit a pre-screening recording to the NDSU Voice Faculty (priority deadline December 1, 2023). Recordings should meet the following requirements:
 		<ul>
 		<li><strong>MM Applicants:</strong> One art song and one aria (opera or oratorio) showcasing different languages, styles and moods.</li>
 		<li><strong>DMA Applicants:</strong> Three contrasting selections. At least one art song and at least one aria from opera or oratorio showcasing different languages, styles, and moods.</li>

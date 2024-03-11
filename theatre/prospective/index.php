@@ -60,7 +60,7 @@ include($config['path'].'resources/header.php');
 			<p><a href="https://www.youtube.com/watch?v=kFHjRerJBeE" class="btn btn-lg btn-ndsu-green mb-2">
 			  Take a virtual tour of Askanase, the Theatre NDSU building </a><br />
 			<a href="https://www.ndsu.edu/admission/visit/" class="btn btn-lg btn-ndsu-green">Schedule a Campus Visit</a></p>
-			<p> Email <a href="mailto:tiffany.fier@ndsu.edu">Tiffany Fier</a> or <a href="mailto:ryan.scoble@ndsu.edu">Ryan Scoble</a> with your questions!</p>
+			<p> Email <a href="mailto:tiffany.fier@ndsu.edu">Tiffany Fier</a> with your questions!</p>
 			<p>Want us to contact you? Please complete this <a href="https://ndstate.co1.qualtrics.com/SE/?SID=SV_a5iMK8wSm5UqWZD" target="blank" title="Contact Form">online student contact card</a>.</p>
 		</div>
 		</div><!--collapse-->

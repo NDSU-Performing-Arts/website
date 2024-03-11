@@ -33,9 +33,9 @@ include($config['path'].'resources/header.php');
 			<p>We feel our Music Academy is a great opportunity to enrich our community by educating students young and old about music and the fine arts. Please check out our FAQ tab for common questions and an explanation of how we set up lessons. 
 We look forward to meeting you!</p>
 			
-			<p><b>Registration for returning students is open August 1, 2023</b> An email is sent to returning students to register. If you are a returning student and didn't receive an email, please check your spam folder first and then email <a 
+			<p><b>Registration for returning students is open December 1, 2023</b> An email is sent to returning students to register. If you are a returning student and didn't receive an email, please check your spam folder first and then email <a 
 href="mailto:laura.kellogg@ndsu.edu">laura.kellogg@ndsu.edu</a>. Please do not fill out a new registration form.<br />
-			Registration for new students is open August 6, 2023 (fill out registration form below)</p>
+			Registration for new students is open December 6, 2023 (fill out registration form below)</p>
 
 <p><strong><u>For the first time in over 5 years, we are raising tuition prices to be able to better compensate our instructors and hosts. We are raising lesson fees by $5 for each 30-minute lesson. Please see the policies and tuition tab for 
 more information.</u></strong></p>
@@ -328,7 +328,7 @@ Please check the "Meet the Instructors" tab for ages the instructors teach.
 		  
 			<div class="alert alert-warning">Please fill out this registration form for NEW students only. If you have previously taken lessons through the Music Academy, you will receive an email with returning student registration information on August 1st, December 1st, and May 1st. 
 			<br /><br />
-			<a name="form"></a><a href="https://forms.gle/RMSRbzD6vYNDAm3G6" class="btn btn-lg btn-ndsu-green">Registration for New Students</a><br /><br />
+			<a name="form"></a><a href="https://forms.gle/j2C6TzwtiSkkFTMo8" class="btn btn-lg btn-ndsu-green">Registration for New Students</a><br /><br />
 			<em>Registrations for new students will open on August 6th, December 6th, and May 6th.</em>
 			<p>Scholarships for students are available on the basis of need through Excite Music. Please visit <a href="https://excitemusicfm.com/">https://excitemusicfm.com/</a> to apply. </p>
 
@@ -365,77 +365,136 @@ Please check the "Meet the Instructors" tab for ages the instructors teach.
 			<strong>Ava Brewster, flute</strong><br />
 			<img src="images/AvaBrewster.jpg" width="250px" alt="Ava Brewster" /><br />
 			<em>Teaches age 10 and above</em><br />
-			Ava Brewster is the flute instructor at the NDSU Music Academy. She is a recent NDSU graduate in General Music and Neuroscience, and this is her fourth year teaching at the Academy. She is from Moorhead, MN, and has played the flute for 12 years. Ava loves teaching and playing the flute and strives to help young players develop their ability to express themselves musically.</p>
+			Ava Brewster is the flute instructor at the NDSU Music Academy. She received her Bachelor’s degree in General Music and Neuroscience at NDSU in 2021, and this is her sixth year teaching at the Academy. She is from Moorhead, MN, and has played the flute for 13 years. Ava loves teaching and playing the flute and strives to help young players develop their ability to express themselves musically.</p>
 
 			<p><strong>Cameron Solberg, oboe</strong><br />
 			<img src="images/CameronSolberg.jpg" width="500px" alt="Cameron Solberg" /><br />
-			Cameron Solberg grew up in Fargo, North Dakota and is gaining her Bachelor of Music in Music Education and Bachelor of Science in Mathematics Education at North Dakota State University. She studies oboe under Philip McKenzie and studied under Jennifer Peterson prior to college. Cameron has obtained a variety of performing and teaching opportunities while studying at NDSU. These experiences include playing in the NDSU Wind Symphony, NDSU Woodwind Quintet, NDSU Gold Star Marching Band, NDSU Jazz Ensemble, NDSU Saxophone Quartet, and various chamber ensembles for NDSU’s operas and choirs. She has also earned the title as a finalist in the Bismarck Mandan Symphony Orchestra Young Artist Concerto Competition and competed in the Greater Grand Forks Symphony Orchestra Young Artist Concerto Competition and the Fargo-Moorhead Symphony Orchestra Young Artist Solo Competition.</p><p>While performing is a large passion for Cameron, she also enjoys sharing her knowledge and appreciation for music through teaching. In addition to teaching private oboe lessons for the NDSU Music Academy, she has also volunteered as a camp counselor for the Bemidji MusiCamp.</p>
+			<em>Beginner, intermediate, and advanced students</em>
+			Cameron Solberg grew up in Fargo, North Dakota and is gaining her Bachelor of Music in Music Education and Bachelor of Science in Mathematics Education at North Dakota State University. She studies oboe under Philip McKenzie and studied under Jennifer Peterson prior to college.</p>
+			<p>Cameron has obtained a variety of performing and teaching opportunities while studying at NDSU. These experiences include playing in the NDSU Wind Symphony, NDSU Woodwind Quintet, NDSU Gold Star Marching Band, NDSU Jazz Ensemble, NDSU Saxophone Quartet, and various chamber ensembles for NDSU’s operas and choirs. She has also earned the title as a finalist in the Bismarck Mandan Symphony Orchestra Young Artist Concerto Competition and competed in the Greater Grand Forks Symphony Orchestra Young Artist Concerto Competition and the Fargo-Moorhead Symphony Orchestra Young Artist Solo Competition.</p>
+			<p>While performing is a large passion for Cameron, she also enjoys sharing her knowledge and appreciation for music through teaching. In addition to teaching private oboe lessons for the NDSU Music Academy, she has also volunteered as a camp counselor for the Bemidji MusiCamp.</p>
 
 
 			<p><strong>Isaac Homuth, trumpet and Piano</strong><br />
 			<img src="images/Isaac Homuth.jpg" width="300px" alt="Isaac Homuth" /><br />
-			<em>Teaches age 5 and above</em><br />
+			<em>Teaches age 5 and above<br />
+			Trumpet: beginner, intermediate, and advanced students<br />
+			Piano: beginner and intermediate students</em></p>
 			Isaac Homuth is currently an instrumental music education major at North Dakota State University. He graduated from high school just across the river at Moorhead High, so he has been around the FM area his entire life. Being the principal trumpet player in the NDSU Wind Symphony, split-lead trumpet player in the NDSU Jazz Ensemble, section leader in the Gold Star Marching Band, and the leader of the Gold Star Brass Quintet, he loves being a leader and helping others achieve their goals. Trumpet is his true passion and he wants to share it with as many people as possible. Besides music, Isaac also enjoys disc golf, chess, table tennis, watching movies, and cooking.</p>
-
-			<p><strong>Lilliana Ash, piano and Voice</strong><br />
-			<img src="images/Lilliana Ash.jpeg" width="300px" alt="Lilliana Ash" /><br />
-			<em>Teaches age 6 and above</em><br />
-			<br />Lilliana is a sophomore attending NDSCS and NDSU where she hopes to become a music therapist. She is currently majoring in psychology and Vocal Music education as well. Music has played a big role in her life, and ever since she was younger she would start singing and playing the piano, and it just made her feel happy and relaxed. As she got old she started singing the National Anthem at basketball and football games. You could also always catch Lilliana playing preludes or singing for special events as well. Lilliana enjoys teaching because she loves letting kids embrace who they are and their unique styles, she also loves to watch their progress from start to finish.</p>
-
-			<p><strong>Nick Lero, alto saxophone, baritone saxophone, and piano</strong><br />
-			<img src="images/Nicholas Lero.jpg"width="300px"  alt="Nicholas Lero" /><br />
-			<em>Teaches age 8 and above</em><br />
-			Nick is an NDSU student working towards a bachelor's degree in Instrumental Music Education, as well as a minor in Vocal Music Education. The moment music became his love, he recalls, is when his 2nd grade teacher (Mr. Rodman) taught the class "Yellow Submarine" by The Beatles. When not doing anything musical, he likes playing basketball, reading the classics, and playing with his cat, Mimi.</p>	
-
-            <p><strong>Ciara Spade, ukulele and voice</strong><br />
-			<img src="images/Ciara Spade.png" width="300px"  alt="Ciara Spade" /><br />
-			<em>Teaches age 5 and above</em><br />
-			Ciara Spade is a mezzo-soprano studying Vocal Music at NDSU. This is her second semester teaching at the NDSU Music Academy. At NDSU, she is an officer for the Concert Choir, a member of the Madrigal Singers, and an active participant in the Musical Theatre program. In addition to voice, Ciara also enjoys teaching the ukulele. She first picked up an ukulele when she lived in Hawaii and hasn’t put it down in the 11 years since. She loves teaching because she finds it SO rewarding to watch a student finally grasp a concept and take pride in their hard work. In her free time, Ciara can be found gardening, doing puzzles, and cuddling with her cats.</p>
-
-            <p><strong>Jared Hartl, tuba and euphonium</strong><br />
+			
+			<p><strong>Jared Hartl, tuba, euphonium, and trombone</strong><br />
 			<img src="images/Jared Hartl.jpg"width="300px"  alt="Jared Hartl" /><br />
-			<em>Teaches age 10 and above</em><br />
-			Jared Hartl is from New Rockford, ND, and currently a senior Instrumental Music Education major at NDSU. He has been playing tuba for 9 years and has also played euphonium and bass trombone during his time at college. Jared has studied under Dr. Joel Pugh of UND and Connor Challey and Douglas Neill of NDSU. His favorite genres to play include marches, jazz standards, chamber music, and polkas! Jared hopes to pass on his love for all things tuba while teaching at the NDSU Music Academy.
-            </p>
-
-            <p><strong>Aubrey Spangelo, piano and percussion</strong><br />
-			<img src="images/Aubrey Spangelo.jpeg"width="300px"  alt="Aubrey Apangelo" /><br />
-			<em>Teaches age 5 and above</em><br />
-			Aubrey Spangelo is an Instrumental Music Education major at North Dakota State University. Originally from Mandan, North Dakota, Aubrey has been a student of music for 10 years studying piano and percussion. In her free time Aubrey loves to bake various treats, read fiction novels, and listen to educational podcasts. She is excited for this opportunity to start teaching at the music academy to connect with people through music and help support them on their musical journeys. 
-            </p>	
-
-            <p><strong>Jessica Livdahl, voice</strong><br />
-			<img src="images/Jessica Livdahl.JPG" width="300px"  alt="Jessica Livdahl" /><br />
-			<em>Teaches age 11-12 (6th grade) and above</em><br />
-			Jessica Livdahl is a soprano from Fargo, North Dakota. She is in her third year pursuing a vocal performance degree at NDSU, and this is her first semester teaching at the NDSU Music Academy. She is a member of the NDSU Concert Choir with which she has performed as a soloist in the Messiah, as well as the Madrigal Singers. She is also very interested in opera, and is an active participant in both the NDSU Opera program and the FM Opera chorus. Jessica has a passion for performing vocal music, but also enjoys working with younger singers to help them grow as musicians. She hopes to assist her students in sharing their music with the world.</p>	
-          
-			<p><strong>Lauren Craig, violin, viola, and voice</strong><br />
-			<img src="images/LaurenCraig.jpg" width="300px"  alt="Lauren Craig" /><br />
-			<em>Violin and Viola: ages 10 and above<br />
-			Voice: ages 13 and above</em><br />
-			Lauren Craig is a recent graduate from NDSU, graduating summa cum laude with a BM in Vocal Performance. Throughout her degree she enjoyed performing in operas, singing in the NDSU concert choir and Madrigal singers, and competing in various regional competitions. One thing that was very important to her in her education was remaining open to other skills and instruments that would make her a well balanced musician. She is currently playing with the FM Symphony Orchestra as a sub-list violist, and spends many evenings performing in other chamber groups around the area. She most recently received her 200-hour yoga teaching certification and has been enjoying using her skills as a yoga teacher to teach musicians wellness and injury prevention to her students. She looks forward to meeting you soon! </p>	
+			<em>Teaches age 10 and above<br />
+			Tuba and euphonium: beginner, intermediate, and advanced<br />
+			Trombone: beginner and intermediate</em><br />
+			Jared Hartl is from New Rockford, ND, and currently a senior Instrumental Music Education major at NDSU. He has been playing tuba for 9 years and has also played euphonium and bass trombone during his time at college. Jared has studied under Dr. Joel Pugh of UND and Connor Challey and Douglas Neill of NDSU. His favorite genres to play include marches, jazz standards, chamber music, and polkas! Jared hopes to pass on his love for all things tuba while teaching at the NDSU Music Academy.</p>
 			
 			<p><strong>Joshua Sperr, horn</strong><br />
 			<img src="images/JoshuaSperr.jpg" width="250px"  alt="Joshua Sperr" /><br />
-			<em>Teaches age 10 and above</em><br />
+			<em>Teaches age 10 and above<br />
+			Beginner, intermediate, and advanced students</em>
 			Joshua Sperr is going into his final year of his Undergraduate degree in Instrumental Performance at NDSU. He studies with Kayla Nelson at NDSU and this is his second year teaching at the Music Academy. He’s played the French Horn for over 10 years and has played with many ensembles at NDSU. These include the Wind Symphony, Orchestra, various Brass Quintets, the NDSU Horn Quartet. Outside of music, he enjoys working, spending time with friends and family, and playing video games. He is excited to pass on his love of music and watch his students’ love of music grow.</p>		
-			
-			<p><strong>Natalie Harrison, voice and ukulele</strong><br />
-			<img src="images/NatalieHarrison.jpg" width="300px"  alt="Natalie Harrison" /><br />
-			<em>Teaches age 8 and above</em><br />
-			Natalie Harrison is a senior at NDSU studying Vocal Performance and French. In addition to performing she teaches singing and ukulele. She hopes to pursue a career in opera and musical theater after obtaining her masters in Vocal Performance and French. Natalie enjoys sharing her love for music through performing and teaching others!</p>		
 			
 			<p><strong>Alison Johnson, piano</strong><br />
 			<img src="images/AlisonJohnson.jpg" width="300px"  alt="Alison Johnson" /><br />
-			<em>Teaches age 5 and above</em><br />
-			Alison Johnson is going into her first year of being an instrumental music education major at North Dakota State University. She is coming from a small town just outside of the twin cities called Victoria where she has been studying piano for over 11 years. Throughout those 11 years she has performed in over 20 formal recitals and even put on one herself! Previously, at her high school she participated in her top band, top jazz band (on the piano of course!), and top choir. Outside of music, she enjoys working with her young students at her job, baking, figure skating, and being crafty. Alison cannot wait to meet you and hopes to have a fun year!</p>	
-			
-			<p><strong>Mark Ancheta, piano</strong><br />
-			<img src="images/Mark Ancheta.png" width="300px"  alt="Mark Ancheta" /><br />
-			<em>Teaches ages 5 and above</em><br />
-			Mark Ancheta is a current Master of Music student in collaborative piano at the NDSU’s Challey School of Music. He is from Regina, Saskatchewan, Canada where he also completed his Bachelor’s degree in Performance at the University of Regina in 2021 receiving the Academic Silver Prize and Distinction Award upon graduation. Mark was actively involved in Regina’s music community as a vocal studio and university choir pianist, church choir leader, and former member of a small non-profit chamber music organization called Concertino Regina among others for many years. Mark’s favourite part of teaching is the chance to create a dynamic lesson plan that is tailored to the needs of each student because it shows the diversity among everyone’s characteristics and learning capabilities. Mark believes that teaching music provides a mutual benefit for learning for both the student and the teacher.</p>	
+			<em>Teaches age 5 and above<br />
+			Beginner, intermediate, and advanced students</em><br />
+			Alison Johnson is a current student at NDSU's Challey School of Music studying instrumental music education. This will be her second year attending NDSU! Currently, she is studying piano, accompanies over at the Newman center for mass, is in the Wind Symphony, and you can catch her in NDSU's Gold Star Marching Band at one of the games! Alison is from Victoria, MN, a small town 30 minutes southwest of the twin cities. She is thrilled to be teaching again this year and can't wait to get going again with everything piano! Alison has found that one of her passions is not only music, but also teaching. She believes that music is a universal language and can be enjoyed by anyone whether you are the listener or player. By learning the piano (or any instrument), you are not only developing the skill to create music, but you are also learning how to appreciate music and all it has to offer.</p>	
 
-        
+			<p><strong>Ziyan Hu, voice and piano</strong><br />
+			<img src="images/ZiyanHu.jpg" width="300px" alt="Ziyan Hu" /><br />
+			<em>Teaches ages 5 and above<br />
+			Voice: beginner, intermediate, and advanced students<br />
+			Piano: beginner students</em><br />
+			<br />Ziyan Hu is a soprano with a warm and round voice, known for her agile light coloratura. She has over 9 years of experience teaching private lessons in voice and beginning piano. In addition, she has 3 years of experience teaching in high school and junior high school and completed a half-year internship in a primary school.</p>
+			<p>Ziyan holds a Master's Degree from Wuhan Conservatory of Music and a Bachelor's Degree from Zhaoqing University, both in China. Her passion for vocal achievement led her to pursue a degree in the United States, where she is currently studying at North Dakota State University (NDSU) as a graduate assistant.</p>
+			<p>Ziyan has formed a unique singing style through rich performance experience and exposure to different vocal advisors, and she enjoys singing both bel cantos and Chinese folk songs. She combines the advantages of both styles to create a unique and versatile singing style.</p>
+			<p>Ziyan's dedication to teaching and music is evident in her extensive experience teaching students of all ages and backgrounds, and her students have gone on to study at universities in China, the United States, and the United Kingdom. She has also performed in hundreds of performances in many cities in China, including Macau, Foshan, Guangzhou, Wuhan, Kunming, Zhangjiajie, and many others. With her talent, passion, and years of experience, Ziyan Hu is a skilled educator and performer.</p>
+			
+			<p><strong>Zackary Carlson, trumpet and piano</strong><br />
+			<img src="images/ZackaryCarlson.jpg" width="300px" alt="Zackary Carlson" /><br />
+			<em>Teaches ages 5 and above<br />
+			Trumpet: beginner, intermediate, and advanced students<br />
+			Piano: beginner students</em><br />
+			<br />Zack Carlson is an instrumental education major at North Dakota State University. He has been playing for 9 years and has performed in a variety of ensembles including Principal Trumpet of the NDSU Symphony Orchestra, Section Leader in the Gold Star Marching Band, NDSU Wind Symphony, NDSU Jazz Ensemble, and the Gold Star Brass Quintet. Music has been a large part of his life and he wants to provide his knowledge to the next generation of musicians in any way he can.</p>
+
+			<p><strong>Adam Madrigal, saxophone and piano</strong><br />
+			<img src="images/AdamMadrigal.jpg" width="300px" alt="Adam Madrigal" /><br />
+			<em>Teaches ages 5 and above<br />
+			Saxophone: beginner, intermediate, and advanced <br />
+			Piano: beginner</em><br />
+			<br />Adam is currently an Instrumental Music Education Major at NDSU. He loves music, being involved in various different ensembles including Wind Symphony, Jazz Ensemble, and Marching Band. In his free time, Adam enjoys gaming, spending time with friends and family, and chilling with his dog Lulu.</p>
+			
+			<p><strong>Alejandro Lopez, percussion (drum set) and piano</strong><br />
+			<img src="images/AlejandroLopez.jpg" width="300px" alt="Alejandro Lopez" /><br />
+			<em>Teaches ages 7 and above<br />
+			Percussion: beginner, intermediate, and advanced students<br />
+			Piano: beginner and intermediate students</em><br />
+			<br />Alejandro Lopez is currently an International student from Honduras, doing a Major in Music performance at North Dakota State University. He has played percussion for nine years and piano for three years and is part of many ensembles at NDSU, like, Wind Symphony, Jazz ensemble, Percussion ensemble, Gold star Marching band. Alejandro worked as a music teacher in Honduras for two years and one year as a volunteer. He also enjoys teaching and sharing music in all ways possible.</p>
+			
+			<p><strong>Bradley Schiltz, violin and viola</strong><br />
+			<img src="images/BradleySchiltz.jpg" width="300px" alt="Bradley Schiltz" /><br />
+			<em>Teaches ages 6 and above<br />
+			Violin and viola: beginner, intermediate, and advanced students</em><br />
+			<br />Bradley has been playing the violin for 12 years. He has performed in numerous ensembles and has a passion for music and teaching. Bradley is currently studying chemistry at NDSU.</p>
+			
+			<p><strong>Joel Jones, clarinet</strong><br />
+			<img src="images/JoelJones.jpg" width="300px" alt="Joel Jones" /><br />
+			<em>Teaches ages 13 and above<br />
+			Clarinet: beginner and intermediate students</em><br />
+			<br />Joel Jones is the youngest of three sons, was born in Houston, TX, and has also lived in Washington State. He grew up listening to many kinds of music, and attempting to recreate those tunes he enjoyed on the family piano. After moving to North Dakota, he went to Minot State, where he began taking clarinet lessons with Dr. James Fusik, and Dr. Charles Young. After graduating with a BA in music, he moved to Fargo, ND; he is currently with Dr. Cassie Keogh while completing a Masters in Music Performance in clarinet at North Dakota State University. He has played with the Fargo-Moorhead, Minot, and Bemidji symphonies, and has frequently participated in the Dakota Chamber Music Festival. Joel particularly enjoys chamber music, and is a founding member of the Mellifluous clarinet trio. In his free time, he enjoys playing guitar, reading fantasy novels, trying new restaurants with friends, and occasionally playing chess.</p>
+
+			<p><strong>Benton Schmidt, organ</strong><br />
+			<img src="images/BentonSchmidt.jpg" width="300px" alt="Benton Schmidt" /><br />
+			<em>*Students need to be able to have their feet reach the pedals. Estimated youngest age is 10 years old<br />
+			Teaches beginner, intermediate, and advanced students</em><br />
+			<br />A native of Fargo, North Dakota, Benton Schmidt began studying music at the age of 5. He completed his Bachelor of Music in Piano Performance at North Dakota State University where he was recipient of the Bill Euren Fellowship Award. Schmidt received his Masters of Sacred Music from the University of Notre Dame in May 2021 and is currently finishing his doctorate in Church Music at the University of Kansas. At home in both ancient and modern repertoire, Benton particularly enjoys the liturgical music of seventeenth-century French and early German Baroque periods. He currently serves as the director of music at St. Paul’s Newman Center next to the campus of NDSU.</p>
+
+
+			<p><strong>Olivia Bedard, rhythm guitar, rhythm ukulele, and voice</strong><br />
+			<img src="images/OliviaBedard.jpg" width="300px" alt="Olivia Bedard" /><br />
+			<em>Teaches ages 8 and above<br />
+			Ukulele and guitar: beginner and intermediate students <br />
+			Voice: elementary and middle school students</em><br />
+			<br />Olivia Bedard is a music major in her Junior year at NDSU. She is from Cottage Grove, MN and has experience performing in various ensembles both back home, and in Fargo. She also has worked 4 years as a camp counselor at a musical theater camp for elementary and middle school students. Through her performing opportunities, she has found that one of the most exciting things about music is getting to inspire younger generations to love it too!</p>
+			
+			<p><strong>Guilherme Montenegro, piano</strong><br />
+			<img src="images/GuilhermeMontenegro.jpg" width="300px" alt="Guilherme Montenegro" /><br />
+			<em>Teaches beginner and intermediate students</em><br />
+			<br />Guilherme Montenegro is currently studying Collaborative Piano under the guidance of Dr. Tyler Wottrich. When pursuing a master degree in Music Education from the University of Brasilia, he carried out research about collaborative pianists at scholarly music settings in Brazil. Previous piano professors were Dr. Jaci Toffano, Dr. Maria de los Ángeles Iglesias, and Neusa França. Since 2011 Guilherme has been serving as a collaborative pianist for the School of Music at Brasília for both vocal and instrumental divisions. Main topics of his interest include collaborative piano, chamber music, sight reading, piano teaching for beginners, and vernacular language learning applied to art songs. Those interests resulted in the publication of scholarly papers at larger Brazilian conferences in Music. Guilherme also gained relevant musical experience due to piano accompaniment for the Brazilian Federal Senate choir and for a few editions of the International Summer Program held by the School of Music at Brasília. In addition to music performance, Guilherme has taught one-to-one piano lessons for beginners, and distance music courses at the Brazilian Open University Program - Universidade Aberta do Brasil. He's thrilled about pursuing a doctoral degree and sharing his professional experience as an international student at NDSU. Piano teaching enables him to share experiences and positively transform students' lives with music.</p>
+			
+			<p><strong>Angelana Quanbeck, violin, guitar, ukulele, voice</strong><br />
+			<img src="images/AngelanaQuanbeck.jpg" width="300px" alt="Angelana Quanbeck" /><br />
+			<em>Teaches ages 6 and above<br />
+			Violin: beginner and intermediate students<br />
+			Guitar: beginner students<br />
+			Ukulele: beginner students<br />
+			Voice: beginner and intermediate students</em><br />
+			<br />AJ is a 5th year senior at NDSU majoring in Music and Sociology who enjoys reading, baking, knowing too much about Shakespeare, and hanging out with her dogs. AJ’s main instruments are violin and voice, but she also dabbles in guitar, ukulele, piano, saxophone, percussion, and viola. She loves to write music, both singer-songwriter style, and for vocal and instrumental chamber groups. As a teacher, AJ sees music as one of the best ways to develop learning skills, as well as connect with oneself and others. She prioritizes cultivating students’ relationship with music, encouraging them to find their joy. </p>
+			
+			<p><strong>Trent Hunskor, piano and saxophone</strong><br />
+			<img src="images/TrentHunskor.jpg" width="300px" alt="Trent Hunskor" /><br />
+			<em>Teaches ages 5 and above<br />
+			Saxophone: beginner, intermediate, and advanced<br />
+			Piano: beginner and intermediate</em><br />
+			<br />Trent Hunskor is currently a senior instrumental music education major at North Dakota State University. He graduated from Newburg United High School, a small rural school, and is enjoying the Fargo area. At NDSU he is currently a part of the NDSU Wind Symphony, Jazz Ensemble, a section leader for the Gold Star Marching Band, and a member of the NDSU Saxophone Quartet. Trent has been playing the saxophone since age nine and piano since age eleven. Previous students of his were between the ages of six and twelve for both saxophone and piano. In his free time Trent enjoys spending time with friends and family, listening to music, and watching movies. He is excited to start at the music academy to help students grow their musicianship and to help share their music with everyone.</p>
+			
+			<p><strong>Ethan Bruley, piano and saxophone</strong><br />
+			<img src="images/EthanBruley.jpg" width="300px" alt="Ethan Bruley" /><br />
+			<em>Teaches ages 5 and above<br />
+			Piano: beginner and intermediate<br />
+			Saxophone: beginner and intermediate</em><br />
+			<br />Ethan Bruley is a freshman at NDSU pursuing a Music Education degree. He grew up in West Fargo and has played piano for 12 years. He has played around town in multiple groups and teaches other kids in the F-M area outside of NDSU too. Ethan has always loved teaching kids music and enjoys watching his students grow. Ethan has also played saxophone for 7 years and is a part of the NDSU Jazz Ensemble and the Gold Star Saxophone Quartet. Outside of music, he spends most of his time watching football or bowling.</p>
+			
+			<p><strong>Germán Rojas, piano and trumpet</strong><br />
+			<img src="images/GermanRojas.jpg" width="300px" alt="Germán Rojas" /><br />
+			<em>Teaches ages 5 and above<br />
+			Piano: beginner, intermediate, and advanced<br />
+			Trumpet: beginner, intermediate, and advanced (starting age 9)</em><br />
+			<br />Germán Rojas is a professional trumpet player and a piano enthusiast with over 20 years of experience. With 12 years devoted to both studying and teaching at various universities across the United States. He earned his bachelor degree in music from the Central University of Colombia, followed by a master's degree in music from the University of Louisiana at Lafayette. He further enriched his education through participation in the Artist Diploma program at Texas Christian University and is currently on the verge of completing a doctorate at North Dakota State University. </p>
+			<p>His expertise spans classical music, rock, jazz, and popular genres. Additionally, he has successfully organized youth brass instrument groups within symphony orchestras and concert bands. He's skilled in various musical settings, including jazz big bands, symphony orchestras, concert bands, rock and funk groups, and small jazz ensembles, both as a trumpeter and a pianist.</p>
+			<p>His teaching philosophy centers around nurturing a student's natural connection to music while encouraging self-expression through their instrument. He firmly believes that this approach is the most effective way to master instrumental technique.</p>
+
 		  </div>
 		</div>
 	  </div>

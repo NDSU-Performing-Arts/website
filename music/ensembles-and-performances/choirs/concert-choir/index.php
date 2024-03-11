@@ -27,8 +27,8 @@ include($config['path'].'resources/header.php');
                   
 		<h2><a name="auditions" id="auditions"></a>Auditions </h2>
 		
-		<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-choral" class="btn btn-ndsu-green">Sign up for auditions here!</a><br />
-		<p>Auditions are arranged by contacting Dr. Jo Ann Miller at 231-7822 or <a href="mailto:jo.miller@ndsu.edu">jo.miller@ndsu.edu</a>.&nbsp; Because Concert Choir is a full year commitment, auditions take place the Sunday and Monday prior to the school year. The auditions consist of vocalizing to determine range and voice type, pitch and melody matching, some sight reading and a prepared piece, if possible. An accompanist is provided. The audition usually takes between 15 and 30 minutes. </p>
+		<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-47563341-2024" class="btn btn-ndsu-green">Sign up for auditions here!</a><br />
+		<p>Auditions are arranged by contacting Dr. Jo Ann Miller at 231-7822 or <a href="mailto:jo.miller@ndsu.edu">jo.miller@ndsu.edu</a>.&nbsp; Because Concert Choir is a full year commitment, auditions take place the Sunday and Monday prior to the school year. The auditions consist of vocalizing to determine range and voice type, pitch and melody matching, some sight reading and a prepared piece, if possible. An accompanist is provided. The audition usually takes between 15 and 30 minutes.</p>
         
 		<h2><a name="rehearsals" id="rehearsals"></a>Rehearsals </h2>
                   

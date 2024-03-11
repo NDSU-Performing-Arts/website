@@ -81,10 +81,11 @@ include($config['path'].'resources/header.php');
 	<h2>Faculty Master Classes</h2>
 <p>Throughout the day, your students will have a chance to work with NDSU faculty in clinics that address playing on their specific instrument. If you miss a session, don’t worry—there will be several throughout the day for your students to attend.</p>
 
-				Dr Bruce Moss—Director of Bands at Bowling Green University, Bowling Green OH<br />
-				Dr Robert Hansbrough, Director of bands, College of St. Rose, Albany NY<br />
-				Dr Christopher Chapman, Director of Bands, Central Michigan University, Mt. Pleasant, MI<br />
-				Dr Michael King, former Director of Athletic Bands, Bowling Green University, Bowling Green OH<br />
+				John Climber, Director of Bands (retired), University of Wisconsin-Milwaukee<br />
+				Rick Fleming, Director of Bands, SUNY-Buffalo State University<br />
+				Steve Peterson, Director of Bands (Retired), University of Illinois<br />
+				Andrea Strauss, Director of Bands (Retired), Georgia Institute of Technology<br />
+				Charles Menghini, Former President, VanderCook College of Music<br />
 
 					
 						</p>

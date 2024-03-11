@@ -23,7 +23,7 @@ include($config['path'].'resources/header.php');
 		<h2>Location</h2>
 	  Reineke Fine Arts Center
 	  12th Avenue North & Bolley Drive
-	  Dept. 2330, P.O. Box 6050
+	  Dept. 2540, P.O. Box 6050
 	  Fargo, North Dakota 58108-6050
 
 <p>Administration Office:(701)231-7932<br>
