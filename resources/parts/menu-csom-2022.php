@@ -71,7 +71,7 @@
 			</li>
 			<li class="dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="Button" aria-haspopup="true" aria-expanded="false" id="NDDrop">NEWS</a>
 				<div class="dropdown-menu" aria-labelledby="NEDrop">
-					<a class="dropdown-item" href="https://visitor.r20.constantcontact.com/manage/optin?v=001R17bMHtpg0OYt8j4sbNT21fbMBe4bcrHZv2VMEW91uXgsCgG3auAr8ft8-qwv0C-KdBVkcPapgIrZ98OycNlLGqYxV3G8PjuuyPsya_WP7w%3D">Sign Up for E-Blasts</a>
+					<a class="dropdown-item" href="https://lp.constantcontactpages.com/sl/8Su8ut1">Sign Up for E-Blasts</a>
 				</div>
 			</li>
 			<li><a href="//ndsu.showare.com" class="nav-link" id="tix">TICKETS</a></li>

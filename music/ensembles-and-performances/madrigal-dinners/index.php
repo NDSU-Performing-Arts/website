@@ -70,9 +70,9 @@ include($config['path'].'resources/header.php');
 	<article>
 		<p>The NDSU Madrigal Singers is a highly selective ensemble that performs vocal chamber music from the Renaissance through the 21st century. In addition to concert performances throughout the year, the annual Madrigal Dinners feature fully costumed productions of Renaissance revelry. Conducted by Dr. Michael Weber, the Madrigal Singers perform for numerous NDSU celebrations, and tour each spring with the NDSU Concert Choir. </p>
 		
-		<p><strong>December 7-9, 2023<br />
+		<p><strong>December 12, 13, 14 2024<br />
           Dinner, 6 PM - $50</strong><strong><br />
-		  NDSU Student Discounts available for Thursday, December 7.<br />
+		  NDSU Student Discounts available for Thursday, December 12.<br />
 
         Reineke Performing Arts Center Challey Atrium</strong></p>
 

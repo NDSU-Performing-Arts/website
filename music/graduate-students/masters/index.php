@@ -20,7 +20,7 @@ include($config['path'].'resources/header.php');
 	<article>
 		<p>The M.M. in performance and M.M. in conducting are professional degrees in music designed for those who want to augment and refine those skills. The M.M. in Music Education is designed for professional music teachers in public and private schools who wish to update and increase their musical and pedagogical knowledge.</p>
 		
-		<p>Applications may be completed online at the <a href="http://www.ndsu.edu/gradschool/">NDSU Graduate School</a>. A complete application will include three recommendations, transcripts and a scholarly writing example. Applicants should notify the graduate music coordinators, <a href="mailto:jo.miller@ndsu.edu">Dr. Jo Ann Miller</a> or <a href="mailto:charlette.moe@ndsu.edu">Dr. Charlette Moe</a>, of their intention to apply. For applicants in performance and conducting, an on-campus visit and audition are required. Following acceptance into the master's program, applicants will complete a diagnostic exam, which will be used by their advisors to plan appropriate coursework. As a result of this diagnostic exam, students may be required to take the 702 Music Theory and/or 704 Music History survey courses.</p>
+		<p>Applications may be completed online at the <a href="http://www.ndsu.edu/gradschool/">NDSU Graduate School</a>. A complete application will include three recommendations, transcripts and a scholarly writing example. Applicants should notify the graduate music coordinator, <a href="mailto:charlette.moe@ndsu.edu">Dr. Charlette Moe</a>, of their intention to apply. For applicants in performance and conducting, an on-campus visit and audition are required. Following acceptance into the master's program, applicants will complete a diagnostic exam, which will be used by their advisors to plan appropriate coursework. As a result of this diagnostic exam, students may be required to take the 702 Music Theory and/or 704 Music History survey courses.</p>
 		
 		<p>All coursework must be passed with a minimum grade of B. Comprehensive written examinations in the student's primary area and in music academic studies must be passed near the end of or after coursework. The final oral examination (administered by the student's committee) occurs after the written comprehensive exam.</p>
 		
@@ -33,7 +33,7 @@ include($config['path'].'resources/header.php');
 		<a href="#collabpiano" class="btn btn-ndsu-green">Collaborative Piano Performance</a>	
 		<a href="#choral" class="btn btn-ndsu-green">Choral Conducting</a>
 		<a href="#instrumental" class="btn btn-ndsu-green">Instrumental Conducting</a>
-		<a href="#theoryped" class="btn btn-ndsu-green">Music Theory Pedagogy</a>
+		<?php /*<a href="#theoryped" class="btn btn-ndsu-green">Music Theory Pedagogy</a>*/?>
 		<a href="#musiced" class="btn btn-ndsu-green">Music Education</a></p>
         
 		<h2><a name="instperformance" id="instperformance"></a>Master of Music in Instrumental Performance <span class="float-right"><a href="#" class="btn btn-ndsu-green" title="To Top of Page"><i class="fas fa-chevron-up"></i></a></span></h2>
@@ -512,7 +512,7 @@ include($config['path'].'resources/header.php');
 			</tr>
         </table>
 		
-		
+		<?php /*
 		<h2><a name="theoryped" id="theoryped"></a>Master of Music in Music Theory Pedagogy <span class="float-right"><a href="#" class="btn btn-ndsu-green" title="To Top of Page"><i class="fas fa-chevron-up"></i></a></span></h2>
         <table class="table table-hover">
           <tr>
@@ -579,6 +579,7 @@ include($config['path'].'resources/header.php');
             <td class="text-right"><strong>Min. 30</strong></td>
           </tr>
         </table>
+		*/?>
 	</article>
 </section>
 <!-- InstanceEndEditable --></div></section>

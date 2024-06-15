@@ -49,7 +49,7 @@
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="/performingarts/theatre/shows/">Theatre NDSU Shows</a>
 					<a class="dropdown-item" href="/performingarts/theatre/shows/">Season Flex Pass</a>
-					<a class="dropdown-item" href="https://visitor.r20.constantcontact.com/manage/optin?v=001R17bMHtpg0OYt8j4sbNT21fbMBe4bcrHZv2VMEW91uXgsCgG3auAr8ft8-qwv0C-KdBVkcPapgIrZ98OycNlLGqYxV3G8PjuuyPsya_WP7w%3D">Sign Up for E-Blasts</a>
+					<a class="dropdown-item" href="https://lp.constantcontactpages.com/sl/8Su8ut1">Sign Up for E-Blasts</a>
 				</div>
 			</li>
 			<!--<li class="nav-item dropdown">

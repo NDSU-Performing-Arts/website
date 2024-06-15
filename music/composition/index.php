@@ -1,5 +1,5 @@
 <?php 
-header("Location: https://ndsucomposition.com");
+// header("Location: https://ndsucomposition.com");
 //Edit the following:
 $config['page-title'] = "Composition | Challey School of Music";
 $config['page-description'] = "";
@@ -9,11 +9,11 @@ $config['page-realm'] = "CSOM"; //Choose DPA, DTA, CSOM
 $config['page'] = $_SERVER['REQUEST_URI'];
 $config['path'] = $_SERVER['DOCUMENT_ROOT']."/";
 // include($config['path'].'resources/header.php');
-include($config['path'].'music/composition/zz-comp-header.php');
+include($config['path'].'resources/header.php');
 ?>
 
 <section id=""><div class="container"><!-- InstanceBeginEditable name="body" -->
-
+<img alt="Music Composition" src="CompBanner.png" style="width:100%;">
 
 <!--	body content -->
 <section>
@@ -30,8 +30,16 @@ include($config['path'].'music/composition/zz-comp-header.php');
 		<li>A student composer-in-residence program for NDSU ensembles.</li>
 		<li><em>Thundering Heard</em>, a new music series.</li>
 		</ul>
-		
 	
+	<div class="row">
+			<div class="col-md-6 d-grid">
+				<a href="https://www.ndsu.edu/performingarts/music/prospective-students/scholarships/" class="btn btn-ndsu-green btn-lg btn-block"><h3><i class="fas fa-circle-info"></i><br />Request more info<br /></h3></a>
+			</div>
+			<div class="col-md-6 d-grid">
+				<a href="https://calendly.com/kylevanderburg/composition-lesson-25-minute" class="btn btn-ndsu-green btn-lg btn-block"><h3><i class="fas fa-calendar-check"></i><br />Request a Lesson</h3></a>
+			</div>
+			</div>
+	<br />
 	</article>
 </section>
 <!-- InstanceEndEditable --></div></section>

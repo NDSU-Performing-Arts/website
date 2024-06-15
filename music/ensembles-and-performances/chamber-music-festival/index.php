@@ -30,7 +30,8 @@ include($config['path'].'resources/header.php');
   </li>
 </ul>	<br /> -->
 	<header>
-		<img alt="Chamber Music Festival" style="width:100%" src="images/2023 Chamber Fest Web Banner.png">
+		<!--<img alt="Chamber Music Festival" style="width:100%" src="images/2023 Chamber Fest Web Banner.png">-->
+		<img alt="Chamber Music Festival" style="width:100%" src="images/CMF-NoDates.jpeg">
 		<!--<h1>NDSU Chamber Music Festival 6th Season<br>
 		</h1>
 	</header>
@@ -45,23 +46,27 @@ include($config['path'].'resources/header.php');
 	<div class="row"><div class="col-md-9">
 	
 	<article>
-			<h3>2023 NDSU Chamber Music Festival<br />
-			Thursday, August 24 - Tuesday, August 29, 2023</h3><br />
+			<h3>2024 NDSU Chamber Music Festival<br />
+			10th Anniversary Season<br />
+			Monday, August 26 - Thursday, August 29, 2024</h3><br />
 		
 			<h4>Free Concerts</h4>
-			<p>Thursday, August 24 at 7:30 PM, NDSU Beckwith Recital Hall<br />
-			Monday, August 28 at 7:30 PM, NDSU Beckwith Recital Hall<br />
-			Tuesday, August 29 at 12:00 Noon, Plains Art Museum<br />
-			Tuesday, August 29 at 7:30 PM, NDSU Beckwith Recital Hall</p>
+			<p>Monday, August 26 at 7:30 PM, NDSU Beckwith Recital Hall<br />
+			Tuesday, August 27 at 7:00 PM, NDSU Challey Atrium, <strong>Stravinsky, "The Rake's Progress"</strong><br />
+			Wednesday, August 28 at 7:30 PM, NDSU Beckwith Recital Hall<br />
+			Thursday, August 29 at 7:00 PM, NDSU Challey Atrium, <strong>Stravinsky, "The Rake's Progress"</strong></p>
 
+			<p>Amazingly, the 2024 NDSU Chamber Music Festival will mark the 10th season that we have gathered to enjoy performances of great chamber music together! Alongside concerts of great instrumental chamber music in Beckwith Recital Hall on Monday, August 26 and Wednesday, August 28, the 2024 NDSU Chamber Music Festival will feature a two special performances of Igor Stravinsky's iconic masterpiece "The Rake's Progress" in the Challey Atrium on Tuesday, August 27 and Thursday, August 29. The production, directed by Fargo-Moorhead Community Theatre Executive Director Judy Lewis, will feature costumes by Rooth Varland and world-class guest principal singers including NDSU alumni Clara Osowski and Tessa Hartl. In continuing the side-by-side educational model of the Festival, the chorus will feature NDSU student performers led from within by NDSU vocal faculty Kelly Burns and Karisa Templeton, and in the same way the chamber ensemble will include NDSU student performers alongside NDSU faculty, other beloved musicians from the Fargo-Moorhead area, and guest artists including violinist Grace Park as well as members of the Saint Paul Chamber Orchestra and the Los Angeles Philharmonic.</p>
 
-			<p>Join us as we gather to experience the power of great chamber music at the 2023 NDSU Chamber Music Festival! Our cast of world-class artists for this season includes violinists <a href="https://content.thespco.org/people/rolf-haas/">Rolf Haas</a>, <a hraef="https://www.graceparkviolin.com/">Grace Park</a>, and <a href="https://www.concordiacollege.edu/directories/faculty-staff/details/dr-sonja-bosca-harasim/">Sonja Bosca-Harasim</a>; violist <a href="http://www.jenniseo.com/aboutme">Jenni Seo</a>; cellists <a href="https://www.metaweiss.com/">Meta Weiss</a> and her husband <a href="https://www.davidrequiro.com/">David Requiro</a> as well as NDSU faculty, all of whom will be performing alongside NDSU student pianists following intensive rehearsals.</p>
+			<p>Stay tuned for more details and updates in the coming weeks, as well as additional highlights from the first 10 seasons of the NDSU Chamber Music Festival!</p>
+
+			<!--<p>Join us as we gather to experience the power of great chamber music at the 2023 NDSU Chamber Music Festival! Our cast of world-class artists for this season includes violinists <a href="https://content.thespco.org/people/rolf-haas/">Rolf Haas</a>, <a hraef="https://www.graceparkviolin.com/">Grace Park</a>, and <a href="https://www.concordiacollege.edu/directories/faculty-staff/details/dr-sonja-bosca-harasim/">Sonja Bosca-Harasim</a>; violist <a href="http://www.jenniseo.com/aboutme">Jenni Seo</a>; cellists <a href="https://www.metaweiss.com/">Meta Weiss</a> and her husband <a href="https://www.davidrequiro.com/">David Requiro</a> as well as NDSU faculty, all of whom will be performing alongside NDSU student pianists following intensive rehearsals.</p>
 
 			<p>The 2023 Festival concerts will feature such chamber music masterworks as the dramatic and virtuosic Rachmaninoff Cello Sonata, a beautiful and evocative set of Margaret Bonds songs set to texts of Langston Hughes, the poetic and impassioned Turina Piano Quartet, the wondrously warm and lyrical Fauré Piano Quartet No. 1, and many more from the likes of Beethoven, Saint-Saëns, Lutoslawski, Martinu, Gade, and John Ireland.</p>
 
 			<p>We hope that you will join us as we gather for the 2023 NDSU Chamber Music Festival!</p>
 
-			<p>Pianists interested in discovering more about piano study at NDSU or being involved in the NDSU Chamber Music Festival are encouraged to contact Dr. Tyler Wottrich at <a href="mailto:tyler.wottrich@ndsu.edu">tyler.wottrich@ndsu.edu</a>.</p>
+			<p>Pianists interested in discovering more about piano study at NDSU or being involved in the NDSU Chamber Music Festival are encouraged to contact Dr. Tyler Wottrich at <a href="mailto:tyler.wottrich@ndsu.edu">tyler.wottrich@ndsu.edu</a>.</p>-->
 
 			<p>To whet your chamber music appetite, please enjoy this YouTube playlist of highlights from previous seasons of the NDSU Chamber Music Festival.</p>
 	

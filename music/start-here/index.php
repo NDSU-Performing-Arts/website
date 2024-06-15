@@ -34,7 +34,7 @@ include($config['path'].'resources/header.php');
 				Some ensembles require an audition:
 			</div>
 			<div class="card-footer">
-				<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-choral" class="btn btn-ndsu-green mb-2">Choral Audition Signups</a><br />
+				<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-47563341-2024#/" class="btn btn-ndsu-green mb-2">Choral Audition Signups</a><br />
 				<a href="/music/ensembles-and-performances/wind-symphony/" class="btn btn-ndsu-green mb-2">Wind Symphony Auditions</a><br />
 				<a href="https://docs.google.com/spreadsheets/d/1YqL9OIXAn0zhkQm6TVUrGCydU-ys7YNtCdJoBFNUHgY/edit?usp=sharing" class="btn btn-ndsu-green mb-2">Wind Symphony Sign-Ups</a><br />
 				<a href="/music/ensembles-and-performances/jazz/" class="btn btn-ndsu-green mb-2">Jazz Auditions</a><br />

@@ -16,15 +16,15 @@ include($config['path'].'resources/header.php');
 <section>
 <h1>Competitions</h1>
 <div class="row">
-<div class="col-md-6 d-grid"><a href="#HS" class="btn btn-block btn-ndsu-green">Competitions for High School Students</a></div>
-<div class="col-md-6 d-grid"><a href="#Comp" class="btn btn-block btn-ndsu-green">Compositions for Composers</a></div>
+<!--<div class="col-md-6 d-grid"><a href="#HS" class="btn btn-block btn-ndsu-green">Competitions for High School Students</a></div>
+<div class="col-md-6 d-grid"><a href="#Comp" class="btn btn-block btn-ndsu-green">Compositions for Composers</a></div>-->
 
 </div>
 </section>
 
 <hr>
 
-<section>
+<!--<section>
 	<header>
 		<h2 class="jumbotron"><a name="HS"></a>Competitions for High School Students</h2>
 	</header>
@@ -33,7 +33,7 @@ include($config['path'].'resources/header.php');
 		<p>Through the competitions, the Challey School of Music hopes to identify and support the developing careers of promising young musicians.</p>
 	</article>
 </section>
-<br /> 
+<br />
 
 <section>
 <div class="card border-warning">
@@ -54,7 +54,7 @@ include($config['path'].'resources/header.php');
 		<li><a href="documents/2017_chamber_choir_schedule.pdf">Choral Festival Chamber Schedule</a></li>
 		<li><a href="documents/choral_festival_registration.pdf">Registration</a></li>
 		<li><a href="documents/2017_choral_fest_tracks.pdf">Rehearsal Tracks</a></li>
-		</ul> -->
+		</ul> --
 	</div>
 </div>
 </section>
@@ -74,7 +74,7 @@ include($config['path'].'resources/header.php');
 	</article>
 </section>
 <br /> 
-
+ -->
 <!--THIS IS A REDIRECT TO ENSEMBLES-AND-PERFORMANCES-->
 	<section>
 <div class="card border-warning">
@@ -90,7 +90,7 @@ include($config['path'].'resources/header.php');
 </div>
 </section>
 <br />
-	
+	<!--
 <div class="card border-warning">
 	<div class="card-header bg-warning">
 		<h3>J. Samuel Pilafian Composition Contest</h3>
@@ -98,7 +98,7 @@ include($config['path'].'resources/header.php');
 	<div class="card-body">
 		<p>North Dakota State University is pleased to announce the formation of a composition contest in memory of the late Sam Pilafian. The winning composer will receive a commission to compose a new work as a memorial to the work of Sam Pilafian in his time as a guest faculty member at NDSU as well as his contributions to the music world.</p>
 
-		<!--<p><a href="summer-symposium/" class="btn btn-ndsu-green">Learn More</a></p>-->
+		<!--<p><a href="summer-symposium/" class="btn btn-ndsu-green">Learn More</a></p>--
 		<p><a href="../pilafian/" class="btn btn-ndsu-green">Learn More</a></p>
 	</div>
 </div>

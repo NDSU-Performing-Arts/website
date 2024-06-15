@@ -149,7 +149,7 @@ include($config['path'].'resources/header.php');
 	<div class="card-body">
 	<article>
 		<p>NDSU is proud of the number of academically talented students who enter the university each year. <br>
-		  The <a href="https://www.ndsu.edu/admission/financial_aid/first_year_scholarships"><strong>Guaranteed (Academic) Scholarships are based on academic merit</strong></a>.<b> Deadline: Must be admitted by February 1, 2023</b></p>
+		  The <a href="https://www.ndsu.edu/admission/financial_aid/first_year_scholarships"><strong>Guaranteed (Academic) Scholarships are based on academic merit</strong></a>.<b> Deadline: Must be admitted by <?php echo $md['scholarships']['guaranteed'];?></b></p>
 		
 	</article>
 	</div>
@@ -195,7 +195,7 @@ include($config['path'].'resources/header.php');
 	</div>
 	<br />
 		!-->
-		<p>Scholarship applications for current and incoming students received by <strong>February 1, 2023</strong> will receive priority when distributing scholarships.</p>
+		<p>Scholarship applications for current and incoming students received by <strong><?php echo $md['scholarships']['guaranteed'];?></strong> will receive priority when distributing scholarships.</p>
 		
 		<p>To complete the online scholarship application please use the following link: <a href="https://ndsu.academicworks.com">https://ndsu.academicworks.com</a>. You will then be asked to log in using the same credentials that you use for blackboard.</p>
 		

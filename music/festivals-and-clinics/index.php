@@ -38,14 +38,14 @@ include($config['path'].'resources/header.php');
 <section>
 <div class="card border-warning">
 	<div class="card-header bg-warning">
-		<h3>32nd Annual High School Choral Festival</h3>
+		<h3>35th Annual High School Choral Festival</h3>
 		<?php echo $md['hschoralfest']; ?></div>
 	<div class="card-body">
-		<p>We are pleased to invite you to the 32nd  Annual NDSU High School Choral Festival on Sunday, October 2 and Monday, October 3, 2022.  We look forward to this opportunity to work with your students and host you on our campus</p>
+		<p>We are pleased to invite you to the 35th  Annual NDSU High School Choral Festival on Sunday, October 6 and Monday, October 7, 2024.  We look forward to this opportunity to work with your students and host you on our campus</p>
 
 		<p>This long-standing event is an opportunity for choirs to work with NDSU music faculty and perform at an evening concert. </p>
 
-		<p>Registration Deadline - September 26, 2022</p>
+		<p>Registration Deadline - September 18, 2024</p>
 		<p><a href="choral-fest/" class="btn btn-ndsu-green">Learn More</a></p>
 		<!-- <ul>
 		<li><a href="documents/2017_invite_letter.pdf">Invite Letter to Directors</a></li>
@@ -102,6 +102,7 @@ include($config['path'].'resources/header.php');
 </section>
 <br /> 
 
+<!--
 <section>
 <div class="card border-warning">
 	<div class="card-header bg-warning">
@@ -114,7 +115,7 @@ include($config['path'].'resources/header.php');
 	</div>
 </div>
 </section>
-<br />
+<br />-->
 
 <section>
 <div class="card border-warning">
@@ -129,6 +130,7 @@ include($config['path'].'resources/header.php');
 </section>
 <br /> 
 
+<!--
 <section>
 <div class="card border-warning">
 	<div class="card-header bg-warning">
@@ -140,7 +142,7 @@ include($config['path'].'resources/header.php');
 	</div>
 </div>
 </section>
-<br /> 
+<br /> -->
 
 
 
@@ -185,7 +187,8 @@ include($config['path'].'resources/header.php');
 </div>
 </section>
 <br />
-	
+
+<!--	
 <section>
 <div class="card border-warning">
 	<div class="card-header bg-warning">
@@ -194,14 +197,14 @@ include($config['path'].'resources/header.php');
 	<div class="card-body">
 		<p>This course will provide a foundation of Dalcroze Eurhythmics and demonstrate how a purposeful movement approach can be woven into many musical curriculums. </p>
 
-		<!--<p><a href="summer-symposium/" class="btn btn-ndsu-green">Learn More</a></p>-->
+		<!--<p><a href="summer-symposium/" class="btn btn-ndsu-green">Learn More</a></p>--
 		<p><a href="https://www.ndsu.edu/performingarts/music/festivals-and-clinics/dalcroze/" class="btn btn-ndsu-green">Learn More</a></p>
 	</div>
 </div>
 </section>
 <br />
 
-<section>
+<section>-->
 <!--<div class="card border-warning">
 	<div class="card-header bg-warning">
 		<h3>Orff Schulwerk</h3>

@@ -30,7 +30,7 @@ include($config['path'].'resources/header.php');
 		<a href="../undergraduate-students/images/Voice-ChoralHandbook-1-17-23.pdf" class="btn btn-ndsu-green btn-block btn-lg"><i class="fas fa-book"></i> Vocal/Choral Area Handbook</a>
 		</div>
 		<div class="col-md-4 d-grid">
-		<a href="https://ndsucomposition.com/Composition%20Handbook%2020220929.pdf" class="btn btn-ndsu-green btn-block btn-lg"><i class="fas fa-book"></i> Composition Area Handbook</a>
+		<a href="https://github.com/NDSU-Composition/Handbook" class="btn btn-ndsu-green btn-block btn-lg" target="_BLANK"><i class="fas fa-book"></i> Composition Area Handbook</a>
 		</div>
 		</div>
 

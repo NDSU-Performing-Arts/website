@@ -16,9 +16,9 @@ include($config['path'].'resources/header.php');
 <!--	body content -->
 <section>
 	<header>
-		<!--<img alt="Proof"
+		<img alt="Proof"
 			class="_header_image" 
-			src="DVFA 982 Theatre Web Banner Graphics 3800x1340 - Home.jpg" style="width:100%;">-->
+			src="Proof-Web Banner.jpg" style="width:100%;">
 		
 		<h1 align="center"><strong>Proof</strong></h1>
 	</header>
@@ -36,7 +36,7 @@ include($config['path'].'resources/header.php');
 		
 		<p>Catherine’s father Robert just passed away. Robert, a famous mathematician, was on the brink of madness or brilliance. Catherine thinks madness given her father was mentally unstable. But when Robert’s former student Hal arrives, Catherine is forced to confront her father’s brilliance—and in turn, her own. Join Theatre NDSU for this Pulitzer Prize winning drama. </p>
 		
-		<p><a href="https://ndsu.showare.com/" class="btn btn-warning"><b>PURCHASE TICKETS</b></a> Adults $20, Seniors $15, Non-NDSU Students $10, NDSU Student free with ID
+		<p><a href="https://ndsu.showare.com/" class="btn btn-warning"><b>PURCHASE TICKETS</b></a> Adults $15, Seniors $10, Non-NDSU Students $10, NDSU Student free with ID
 		</p>
 	
 

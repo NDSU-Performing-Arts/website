@@ -30,14 +30,14 @@ include($config['path'].'resources/header.php');
 					<ul>
 						<li>Conducting (Choral, Instrumental)</li>
 						<li><a href="programs/music-education/">Music Education</a></li>
-						<li>Music Theory Pedagogy</li>
+						<!--<li>Music Theory Pedagogy</li>-->
 						<li>Performance (Bassoon, Clarinet, Euphonium, Flute, Horn, Oboe, Percussion, Piano, Collaborative Piano, Saxophone, Trumpet, Trombone, Tuba, and Voice)</li>
 					</ul>
 				</li>
 				<li><strong>Doctor of Musical Arts</strong>
 					<ul>
 						<li>Conducting (Choral, Instrumental)</li>
-						<li>Performance (Clarinet, Euphonium, Percussion, Piano, Collaborative Piano, Saxophone, Trumpet, Trombone, Voice)</li>
+						<li>Performance (Clarinet, Percussion, Piano, Collaborative Piano, Saxophone, Trumpet, Voice)</li>
 					</ul>
 				</li>
 			</ul>
@@ -62,7 +62,7 @@ include($config['path'].'resources/header.php');
 
 					<ul>
 						<li>Course requirements - <a href="masters/#choral">Master of Music</a> | <a href="doctoral/#conducting">Doctor of Musical Arts</a></li>
-						<li>Degree professors - <a href="../about/people/faculty/jo_ann_miller.php">Dr. Jo Ann Miller</a> | <a href="../about/people/faculty/michael_weber.php">Dr. Michael Weber</a></li>
+						<li>Degree professors - <a href="../about/people/faculty/dwight_jilek.php">Dr. Dwight Jilek</a> | <a href="../about/people/faculty/michael_weber.php">Dr. Michael Weber</a></li>
 						<li><a href="handbook/">Graduate Handbook</a></li>
 						<li><a href="../prospective-students/#graduate">Application process / What is the next step?</a></li>
 					</ul>
@@ -70,14 +70,14 @@ include($config['path'].'resources/header.php');
 					<p><strong>Audition requirements</strong></p>
 
 					<ol>
-						<li>Notify <a href="mailto:jo.miller@ndsu.edu">Dr. Jo Ann Miller</a> of your intention to apply.</li>
+						<li>Notify <a href="mailto:dwight.jilek@ndsu.edu">Dr. Dwight Jilek</a> of your intention to apply.</li>
 						<li>Submit a recent video recording that includes both a rehearsal and a performance (10 – 15 minutes). A URL link is acceptable.</li>
-						<li>Complete your <a href="https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantConnectLogin.asp?id=ndusndsugr">online application</a> with the Graduate School.
+						<li>Complete your <a href="https://ndsugrad.force.com/Application/TX_SiteLogin?startURL=%2FApplication%2FTargetX_Portal__PB">online application</a> with the Graduate School.
 							<ol>
 								<li>Preference will be given to applications completed by February 1.</li>
 							</ol>
 						</li>
-						<li>After the choral faculty has reviewed your application you will be contacted by Dr. Jo Ann Miller.</li>
+						<li>After the choral faculty has reviewed your application you will be contacted by Dr. Dwight Jilek.</li>
 						<li>If you are invited to campus for an audition/interview it will be scheduled at this point. Plan to be on campus for a full day.</li>
 						<li>Your audition will be with the NDSU Concert Choir.
 							<ol>
@@ -87,7 +87,7 @@ include($config['path'].'resources/header.php');
 								<li>Total time with the choir – 20 minutes</li>
 							</ol>
 						</li>
-						<li>The interview will be with choral faculty – Drs. Miller, Moe and Weber.
+						<li>The interview will be with choral faculty – Drs. Jilek, Moe and Weber.
 						<li>Other activities on the day of your audition will include:
 							<ol>
 								<li>Meeting with other graduate students</li>
@@ -116,7 +116,7 @@ include($config['path'].'resources/header.php');
 
 					<ul>
 						<li>Course requirements - <a href="masters/#instrumental">Master of Music</a> | <a href="doctoral/#conducting">Doctor of Musical Arts</a></li>
-						<li>Degree professors - <a href="../about/people/faculty/sigurd_johnson.php">Dr. Sigurd Johnson</a> | <a href="../about/people/faculty/warren_olfert.php">Dr. Warren Olfert</a></li>
+						<li>Degree professors - <a href="../about/people/faculty/sigurd_johnson.php">Dr. Sigurd Johnson</a> | <a href="../about/people/faculty/daniel_lee.php">Dr. Daniel Lee</a></li>
 						<li><a href="handbook/">Graduate Handbook</a></li>
 						<li><a href="../prospective-students/#graduate">Application process / What is the next step?</a></li>
 					</ul>
@@ -139,17 +139,17 @@ include($config['path'].'resources/header.php');
 
 					<ul>
 						  <li>Course Requirements: <a href="programs/music-education">Master of Music</a></li>
-						  <li>Faculty - <a href="../about/people/faculty/jo_ann_miller.php">Dr. Jo Ann Miller</a> | <a href="../about/people/faculty/charlette_moe.php">Dr. Charlette Moe</a> | <a href="../about/people/faculty/warren_olfert.php">Dr. Warren Olfert</a> | <a href="../about/people/faculty/michael_weber.php">Dr. Michael Weber</a></li>
+						  <li>Faculty - <a href="../about/people/faculty/dwight_jilek.php">Dr. Dwight Jilek</a> | <a href="../about/people/faculty/charlette_moe.php">Dr. Charlette Moe</a> | <a href="../about/people/faculty/daniel_lee.php">Dr. Daniel Lee</a> | <a href="../about/people/faculty/michael_weber.php">Dr. Michael Weber</a></li>
 						  <li><a href="handbook/">Graduate Handbook</a></li>
 						  <li><a href="../prospective-students/#graduate">Application process / What's the next step?</a></li>
-						  <li><a href="../festivals-and-clinics/orff-schulwerk/" title="Schulwerk">Orff Schulwerk Levels I and II</a></li>
+						  <!--<li><a href="../festivals-and-clinics/orff-schulwerk/" title="Schulwerk">Orff Schulwerk Levels I and II</a></li>-->
 					</ul>
 
 					<p>This degree is designed to be completed in three summers or in a combination of summers and the academic year. Students must register for at least six credits per calendar year until all degree requirements are completed. Classes are offered both online and on campus. Course-work can be focused in elementary, choral/vocal, or instrumental music education. No thesis is required -- rather, students complete a four-credit practicum, planned jointly by the student and his/her advisor. Comprehensive written and oral examinations are passed near the end of or after coursework.</p>
 				</div><!--card-body-->
 			</div><!--panel-collapse-->
 		</div><!--Panel-->
-		
+			<?php /*
 		<div class="card">
 			<div class="card-header" role="tab" id="MusicEducationHeading"><!--id here must match aria-labeledby below-->
 				<h4 class="mb-0">
@@ -159,6 +159,7 @@ include($config['path'].'resources/header.php');
 				</button>
 				</h4>
 			</div><!--card-header-->
+		
 			<div id="TheoryPedagogy" class="collapse" role="tabpanel" aria-labelledby="TheoryPedagogy">
 				<div class="card-body">
 				  <p>The Theory Pedagogy degree program is designed for students interested in developing their skills as teachers and scholars in Music Theory. Students may pursue the Theory Pedagogy MM jointly with another MM option, or as a second MM enrolled concurrently with a DMA in Performance or Conducting, though it has enough unique required courses to be granted as a single degree.</p>
@@ -179,7 +180,7 @@ include($config['path'].'resources/header.php');
 				</div><!--card-body-->
 			</div><!--panel-collapse-->
 		</div><!--Panel-->
-		
+		*/?>
 		<div class="card">
 			<div class="card-header" role="tab" id="InstrumentalPerformanceHeading"><!--id here must match aria-labeledby below-->
 				<h4 class="mb-0">
@@ -195,7 +196,7 @@ include($config['path'].'resources/header.php');
 
 					<ul>
 						<li>Course requirements - <a href="masters/#instperformance">Master of Music</a> | <a href="doctoral/#instperformance">Doctor of Musical Arts</a></li>
-						<li>Degree professors - <a href="../about/people/faculty/jeremy_brekke.php">Dr. Jeremy Brekke</a> | <a href="../about/people/faculty/sigurd_johnson.php">Dr. Sigurd Johnson</a> | <a href="../about/people/faculty/cassie_keogh.php">Dr. Cassie Keogh</a> | <a href="../about/people/faculty/matthew_patnode.php">Dr. Matthew Patnode</a> | <a href="../about/people/faculty/challey_connor.php">Connor Challey</a> | <a href="../about/people/faculty/kellogg_laura.php">Dr. Laura Kellogg</a></li>
+						<li>Degree professors - <a href="../about/people/faculty/jeremy_brekke.php">Dr. Jeremy Brekke</a> | <a href="../about/people/faculty/sigurd_johnson.php">Dr. Sigurd Johnson</a> | <a href="../about/people/faculty/cassie_keogh.php">Dr. Cassie Keogh</a> | <a href="../about/people/faculty/matthew_patnode.php">Dr. Matthew Patnode</a> | <a href="../about/people/faculty/challey_connor.php">Connor Challey</a> | <a href="../about/people/faculty/kellogg_laura.php">Dr. Laura Kellogg</a> | <a href="../about/people/faculty/martin_vanklompenberg.php">Dr. Martin Van Klompenberg</a></li>
 						<li><a href="handbook/">Graduate Handbook</a></li>
 						<li><a href="../prospective-students/#graduate">Application process / What is the next step?</a></li>
 					</ul>
@@ -275,7 +276,7 @@ include($config['path'].'resources/header.php');
 					<ul>
 						<li><a href="audition_information/voice.php">Audition Information</a></li>
 						<li>Course requirements - <a href="masters/#vocalperformance">Master of Music</a> | <a href="doctoral/#vocalperformance">Doctor of Musical Arts</a></li>
-						<li>Degree professors - <a href="https://www.ndsu.edu/performingarts/music/about/people/faculty/burns_kelly2.php">Dr. Kelly Burns</a> | <a href="https://www.ndsu.edu/performingarts/music/about/people/faculty/millington_karisa.php">Dr. Karisa Millington</a> |  <a href="../about/people/faculty/mariane_lemieux_wottrich.php">Dr. Mariane Lemieux-Wottrich</a></li>
+						<li>Degree professors - <a href="https://www.ndsu.edu/performingarts/music/about/people/faculty/burns_kelly2.php">Dr. Kelly Burns</a> | <a href="https://www.ndsu.edu/performingarts/music/about/people/faculty/karisa_templeton.php">Dr. Karisa Templeton</a></li>
 						<li><a href="handbook/">Graduate Handbook</a></li>
 						<li><a href="../prospective-students/#graduate">Application process / What is the next step?</a></li>
 					</ul>
@@ -306,7 +307,7 @@ include($config['path'].'resources/header.php');
 				<li><a href="doctoral/">Doctoral</a> | <a href="masters/">Masters</a></li>
 				<li><a href="forms/">Forms</a></li>
 				<li><a href="handbook/">Handbook</a></li>
-				<li><a href="/music/festivals-and-clinics/orff-schulwerk/">Schulwerk</a></li>
+				<!--<li><a href="/music/festivals-and-clinics/orff-schulwerk/">Schulwerk</a></li>-->
 				<li><a href="/music/festivals-and-clinics/music-ed-symposium/">Summer Symposium</a>
 			</ul>
 		</article>

@@ -150,7 +150,7 @@ include($config['path'].'resources/header.php');
 				<div class="card-body">
 				
 					<div class="alert alert-success">
-						<i class="fa fa-user-circle fa-fw"></i> Dr. Jo Ann Miller, <a href="mailto:jo.miller@ndsu.edu">jo.miller@ndsu.edu</a>.<br />
+						<i class="fa fa-user-circle fa-fw"></i> Dr. Dwight Jilek, <a href="mailto:dwight.jilek@ndsu.edu">dwight.jilek@ndsu.edu</a>.<br />
 						<i class="fa fa-calendar fa-fw"></i> MWF 12:00-12:50, TTh 2:30-1:45<br />
 						<i class="fa fa-university fa-fw"></i> MUSC 306<br />
 					</div>
@@ -206,8 +206,8 @@ include($config['path'].'resources/header.php');
 								&#8211; <a href="/wind-symphony/">Wind Symphony</a></td>
 							<td>&nbsp;<br>
 								<a href="../people/faculty/sigurd_johnson.php">Sigurd Johnson</a><br>
-								<a href="../people/faculty/sigurd_johnson.php">Sigurd Johnson</a><br>
 								<a href="../people/faculty/warren_olfert.php">Warren Olfert</a></td>
+								<a href="../people/faculty/warren_olfert.php">Daniel Lee</a></td>
 							<td>&nbsp;<br>
 								No<br>
 								No<br>
@@ -518,7 +518,7 @@ include($config['path'].'resources/header.php');
 				<div class="card-body">
 				
 					<div class="alert alert-success">
-						<i class="fa fa-user-circle fa-fw"></i> Dr. Warren Olfert, <a href="mailto:warren.olfert@ndsu.edu">warren.olfert@ndsu.edu</a>.<br />
+						<i class="fa fa-user-circle fa-fw"></i> Dr. Daniel Lee, <a href="mailto:daniel.lee.3@ndsu.edu">daniel.lee.3@ndsu.edu</a>.<br />
 						<i class="fa fa-calendar fa-fw"></i> MWF 12:15-1:50<br />
 						<i class="fa fa-university fa-fw"></i> MUSC 303<br />
 					</div>

@@ -69,6 +69,57 @@ The NDSU Music Education Summer Symposium will be offered ONLINE!<br></strong>--
 		</div>
 		<br />
 		
+	<h3>Guest Presenters</h3>
+		<div class="row mb-3">
+		<div class="col-md-2">
+		<img src="images/Ann C. Kay.jpg" alt="Ann C. Kay" style="width:100%;max-width:200px;">
+  		</div>
+		<div class="col-md-10">
+		<p><strong>Ann C. Kay</strong> is the education coordinator for the Rock ‘n’ Read Project, a MN nonprofit dedicated to using singing to unlock children’s potential for reading and learning. She created A Song a Day: Brain Prep for Pre-Readers, lessons for PreK-K teachers that help all children develop basic music skills to enable auditory processing, the key to proficient reading. Formerly, Ann was an elementary music teacher, choir director, adjunct instructor of music teachers, and associate director of graduate music education at the University of St. Thomas where she founded, directed, and instructed in the UST Kodály certification program for 18 summers.</p>
+		</div>
+		</div>
+
+		<div class="row mb-3">
+		<div class="col-md-2">
+		<img src="images/Berkley.jpg" alt="Kyle Berkley" style="width:100%;max-width:200px;">
+  		</div>
+		<div class="col-md-10">
+		<p><strong>Kyle Berkley</strong> is a dedicated music educator, with over a decade of experience shaping the musical journey of students. Beginning as an adjunct voice and music instructor at Ohio University in 2014, he transitioned to elementary music in 2019, currently teaching K-5 general music at Deer Creek Elementary in West Fargo Public Schools.</p>
+
+		<p>In his current role as an elementary music teacher, Kyle has pioneered afterschool music programs and creates innovative performance opportunities for students beyond the classroom setting.</p>
+
+		<p>Before dedicating his career to elementary music, Kyle made waves as an esteemed opera performer and recitalist, captivating audiences nationwide with his resonant voice. Notable among his achievements is a collaboration with renowned American composer Gwyneth Walker on the song cycle "I've Known Rivers," which was presented in a touring recital for Black History Month in 2019.</p>
+
+		<p>He graduated with a Bachelor of Music in Music Education from Kent State University in 2010 and continued his studies at The University of North Carolina Greensboro, graduating in 2012.</p>
+		
+		<p>Follow him on Instagram <a href="https://www.instagram.com/mister.b.music/">@mister.b.music</a></p>	
+		</div>
+		</div>
+		
+		<div class="row mb-3">
+		<div class="col-md-2">
+		<img src="images/Joe headshot 2023.jpg" alt="Joe Osowski" style="width:100%;max-width:200px;">
+  		</div>
+		<div class="col-md-10">
+		<p><strong>Joe Osowski</strong> is the Director of Vocal Music Education at St. Michael – Albertville High School. He holds degrees in Music Education from North Dakota State University.</p>
+		<p>At STMA High School, Osowski directs three curricular ensembles and one co-curricular ensemble. Mr. Osowski is also the conductor of Bring the Sing, a community singing initiative sponsored by Classical Minnesota Public Radio, Choral Director of the Minnesota Ambassadors of Music, and Director of the Central Choir at Central Lutheran Church in Minneapolis, Minnesota. </p>
+		<p>Joe Osowski was nominated as a Minnesota Teacher of the Year Semifinalist in 2016 and 2024 by Education Minnesota and was selected as a conducting delegate representing the United States for the 2017 International Conductors Exchange Program sponsored by the American Choral Directors Association.</p>
+		</div>
+		</div>
+		
+		<div class="row mb-3">
+		<div class="col-md-2">
+		<img src="images/Underwood-Headshot.jpg" alt="Christopher Underwood" style="width:100%;max-width:200px;">
+  		</div>
+		<div class="col-md-10">
+		<p><strong>Christopher Underwood</strong> teaches kindergarten through fifth grade music at Washington Elementary in Fargo North Dakota where he also directs the 4th and 5th grade choir and hand chimes ensemble. He received his Kodaly Graduate Certificate from Minnesota State University Moorhead and recently joined on as a faculty member of the Kodaly Institute at MSUM. In addition, he serves as a middle school voice teacher at International Music Camp in the summer where he teaches voice lessons, music fundamentals, and leads sectionals. Prior to Washington Elementary, Chris taught music at Lodoen Kindergarten Center in West Fargo. He continues to grow as a musician while performing in the Fargo-Moorhead Choral Artists and studying piano.</p>
+
+		<p>Christopher received a Bachelor of Science degree in music education from North Dakota State University graduating magna cum laude, and a Master of Sciences degree in curriculum and instruction with a Kodaly emphasis from MSUM. He is current member of Organization of American Kodaly Educators (OAKE), the Association of American Educators (AAE), and the National Association for Music Education (NAfME).</p>
+		</div>
+		</div>
+		
+		
+	<br /><br />
 	<h3>Additional Sessions By NDSU Challey School of Music Faculty</h3>
 	<p>Dr. Jeremy Brekke, Associate Professor of Music<br />
 		Dr. Kelly Burns, Assistant Professor of Music<br />

@@ -36,10 +36,10 @@ include($config['path'].'resources/header.php');
 		</div>
 		
 		<div class="card mb-4"><div class="card-body">
-		<h4>Opportunities to Learn More about Music at NDSU</h4>
+		<h4>Opportunity to Learn More about Music at NDSU</h4>
 		<ul>
-			<li>Music Day invites you to audit classes, sit in on rehearsals, and meet current students and faculty, held in November.</li>
-			<li>All-State Audition Clinic for Band, Jazz Band and Orchestra, held in December</li>
+			<li>Music Day invites you to audit classes, sit in on rehearsals, and meet current students and faculty, held October 17 &amp; 18. <a href="https://www.ndsu.edu/performingarts/music/day/">Register online</a></li>
+			<!--<li>All-State Audition Clinic for Band, Jazz Band and Orchestra, held in December</li>-->
 		<ul>
 		</div>
 		</div>
@@ -216,7 +216,7 @@ include($config['path'].'resources/header.php');
 		<p>After reviewing these web pages and communicating with the <a href="/performingarts/music/about/people/faculty/">faculty</a> members associated with your graduate degree program, we encourage you to  complete the following:</p>
 		
 		<ol>
-             <li>Notify the Director of Graduate Study, <a href="mailto:jo.miller@ndsu.edu">Dr. Jo Ann Miller</a>, of your intention to apply.</li>
+             <li>Notify the Director of Graduate Study, <a href="mailto:charlette.moe@ndsu.edu">Dr. Charlette Moe</a>, of your intention to apply.</li>
              <li>Secure three recommendations from those familiar with your experiences as a musician.</li>
              <li>Secure official copies of all transcripts.</li>
              <li>Find a sample of your academic writing style, either from a paper or project.</li>

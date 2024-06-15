@@ -20,50 +20,56 @@ include($config['path'].'resources/header.php');
       
        <header><img alt="Bison Arts Gala"
 			class="_header_image" 
-			src="images/DVFA 1350 Bison Arts Gala_eblast (2).jpg"
+			src="images/2024.jpg"
 			style="margin: 0px; padding: 16px 0px 0px 0px; width: 100%;">
 		   
         <h2>Bison Arts Gala</h2>
 			<!--<p>Join us for a fun evening of Bison pride, Italian-style food and music, featuring performances by the Bison Arts Singers.</p>-->
-	  	
-      <p>Tuesday, June 20<br />
+	  <div class="row">
+		<div class="col-md-6">
+      <p>Tuesday, June 18<br />
 	  5:30-8:30 p.m.<br>
 	  Harry D. McGovern Alumni Center<br>
 	  1241 North University Drive<br>
 	  Fargo, ND 58102<br />
-	  *parking is available in the lot South of the alumni center.</p>
+	  </p>
+	  </div>
+	  <div class="col-md-6">
+	  <strong>Bison Arts Sponsorship Opportunities</strong><br /><br />
+	  <strong>Gold Level—</strong>$5,000.00+ <strong>Four Free</strong> gala tickets at this level<br /><br />
+	  <strong>Green Level—</strong>$1,000.00+. <strong>Two Free</strong> gala tickets at this level<br /><br />
+	  <strong>Bronze Level—</strong>$500.00 +.
+	  </div>
+	  </div>
 	  
-		<p>Please join us for a fun evening of Bison pride and entertainment.</p>
-
-		<p>Enjoy catching up with NDSU alumni and fiends while listening to the easy-going music of the Island Time Band and performances by the Bison Arts Singers.</p>
-
-		<p>Register at <a href="//ndsu.edu/performingarts/bisonarts">ndsu.edu/performingarts/bisonarts</a> before Monday, June 19 or email <a href="mailto:events@ndsufoundation.com">events@ndsufoundation.com</a>, or call Hannah Aanerud at <a href="tel:7012316844">701-231-6844</a><p>
 	  
-	<p>$85 per person<br />
-	Wine and beer provided by Happy Harry’s plus heavy hors d’oeuvres.</p>
+		<p>Join us for a fun evening of Bison pride, New Orleans-style!</p>
+
+		<p>Catch up with NDSU alumni and friends while enjoying New Orleans-style food and music performed by the Mardi Gras Kings and the Bison Arts Singers.</p>
+		
+		<p>Tickets are $85 per person. Each ticket includes heavy hors d’oeuvres and beverages provided by Happy Harry’s.</p>
+		
+		<p>Event proceeds will go to Bison Arts scholarships, NDSU Sports Band support, and Bison Arts program support.</p>
+
+		<p>Register via the link below OR contact Allison Finholdt at <a href="tel:7012316800">701.231.6800</a> by Monday, June 10.<p>
+	  
+	<p>Parking is available in the lot south of the alumni center.</p>
 	
-  	<p>Event proceeds will go to Bison Arts scholarships and program support.</p>
-    <a href="https://www.givetondsu.com/register/bison-arts-2023" class="btn btn-lg btn-ndsu-green">Register Online Now</a></a><br />
-    <!--RSVP deadline is June 13.--> <br />
-    </p>
-	
-  	<!--<p>If you have any questions, please contact Melissa Harms at <a href="melissa.harms@ndsufoundation.com">melissa.harms@ndsufoundation.com</a> | <a href="tel:701-231-6844">701-231-6844</a>. <br />
-	
-	<p>Parking is available in the lot south of the McGovern Alumni Center.</p>-->
+  	<p><a href="https://www.givetondsu.com/register/bison-arts-2024" class="btn btn-lg btn-ndsu-green">Register Here</a></p>
 
 	<img src="images/GCB_FABWOL_Blue_R - CMYK.jpg"
 		 style="margin: 0px; padding: 16px 0px 0px 0px; width: 40%;"></a>
 	
 <br>
-	<br>
-	  
+<br>
+<!--		  
 
     <p><a href="https://www.flickr.com/photos/158860084@N07/albums/72157719517515181/with/51298453776/"><img src="images/Bison Arts Photo Collage.png"></a> </p>
 	Click on the photos above to view the gallery from previous events.
 	<article>
 		<p>&nbsp;</p>
 		<p><a href="https://www.givetondsu.com/performing-arts-donation" class="btn btn-warning">Click here</a>  to donate to the Bison Arts.</p>
-	</article>
+	</article>-->
 </section>
 <!-- InstanceEndEditable --></div></section> 
 

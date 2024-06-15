@@ -34,7 +34,59 @@ include($config['path'].'resources/header.php');
 
 		<p><strong>All String Students and *Community Members selected to play in the USO through audition are Strongly Encouraged <u>to participate in Both the USO AND the SCE.</u></strong></p>
 
-		<h2>Audition requirements:</h2>
+		<h2>Fall 2024 audition information </h2>
+		
+		<div class="alert alert-warning">
+		<h3>USO Fall 2024 Audition Information</h3>
+		<p>(This is for All incoming/first time string players and any returning SCE string players interested in moving or adding playing in the USO)</p>
+
+		<h4>Strings Auditioning for the USO:</h4>
+		<p>Follow the link of your instrument to access the excerpts and scales for the audition.</p>
+
+		<p>Violin - <a href="https://drive.google.com/file/d/1XjH8xBPF6NXqTAdqHrmz9ZDCmMXL7MR2/view?usp=drive_link">Excerpt</a> - <a href="https://drive.google.com/file/d/1qSNzrEYxuyEUInDsmKFIdwjdiGh9bAwz/view?usp=drive_link">Scales</a><br />
+		Viola - <a href="https://drive.google.com/file/d/1pj86QhVbJnARpD5rK_YhVR1wRS4Ta2id/view?usp=drive_link">Excerpt and Scales</a><br />
+		Cello - <a href="https://drive.google.com/file/d/1skENh7ofiybrc5zZ6QGVhcK9VhDhyJLi/view?usp=drive_link">Excerpt and Scales</a><br />
+		Double Bass - <a href="https://drive.google.com/file/d/1m7wEaSfPD1Ei1KbbLrBnHabs6pxShF3F/view?usp=drive_link">Excerpt and Scales</a></p>
+
+		<p>Excerpt: You will choose *One excerpt to play – the portion required is bracketed. Follow the tempo indications.<br />
+		Scales: You will play BOTH scales. Tempo should be Quarter Note = 130 bpm (minimum)<br />
+		Self Selected excerpt: One (or two) 2-3 minute musical selection of your own choosing. Pick something you enjoy playing and you feel shows off your abilities.</p>
+ 
+		<div class="alert alert-info"><h5>Helpful Hints:</h5>
+		<p>The piece from where the excerpt is chosen is listed. I encourage you to listen to recordings/videos of the piece to gain a better understanding of the style and context (keep in mind the tempo of a professional orchestra may not be what the composer indicated – use the tempo I have on the except).</p>
+		<p>*You may play both Excerpts if you wish.</p></div>
+
+		<h4>Winds Brass and Percussion Auditions for the USO:</h4>
+
+		<p>These will take place the first week of classes and will be administered by the individual instrumental studio teachers:<br />
+		Please contact them to get more information on required music and schedule audition times:<br />
+		Flute: Dr Laura Kellogg <a href="mailto:laura.kellogg@ndsu.edu">laura.kellogg@ndsu.edu</a><br />
+		Clarinet and Oboe: Dr Cassie Keogh <a href="mailto:cassie.keogh@ndsu.edu">cassie.keogh@ndsu.edu</a><br />
+		Bassoon: Dr Martin Vanklompenberg <a href="mailto:m.vanklompenberg@ndsu.edu">m.vanklompenberg@ndsu.edu</a><br />
+		Trumpet: Dr Jeremy Brekke <a href="mailto:jeremy.brekke@ndsu.edu">jeremy.brekke@ndsu.edu</a><br />
+		Horn: Kayla Nelson <a href="mailto:kayla.l.nelson@ndsu.edu">kayla.l.nelson@ndsu.edu</a><br />
+		Trombone and Tuba: Connor Challey <a href="mailto:connor.challey@ndsu.edu">connor.challey@ndsu.edu</a><br />
+		Percussion: Dr Sigurd Johnson <a href="mailto:sigurd.johnson@ndsu.edu">sigurd.johnson@ndsu.edu</a></p>
+		</div>
+
+		<div class="alert alert-warning">
+		<h2>SCE Fall 2024 String Audition Information:</h2>
+
+		<p>This is for all incoming/first time members wishing to play in the SCE</p>
+
+		<p>All first time incoming String players must play a 2-3 minute self chosen excerpt. This can be anything you feel demonstrates your playing skill.</p>
+		
+		<p>All String Auditions will take place Sunday August 25th 1:00-5:00 or Monday August 26th 3:00-6:00pm (room TBD).</p>
+
+		<p>Please contact me - Sigurd Johnson (<a href="mailto:sigurd.johnson@ndsu.edu">sigurd.johnson@ndsu.edu</a>) if you need to schedule a different time!</p>
+
+		<p>There will be a google sheet to sign up for a time slot posted at the beginning of August. </p>
+
+		</div>
+
+		<p>Please contact me if you have ANY questions!!<br />
+		Sigurd J</p>
+		<!--
 		<div class="alert alert-warning">
 		<h3>SCE</h3>
 		<p><strong>MUSC 316 0-1 Rehearsals <u>6:30-8:00pm Thursday Night</u></strong></p>
@@ -92,7 +144,7 @@ include($config['path'].'resources/header.php');
 		(Auditions for Wind/Brass/Percussion will take the same time you audition for the Wind Symphony for the Fall) </p>
 		</div>
 		</div>
-
+-->
 		<p><strong>*Fargo/Moorhead Community Members who play string instruments are very welcome to participate in either or both orchestral ensembles. <br />
 		Please contact Sigurd Johnson for requirements and further information about auditions and our season. </strong></p>
 

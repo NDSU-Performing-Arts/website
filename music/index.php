@@ -29,6 +29,14 @@ include($config['path'].'resources/header.php');
 	<?php //Kyle, don't forget to make sure that "carousel-item ACTIVE" is set somewhere. ?>
 
 	 <div class="carousel-item active">
+        <a href="https://myemail-api.constantcontact.com/New-Music-Faculty.html?soid=1116790329334&aid=h85fd1n5Iyc" title="New Hires">
+          <img alt="New Hires" src="images/Welcome%20Music%20Faculty-Web%20Slide-V2.png"- style="width:100%;">
+        </a>
+        <div class="carousel-caption">
+		</div>
+      </div>  
+	  
+	   <div class="carousel-item">
         <a href="/music/festivals-and-clinics/music-ed-symposium/" title="Summer Symposium">
           <img alt="Summer Symposium" src="images/DVFA 1847 PA Web Banner.jpg"- style="width:100%;">
         </a>
@@ -106,7 +114,8 @@ include($config['path'].'resources/header.php');
 			<div class="alert alert-warning">
 			<h1>Upcoming Events</h1>
 			<a href="/music/ensembles-and-performances/wind-symphony/" class="btn btn-ndsu-green mb-2">Wind Symphony Auditions</a>&nbsp;
-			<a href="/music/festivals-and-clinics/raging-red/" class="btn btn-ndsu-green mb-2">Raging Red Band Festival</a>&nbsp;
+			<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-47563341-2024#/" class="btn btn-ndsu-green mb-2">Choir Auditions</a>&nbsp;
+			<a href="/music/day/" class="btn btn-ndsu-green mb-2">Music Day</a>&nbsp;
 			</div>
 				
 			<!-- BEGIN CONTENT CARD EMBED CODE--> <div></div><script id="embed-a1f6df60-7b02-4224-ac10-3c52ea6af565" type="text/javascript" src="//ndsudpa.shopwindow.io/pipeline/serve_pipeline_embed/?embeddable=a1f6df60-7b02-4224-ac10-3c52ea6af565"></script> <!-- END CONTENT CARD EMBED CODE -->
@@ -295,18 +304,19 @@ include($config['path'].'resources/header.php');
 		<h3 class="card-header">For Prospective Students</h3>
 		<!--<img src="https://www.ndsu.edu/performingarts/music/undergraduate/images/undergrad_programs_940x.png" class="card-img-top">-->
 		<div class="card-body">
-			<!--<a href="https://www.ndsu.edu/performingarts/music/day/">Attention High School Juniors and Seniors! Join us for Music Day!</a>
+			<a href="https://www.ndsu.edu/performingarts/music/day/">Attention High School Juniors and Seniors! Join us for Music Day!</a>
 			<ul>
-				<li>Thursday, October 20</li>
-				<li>Friday, October 21</li>
-			</ul>-->
+				<li>Thursday, October 17</li>
+				<li>Friday, October 18</li>
+			</ul>
 		<!--<h4><a href="undergraduate-students/">Undergraduate Programs</a></h4>-->
 		    <!--<strong><a href="/music/competition/">HS Solo Competition</a></strong><br />-->
 			<a href="prospective-students/scholarships/">Scholarship Information</a>
 		    <ul>
-				<li>Scholarship Dates: <strong><?php echo $md['scholarships'][1]; ?></strong> and <strong><?php echo $md['scholarships'][2]; ?></strong></li>
+				<li>Scholarship Dates: <strong><?php echo $md['scholarships'][1]; ?></strong>, <strong><?php echo $md['scholarships'][2]; ?></strong>, and <strong><?php echo $md['scholarships'][3]; ?></strong></li>
 				<li><a href="https://docs.google.com/forms/d/e/1FAIpQLScTN4d3LxL1QyCwfiuU-bb0tRMGsvlaTYDiyGIsX7hFQRAvzw/viewform">NDSU Music Scholarship Application for First Year Students</a></li>
 				<li>Scholarship auditions may also take place by appointment.</li>
+				<li><a href="prospective-students/scholarships/faq/">Scholarship FAQs</a></li>
 				<li>Want us to contact you? Please complete this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdcmKFQSNFVWxTLTKl9HAUtk_zZGK-FBllKSjmUuzfI4Hm7Q/viewform?usp=sf_link">online student contact form</a>.				</li>
 			</ul>
 			<!--<p><a href="https://www.ndsu.edu/performingarts/music/competitions/hs-performance-competition/winners/" class="btn btn-ndsu-green">H.S. Music Competition Winners Announced</a>-->
