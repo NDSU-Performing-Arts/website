@@ -31,7 +31,7 @@ include($config['path'].'resources/header.php');
 </ul>	<br /> -->
 	<header>
 		<!--<img alt="Chamber Music Festival" style="width:100%" src="images/2023 Chamber Fest Web Banner.png">-->
-		<img alt="Chamber Music Festival" style="width:100%" src="images/CMF-NoDates.jpeg">
+		<img alt="Chamber Music Festival" style="width:100%" src="images/CMF-Web Slide.jpg">
 		<!--<h1>NDSU Chamber Music Festival 6th Season<br>
 		</h1>
 	</header>
@@ -51,12 +51,21 @@ include($config['path'].'resources/header.php');
 			Monday, August 26 - Thursday, August 29, 2024</h3><br />
 		
 			<h4>Free Concerts</h4>
-			<p>Monday, August 26 at 7:30 PM, NDSU Beckwith Recital Hall<br />
-			Tuesday, August 27 at 7:00 PM, NDSU Challey Atrium, <strong>Stravinsky, "The Rake's Progress"</strong><br />
-			Wednesday, August 28 at 7:30 PM, NDSU Beckwith Recital Hall<br />
-			Thursday, August 29 at 7:00 PM, NDSU Challey Atrium, <strong>Stravinsky, "The Rake's Progress"</strong></p>
+			<p><strong>Instrumental Chamber Music in Beckwith - Part I</strong> – MONDAY, August 26 at 7:30 pm, NDSU Beckwith Recital Hall<br />
+			<strong>Instrumental Chamber Music in Beckwith - Part II</strong> – WEDNESDAY, August 28 at 7:30 pm, NDSU Beckwith Recital Hall</p>
+				
+			<h4>A Chamber Production of Stravinsky, "The Rake's Progress"</h4>
+			<p>TUESDAY, August 27 at 7:00 pm, NDSU Harry D. McGovern Alumni Center - <strong>SOLD OUT</strong><br />
+			THURSDAY, August 29 at 7:00 pm, NDSU Harry D. McGovern Alumni Center - <strong>SOLD OUT</strong></p>
+			
+			<div class="alert alert-warning">
+			<p><strong>At this time, seat reservations for the Stravinsky "The Rake's Progress" performances on Tuesday 8/27 and Thursday 8/29 are SOLD OUT. Those on the waiting list will be contacted as seats become available.</strong></p>
+			
+			<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc4o9f1gUvWUC3hIwOaJWOkzVvbnFUhng7fBE_4ADHvolDQzQ/viewform?usp=sf_link" class="btn btn-xl btn-ndsu-green">CLICK HERE to sign up for the waiting list for Stravinsky "The Rake's Progress" performances</a></p>
 
-			<p>Amazingly, the 2024 NDSU Chamber Music Festival will mark the 10th season that we have gathered to enjoy performances of great chamber music together! Alongside concerts of great instrumental chamber music in Beckwith Recital Hall on Monday, August 26 and Wednesday, August 28, the 2024 NDSU Chamber Music Festival will feature a two special performances of Igor Stravinsky's iconic masterpiece "The Rake's Progress" in the Challey Atrium on Tuesday, August 27 and Thursday, August 29. The production, directed by Fargo-Moorhead Community Theatre Executive Director Judy Lewis, will feature costumes by Rooth Varland and world-class guest principal singers including NDSU alumni Clara Osowski and Tessa Hartl. In continuing the side-by-side educational model of the Festival, the chorus will feature NDSU student performers led from within by NDSU vocal faculty Kelly Burns and Karisa Templeton, and in the same way the chamber ensemble will include NDSU student performers alongside NDSU faculty, other beloved musicians from the Fargo-Moorhead area, and guest artists including violinist Grace Park as well as members of the Saint Paul Chamber Orchestra and the Los Angeles Philharmonic.</p>
+			</div>
+
+			<p>Amazingly, the 2024 NDSU Chamber Music Festival will mark the 10th season that we have gathered to enjoy performances of great chamber music together! Alongside concerts of great instrumental chamber music in Beckwith Recital Hall on Monday, August 26 and Wednesday, August 28, the 2024 NDSU Chamber Music Festival will feature a two special performances of Igor Stravinsky's iconic masterpiece "The Rake's Progress" in the NDSU Harry D. McGovern Alumni Center on Tuesday, August 27 and Thursday, August 29. The production, directed by Fargo-Moorhead Community Theatre Executive Director Judy Lewis, will feature costumes by Rooth Varland and world-class guest principal singers including NDSU alumni Clara Osowski and Tessa Hartl. In continuing the side-by-side educational model of the Festival, the chorus will feature NDSU student performers alongside a group of chamber instrumentalists made up of NDSU faculty, other beloved musicians from the Fargo-Moorhead area, and guest artists including violinist Grace Park as well as members of the Saint Paul Chamber Orchestra and the Los Angeles Philharmonic</p>
 
 			<p>Stay tuned for more details and updates in the coming weeks, as well as additional highlights from the first 10 seasons of the NDSU Chamber Music Festival!</p>
 

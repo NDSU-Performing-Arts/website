@@ -18,6 +18,8 @@ include($config['path'].'resources/header.php');
 		<h1>NDSU Orchestra Program</h1>
 	</header>
 	
+	<a href="https://docs.google.com/spreadsheets/d/1-sVShqKCfl-zmp1wM7F5326mDhnxkyJ3IX5MhWf6TzA/edit?usp=sharing" class="btn btn-lg btn-ndsu-green fa-fade">String Auditions Signup</a>
+	
 	<article>
 		<p><strong><em>University Symphony Orchestra</em> (USO) Full Symphony Orchestra MUSC 304 0-1 (#24515) 6:30-8:00pm Tuesday.<br />
 		Audition Required</strong></p>
@@ -25,7 +27,7 @@ include($config['path'].'resources/header.php');
 		<p><strong><em>String Chamber Ensemble</em> (SCE) – Strings Only MUSC 316 0-1 (#25324) 6:30-8:00pm Thursday <br />
 		Audition Required</strong></p>
 
-		<p><strong>Separate courses –1 credit each. May be repeated for credit. </strong></p>
+		<p><strong>Separate courses-–1 credit each. May be repeated for credit. </strong></p>
 
 		<p><u><strong>The University Symphony Orchestra</strong></u> will rehearse and perform standard classical, traditional, contemporary orchestral and chamber music repertoire. <br />
 		This ensemble will provide members the opportunity to rehearse and perform orchestral literature at a high and challenging level.</p>
@@ -76,7 +78,8 @@ include($config['path'].'resources/header.php');
 
 		<p>All first time incoming String players must play a 2-3 minute self chosen excerpt. This can be anything you feel demonstrates your playing skill.</p>
 		
-		<p>All String Auditions will take place Sunday August 25th 1:00-5:00 or Monday August 26th 3:00-6:00pm (room TBD).</p>
+		<p>All String Auditions will take place <strong>Sunday August 25th 5:00-9:00</strong> or <strong>Monday August 26th 4:00-9:00pm</strong> (room TBD).<br />
+		<em><u>**Note the time change from August 25 1-6 and August 26 4-6**</u></em></p>
 
 		<p>Please contact me - Sigurd Johnson (<a href="mailto:sigurd.johnson@ndsu.edu">sigurd.johnson@ndsu.edu</a>) if you need to schedule a different time!</p>
 

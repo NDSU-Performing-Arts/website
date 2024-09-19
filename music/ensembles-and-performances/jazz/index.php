@@ -27,8 +27,8 @@ include($config['path'].'resources/header.php');
 MUSC 311, Section 2, Jazz Lab Band – 2:00 – 3:15 </p>
 
 <p>Auditions will consist of two parts: <br />
-1.	On Tuesday, August 22, the  Rhythm section AND horn players will meet in room 118, and form a ‘reading’ band to audition the sections and rhythm players.  Saxophones who play multiple saxophones may want to bring more than one.  There will be  a baritone saxophone at the audition with a couple of mouthpieces. <br />
-2.	On Thursday, August 24, players will audition individually for the Professor.   This audition will consist of an audition excerpt, sign reading, and optional improvisation. </p>
+1.	On Tuesday, August 27, the  Rhythm section AND horn players will meet in room 118, and form a ‘reading’ band to audition the sections and rhythm players.  Saxophones who play multiple saxophones may want to bring more than one.  There will be  a baritone saxophone at the audition with a couple of mouthpieces. <br />
+2.	On Thursday, August 29, players will audition individually for the Professor.   This audition will consist of an audition excerpt, sign reading, and optional improvisation. </p>
 
 <p>Individual Auditions will occur during the band meeting times.  <br />
 Jazz Ensemble 12:20-1:45.    Jazz Lab Band 2:00- 3:15</p>
@@ -41,26 +41,31 @@ Rhythm Section:  Dr. Sigurd Johnson, Room 118</p>
 
 <p>Individual Audition Directions</p>
 <p><h3>Saxophones:</h3><br />
-Please prepare the attached etude “You’re The Last One” with the play along (see below).   Make sure that you have the correct key of Alto/Baritone (C) or Tenor (F).  This etude is based on the standard “There Will Never Be Another You.” You will perform with a recorded backing track, at a reasonable tempo of your choosing. <br />
-Here is a sample of a reasonable tempo: <a href="https://www.youtube.com/watch?v=pOifkZ2q5V8">https://www.youtube.com/watch?v=pOifkZ2q5V8</a></p>
+Please prepare the first chorus of the attached etude “My Glowing Moment” with the play along (see below).   Make sure that you have the correct key of Alto/Baritone (C) or Tenor (F).  This etude is based on the standard “My Shining Hour.” You will perform with a recorded backing track. <br />
+Here is a play along: <a href="https://www.youtube.com/watch?v=k085jb06Pgs">https://www.youtube.com/watch?v=k085jb06Pgs</a></p>
 
 <p><h3>Trumpets:</h3><br />
-Please prepare the attached etude “You’re The Last One” with the play along (see below).   This etude is based on the standard “There Will Never Be Another You.” You will perform with a recorded backing track, at a reasonable tempo of your choosing. <br />
-Here is a sample of a reasonable tempo: <a href="https://www.youtube.com/watch?v=pOifkZ2q5V8">https://www.youtube.com/watch?v=pOifkZ2q5V8</a></p>
+Please prepare the first chorus of the attached etude “My Glowing Moment” with the play along (see below).   This etude is based on the standard “My Shining Hour.” You will perform with a recorded backing track. <br />
+Here is a play along: <a href="https://www.youtube.com/watch?v=k085jb06Pgs">https://www.youtube.com/watch?v=k085jb06Pgs</a></p>
 
 <p><h3>Trombones:</h3><br />
-Please prepare the attached etude “You’re The Last One” with the play along (see below).   This etude is based on the standard “There Will Never Be Another You.” You will perform with a recorded backing track, at a reasonable tempo of your choosing. <br />
-Here is a sample of a reasonable tempo: <a href="https://www.youtube.com/watch?v=pOifkZ2q5V8">https://www.youtube.com/watch?v=pOifkZ2q5V8</a></p>
+Please prepare the first chorus of the attached etude “My Glowing Moment” with the play along (see below).   This etude is based on the standard “My Shining Hour.” You will perform with a recorded backing track. <br />
+Here is a  play along: <a href="https://www.youtube.com/watch?v=k085jb06Pgs">https://www.youtube.com/watch?v=k085jb06Pgs</a></p>
 
 <p><h3>Rhythm Section:</h3><br />
-“All The Things You Are.”  Please print off your part for your instrument.   As a band, we will play from the beginning up to measure 37.  Piano and guitar comping can be of your own interpretation, but play the written lines as they are. <br />
-<br />
-“Oclupaca”. Play as written up to measure 37.   Play from m. 73 through m. 84 (Afro-Cuban). </p>
+For the Rhythm Section, we will meet on August 27 at 12:30 (Jazz Ensemble) and 2:00 (Jazz Lab Band) in room 118.  The horn sections will be there so the rhythm players can play the parts selected below. </p>
 
-<p>If you have questions please contact <a href="mailto:Matthew.Patnode@ndsu.edu">Matthew.Patnode@ndsu.edu</a><br />
-Or <a href="mailto:Jeremy.Brekke@ndsu.edu">Jeremy.Brekke@ndsu.edu</a></p>
+<p><h3>Selections:</h3>
+“The Magic Flea”  by Sammy Nestico.  Please print off your part for your instrument.   As a band, we will play from the beginning up to Letter E.  Piano and guitar comping can be of your own interpretation.  You will want to check out the recording</p>
 
-<p>Audition Results will be posted the afternoon of August 25. The first rehearsal will begin on August 29. </p>
+<p>“A Night in Tunisia” Gillespie/Mossman. Please print off your part for your instrument.   Play as written up to measure 39. </p>
+
+<p>“Summertime” – Gershwin/Mantooth.  Please print off your part for your instrument.   Half Time Rock feel , play up to measure 47. </p>
+
+<p>If you have questions please contact <a href="mailto:Matthew.Patnode@ndsu.edu">Matthew.Patnode@ndsu.edu</a> or <a href="mailto:Jeremy.Brekke@ndsu.edu">Jeremy.Brekke@ndsu.edu</a></p>
+
+<p>Audition Results will be posted the afternoon of August 30. The first rehearsal will begin on September 3. </p>
+
 
 	</article>
 		</section>

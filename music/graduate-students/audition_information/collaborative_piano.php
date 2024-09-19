@@ -18,13 +18,13 @@ include($config['path'].'resources/header.php');
 
  <h1>Collaborative Piano Audition Information and Requirements</h1>
         <div class="alert alert-secondary">
-          <p>The NDSU Collaborative Piano Program will be facilitating live auditions as well as accepting video auditions for applicants wishing to audition for the 2023-2024 academic year.
+          <p>The NDSU Collaborative Piano Program will be facilitating live auditions as well as accepting video auditions for applicants wishing to audition for the 2024-2025 academic year.
           </p>
           <p><b>For those wishing to travel to Fargo, ND for a live audition:</b>  Please contact <a href="mailto:tyler.wottrich@ndsu.edu">Dr. Tyler Wottrich</a>  to discuss dates and audition repertoire so that we can secure appropriate vocal and instrumental partners for your audition. Refer to the audition requirements in the yellow box below. </p>
 			
 			<b>For those submitting a video audition:</b>  Please contact <a href="mailto:tyler.wottrich@ndsu.edu">Dr. Tyler Wottrich</a> to discuss submission of your audition video as well as to arrange an interview by Zoom or comparable platform.  Refer to the audition requirements in the yellow box below.
         </div>
-        <p>There is no official deadline for application to the NDSU Graduate School; however, since we will be unable to schedule your audition until you are officially accepted into the NDSU Graduate School, we recommend applying to the Graduate School as soon as possible.</p>
+        <p>The application deadline for Fall enrollment for international students is May 1; the deadline for Fall enrollment for domestic students is July 1. However, since we fill openings in our graduate piano programs on a rolling basis, we recommend applying to the Graduate School and contacting Dr. Tyler Wottrich as soon as possible.</p>
         
 		<div class="alert alert-warning">
 		<p>For your audition to the NDSU Collaborative Piano programs, please prepare an audition program that includes the following repertoire (comparable repertoire substitutions may be permitted on a case-by-base basis):</p>

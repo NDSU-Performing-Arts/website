@@ -54,14 +54,14 @@ include($config['path'].'resources/header.php');
 
 	  <!-- 2 -->
       <div class="carousel-item active">
-        <a href="https://www.ndsu.edu/performingarts/covid-audiences/" title="Protect the Herd">
-    			<img alt="Protect the herd"	src="resources/media/images/headers/1900x670_ProtectTheHerd_CSOM.jpg" style="width:100%;">
-    		</a>
+        
+    			<img alt="Division of Performing Arts"	src="Performing Arts-Homepage Web Slide.png" style="width:100%;">
+    		
         <div class="carousel-caption">
         </div>
       </div>
 
-      <!-- 3 -->
+      <!-- 3 --
       <div class="carousel-item">
         <a href="/performingarts/music/graduate-students/" title="Graduate Programs">
         <img alt="Graduate Programs" src="resources/media/images/headers/940px_gradschool.jpg" style="width:100%;">
@@ -89,7 +89,7 @@ include($config['path'].'resources/header.php');
 
     </div>
 
-    <!-- Controls -->
+    <!-- Controls --
     <a class="carousel-control-prev" href="#pa-carousel" role="button" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -97,7 +97,7 @@ include($config['path'].'resources/header.php');
     <a class="carousel-control-next" href="#pa-carousel" role="button" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
-    </a>
+    </a>-->
   </div>
 </div><!--container-->
 <!--	body content -->

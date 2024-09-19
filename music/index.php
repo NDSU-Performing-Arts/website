@@ -37,6 +37,14 @@ include($config['path'].'resources/header.php');
       </div>  
 	  
 	   <div class="carousel-item">
+        <a href="/music/ensembles-and-performances/chamber-music-festival/" title="Chamber Music Festival">
+          <img alt="Chamber Music Festival" src="/music/ensembles-and-performances/chamber-music-festival/images/CMF-Web Slide.jpg"- style="width:100%;">
+        </a>
+        <div class="carousel-caption">
+		</div>
+      </div>  
+	  
+	   <div class="carousel-item">
         <a href="/music/festivals-and-clinics/music-ed-symposium/" title="Summer Symposium">
           <img alt="Summer Symposium" src="images/DVFA 1847 PA Web Banner.jpg"- style="width:100%;">
         </a>
@@ -114,7 +122,9 @@ include($config['path'].'resources/header.php');
 			<div class="alert alert-warning">
 			<h1>Upcoming Events</h1>
 			<a href="/music/ensembles-and-performances/wind-symphony/" class="btn btn-ndsu-green mb-2">Wind Symphony Auditions</a>&nbsp;
+			<a href="/music/ensembles-and-performances/orchestra/" class="btn btn-ndsu-green mb-2">Univ. Symphony Orchestra/String Chamber Ensemble Auditions</a>&nbsp;
 			<a href="https://www.signupgenius.com/go/10C094AA4AE2FA3FFC16-47563341-2024#/" class="btn btn-ndsu-green mb-2">Choir Auditions</a>&nbsp;
+			<a href="https://www.ndsu.edu/performingarts/music/ensembles-and-performances/opera/auditions/." class="btn btn-ndsu-green mb-2">Opera Auditions</a>&nbsp;
 			<a href="/music/day/" class="btn btn-ndsu-green mb-2">Music Day</a>&nbsp;
 			</div>
 				

@@ -37,6 +37,10 @@ The NDSU Music Education Summer Symposium will be offered ONLINE!<br></strong>--
 			<li>Tailor sessions to your needs, including material from one, two, or all sessions.</li>
 			<li>Re-kindle your passion for teaching as you prepare for the new school year.</li>
 		</ul>
+		
+		<a href="documents/2024 Detailed Schedule.pdf" class="btn btn-lg btn-ndsu-green">Schedule</a>
+		<br />
+		<br />
 	</article>
 </section>
 	
@@ -123,14 +127,14 @@ The NDSU Music Education Summer Symposium will be offered ONLINE!<br></strong>--
 	<h3>Additional Sessions By NDSU Challey School of Music Faculty</h3>
 	<p>Dr. Jeremy Brekke, Associate Professor of Music<br />
 		Dr. Kelly Burns, Assistant Professor of Music<br />
+		Prof. Connor Challey, Lecturer of Music<br />
 		Dr. Sigurd Johnson, Associate Professor of Music<br />
-		Dr. Cassie Keogh, Associate Professor of Music <br />
 		Dr. Jo Ann Miller, Director of Choral Activities<br />
 		Dr. Charlette Moe, Associate Professor of Music<br />
 		Dr. Warren Olfert, Director of Bands<br />
 		Dr. Matthew Patnode, Professor of Music<br />
 		Dr. Karisa Templeton, Assistant Professor of Music<br />
-		Dr. Kyle Vanderburg, Assistant Professor of Practice<br />
+		Dr. Martin Van Klompenberg, Lecturer of Music<br />
 		Dr. Michael Weber, Associate Director of Choral Activities
 	</p>
 

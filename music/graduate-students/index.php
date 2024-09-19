@@ -218,7 +218,7 @@ include($config['path'].'resources/header.php');
 					<p><a href="https://www.youtube.com/watch?v=oxV1_PY0mJY">Learn about NDSU's Piano Programs in this video!</a></p>
 					<p>Few instruments offer as individualized a medium for expression as the piano, and your success as a pianist depends on individualized instruction. Our piano faculty are at the top of their field as performers and teachers; and take into account each student's needs, aptitudes, background and goals to create a unique plan for success. Our curriculum includes a balance of applied lessons, academic courses and the study of pedagogy, in addition to opportunities for hands-on experience as a performer, teacher, and accompanist</p>
 
-					<p>The NDSU Piano Performance Program will be facilitating live auditions as well as accepting video auditions for applicants wishing to audition for the 2024-2025 academic year.<br>
+					<p>The NDSU Piano Performance Program will be facilitating live auditions as well as accepting video auditions for applicants wishing to audition for the 2025-2026 academic year.<br>
 
 					For those wishing to travel to Fargo, ND for a live audition: please contact <a href="mailto:tyler.wottrich@ndsu.edu">Dr. Tyler Wottrich</a> to discuss potential dates for your audition. For those submitting a video audition: please contact <a href="mailto:tyler.wottrich@ndsu.edu">Dr. Tyler Wottrich</a> to discuss submission of your audition video as well as to arrange an interview by Zoom or comparable platform.</p>
 

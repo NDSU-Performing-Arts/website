@@ -1,3 +1,12 @@
+<!--<?php 
+$page = $_SERVER['PHP_SELF'];
+$page = str_replace("index.php","",$page);
+$page = str_replace(".php","/",$page);
+$page = str_replace("_","-",$page);
+$page="https://ndsuperformingarts.org".$page;
+Header("Location: ".$page);
+
+?>-->
 <!DOCTYPE html>
 <html>
 <head>

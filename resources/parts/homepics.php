@@ -41,7 +41,7 @@
 	<a href="/performingarts/music/">
 	<div class="pa-homeimage">
 	  <div class="pa-homeimage-inner text-center">
-	  <img src="resources/addins/dpa_cards/images/landscape/2560px_music_card.png" alt="Music">
+	  <img src="NDSU Music-Homepage-2png.png" alt="Music">
 	  <div class="pa-homeimage-overlay"><img src="resources/addins/dpa_cards/images/Music_CSOM_Homepage.png"></div>
 	  </div>
 	</div>
@@ -51,7 +51,7 @@
 	<a href="/performingarts/theatre/">
 	<div class="pa-homeimage">
 	  <div class="pa-homeimage-inner text-center">
-	  <img src="resources/addins/dpa_cards/images/landscape/2560px_theatre_card.png" alt="Theatre">
+	  <img src="NDSU Theatre-Homepage 2.png" alt="Theatre">
 	  <div class="pa-homeimage-overlay"><img src="resources/addins/dpa_cards/images/Theatre_CSOM_Homepage.png"></div>
 	  </div>
 	</div>
